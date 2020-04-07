@@ -1,2 +1,2 @@
-# WoWs-Game-Data
-Extract game data from World of Warships
+# WoWs Game Data
+Extract some game data from World of Warships. 
