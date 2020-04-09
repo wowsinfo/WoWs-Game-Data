@@ -1,0 +1,322 @@
+[
+  {
+    "name": "PAPT008_Mk_17",
+    "dist": 16.49175412293853,
+    "speed": 69.3,
+    "spotted": 1.4,
+    "reaction": 7.77000777000777,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT016_Mk8_mod3B",
+    "dist": 12.32383808095952,
+    "speed": 51.45,
+    "spotted": 1.0,
+    "reaction": 7.475517679599311,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT017_Mk8_mod8",
+    "dist": 13.703148425787106,
+    "speed": 53.550000000000004,
+    "spotted": 1.0,
+    "reaction": 7.182360123536593,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT030_BLACK",
+    "dist": 13.703148425787106,
+    "speed": 45.15,
+    "spotted": 0.9,
+    "reaction": 7.666751852798364,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT036_TST_GEARING_2",
+    "dist": 16.49175412293853,
+    "speed": 69.3,
+    "spotted": 1.4,
+    "reaction": 7.77000777000777,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT039_SOMERS",
+    "dist": 16.49175412293853,
+    "speed": 69.3,
+    "spotted": 1.4,
+    "reaction": 7.77000777000777,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT040_Mk18_mod1_Magnetic",
+    "dist": 17.991004497751124,
+    "speed": 73.5,
+    "spotted": 1.8,
+    "reaction": 9.419152276295133,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT042_Mk28_Acoustic",
+    "dist": 17.991004497751124,
+    "speed": 64.05,
+    "spotted": 2.5,
+    "reaction": 15.012310094277309,
+    "type": "USA"
+  },
+  {
+    "name": "PAPT043_Mk29_Acoustic",
+    "dist": 17.991004497751124,
+    "speed": 64.05,
+    "spotted": 2.5,
+    "reaction": 15.012310094277309,
+    "type": "USA"
+  },
+  {
+    "name": "PGPT019_T4_Falke_PatternAcoustic",
+    "dist": 20.0,
+    "speed": 67.2,
+    "spotted": 1.3,
+    "reaction": 7.44047619047619,
+    "type": "Germany"
+  },
+  {
+    "name": "PIPT001_533_SI270_DUCA",
+    "dist": 11.994002998500749,
+    "speed": 53.550000000000004,
+    "spotted": 1.0,
+    "reaction": 7.182360123536593,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT002_533_ABRUZZI",
+    "dist": 11.994002998500749,
+    "speed": 53.550000000000004,
+    "spotted": 1.0,
+    "reaction": 7.182360123536593,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT003_533_LEONE",
+    "dist": 11.994002998500749,
+    "speed": 53.550000000000004,
+    "spotted": 1.0,
+    "reaction": 7.182360123536593,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT004_533_P_EMILIO",
+    "dist": 11.994002998500749,
+    "speed": 53.550000000000004,
+    "spotted": 1.0,
+    "reaction": 7.182360123536593,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT008_533_SI270_M",
+    "dist": 11.994002998500749,
+    "speed": 53.550000000000004,
+    "spotted": 1.0,
+    "reaction": 7.182360123536593,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT009_533_SI270_N",
+    "dist": 13.493253373313342,
+    "speed": 58.800000000000004,
+    "spotted": 1.1,
+    "reaction": 7.195185766614337,
+    "type": "Italy"
+  },
+  {
+    "name": "PJPT001_Sea_Torpedo_Type93",
+    "dist": 20.0,
+    "speed": 65.10000000000001,
+    "spotted": 2.5,
+    "reaction": 14.77017606049864,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT019_610mm_Type90_mod_2",
+    "dist": 14.992503748125936,
+    "speed": 59.85,
+    "spotted": 1.4,
+    "reaction": 8.99685110211426,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT020_610_Type93_model_3",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 1.7,
+    "reaction": 9.294188398666009,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT031_Sea_Torpedo_Type93_DW",
+    "dist": 20.0,
+    "speed": 65.10000000000001,
+    "spotted": 0.7,
+    "reaction": 4.135649296939619,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT032_610_ASASHIO",
+    "dist": 20.0,
+    "speed": 70.35000000000001,
+    "spotted": 0.9,
+    "reaction": 4.920452681646711,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT033_TYPE8_YAHAGI",
+    "dist": 11.994002998500749,
+    "speed": 63.0,
+    "spotted": 1.6,
+    "reaction": 9.768009768009767,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT035_TST_ZAO_2",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 1.7,
+    "reaction": 9.294188398666009,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT037_610MM_YUDACHI",
+    "dist": 14.992503748125936,
+    "speed": 59.85,
+    "spotted": 1.9,
+    "reaction": 12.21001221001221,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT038_YOSHINO",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 1.7,
+    "reaction": 9.294188398666009,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT039_YOSHINO",
+    "dist": 19.990104947526234,
+    "speed": 65.10000000000001,
+    "spotted": 2.5,
+    "reaction": 14.77017606049864,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT040_TYPE93_HAYATE",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 1.7,
+    "reaction": 9.294188398666009,
+    "type": "Japan"
+  },
+  {
+    "name": "PWPT005_Torped_M1943",
+    "dist": 11.994002998500749,
+    "speed": 79.8,
+    "spotted": 1.6,
+    "reaction": 7.71158665895508,
+    "type": "Europe"
+  },
+  {
+    "name": "PWPT006_Torped_M1943_mod1",
+    "dist": 11.994002998500749,
+    "speed": 79.8,
+    "spotted": 1.6,
+    "reaction": 7.71158665895508,
+    "type": "Europe"
+  },
+  {
+    "name": "PWPT007_Torped_M1947",
+    "dist": 13.493253373313342,
+    "speed": 90.3,
+    "spotted": 1.8,
+    "reaction": 7.666751852798364,
+    "type": "Europe"
+  },
+  {
+    "name": "PWPT008_SMALAND",
+    "dist": 11.994002998500749,
+    "speed": 79.8,
+    "spotted": 1.6,
+    "reaction": 7.71158665895508,
+    "type": "Europe"
+  },
+  {
+    "name": "PWPT009_Torped_ORKAN",
+    "dist": 11.994002998500749,
+    "speed": 79.8,
+    "spotted": 1.6,
+    "reaction": 7.71158665895508,
+    "type": "Europe"
+  },
+  {
+    "name": "PWPT010_Torped_M1947_mod1",
+    "dist": 14.992503748125936,
+    "speed": 90.3,
+    "spotted": 1.8,
+    "reaction": 7.666751852798364,
+    "type": "Europe"
+  },
+  {
+    "name": "PXPT005_Sea_Torpedo_Type93",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 1.7,
+    "reaction": 9.294188398666009,
+    "type": "Events"
+  },
+  {
+    "name": "PXPT008_Mk_17",
+    "dist": 16.49175412293853,
+    "speed": 69.3,
+    "spotted": 1.4,
+    "reaction": 7.77000777000777,
+    "type": "Events"
+  },
+  {
+    "name": "PXPT023_Sea_Torpedo_Type93",
+    "dist": 11.994002998500749,
+    "speed": 178.5,
+    "spotted": 2.5,
+    "reaction": 5.386770092652446,
+    "type": "Events"
+  },
+  {
+    "name": "PZPT022_MK17_C",
+    "dist": 13.493253373313342,
+    "speed": 71.4,
+    "spotted": 1.4,
+    "reaction": 7.541478129713423,
+    "type": "Pan_Asia"
+  },
+  {
+    "name": "PZPT023_MK17_D",
+    "dist": 13.493253373313342,
+    "speed": 72.45,
+    "spotted": 0.8,
+    "reaction": 4.246960768699899,
+    "type": "Pan_Asia"
+  },
+  {
+    "name": "PZPT025_533_IRIAN",
+    "dist": 13.493253373313342,
+    "speed": 72.45,
+    "spotted": 0.8,
+    "reaction": 4.246960768699899,
+    "type": "Pan_Asia"
+  },
+  {
+    "name": "PZPT027_550_23DT_MARTEL_CN",
+    "dist": 11.994002998500749,
+    "speed": 67.2,
+    "spotted": 0.8,
+    "reaction": 4.5787545787545785,
+    "type": "Pan_Asia"
+  }
+]
