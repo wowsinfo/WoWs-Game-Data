@@ -87,8 +87,17 @@ def get_ap_penetration(ap, output=False):
         for i, v in enumerate(armour):
             print('{:2f}km - {:2f}mm ({:2f}s)'.format(distance[i], v, time[i]))
 
-    plt.title('AP Penetration')
-    plt.xlabel('Distance (km)')
-    plt.ylabel('Armour (mm)')
-    plt.plot(distance, armour)
+    fig, ax = plt.subplots()
+    plt.title('AP Penetration / Shell travel time')
+    # pen
+    ax.set_xlabel('Distance (km)')
+    ax.set_ylabel('Armour (mm)')
+    ax.plot(distance, armour)
+    # time
+    ax2 = ax.twinx()
+    ax2.set_ylabel('Time (s)')
+    ax2.plot(distance, time)
     plt.show()
+
+# testing only
+# get_ap_penetration({'weight': 55, 'drag': 0.321, 'velocity': 950, 'diameter': 0.152, 'krupp': 2216})
