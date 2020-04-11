@@ -22,7 +22,7 @@ mass_air = 0.0289644 # MOLAR MASS OF AIR
 shell_weight = 100 # SHELL WEIGHT
 shell_diameter = 0.406 # SHELL DIAMETER
 shell_drag = 0.321 # SHELL DRAG
-shell_muzzle_velocity = 800 # SHELL MUZZLE VELOCITY
+shell_velocity = 800 # SHELL MUZZLE VELOCITY
 shell_krupp = 2216 # SHELL KRUPP
 
 cw_quadratic = 1 # QUADRATIC DRAG COEFFICIENT
@@ -45,8 +45,8 @@ dt = 0.1 # TIME STEP
 
 # for each alpha angle do:
 for i in range(1, len(alpha)):
-    v_x = cos(alpha[i]) * shell_muzzle_velocity
-    v_y = sin(alpha[i]) * shell_muzzle_velocity
+    v_x = cos(alpha[i]) * shell_velocity
+    v_y = sin(alpha[i]) * shell_velocity
     x = 0
     y = 0
     time_taken = 0
