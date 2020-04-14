@@ -10,4 +10,4 @@ Extract some game data from World of Warships.
 For tier 10 ships only but according to WarGaming, they will be changed soon? (in 0.9.5 update)
 
 ## Ship Additional
-Some additional info for all ships, such as HE penetration, permoflages and many more if possible.
+Some additional info for all ships, such as HE penetration, permoflages, sigma, consumables and whether it is a paper ship.
