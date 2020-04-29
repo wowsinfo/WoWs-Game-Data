@@ -1,8 +1,8 @@
 # WoWs Game Data
 Extract some game data from World of Warships. There are also some other data that are collected by me.
 
-## Legendary Upgrades
-For tier 10 ships only but according to WarGaming, they will be changed soon? (in 0.9.5 update)
+## Modernizations
+It includes all modernization (upgrades, legendary upgrades and special upgrades)
 
 ## Ship Additional
 Some additional information for all ships that don't exist in the official API.
@@ -38,8 +38,8 @@ Extra data that might be interesting to see.
 ## Long range torpedoes (>= 12km)
 A list of torpedoes which are more than 12km in range. There are some interesting ones that are not available in game.
 
-## Fast reloading guns (<= 3sec)
-coming soon or never. 
+## Fast reloading guns (< 4sec)
+## Slow reloading guns (> 30sec)
 
-## Big guns (>= 400mm)
-coming soon or never. 
+## Big guns (>= 410mm)
+## Big guns (< 120mm)

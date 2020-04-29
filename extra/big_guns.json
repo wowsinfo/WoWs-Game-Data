@@ -1,0 +1,176 @@
+[
+  {
+    "name": "PAPA105_457MM_AP_GEORGIA_SH",
+    "damage": 15750.0,
+    "speed": 732.0,
+    "diametre": 457.0
+  },
+  {
+    "name": "PAPA106_457MM_AP_GEORGIA_MK1",
+    "damage": 14300.0,
+    "speed": 823.0,
+    "diametre": 457.0
+  },
+  {
+    "name": "PAPA115_457MM_AP_OHIO_SH",
+    "damage": 15750.0,
+    "speed": 732.0,
+    "diametre": 457.0
+  },
+  {
+    "name": "PBPA046_457MM_MII_AP",
+    "damage": 14900.0,
+    "speed": 762.0,
+    "diametre": 457.0
+  },
+  {
+    "name": "PBPA051_419MM_MII_AP",
+    "damage": 13000.0,
+    "speed": 747.0,
+    "diametre": 419.0
+  },
+  {
+    "name": "PBPA080_419MM_MII_AP_TEST",
+    "damage": 13000.0,
+    "speed": 747.0,
+    "diametre": 419.0
+  },
+  {
+    "name": "PBPA082_457MM_MII_TEST",
+    "damage": 14900.0,
+    "speed": 762.0,
+    "diametre": 457.0
+  },
+  {
+    "name": "PCPA043_410mm_BASIC_MG_AP",
+    "damage": 12400.0,
+    "speed": 790.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PCPA045_460mm_BASIC_MG_AP",
+    "damage": 14800.0,
+    "speed": 780.0,
+    "diametre": 460.0
+  },
+  {
+    "name": "PFPA038_431MM_50_1939_AP",
+    "damage": 14500.0,
+    "speed": 840.0,
+    "diametre": 431.0
+  },
+  {
+    "name": "PGPA052_420MM_AP_APC_L_4_6",
+    "damage": 13500.0,
+    "speed": 800.0,
+    "diametre": 420.0
+  },
+  {
+    "name": "PJPA005_Shell_410mm_AP_APC_Type_91",
+    "damage": 12600.0,
+    "speed": 806.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA017_Shell_460mm_AP_APC_Type_91",
+    "damage": 14800.0,
+    "speed": 780.0,
+    "diametre": 460.0
+  },
+  {
+    "name": "PJPA036_Shell_410mm_AP_APC_Type_88",
+    "damage": 12400.0,
+    "speed": 790.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA052_410mm_AP_Type_90",
+    "damage": 12100.0,
+    "speed": 819.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA053_410mm_AP_APC_Type_91",
+    "damage": 12900.0,
+    "speed": 870.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA056_Shell_460mm_AP_APC_Type_91",
+    "damage": 15000.0,
+    "speed": 819.0,
+    "diametre": 460.0
+  },
+  {
+    "name": "PJPA069_410MM_AP_MUTSU",
+    "damage": 12400.0,
+    "speed": 790.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA071_410MM_AP_ASHITAKA",
+    "damage": 12600.0,
+    "speed": 806.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA080_Shell_410mm_AP_KII",
+    "damage": 12600.0,
+    "speed": 806.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA081_460MM_AP_MUSASHI",
+    "damage": 14800.0,
+    "speed": 780.0,
+    "diametre": 460.0
+  },
+  {
+    "name": "PJPA100_510MM_AP_SHIKISHIMA",
+    "damage": 17000.0,
+    "speed": 765.0,
+    "diametre": 510.0
+  },
+  {
+    "name": "PJPA104_410MM_AP_ASAMA",
+    "damage": 12600.0,
+    "speed": 806.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PRPA080_457MM_AP",
+    "damage": 14500.0,
+    "speed": 800.0,
+    "diametre": 457.0
+  },
+  {
+    "name": "PXPA027_420MM_AP_APC_L_4_6",
+    "damage": 13500.0,
+    "speed": 800.0,
+    "diametre": 420.0
+  },
+  {
+    "name": "PXPA041_431MM_50_1939_AP",
+    "damage": 14500.0,
+    "speed": 840.0,
+    "diametre": 431.0
+  },
+  {
+    "name": "PXPA089_REPUBLIQ_H2019_AP",
+    "damage": 21300.0,
+    "speed": 840.0,
+    "diametre": 431.0
+  },
+  {
+    "name": "PXPA091_YAMATO_H2019_AP",
+    "damage": 20720.0,
+    "speed": 780.0,
+    "diametre": 460.0
+  },
+  {
+    "name": "PZPA028_410mm_AP_IZUMO_CN",
+    "damage": 12900.0,
+    "speed": 870.0,
+    "diametre": 410.0
+  }
+]
