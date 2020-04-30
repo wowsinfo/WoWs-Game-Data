@@ -1,137 +1,137 @@
-{
-  "PASB006_New_York_1934": {
+[
+  {
     "name": "PASB006_New_York_1934",
     "tier": 5,
     "reload": 31.0
   },
-  "PASB034_New_Mexico_1941": {
+  {
     "name": "PASB034_New_Mexico_1941",
     "tier": 6,
     "reload": 34.2
   },
-  "PASB506_Arizona_1941": {
+  {
     "name": "PASB506_Arizona_1941",
     "tier": 6,
     "reload": 35.0
   },
-  "PASB705_Texas_1944": {
+  {
     "name": "PASB705_Texas_1944",
     "tier": 5,
     "reload": 34.28
   },
-  "PFSB109_Alsace": {
+  {
     "name": "PFSB109_Alsace",
     "tier": 9,
     "reload": 32.0
   },
-  "PISB708_Impero": {
+  {
     "name": "PISB708_Impero",
     "tier": 8,
     "reload": 33.0
   },
-  "PJSB007_Kongo_1942": {
+  {
     "name": "PJSB007_Kongo_1942",
     "tier": 5,
     "reload": 31.0
   },
-  "PJSB507_Ashitaka": {
+  {
     "name": "PJSB507_Ashitaka",
     "tier": 7,
     "reload": 31.0
   },
-  "PJSB705_Kongou": {
+  {
     "name": "PJSB705_Kongou",
     "tier": 5,
     "reload": 31.0
   },
-  "PJSB706_Kirishima": {
+  {
     "name": "PJSB706_Kirishima",
     "tier": 5,
     "reload": 31.0
   },
-  "PJSB707_Haruna": {
+  {
     "name": "PJSB707_Haruna",
     "tier": 5,
     "reload": 31.0
   },
-  "PJSB708_Hiei_Arpeggio": {
+  {
     "name": "PJSB708_Hiei_Arpeggio",
     "tier": 5,
     "reload": 31.0
   },
-  "PJSB888_Asama": {
+  {
     "name": "PJSB888_Asama",
     "tier": 8,
     "reload": 33.0
   },
-  "PRSB001_Nikolay_I": {
+  {
     "name": "PRSB001_Nikolay_I",
     "tier": 4,
     "reload": 36.0
   },
-  "PRSB103_Knyaz_Suvorov": {
+  {
     "name": "PRSB103_Knyaz_Suvorov",
     "tier": 3,
     "reload": 36.0
   },
-  "PRSB104_Gangut": {
+  {
     "name": "PRSB104_Gangut",
     "tier": 4,
     "reload": 36.0
   },
-  "PRSB105_Pyotr_Velikiy": {
+  {
     "name": "PRSB105_Pyotr_Velikiy",
     "tier": 5,
     "reload": 33.0
   },
-  "PRSB106_Izmail": {
+  {
     "name": "PRSB106_Izmail",
     "tier": 6,
     "reload": 33.0
   },
-  "PRSB107_Sinop": {
+  {
     "name": "PRSB107_Sinop",
     "tier": 7,
     "reload": 33.0
   },
-  "PRSB108_Vladivostok": {
+  {
     "name": "PRSB108_Vladivostok",
     "tier": 8,
     "reload": 33.0
   },
-  "PRSB109_Sovetsky_Soyuz": {
+  {
     "name": "PRSB109_Sovetsky_Soyuz",
     "tier": 9,
     "reload": 33.0
   },
-  "PRSB110_Sovetskaya_Rossiya": {
+  {
     "name": "PRSB110_Sovetskaya_Rossiya",
     "tier": 10,
     "reload": 33.0
   },
-  "PRSB505_Oktyabrskaya_Revolutsiya": {
+  {
     "name": "PRSB505_Oktyabrskaya_Revolutsiya",
     "tier": 5,
     "reload": 32.0
   },
-  "PRSB510_Slava": {
+  {
     "name": "PRSB510_Slava",
     "tier": 10,
     "reload": 32.0
   },
-  "PRSB518_Lenin": {
+  {
     "name": "PRSB518_Lenin",
     "tier": 8,
     "reload": 33.0
   },
-  "PRSB709_KIM": {
+  {
     "name": "PRSB709_KIM",
     "tier": 9,
     "reload": 33.0
   },
-  "PZSB509_Izumo_Bajie": {
+  {
     "name": "PZSB509_Izumo_Bajie",
     "tier": 9,
     "reload": 32.0
   }
-}
+]
