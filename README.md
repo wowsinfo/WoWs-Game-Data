@@ -12,6 +12,7 @@ Some additional information for all ships that don't exist in the official API.
 - Consumables
 - AP shell information for calculating the penetration value
 - Indicate whether this is a paper ship
+- Total battles (wows-numbers.com/ships/, dataProvider.ships)
 
 ### AP Penetration
 - https://www.reddit.com/r/WorldOfWarships/comments/560yg2/wows_ballistic_model_penetration/
@@ -26,9 +27,6 @@ All commanders in the game.
 
 ## Removed ships
 A list of ships that are changed due to rework or removed in the game. 
-
-## Ship battles
-A list of ships which their battle count. Retrieved from wows-numbers.com.
 
 # Icons
 Now, it only has consumable icons and they will be added to WoWs Info later. 
