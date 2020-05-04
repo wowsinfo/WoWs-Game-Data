@@ -2,31 +2,31 @@
 Extract some game data from World of Warships. There are also some other data that are collected by me.
 
 ## Modernizations
-It includes all modernization (upgrades, legendary upgrades and special upgrades)
+It includes all modernization (upgrades, legendary upgrades and special upgrades).
 
 ## Ship Additional
 Some additional information for all ships that don't exist in the official API.
 
 - Shell sigma
 - HE penetration value
-- Consumables
+- SAP penetration value
+- Ship consumables
 - AP shell information for calculating the penetration value
 - Indicate whether this is a paper ship
 - Total battles (wows-numbers.com/ships/, dataProvider.ships)
 
 ### AP Penetration
-- https://www.reddit.com/r/WorldOfWarships/comments/560yg2/wows_ballistic_model_penetration/
-- https://pastebin.com/1NEwkf7R (code in matlab)
-- [wowsft source code](https://github.com/EdibleBug/WoWSFT-Kotlin/blob/5d4ce2d4ffb722c010b265ce3c39417eddd009c7/WoWSFT-Data/src/main/kotlin/WoWSFT/utils/PenetrationUtils.kt) (code in kotlin)
+- [reddit post](https://www.reddit.com/r/WorldOfWarships/comments/560yg2/wows_ballistic_model_penetration/)
+- [matlab version](https://pastebin.com/1NEwkf7R)
+- [kotlin version](https://github.com/EdibleBug/WoWSFT-Kotlin/blob/5d4ce2d4ffb722c010b265ce3c39417eddd009c7/WoWSFT-Data/src/main/kotlin/WoWSFT/utils/PenetrationUtils.kt) by wowsft
+- [python version](https://github.com/HenryQuan/WoWs-Game-Data/blob/master/ap_pen.py) by me
+- [dart version]() by me (coming soon)
 
-## Consumables
-All available consumables in the game. 
-
-## Commanders
-All commanders in the game. 
+## Ship consumables
+All available ship consumables in the game. 
 
 ## Removed ships
-A list of ships that are changed due to rework or removed in the game. 
+A list of ships that are changed due to rework or removed in the game with tier and name.
 
 # Icons
 Now, it only has consumable icons and they will be added to WoWs Info later. 
