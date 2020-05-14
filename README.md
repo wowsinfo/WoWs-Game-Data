@@ -38,6 +38,8 @@ A list of torpedoes which are more than 12km in range. There are some interestin
 
 ## Fast reloading guns (< 4sec)
 ## Slow reloading guns (> 30sec)
-
 ## Big guns (>= 410mm)
-## Big guns (< 120mm)
+## Small guns (< 120mm)
+
+## Submarines
+A list of all submarines in the game. There are currently not visible on the API. 

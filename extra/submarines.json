@@ -1,0 +1,138 @@
+[
+  {
+    "name": "PASS106_Cachalot",
+    "typeinfo": {
+      "nation": "USA",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PASS108_Salmon",
+    "typeinfo": {
+      "nation": "USA",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PASS110_Balao",
+    "typeinfo": {
+      "nation": "USA",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PASS510_Gato",
+    "typeinfo": {
+      "nation": "USA",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PGSS106_U_69",
+    "typeinfo": {
+      "nation": "Germany",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PGSS108_U190",
+    "typeinfo": {
+      "nation": "Germany",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PGSS110_U_2501",
+    "typeinfo": {
+      "nation": "Germany",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PGSS510_U4501",
+    "typeinfo": {
+      "nation": "Germany",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PRSS106_S_1",
+    "typeinfo": {
+      "nation": "Russia",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PRSS108_L20",
+    "typeinfo": {
+      "nation": "Russia",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PRSS110_K_type",
+    "typeinfo": {
+      "nation": "Russia",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PRSS508_S_189",
+    "typeinfo": {
+      "nation": "Russia",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PXSS107_Mina_Hurray",
+    "typeinfo": {
+      "nation": "Events",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PXSS207_Lazarus_Centurio",
+    "typeinfo": {
+      "nation": "Events",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PXSS307_Cyrus_Herrero",
+    "typeinfo": {
+      "nation": "Events",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PXSS407_Dr_Frankenship",
+    "typeinfo": {
+      "nation": "Events",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  },
+  {
+    "name": "PXSS507_Klaus_V_Teslau",
+    "typeinfo": {
+      "nation": "Events",
+      "species": "Submarine",
+      "type": "Ship"
+    }
+  }
+]
