@@ -7,7 +7,8 @@
       "type": "Ship"
     },
     "tier": 6,
-    "concealment": 4.86
+    "concealment": 4.86,
+    "id": 4183209968
   },
   {
     "name": "PASS108_Salmon",
@@ -17,7 +18,8 @@
       "type": "Ship"
     },
     "tier": 8,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 4181112816
   },
   {
     "name": "PASS110_Balao",
@@ -27,7 +29,8 @@
       "type": "Ship"
     },
     "tier": 10,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 4179015664
   },
   {
     "name": "PASS510_Gato",
@@ -37,7 +40,8 @@
       "type": "Ship"
     },
     "tier": 10,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 3759585264
   },
   {
     "name": "PGSS106_U_69",
@@ -47,7 +51,8 @@
       "type": "Ship"
     },
     "tier": 6,
-    "concealment": 4.32
+    "concealment": 4.32,
+    "id": 4183209776
   },
   {
     "name": "PGSS108_U190",
@@ -57,7 +62,8 @@
       "type": "Ship"
     },
     "tier": 8,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 4181112624
   },
   {
     "name": "PGSS110_U_2501",
@@ -67,7 +73,8 @@
       "type": "Ship"
     },
     "tier": 10,
-    "concealment": 5.0
+    "concealment": 5.0,
+    "id": 4179015472
   },
   {
     "name": "PGSS510_U4501",
@@ -77,7 +84,8 @@
       "type": "Ship"
     },
     "tier": 10,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 3759585072
   },
   {
     "name": "PRSS106_S_1",
@@ -87,7 +95,8 @@
       "type": "Ship"
     },
     "tier": 6,
-    "concealment": 4.5
+    "concealment": 4.5,
+    "id": 4183209424
   },
   {
     "name": "PRSS108_L20",
@@ -97,7 +106,8 @@
       "type": "Ship"
     },
     "tier": 8,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 4181112272
   },
   {
     "name": "PRSS110_K_type",
@@ -107,7 +117,8 @@
       "type": "Ship"
     },
     "tier": 10,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 4179015120
   },
   {
     "name": "PRSS508_S_189",
@@ -117,7 +128,8 @@
       "type": "Ship"
     },
     "tier": 8,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 3761681872
   },
   {
     "name": "PXSS107_Mina_Hurray",
@@ -127,7 +139,8 @@
       "type": "Ship"
     },
     "tier": 7,
-    "concealment": 3.96
+    "concealment": 3.96,
+    "id": 4182160656
   },
   {
     "name": "PXSS207_Lazarus_Centurio",
@@ -137,7 +150,8 @@
       "type": "Ship"
     },
     "tier": 10,
-    "concealment": 5.5
+    "concealment": 5.5,
+    "id": 4077303056
   },
   {
     "name": "PXSS307_Cyrus_Herrero",
@@ -147,7 +161,8 @@
       "type": "Ship"
     },
     "tier": 7,
-    "concealment": 4.32
+    "concealment": 4.32,
+    "id": 3972445456
   },
   {
     "name": "PXSS407_Dr_Frankenship",
@@ -157,7 +172,8 @@
       "type": "Ship"
     },
     "tier": 7,
-    "concealment": 6.3
+    "concealment": 6.3,
+    "id": 3867587856
   },
   {
     "name": "PXSS507_Klaus_V_Teslau",
@@ -167,6 +183,7 @@
       "type": "Ship"
     },
     "tier": 10,
-    "concealment": 6.0
+    "concealment": 6.0,
+    "id": 3762730256
   }
 ]
