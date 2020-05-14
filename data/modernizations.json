@@ -1,1 +1,2106 @@
-{"4216508336": {"slot": 5, "shiplevel": [9, 10], "ships": ["PASB013"], "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4217556912": {"slot": 4, "shiplevel": [8, 9, 10], "shiptype": ["AirCarrier"]}, "4218605488": {"slot": 4, "shiplevel": [8, 9, 10], "ships": ["PASB013"], "shiptype": ["Cruiser", "Destroyer", "Battleship"]}, "4219654064": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PBSA508"]}, "4220702640": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "ships": ["PGSB002", "PGSB107", "PGSB507", "PGSB508", "PGSB597", "PGSB598", "PJSB506", "PJSB508", "PJSC026"], "shiptype": ["Cruiser", "Destroyer"], "excludes": ["PWSD510", "PFSC510", "PISC607", "PJSC510", "PVSC507", "PRSC110", "PRSC509", "PRSC510", "PRSC520", "PRSC910", "PBSC507", "PASC016", "PASC020", "PASC106", "PASC107", "PASC108", "PASC109", "PASC206", "PASC207", "PASC208", "PASC209", "PASC210", "PASC507", "PASC508", "PASC510", "PASC597", "PASC599", "PASC610", "PASC710", "PASC718", "PRSC209", "PRSC310"]}, "4221751216": {"slot": 1, "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4222799792": {"slot": 1, "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005"]}, "4223848368": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005"]}, "4224896944": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PBSA508"]}, "4225945520": {"slot": 3, "shiplevel": [6, 7, 8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005"]}, "4226994096": {"slot": 3, "shiplevel": [6, 7, 8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PBSA508"]}, "4228042672": {"slot": 3, "shiplevel": [6, 7, 8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005"]}, "4229091248": {"slot": 5, "ships": ["PJSA017"]}, "4230139824": {"slot": 5, "ships": ["PASA015"]}, "4231188400": {"slot": 5, "ships": ["PRSD210"]}, "4232236976": {"slot": 4, "ships": ["PZSD110"]}, "4233285552": {"slot": 4, "ships": ["PASD013"]}, "4234334128": {"slot": 5, "ships": ["PJSD012"]}, "4235382704": {"slot": 4, "ships": ["PGSD110"]}, "4236431280": {"slot": 4, "ships": ["PRSD110"]}, "4237479856": {"slot": 5, "ships": ["PRSC110"]}, "4238528432": {"slot": 4, "ships": ["PASC210"]}, "4239577008": {"slot": 5, "ships": ["PASC020"]}, "4240625584": {"slot": 4, "ships": ["PBSC110"]}, "4241674160": {"slot": 4, "ships": ["PFSC110", "PFSC810"]}, "4242722736": {"slot": 4, "ships": ["PGSC110"]}, "4243771312": {"slot": 5, "ships": ["PJSC034"]}, "4244819888": {"slot": 4, "ships": ["PASB017"]}, "4245868464": {"slot": 5, "ships": ["PJSB018"]}, "4246917040": {"slot": 5, "ships": ["PGSB110"]}, "4247965616": {"slot": 5, "ships": ["PFSB110"]}, "4249014192": {"slot": 4, "ships": ["PBSB110"]}, "4250062768": {"slot": 1, "ships": ["PBSC110", "PBSC108", "PBSC109", "PASC017", "PBSC507", "PASB509", "PASC006", "PRSC110", "PRSC509", "PRSC510", "PRSC520", "PRSC910", "PRSC109", "PRSC108", "PASC020", "PASC710", "PASC019", "PRSC999", "PASD709", "PASC016", "PZSD108", "PZSD109", "PZSD110", "PASC109", "PASC208", "PASC209", "PASC210", "PASC507", "PASC508", "PASC510", "PASC610", "PASC718", "PASC599", "PWSD610", "PASC108", "PWSD508", "PRSC208", "PRSC210", "PRSC528", "PRSC209", "PRSC310"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4251111344": {"slot": 1, "ships": ["PJSD998", "PUSC506", "PUSD507", "PWSD510", "PFSC104", "PFSC105", "PFSC106", "PFSC107", "PFSC108", "PFSC109", "PFSC110", "PFSC506", "PFSC508", "PFSC510", "PFSC810", "PGSB108", "PGSB109", "PGSB110", "PGSB508", "PGSB910", "PGSC104", "PGSC105", "PGSC106", "PGSC107", "PGSC108", "PGSC109", "PGSC110", "PGSC506", "PGSC508", "PGSC509", "PGSC518", "PGSC706", "PGSC910", "PGSD106", "PGSD107", "PGSD108", "PGSD109", "PGSD110", "PGSD506", "PGSD508", "PISC506", "PISC507", "PISC607", "PJSC005", "PJSC007", "PJSC008", "PJSC009", "PJSC012", "PJSC013", "PJSC014", "PJSC018", "PJSC026", "PJSC034", "PJSC038", "PJSC505", "PJSC510", "PJSC520", "PJSC598", "PJSC705", "PJSC707", "PJSC708", "PJSC709", "PJSC717", "PJSC727", "PJSC737", "PJSC810", "PJSC934", "PVSC507", "PZSC506", "PZSC508", "PZSD208", "PZSD508", "PRSC003", "PRSC104", "PRSC105", "PRSC525", "PRSC106", "PRSC107", "PRSC108", "PRSC109", "PRSC110", "PRSC505", "PRSC506", "PRSC508", "PRSC518", "PRSC606", "PRSC610", "PRSC910", "PBSB527", "PBSC104", "PBSC105", "PBSC106", "PBSC107", "PBSC108", "PBSC109", "PBSC110", "PBSC205", "PBSC206", "PBSC207", "PBSC208", "PBSC209", "PBSC210", "PBSC505", "PBSC507", "PBSC508", "PBSC516", "PBSD106", "PBSD107", "PBSD108", "PBSD109", "PBSD110", "PBSD517", "PASC005", "PASC006", "PASC016", "PASC019", "PASC020", "PASC024", "PASC044", "PASC045", "PASC106", "PASC107", "PASC108", "PASC109", "PASC206", "PASC207", "PASC208", "PASC209", "PASC210", "PASC507", "PASC508", "PASC510", "PASC597", "PASC599", "PASC610", "PASC707", "PASC710", "PASC718", "PGSB108", "PGSB109", "PGSB110", "PGSB508", "PGSB910", "PGSC519", "PRSC538", "PRSC208", "PRSC210", "PRSC528", "PRSC209", "PRSC310", "PRSC215", "PRSC515"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4252159920": {"slot": 1, "ships": ["PFSC106", "PFSC107", "PFSC108", "PFSC109", "PFSC110", "PFSC506", "PFSC508", "PFSC810", "PGSC106", "PGSC107", "PGSC108", "PGSC109", "PGSC110", "PGSC506", "PGSC508", "PGSC706", "PGSC910", "PISC506", "PISC507", "PJSC004", "PJSC007", "PJSC008", "PJSC009", "PJSC012", "PJSC018", "PJSC034", "PJSC038", "PJSC510", "PJSC520", "PJSC598", "PJSC705", "PJSC707", "PJSC708", "PJSC709", "PJSC717", "PJSC727", "PJSC737", "PJSC810", "PJSC934", "PVSC507", "PZSC518", "PZSD508", "PRSC106", "PRSC107", "PRSC108", "PRSC109", "PRSC110", "PRSC506", "PRSC508", "PRSC509", "PRSC510", "PRSC518", "PRSC606", "PRSC910", "PRSD107", "PRSD208", "PRSD210", "PRSD709", "PRSD910", "PBSB507", "PBSD605", "PASC006", "PASC016", "PASC019", "PASC020", "PASC106", "PASC107", "PASC108", "PASC109", "PASC206", "PASC207", "PASC208", "PASC209", "PASC210", "PASC507", "PASC508", "PASC510", "PASC597", "PASC707", "PASC710", "PASC718", "PASD005", "PASD006", "PASD008", "PASD013", "PASD014", "PASD021", "PASD029", "PASD506", "PASD508", "PASD509", "PASD597", "PASD709", "PASD810", "PASD913", "PFSC510", "PRSC610", "PWSD510", "PBSB510", "PGSC509", "PASC610", "PFSD210", "PGSC518", "PASC599", "PBSC208", "PBSC209", "PBSC210", "PBSC508", "PWSD108", "PWSD109", "PWSD110", "PBSC205", "PBSC206", "PBSC207", "PRSC538", "PRSC208", "PRSC210", "PRSC528", "PRSC209", "PRSC310", "PWSD910"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4253208496": {"slot": 0, "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "ships": ["PASB013"], "shiptype": ["Battleship", "AirCarrier", "Cruiser", "Destroyer", "Auxiliary"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4254257072": {"slot": 0, "ships": ["PUSC506", "PFSB108", "PFSB506", "PFSB508", "PFSC109", "PGSB002", "PGSB105", "PGSB106", "PGSB107", "PGSB108", "PGSB109", "PGSB110", "PGSB507", "PGSB508", "PGSB597", "PGSB598", "PGSB910", "PGSC109", "PGSC110", "PGSC509", "PGSC910", "PISB508", "PISB708", "PISC105", "PISC106", "PISC107", "PISC108", "PISC109", "PISC110", "PISC505", "PISC506", "PISC507", "PISC607", "PJSB003", "PJSB006", "PJSB007", "PJSB010", "PJSB013", "PJSB018", "PJSB021", "PJSB506", "PJSB508", "PJSB509", "PJSB705", "PJSB706", "PJSB707", "PJSB708", "PJSB918", "PJSC012", "PJSC034", "PJSC510", "PJSC520", "PJSC810", "PJSC934", "PZSB509", "PZSC518", "PRSC003", "PRSC105", "PRSC525", "PRSC106", "PRSC107", "PRSC506", "PRSC509", "PRSC518", "PBSB002", "PBSB105", "PBSB106", "PBSB107", "PBSB108", "PBSB109", "PBSC105", "PBSC106", "PBSC107", "PBSC108", "PBSC207", "PBSC208", "PBSC209", "PASB004", "PASB006", "PASB008", "PASB012", "PASB017", "PASB018", "PASB034", "PASB506", "PASB507", "PASB508", "PASB510", "PASB518", "PASB598", "PASB705", "PASB707", "PASB708", "PASB729", "PASB810", "PASB917", "PASC019", "PASC020", "PASC109", "PASC208", "PASC508", "PASC510", "PASC599", "PASC610", "PASC718", "PJSB510", "PRSC215", "PRSC209", "PRSC515", "PFSB528", "PJSB888", "PJSB510"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4255305648": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "ships": ["PUSC506", "PJSC014", "PZSC506", "PRSC508", "PRSC610", "PBSC105", "PBSC106", "PBSC107", "PBSC108", "PBSC109", "PBSC110", "PBSC507", "PBSC516", "PASC707", "PJSC026"], "shiptype": ["Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002", "PXSD008", "PXSD009", "PWSD105", "PWSD106", "PWSD107", "PWSD108", "PWSD109", "PWSD110", "PWSD610", "PWSD910", "PFSD105", "PFSD106", "PFSD107", "PFSD108", "PFSD109", "PFSD110", "PFSD210", "PFSD504", "PFSD508", "PFSD808", "PBSD605", "PISD510", "PWSD508"]}, "4256354224": {"slot": 1, "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10], "ships": ["PFSB108", "PFSB109", "PFSB110", "PFSB508", "PFSB510", "PFSB518", "PFSC106", "PFSC107", "PFSC108", "PFSC109", "PFSC110", "PFSC506", "PFSC508", "PFSC510", "PFSC810", "PJSC014", "PJSC505", "PASB729", "PFSB528"], "shiptype": ["Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002", "PBSD103", "PBSD104", "PBSD105", "PBSD106", "PBSD107", "PBSD108", "PBSD109", "PBSD110", "PWSD510", "PZSD208"]}, "4257402800": {"slot": 4, "shiplevel": [8, 9, 10], "ships": ["PBSC507", "PGSD508"], "shiptype": ["Cruiser", "Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4258451376": {"slot": 0, "ships": ["PJSC503", "PJSC014", "PJSC004", "PJSC026"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4259499952": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "ships": ["PJSC026"], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PASB705", "PASB006", "PASB008", "PASB012", "PASB017", "PASB810", "PASB917", "PASB018", "PASB034", "PASB506", "PASB508", "PASB509", "PASB708", "PASB518", "PASB598", "PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002", "PASB507", "PASB729", "PASB510", "PASB707"]}, "4260548528": {"slot": 0, "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "shiptype": ["Battleship", "Cruiser", "Destroyer", "Auxiliary"], "excludes": ["PXSA005"]}, "4261597104": {"slot": 0, "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"], "excludes": ["PGSC103", "PJSD001", "PJSD014", "PZSD102", "PASC002", "PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002", "PFSD102", "PWSD102"]}, "4262645680": {"slot": 0, "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "shiptype": ["Battleship", "Cruiser", "Destroyer", "Auxiliary"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4263694256": {"slot": 5, "nation": ["usa"], "shiplevel": [9, 10], "ships": ["PASB013"], "shiptype": ["Battleship"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4264742832": {"slot": 2, "nation": ["usa"], "shiplevel": [5, 6, 7, 8, 9, 10], "ships": ["PASB013"], "shiptype": ["Battleship"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4265791408": {"slot": 4, "shiplevel": [8, 9, 10], "ships": ["PASB013", "PBSC507", "PGSD508"], "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4266839984": {"slot": 4, "shiplevel": [8, 9, 10], "ships": ["PASB013", "PBSC507", "PGSD508"], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4267888560": {"slot": 3, "shiplevel": [6, 7, 8, 9, 10], "ships": ["PASB013", "PJSC026"], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4268937136": {"slot": 3, "shiplevel": [6, 7, 8, 9, 10], "ships": ["PASB013", "PJSC026"], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PBSC106", "PBSC107", "PBSC108", "PBSC109", "PBSC110", "PBSC507", "PBSD106", "PBSD107", "PBSD108", "PBSD109", "PBSD110", "PBSD517", "PUSC506", "PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4269985712": {"slot": 3, "shiplevel": [6, 7, 8, 9, 10], "ships": ["PASB013"], "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4273131440": {"slot": 1, "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10], "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4275228592": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "ships": ["PJSC026"], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4276277168": {"slot": 5, "shiplevel": [9, 10], "ships": ["PASA508"], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4277325744": {"slot": 5, "shiplevel": [9, 10], "ships": ["PASA508"], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4278374320": {"slot": 5, "shiplevel": [9, 10], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PASB012", "PASB018", "PASB017", "PASB810", "PASB917", "PASB509", "PRSD110", "PRSD210", "PRSD409", "PRSD107", "PRSD910", "PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002", "PRSD709", "PASB729", "PRSB109", "PRSB110", "PRSB709", "PASB510"]}, "4279422896": {"slot": 5, "shiplevel": [9, 10], "shiptype": ["Cruiser", "Destroyer"], "excludes": ["PRSC110", "PRSC910", "PASC020", "PASC710", "PASC016", "PASC017", "PRSC509", "PASC109", "PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002", "PASC209", "PASC210", "PRSC510", "PRSC520", "PASC510", "PJSC510", "PFSC510", "PWSD510", "PASC610", "PASC599", "PRSC209", "PRSC310"]}, "4280471472": {"slot": 5, "shiplevel": [9, 10], "ships": ["PASB013"], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4281520048": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "ships": ["PASB013"], "shiptype": ["Battleship", "Cruiser", "AirCarrier"], "excludes": ["PASA002", "PASA006", "PASA507", "PASC005", "PASC006", "PASC016", "PASC044", "PASC045", "PASC707", "PBSC110", "PRSC003", "PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002", "PASC210", "PASC209", "PASA528", "PRSC610", "PFSC510", "PRSC528"]}, "4284665776": {"slot": 4, "shiplevel": [8, 9, 10], "shiptype": ["AirCarrier"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4287811504": {"slot": 2, "shiplevel": [5, 6, 7, 8, 9, 10], "ships": ["PASB013", "PJSC026"], "shiptype": ["Battleship", "Cruiser", "Destroyer"], "excludes": ["PXSA005", "PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005", "PXSD002", "PXSD009", "PXSD008", "PXSC009", "PXSC002", "PXSB008", "PXSB005", "PXSB002"]}, "4290957232": {"slot": 0, "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "ships": ["PXSA005"], "shiptype": ["AirCarrier"], "excludes": ["PXSB006", "PXSB007", "PXSC004", "PXSC005", "PXSC006", "PXSC007", "PXSD004", "PXSD005"]}}
+{
+  "4216508336": {
+    "slot": 5,
+    "shiplevel": [
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4217556912": {
+    "slot": 4,
+    "shiplevel": [
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ]
+  },
+  "4218605488": {
+    "slot": 4,
+    "shiplevel": [
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013",
+      "PGSD508",
+      "PBSC507"
+    ],
+    "shiptype": [
+      "Cruiser",
+      "Destroyer",
+      "Battleship"
+    ]
+  },
+  "4219654064": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PBSA508"
+    ]
+  },
+  "4220702640": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PGSB002",
+      "PGSB107",
+      "PGSB507",
+      "PGSB508",
+      "PGSB597",
+      "PGSB598",
+      "PJSB506",
+      "PJSB508",
+      "PJSC026"
+    ],
+    "shiptype": [
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PWSD510",
+      "PFSC510",
+      "PISC607",
+      "PJSC510",
+      "PVSC507",
+      "PRSC110",
+      "PRSC509",
+      "PRSC510",
+      "PRSC520",
+      "PRSC910",
+      "PBSC507",
+      "PASC016",
+      "PASC020",
+      "PASC106",
+      "PASC107",
+      "PASC108",
+      "PASC109",
+      "PASC206",
+      "PASC207",
+      "PASC208",
+      "PASC209",
+      "PASC210",
+      "PASC507",
+      "PASC508",
+      "PASC510",
+      "PASC597",
+      "PASC599",
+      "PASC610",
+      "PASC710",
+      "PASC718",
+      "PRSC209",
+      "PRSC310"
+    ]
+  },
+  "4221751216": {
+    "slot": 1,
+    "shiplevel": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4222799792": {
+    "slot": 1,
+    "shiplevel": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005"
+    ]
+  },
+  "4223848368": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005"
+    ]
+  },
+  "4224896944": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PBSA508"
+    ]
+  },
+  "4225945520": {
+    "slot": 3,
+    "shiplevel": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005"
+    ]
+  },
+  "4226994096": {
+    "slot": 3,
+    "shiplevel": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PBSA508"
+    ]
+  },
+  "4228042672": {
+    "slot": 3,
+    "shiplevel": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005"
+    ]
+  },
+  "4229091248": {
+    "slot": 5,
+    "ships": [
+      "PJSA017"
+    ]
+  },
+  "4230139824": {
+    "slot": 5,
+    "ships": [
+      "PASA015"
+    ]
+  },
+  "4231188400": {
+    "slot": 5,
+    "ships": [
+      "PRSD210"
+    ]
+  },
+  "4232236976": {
+    "slot": 4,
+    "ships": [
+      "PZSD110"
+    ]
+  },
+  "4233285552": {
+    "slot": 4,
+    "ships": [
+      "PASD013"
+    ]
+  },
+  "4234334128": {
+    "slot": 5,
+    "ships": [
+      "PJSD012"
+    ]
+  },
+  "4235382704": {
+    "slot": 4,
+    "ships": [
+      "PGSD110"
+    ]
+  },
+  "4236431280": {
+    "slot": 4,
+    "ships": [
+      "PRSD110"
+    ]
+  },
+  "4237479856": {
+    "slot": 5,
+    "ships": [
+      "PRSC110"
+    ]
+  },
+  "4238528432": {
+    "slot": 4,
+    "ships": [
+      "PASC210"
+    ]
+  },
+  "4239577008": {
+    "slot": 5,
+    "ships": [
+      "PASC020"
+    ]
+  },
+  "4240625584": {
+    "slot": 4,
+    "ships": [
+      "PBSC110"
+    ]
+  },
+  "4241674160": {
+    "slot": 4,
+    "ships": [
+      "PFSC110",
+      "PFSC810"
+    ]
+  },
+  "4242722736": {
+    "slot": 4,
+    "ships": [
+      "PGSC110"
+    ]
+  },
+  "4243771312": {
+    "slot": 5,
+    "ships": [
+      "PJSC034"
+    ]
+  },
+  "4244819888": {
+    "slot": 4,
+    "ships": [
+      "PASB017"
+    ]
+  },
+  "4245868464": {
+    "slot": 5,
+    "ships": [
+      "PJSB018"
+    ]
+  },
+  "4246917040": {
+    "slot": 5,
+    "ships": [
+      "PGSB110"
+    ]
+  },
+  "4247965616": {
+    "slot": 5,
+    "ships": [
+      "PFSB110"
+    ]
+  },
+  "4249014192": {
+    "slot": 4,
+    "ships": [
+      "PBSB110"
+    ]
+  },
+  "4250062768": {
+    "slot": 1,
+    "ships": [
+      "PBSC110",
+      "PBSC108",
+      "PBSC109",
+      "PASC017",
+      "PBSC507",
+      "PASB509",
+      "PASC006",
+      "PRSC110",
+      "PRSC509",
+      "PRSC510",
+      "PRSC520",
+      "PRSC910",
+      "PRSC109",
+      "PRSC108",
+      "PASC020",
+      "PASC710",
+      "PASC019",
+      "PRSC999",
+      "PASD709",
+      "PASC016",
+      "PZSD108",
+      "PZSD109",
+      "PZSD110",
+      "PASC109",
+      "PASC208",
+      "PASC209",
+      "PASC210",
+      "PASC507",
+      "PASC508",
+      "PASC510",
+      "PASC610",
+      "PASC718",
+      "PASC599",
+      "PWSD610",
+      "PASC108",
+      "PWSD508",
+      "PRSC208",
+      "PRSC210",
+      "PRSC528",
+      "PRSC209",
+      "PRSC310",
+      "PRSB528"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4251111344": {
+    "slot": 1,
+    "ships": [
+      "PJSD998",
+      "PUSC506",
+      "PUSD507",
+      "PWSD510",
+      "PFSC104",
+      "PFSC105",
+      "PFSC106",
+      "PFSC107",
+      "PFSC108",
+      "PFSC109",
+      "PFSC110",
+      "PFSC506",
+      "PFSC508",
+      "PFSC510",
+      "PFSC810",
+      "PGSB108",
+      "PGSB109",
+      "PGSB110",
+      "PGSB508",
+      "PGSB910",
+      "PGSC104",
+      "PGSC105",
+      "PGSC106",
+      "PGSC107",
+      "PGSC108",
+      "PGSC109",
+      "PGSC110",
+      "PGSC506",
+      "PGSC508",
+      "PGSC509",
+      "PGSC518",
+      "PGSC706",
+      "PGSC910",
+      "PGSD105",
+      "PGSD106",
+      "PGSD107",
+      "PGSD108",
+      "PGSD109",
+      "PGSD110",
+      "PGSD506",
+      "PGSD508",
+      "PISC506",
+      "PISC507",
+      "PISC607",
+      "PJSC005",
+      "PJSC007",
+      "PJSC008",
+      "PJSC009",
+      "PJSC012",
+      "PJSC013",
+      "PJSC014",
+      "PJSC018",
+      "PJSC026",
+      "PJSC034",
+      "PJSC038",
+      "PJSC505",
+      "PJSC510",
+      "PJSC520",
+      "PJSC598",
+      "PJSC705",
+      "PJSC707",
+      "PJSC708",
+      "PJSC709",
+      "PJSC717",
+      "PJSC727",
+      "PJSC737",
+      "PJSC810",
+      "PJSC934",
+      "PVSC507",
+      "PZSC506",
+      "PZSC508",
+      "PZSD208",
+      "PZSD508",
+      "PRSC003",
+      "PRSC104",
+      "PRSC105",
+      "PRSC525",
+      "PRSC106",
+      "PRSC107",
+      "PRSC108",
+      "PRSC109",
+      "PRSC110",
+      "PRSC505",
+      "PRSC506",
+      "PRSC508",
+      "PRSC518",
+      "PRSC606",
+      "PRSC610",
+      "PRSC910",
+      "PBSB527",
+      "PBSC104",
+      "PBSC105",
+      "PBSC106",
+      "PBSC107",
+      "PBSC108",
+      "PBSC109",
+      "PBSC110",
+      "PBSC205",
+      "PBSC206",
+      "PBSC207",
+      "PBSC208",
+      "PBSC209",
+      "PBSC210",
+      "PBSC505",
+      "PBSC507",
+      "PBSC508",
+      "PBSC516",
+      "PBSD106",
+      "PBSD107",
+      "PBSD108",
+      "PBSD109",
+      "PBSD110",
+      "PBSD517",
+      "PASC005",
+      "PASC006",
+      "PASC016",
+      "PASC019",
+      "PASC020",
+      "PASC024",
+      "PASC044",
+      "PASC045",
+      "PASC106",
+      "PASC107",
+      "PASC108",
+      "PASC109",
+      "PASC206",
+      "PASC207",
+      "PASC208",
+      "PASC209",
+      "PASC210",
+      "PASC507",
+      "PASC508",
+      "PASC510",
+      "PASC597",
+      "PASC599",
+      "PASC610",
+      "PASC707",
+      "PASC710",
+      "PASC718",
+      "PGSB108",
+      "PGSB109",
+      "PGSB110",
+      "PGSB508",
+      "PGSB910",
+      "PGSC519",
+      "PRSC538",
+      "PRSC208",
+      "PRSC210",
+      "PRSC528",
+      "PRSC209",
+      "PRSC310",
+      "PRSC215",
+      "PRSC515",
+      "PGSD509"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4252159920": {
+    "slot": 1,
+    "ships": [
+      "PFSC106",
+      "PFSC107",
+      "PFSC108",
+      "PFSC109",
+      "PFSC110",
+      "PFSC506",
+      "PFSC508",
+      "PFSC810",
+      "PGSC106",
+      "PGSC107",
+      "PGSC108",
+      "PGSC109",
+      "PGSC110",
+      "PGSC506",
+      "PGSC508",
+      "PGSC706",
+      "PGSC910",
+      "PISC506",
+      "PISC507",
+      "PJSC004",
+      "PJSC007",
+      "PJSC008",
+      "PJSC009",
+      "PJSC012",
+      "PJSC018",
+      "PJSC034",
+      "PJSC038",
+      "PJSC510",
+      "PJSC520",
+      "PJSC598",
+      "PJSC705",
+      "PJSC707",
+      "PJSC708",
+      "PJSC709",
+      "PJSC717",
+      "PJSC727",
+      "PJSC737",
+      "PJSC810",
+      "PJSC934",
+      "PVSC507",
+      "PZSC518",
+      "PZSD508",
+      "PRSC106",
+      "PRSC107",
+      "PRSC108",
+      "PRSC109",
+      "PRSC110",
+      "PRSC506",
+      "PRSC508",
+      "PRSC509",
+      "PRSC510",
+      "PRSC518",
+      "PRSC606",
+      "PRSC910",
+      "PRSD107",
+      "PRSD208",
+      "PRSD210",
+      "PRSD709",
+      "PRSD910",
+      "PBSB507",
+      "PBSD605",
+      "PASC006",
+      "PASC016",
+      "PASC019",
+      "PASC020",
+      "PASC106",
+      "PASC107",
+      "PASC108",
+      "PASC109",
+      "PASC206",
+      "PASC207",
+      "PASC208",
+      "PASC209",
+      "PASC210",
+      "PASC507",
+      "PASC508",
+      "PASC510",
+      "PASC597",
+      "PASC707",
+      "PASC710",
+      "PASC718",
+      "PASD005",
+      "PASD006",
+      "PASD008",
+      "PASD013",
+      "PASD014",
+      "PASD021",
+      "PASD029",
+      "PASD506",
+      "PASD508",
+      "PASD509",
+      "PASD597",
+      "PASD709",
+      "PASD810",
+      "PASD913",
+      "PFSC510",
+      "PRSC610",
+      "PWSD510",
+      "PBSB510",
+      "PGSC509",
+      "PASC610",
+      "PFSD210",
+      "PGSC518",
+      "PASC599",
+      "PBSC208",
+      "PBSC209",
+      "PBSC210",
+      "PBSC508",
+      "PWSD108",
+      "PWSD109",
+      "PWSD110",
+      "PBSC205",
+      "PBSC206",
+      "PBSC207",
+      "PRSC538",
+      "PRSC208",
+      "PRSC210",
+      "PRSC528",
+      "PRSC209",
+      "PRSC310",
+      "PWSD910"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PXSA004"
+    ]
+  },
+  "4253208496": {
+    "slot": 0,
+    "shiplevel": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013"
+    ],
+    "shiptype": [
+      "Battleship",
+      "AirCarrier",
+      "Cruiser",
+      "Destroyer",
+      "Auxiliary"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4254257072": {
+    "slot": 0,
+    "ships": [
+      "PUSC506",
+      "PFSB108",
+      "PFSB506",
+      "PFSB508",
+      "PFSC109",
+      "PGSB002",
+      "PGSB105",
+      "PGSB106",
+      "PGSB107",
+      "PGSB108",
+      "PGSB109",
+      "PGSB110",
+      "PGSB507",
+      "PGSB508",
+      "PGSB597",
+      "PGSB598",
+      "PGSB910",
+      "PGSC109",
+      "PGSC110",
+      "PGSC509",
+      "PGSC910",
+      "PISB508",
+      "PISB708",
+      "PISC105",
+      "PISC106",
+      "PISC107",
+      "PISC108",
+      "PISC109",
+      "PISC110",
+      "PISC505",
+      "PISC506",
+      "PISC507",
+      "PISC607",
+      "PJSB003",
+      "PJSB006",
+      "PJSB007",
+      "PJSB010",
+      "PJSB013",
+      "PJSB018",
+      "PJSB021",
+      "PJSB506",
+      "PJSB508",
+      "PJSB509",
+      "PJSB705",
+      "PJSB706",
+      "PJSB707",
+      "PJSB708",
+      "PJSB918",
+      "PJSC012",
+      "PJSC034",
+      "PJSC510",
+      "PJSC520",
+      "PJSC810",
+      "PJSC934",
+      "PZSB509",
+      "PZSC518",
+      "PRSC003",
+      "PRSC105",
+      "PRSC525",
+      "PRSC106",
+      "PRSC107",
+      "PRSC506",
+      "PRSC509",
+      "PRSC518",
+      "PBSB002",
+      "PBSB105",
+      "PBSB106",
+      "PBSB107",
+      "PBSB108",
+      "PBSB109",
+      "PBSC105",
+      "PBSC106",
+      "PBSC107",
+      "PBSC108",
+      "PBSC207",
+      "PBSC208",
+      "PBSC209",
+      "PASB004",
+      "PASB006",
+      "PASB008",
+      "PASB012",
+      "PASB017",
+      "PASB018",
+      "PASB034",
+      "PASB506",
+      "PASB507",
+      "PASB508",
+      "PASB510",
+      "PASB518",
+      "PASB598",
+      "PASB705",
+      "PASB707",
+      "PASB708",
+      "PASB729",
+      "PASB810",
+      "PASB917",
+      "PASC019",
+      "PASC020",
+      "PASC109",
+      "PASC208",
+      "PASC209",
+      "PASC210",
+      "PASC508",
+      "PASC510",
+      "PASC599",
+      "PASC610",
+      "PASC718",
+      "PJSB510",
+      "PRSC215",
+      "PRSC209",
+      "PRSC515",
+      "PFSB528",
+      "PJSB888",
+      "PJSB510"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4255305648": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PUSC506",
+      "PJSC014",
+      "PZSC506",
+      "PRSC508",
+      "PRSC610",
+      "PBSC105",
+      "PBSC106",
+      "PBSC107",
+      "PBSC108",
+      "PBSC109",
+      "PBSC110",
+      "PBSC507",
+      "PBSC516",
+      "PASC707",
+      "PJSC026"
+    ],
+    "shiptype": [
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PXSD008",
+      "PXSD009",
+      "PWSD105",
+      "PWSD106",
+      "PWSD107",
+      "PWSD108",
+      "PWSD109",
+      "PWSD110",
+      "PWSD610",
+      "PWSD910",
+      "PFSD105",
+      "PFSD106",
+      "PFSD107",
+      "PFSD108",
+      "PFSD109",
+      "PFSD110",
+      "PFSD210",
+      "PFSD504",
+      "PFSD508",
+      "PFSD808",
+      "PBSD605",
+      "PISD510",
+      "PWSD508"
+    ]
+  },
+  "4256354224": {
+    "slot": 1,
+    "shiplevel": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PFSB108",
+      "PFSB109",
+      "PFSB110",
+      "PFSB508",
+      "PFSB510",
+      "PFSB518",
+      "PFSC106",
+      "PFSC107",
+      "PFSC108",
+      "PFSC109",
+      "PFSC110",
+      "PFSC506",
+      "PFSC508",
+      "PFSC510",
+      "PFSC810",
+      "PJSC014",
+      "PJSC505",
+      "PASB729",
+      "PFSB528"
+    ],
+    "shiptype": [
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PBSD103",
+      "PBSD104",
+      "PBSD105",
+      "PBSD106",
+      "PBSD107",
+      "PBSD108",
+      "PBSD109",
+      "PBSD110",
+      "PWSD510",
+      "PZSD208",
+      "PGSD509"
+    ]
+  },
+  "4257402800": {
+    "slot": 4,
+    "shiplevel": [
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PBSC507",
+      "PGSD508"
+    ],
+    "shiptype": [
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4258451376": {
+    "slot": 0,
+    "ships": [
+      "PJSC503",
+      "PJSC014",
+      "PJSC004",
+      "PJSC026"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4259499952": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PJSC026"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PASB705",
+      "PASB006",
+      "PASB008",
+      "PASB012",
+      "PASB017",
+      "PASB810",
+      "PASB917",
+      "PASB018",
+      "PASB034",
+      "PASB506",
+      "PASB508",
+      "PASB509",
+      "PASB708",
+      "PASB518",
+      "PASB598",
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PASB507",
+      "PASB729",
+      "PASB510",
+      "PASB707"
+    ]
+  },
+  "4260548528": {
+    "slot": 0,
+    "shiplevel": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "Auxiliary"
+    ],
+    "excludes": [
+      "PXSA005"
+    ]
+  },
+  "4261597104": {
+    "slot": 0,
+    "shiplevel": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSB003",
+      "PXSA001",
+      "PXSA004",
+      "PXSA807",
+      "PJSB799",
+      "PXSC503",
+      "PXSA002",
+      "PXSD007",
+      "PGSC103",
+      "PJSD001",
+      "PJSD014",
+      "PZSD102",
+      "PASC002",
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PFSD102",
+      "PWSD102"
+    ]
+  },
+  "4262645680": {
+    "slot": 0,
+    "shiplevel": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "Auxiliary"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4263694256": {
+    "slot": 5,
+    "nation": [
+      "usa"
+    ],
+    "shiplevel": [
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013"
+    ],
+    "shiptype": [
+      "Battleship"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4264742832": {
+    "slot": 2,
+    "nation": [
+      "usa"
+    ],
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013"
+    ],
+    "shiptype": [
+      "Battleship"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4265791408": {
+    "slot": 4,
+    "shiplevel": [
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013",
+      "PBSC507",
+      "PGSD508"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4266839984": {
+    "slot": 4,
+    "shiplevel": [
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013",
+      "PBSC507",
+      "PGSD508"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4267888560": {
+    "slot": 3,
+    "shiplevel": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013",
+      "PJSC026"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4268937136": {
+    "slot": 3,
+    "shiplevel": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013",
+      "PJSC026"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PBSC106",
+      "PBSC107",
+      "PBSC108",
+      "PBSC109",
+      "PBSC110",
+      "PBSC507",
+      "PBSD106",
+      "PBSD107",
+      "PBSD108",
+      "PBSD109",
+      "PBSD110",
+      "PBSD517",
+      "PUSC506",
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4269985712": {
+    "slot": 3,
+    "shiplevel": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4273131440": {
+    "slot": 1,
+    "shiplevel": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer",
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4275228592": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PJSC026"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4276277168": {
+    "slot": 5,
+    "shiplevel": [
+      9,
+      10
+    ],
+    "ships": [
+      "PASA508"
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4277325744": {
+    "slot": 5,
+    "shiplevel": [
+      9,
+      10
+    ],
+    "ships": [
+      "PASA508"
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4278374320": {
+    "slot": 5,
+    "shiplevel": [
+      9,
+      10
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PASB012",
+      "PASB018",
+      "PASB017",
+      "PASB810",
+      "PASB917",
+      "PASB509",
+      "PRSD110",
+      "PRSD210",
+      "PRSD409",
+      "PRSD107",
+      "PRSD910",
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PRSD709",
+      "PASB729",
+      "PRSB109",
+      "PRSB110",
+      "PRSB709",
+      "PASB510"
+    ]
+  },
+  "4279422896": {
+    "slot": 5,
+    "shiplevel": [
+      9,
+      10
+    ],
+    "shiptype": [
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PRSC110",
+      "PRSC910",
+      "PASC020",
+      "PASC710",
+      "PASC016",
+      "PASC017",
+      "PRSC509",
+      "PASC109",
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PASC209",
+      "PASC210",
+      "PRSC510",
+      "PRSC520",
+      "PASC510",
+      "PJSC510",
+      "PFSC510",
+      "PWSD510",
+      "PASC610",
+      "PASC599",
+      "PRSC209",
+      "PRSC310"
+    ]
+  },
+  "4280471472": {
+    "slot": 5,
+    "shiplevel": [
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4281520048": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PASA002",
+      "PASA006",
+      "PASA507",
+      "PASC005",
+      "PASC006",
+      "PASC016",
+      "PASC044",
+      "PASC045",
+      "PASC707",
+      "PBSC110",
+      "PRSC003",
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002",
+      "PASC210",
+      "PASC209",
+      "PASA528",
+      "PRSC610",
+      "PFSC510",
+      "PRSC528"
+    ]
+  },
+  "4284665776": {
+    "slot": 4,
+    "shiplevel": [
+      8,
+      9,
+      10
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4287811504": {
+    "slot": 2,
+    "shiplevel": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PASB013",
+      "PJSC026"
+    ],
+    "shiptype": [
+      "Battleship",
+      "Cruiser",
+      "Destroyer"
+    ],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PXSD002",
+      "PXSD009",
+      "PXSD008",
+      "PXSC009",
+      "PXSC002",
+      "PXSB008",
+      "PXSB005",
+      "PXSB002"
+    ]
+  },
+  "4290957232": {
+    "slot": 0,
+    "shiplevel": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ships": [
+      "PXSA005"
+    ],
+    "shiptype": [
+      "AirCarrier"
+    ],
+    "excludes": [
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-# WoWs Game Data
+# WoWs Game Data (0.9.4.0)
 Extract some game data from World of Warships. There are also some other data that are collected by me.
 
 ## Modernizations

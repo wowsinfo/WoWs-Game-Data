@@ -67,7 +67,7 @@
   {
     "name": "PBSD110_Daring",
     "tier": 10,
-    "reload": 2.7
+    "reload": 2.8
   },
   {
     "name": "PFSC510_Colbert",
@@ -78,6 +78,11 @@
     "name": "PFSD210_Marceau",
     "tier": 10,
     "reload": 3.5
+  },
+  {
+    "name": "PGSD509_Z_35",
+    "tier": 8,
+    "reload": 3.4
   },
   {
     "name": "PISC101_Eritrea",

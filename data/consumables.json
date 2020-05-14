@@ -1,1 +1,1697 @@
-{"PCY009_CrashCrewPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4284653488, "index": "PCY009", "name": "PCY009_CrashCrewPremium", "data": {"B_Gold": {"consumableType": "crashCrew", "reloadTime": 80.0, "workTime": 15.0}, "B_Japan_Gold": {"consumableType": "crashCrew", "reloadTime": 80.0, "workTime": 10.0}, "B_RUS_Gold": {"consumableType": "crashCrew", "numConsumables": 4, "reloadTime": 20.0, "workTime": 15.0}, "B_UK_Germany_Gold": {"consumableType": "crashCrew", "reloadTime": 80.0, "workTime": 15.0}, "B_USA_Gold": {"consumableType": "crashCrew", "reloadTime": 80.0, "workTime": 20.0}, "B_USSR": {"consumableType": "crashCrew", "numConsumables": 4, "reloadTime": 40.0, "workTime": 10.0}, "CV_CA_CL_Gold": {"consumableType": "crashCrew", "reloadTime": 60.0, "workTime": 5.0}, "C_TierOne_Gold": {"consumableType": "crashCrew", "reloadTime": 25.0, "workTime": 5.0}, "D_Gold": {"consumableType": "crashCrew", "reloadTime": 40.0, "workTime": 5.0}, "Default_Gold": {"consumableType": "crashCrew", "reloadTime": 1800.0, "workTime": 200.0}, "Event_BB_Gold": {"consumableType": "crashCrew", "reloadTime": 60.0, "workTime": 15.0}, "Event_CA_Gold": {"consumableType": "crashCrew", "reloadTime": 40.0, "workTime": 15.0}, "Event_DD_Gold": {"consumableType": "crashCrew", "reloadTime": 30.0, "workTime": 15.0}, "Sub": {"consumableType": "crashCrew", "reloadTime": 40.0, "workTime": 5.0}}}, "PCY010_RegenCrewPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4283604912, "index": "PCY010", "name": "PCY010_RegenCrewPremium", "data": {"B_Colorado_Gold": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.0066, "reloadTime": 80.0, "workTime": 28.0}, "B_Deutsche_gold": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.005, "reloadTime": 80.0, "workTime": 28.0}, "B_Gold": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.005, "reloadTime": 80.0, "workTime": 28.0}, "B_RN": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.006, "reloadTime": 60.0, "workTime": 28.0}, "B_Warspite_Gold": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.006, "reloadTime": 80.0, "workTime": 28.0}, "B_Yamato_Gold": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.0075, "reloadTime": 80.0, "workTime": 28.0}, "C_Gold": {"consumableType": "regenCrew", "numConsumables": 3, "regenerationHPSpeed": 0.005, "reloadTime": 80.0, "workTime": 28.0}, "D_Fast": {"consumableType": "regenCrew", "numConsumables": 2, "regenerationHPSpeed": 0.015, "reloadTime": 80.0, "workTime": 20.0}, "D_gold": {"consumableType": "regenCrew", "numConsumables": 2, "regenerationHPSpeed": 0.005, "reloadTime": 80.0, "workTime": 28.0}, "EU_DD_High": {"consumableType": "regenCrew", "numConsumables": 3, "regenerationHPSpeed": 0.01, "reloadTime": 80.0, "workTime": 14.0}, "EU_DD_Low": {"consumableType": "regenCrew", "numConsumables": 3, "regenerationHPSpeed": 0.01, "reloadTime": 80.0, "workTime": 10.0}, "Gascogne_gold": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.005, "reloadTime": 40.0, "workTime": 28.0}, "UK_CA_PREM": {"consumableType": "regenCrew", "numConsumables": 2, "regenerationHPSpeed": 0.02, "reloadTime": 80.0, "workTime": 20.0}, "UK_CL_PREM": {"consumableType": "regenCrew", "numConsumables": 3, "regenerationHPSpeed": 0.02, "reloadTime": 80.0, "workTime": 20.0}, "UK_DD_gold": {"consumableType": "regenCrew", "numConsumables": 2, "regenerationHPSpeed": 0.01, "reloadTime": 80.0, "workTime": 10.0}, "UK_HT_BB_PREM": {"consumableType": "regenCrew", "numConsumables": 3, "regenerationHPSpeed": 0.02, "reloadTime": 120.0, "workTime": 20.0}, "USA_Gascogne": {"consumableType": "regenCrew", "numConsumables": 4, "regenerationHPSpeed": 0.005, "reloadTime": 40.0, "workTime": 28.0}}}, "PCY011_AirDefenseDispPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4282556336, "index": "PCY011", "name": "PCY011_AirDefenseDispPremium", "data": {"Anthony_event_Gold": {"areaDamageMultiplier": 2.0, "bubbleDamageMultiplier": 2, "consumableType": "airDefenseDisp", "numConsumables": 4, "reloadTime": 120.0, "workTime": 15.0}, "Default_Gold": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "numConsumables": 3, "reloadTime": 80.0, "workTime": 40.0}, "Play_test_Gold": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 2, "consumableType": "airDefenseDisp", "numConsumables": 3, "reloadTime": 180.0, "workTime": 40.0}, "SU_DD_Gold": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "numConsumables": 4, "reloadTime": 80.0, "workTime": 40.0}, "Stalingrad": {"areaDamageMultiplier": 1.25, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "numConsumables": 3, "reloadTime": 180.0, "workTime": 60.0}, "UK_UPs_Gold": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "numConsumables": 4, "reloadTime": 80.0, "workTime": 40.0}, "US_Cruisers_Atlanta": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "reloadTime": 80.0, "workTime": 40.0}, "US_Cruisers_Gold": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "numConsumables": 4, "reloadTime": 80.0, "workTime": 40.0}, "US_DD_Gold": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "numConsumables": 4, "reloadTime": 80.0, "workTime": 40.0}, "Yubari_Gold": {"areaDamageMultiplier": 1.5, "bubbleDamageMultiplier": 4.0, "consumableType": "airDefenseDisp", "numConsumables": 2, "reloadTime": 80.0, "workTime": 40.0}}}, "PCY012_FighterPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4281507760, "index": "PCY012", "name": "PCY012_FighterPremium", "data": {"Fighter_1": {"climbAngle": 55, "consumableType": "fighter", "distanceToKill": 35.0, "dogFightTime": 5.0, "fightersName": "PAAF001_Grumman_F3F", "fightersNum": 1, "flyAwayTime": 6.0, "numConsumables": 3, "radius": 100.0, "reloadTime": 90.0, "timeDelayAttack": 5.0, "timeToTryingCatch": 40.0, "timeWaitDelayAttack": 10.0, "workTime": 60.0}, "Fighter_2": {"climbAngle": 55, "consumableType": "fighter", "distanceToKill": 35.0, "dogFightTime": 5.0, "fightersName": "PAAF001_Grumman_F3F", "fightersNum": 2, "flyAwayTime": 6.0, "numConsumables": 3, "radius": 100.0, "reloadTime": 90.0, "timeDelayAttack": 5.0, "timeToTryingCatch": 40.0, "timeWaitDelayAttack": 10.0, "workTime": 60.0}, "Fighter_3": {"climbAngle": 55, "consumableType": "fighter", "distanceToKill": 35.0, "dogFightTime": 5.0, "fightersName": "PAAF001_Grumman_F3F", "fightersNum": 3, "flyAwayTime": 6.0, "numConsumables": 3, "radius": 100.0, "reloadTime": 90.0, "timeDelayAttack": 5.0, "timeToTryingCatch": 40.0, "timeWaitDelayAttack": 10.0, "workTime": 60.0}, "Fighter_4": {"climbAngle": 55, "consumableType": "fighter", "distanceToKill": 35.0, "dogFightTime": 5.0, "fightersName": "PAAF001_Grumman_F3F", "fightersNum": 4, "flyAwayTime": 6.0, "numConsumables": 3, "radius": 100.0, "reloadTime": 90.0, "timeDelayAttack": 5.0, "timeToTryingCatch": 40.0, "timeWaitDelayAttack": 10.0, "workTime": 60.0}, "Musashi": {"climbAngle": 55, "consumableType": "fighter", "distanceToKill": 35.0, "dogFightTime": 5.0, "fightersName": "PAAF001_Grumman_F3F", "fightersNum": 4, "flyAwayTime": 6.0, "numConsumables": 3, "radius": 100.0, "reloadTime": 90.0, "timeDelayAttack": 5.0, "timeToTryingCatch": 40.0, "timeWaitDelayAttack": 10.0, "workTime": 80.0}}}, "PCY013_SpotterPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4280459184, "index": "PCY013", "name": "PCY013_SpotterPremium", "data": {"Default": {"artilleryDistCoeff": 1.2, "consumableType": "scout", "numConsumables": 4, "reloadTime": 240.0, "workTime": 100.0}, "Lazo": {"artilleryDistCoeff": 1.2, "consumableType": "scout", "numConsumables": 5, "reloadTime": 10.0, "workTime": 60.0}, "Musashi": {"artilleryDistCoeff": 1.2, "consumableType": "scout", "numConsumables": 4, "reloadTime": 120.0, "workTime": 120.0}, "Perth": {"artilleryDistCoeff": 1.2, "consumableType": "scout", "numConsumables": 4, "reloadTime": 240.0, "workTime": 180.0}}}, "PCY014_SmokeGeneratorPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4279410608, "index": "PCY014", "name": "PCY014_SmokeGeneratorPremium", "data": {"Cruiser_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 80.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "DE_Lvl_10_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 77.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_2_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 45.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_3_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 49.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_4_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 53.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_5_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 57.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_6_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 61.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_7_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 65.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_8_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 69.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "DE_Lvl_9_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 73.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Default": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 60.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 240.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 1.0}, "Grozovoi_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 97.0, "numConsumables": 2, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Haida_Gold": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorCrawler_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium", "lifeTime": 10.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 80.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "titleIDs": "PCY014_SmokeGeneratorCrawler_Premium", "workTime": 90.0}, "IT_Oil_5_7": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorOil_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorOil_Premium", "lifeTime": 10.0, "numConsumables": 2, "radius": 17.0, "reloadTime": 180.0, "spawnBackwardShift": 0.3, "speedLimit": 60.0, "titleIDs": "PCY014_SmokeGeneratorOil_Premium", "workTime": 25.0}, "IT_Oil_8_10": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorOil_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorOil_Premium", "lifeTime": 10.0, "numConsumables": 2, "radius": 17.0, "reloadTime": 180.0, "spawnBackwardShift": 0.3, "speedLimit": 60.0, "titleIDs": "PCY014_SmokeGeneratorOil_Premium", "workTime": 40.0}, "IT_Oil_DD_8_10": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorOil_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorOil_Premium", "lifeTime": 10.0, "numConsumables": 3, "radius": 17.0, "reloadTime": 180.0, "spawnBackwardShift": 0.3, "speedLimit": 60.0, "titleIDs": "PCY014_SmokeGeneratorOil_Premium", "workTime": 40.0}, "IT_Oil_Gorizia": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorOil_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorOil_Premium", "lifeTime": 10.0, "numConsumables": 2, "radius": 17.0, "reloadTime": 140.0, "spawnBackwardShift": 0.3, "speedLimit": 60.0, "titleIDs": "PCY014_SmokeGeneratorOil_Premium", "workTime": 40.0}, "IT_Oil_IMPERO": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorOil_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorOil_Premium", "lifeTime": 10.0, "numConsumables": 3, "radius": 17.0, "reloadTime": 180.0, "spawnBackwardShift": 0.3, "speedLimit": 60.0, "titleIDs": "PCY014_SmokeGeneratorOil_Premium", "workTime": 45.0}, "IT_Oil_Test_Gold": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorOil_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorOil_Premium", "lifeTime": 15.0, "numConsumables": 3, "radius": 17.0, "reloadTime": 180.0, "spawnBackwardShift": 0.3, "speedLimit": 60.0, "titleIDs": "PCY014_SmokeGeneratorOil_Premium", "workTime": 35.0}, "Leone": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 118.0, "numConsumables": 2, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "Lvl_10_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 97.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_2_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 65.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_3_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 69.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_4_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 73.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_5_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 77.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_6_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 81.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_7_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 85.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_8_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 89.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_8_Gold_Kutuzov": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 89.0, "numConsumables": 2, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "Lvl_9_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 93.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "PAZ_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 70.0, "numConsumables": 5, "radius": 15.0, "reloadTime": 100.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "PanOceania_Gold": {"consumableType": "smokeGenerator", "descIDs": "PCY014_SmokeGeneratorCrawler_Premium", "height": 5.0, "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium", "lifeTime": 10.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "titleIDs": "PCY014_SmokeGeneratorCrawler_Premium", "workTime": 90.0}, "Test": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 60.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 10.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 20.0}, "UK_DD": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 40.0, "numConsumables": 6, "radius": 20.0, "reloadTime": 70.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 10.0}, "UK_Lvl_10_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 113.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_2_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 85.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_3_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 89.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_4_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 92.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_5_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 96.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_6_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 99.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_7_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 103.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_8_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 106.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "UK_Lvl_9_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 110.0, "numConsumables": 3, "radius": 20.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 15.0}, "US_Lvl_10_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 130.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_2_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 106.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_3_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 109.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_4_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 112.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_5_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 115.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_6_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 118.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_7_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 121.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_8_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 124.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}, "US_Lvl_9_Gold": {"consumableType": "smokeGenerator", "height": 5.0, "lifeTime": 127.0, "numConsumables": 3, "radius": 15.0, "reloadTime": 160.0, "spawnBackwardShift": 0.4, "speedLimit": 12.5, "startDelayTime": 2.0, "workTime": 30.0}}}, "PCY015_SpeedBoosterPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4278362032, "index": "PCY015", "name": "PCY015_SpeedBoosterPremium", "data": {"Cossack": {"backwardEngineForsag": 1.75, "backwardEngineForsagMaxSpeed": 5.0, "boostCoeff": 0.08, "consumableType": "speedBoosters", "forwardEngineForsag": 1.75, "forwardEngineForsagMaxSpeed": 34.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 120.0}, "Default": {"backwardEngineForsag": 2.5, "backwardEngineForsagMaxSpeed": 10.0, "boostCoeff": 0.08, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 120.0}, "EU_DD_Turbo": {"backwardEngineForsag": 2.5, "backwardEngineForsagMaxSpeed": 10.0, "boostCoeff": 0.3, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 4, "reloadTime": 100.0, "workTime": 60.0}, "FR_AIGLE_PREM": {"backwardEngineForsag": 4.0, "backwardEngineForsagMaxSpeed": 12.0, "boostCoeff": 0.2, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 120.0}, "FR_BB_PREM": {"backwardEngineForsag": 4.0, "backwardEngineForsagMaxSpeed": 12.0, "boostCoeff": 0.08, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 180.0}, "FR_CR_6_7_PREM": {"backwardEngineForsag": 4.0, "backwardEngineForsagMaxSpeed": 12.0, "boostCoeff": 0.15, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 90.0, "workTime": 180.0}, "FR_CR_8_9_10_PREM": {"backwardEngineForsag": 4.0, "backwardEngineForsagMaxSpeed": 12.0, "boostCoeff": 0.2, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 90.0, "workTime": 180.0}, "FR_CR_Henri_IV": {"backwardEngineForsag": 2.5, "backwardEngineForsagMaxSpeed": 10.0, "boostCoeff": 0.2, "consumableType": "speedBoosters", "forwardEngineForsag": 1.0, "forwardEngineForsagMaxSpeed": 15.0, "numConsumables": 3, "reloadTime": 90.0, "workTime": 180.0}, "FR_DD_2_7_PREM": {"backwardEngineForsag": 4.0, "backwardEngineForsagMaxSpeed": 12.0, "boostCoeff": 0.2, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 120.0}, "FR_DD_8_10_PREM": {"backwardEngineForsag": 4.0, "backwardEngineForsagMaxSpeed": 12.0, "boostCoeff": 0.2, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 90.0, "workTime": 180.0}, "FR_Terrible": {"backwardEngineForsag": 2.5, "backwardEngineForsagMaxSpeed": 10.0, "boostCoeff": 0.2, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 120.0}, "GROZOVOI_PREM": {"backwardEngineForsag": 2.5, "backwardEngineForsagMaxSpeed": 10.0, "boostCoeff": 0.08, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 2, "reloadTime": 120.0, "workTime": 120.0}, "Test": {"backwardEngineForsag": 2.5, "backwardEngineForsagMaxSpeed": 10.0, "boostCoeff": 10.0, "consumableType": "speedBoosters", "forwardEngineForsag": 2.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 180.0, "workTime": 120.0}, "UK_CL_PREM": {"backwardEngineForsag": 4.5, "backwardEngineForsagMaxSpeed": 10.0, "boostCoeff": 0.15, "consumableType": "speedBoosters", "forwardEngineForsag": 4.5, "forwardEngineForsagMaxSpeed": 10.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 120.0}}}, "PCY016_SonarSearchPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4277313456, "index": "PCY016", "name": "PCY016_SonarSearchPremium", "data": {"C_4_7": {"consumableType": "sonar", "distShip": 133.3333, "distTorpedo": 100.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 100.0}, "C_8_10": {"consumableType": "sonar", "distShip": 166.6666, "distTorpedo": 116.6666, "numConsumables": 3, "reloadTime": 120.0, "workTime": 100.0}, "Default": {"consumableType": "sonar", "distShip": 116.0, "distTorpedo": 84.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 90.0}, "Deutsche_C": {"consumableType": "sonar", "distShip": 166.0, "distTorpedo": 116.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 110.0}, "Deutsche_C_4_7": {"consumableType": "sonar", "distShip": 183.3333, "distTorpedo": 125.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 110.0}, "Deutsche_C_8_10": {"consumableType": "sonar", "distShip": 200.0, "distTorpedo": 133.3333, "numConsumables": 3, "reloadTime": 120.0, "workTime": 120.0}, "DukeOfYork": {"consumableType": "sonar", "distShip": 133.3333, "distTorpedo": 100.0, "numConsumables": 2, "reloadTime": 120.0, "workTime": 100.0}, "Haida_gold": {"consumableType": "sonar", "distShip": 116.6666, "distTorpedo": 83.3333, "numConsumables": 3, "reloadTime": 120.0, "workTime": 180.0}, "LoYang": {"consumableType": "sonar", "distShip": 183.3333, "distTorpedo": 125.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 110.0}, "Salem": {"consumableType": "sonar", "distShip": 166.6666, "distTorpedo": 116.6666, "numConsumables": 3, "reloadTime": 120.0, "workTime": 100.0}, "UKDD_6_10": {"consumableType": "sonar", "distShip": 100.0, "distTorpedo": 100.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 180.0}}}, "PCY018_TorpedoReloaderPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4275216304, "index": "PCY018", "name": "PCY018_TorpedoReloaderPremium", "data": {"Default": {"consumableType": "torpedoReloader", "reloadTime": 270.0, "torpedoReloadTime": 60.0, "workTime": 1.0}, "Jap_DD_prem_alt": {"consumableType": "torpedoReloader", "numConsumables": 3, "reloadTime": 160.0, "torpedoReloadTime": 5.0, "workTime": 1.0}, "Jap_DD_premium": {"consumableType": "torpedoReloader", "numConsumables": 3, "reloadTime": 240.0, "torpedoReloadTime": 8.0, "workTime": 1.0}, "Jap_DD_premium_tst": {"consumableType": "torpedoReloader", "numConsumables": 3, "reloadTime": 240.0, "torpedoReloadTime": 5.0, "workTime": 1.0}, "Monaghan_style_premium": {"consumableType": "torpedoReloader", "numConsumables": 3, "reloadTime": 240.0, "torpedoReloadTime": 30.0, "workTime": 1.0}, "PAZ_premium": {"consumableType": "torpedoReloader", "numConsumables": 3, "reloadTime": 240.0, "torpedoReloadTime": 8.0, "workTime": 1.0}}}, "PCY020_RLSSearchPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4273119152, "index": "PCY020", "name": "PCY020_RLSSearchPremium", "data": {"Black": {"consumableType": "rls", "distShip": 250.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 22.0}, "Default": {"consumableType": "rls", "distShip": 270.0, "reloadTime": 180.0, "workTime": 15.0}, "EU_DD": {"consumableType": "rls", "distShip": 250.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 20.0}, "Gb_7_BELFAST_PREMIUM": {"consumableType": "rls", "distShip": 283.33, "numConsumables": 3, "reloadTime": 120.0, "workTime": 25.0}, "PAZ_10_PREMIUM": {"consumableType": "rls", "distShip": 250.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 25.0}, "PAZ_8_PREMIUM": {"consumableType": "rls", "distShip": 250.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 20.0}, "PAZ_9_PREMIUM": {"consumableType": "rls", "distShip": 250.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 22.0}, "Salem_PREMIUM": {"consumableType": "rls", "distShip": 283.33, "numConsumables": 3, "reloadTime": 120.0, "workTime": 40.0}, "USSR_10_BB": {"affectedClasses": ["Battleship", "AirCarrier"], "consumableType": "rls", "distShip": 500.0, "numConsumables": 3, "reloadTime": 180.0, "workTime": 60.0}, "USSR_10_PREMIUM": {"consumableType": "rls", "distShip": 400.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 30.0}, "USSR_8_BB": {"affectedClasses": ["Battleship", "AirCarrier"], "consumableType": "rls", "distShip": 500.0, "numConsumables": 3, "reloadTime": 180.0, "workTime": 40.0}, "USSR_8_PREMIUM": {"consumableType": "rls", "distShip": 400.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 20.0}, "USSR_9_BB": {"affectedClasses": ["Battleship", "AirCarrier"], "consumableType": "rls", "distShip": 500.0, "numConsumables": 3, "reloadTime": 180.0, "workTime": 50.0}, "USSR_9_PREMIUM": {"consumableType": "rls", "distShip": 400.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 25.0}, "USSR_CA_8_10": {"consumableType": "rls", "distShip": 400.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 15.0}, "USSR_OCHAKOV": {"consumableType": "rls", "distShip": 333.3, "numConsumables": 3, "reloadTime": 120.0, "workTime": 20.0}, "US_10_CL": {"consumableType": "rls", "distShip": 300.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 40.0}, "US_10_PREMIUM": {"consumableType": "rls", "distShip": 333.33, "numConsumables": 3, "reloadTime": 120.0, "workTime": 40.0}, "US_7_ATLANTA_PREMIUM": {"consumableType": "rls", "distShip": 283.33, "numConsumables": 3, "reloadTime": 120.0, "workTime": 25.0}, "US_7_INDIANAPOLIS_PREMIUM": {"consumableType": "rls", "distShip": 333.33, "numConsumables": 3, "reloadTime": 120.0, "workTime": 25.0}, "US_8_CL": {"consumableType": "rls", "distShip": 300.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 30.0}, "US_8_PREMIUM": {"consumableType": "rls", "distShip": 333.33, "numConsumables": 3, "reloadTime": 120.0, "workTime": 30.0}, "US_9_CL": {"consumableType": "rls", "distShip": 300.0, "numConsumables": 3, "reloadTime": 120.0, "workTime": 35.0}, "US_9_MISSOURI": {"consumableType": "rls", "distShip": 316.67, "numConsumables": 3, "reloadTime": 120.0, "workTime": 35.0}, "US_9_PREMIUM": {"consumableType": "rls", "distShip": 333.33, "numConsumables": 3, "reloadTime": 120.0, "workTime": 35.0}}}, "PCY022_ArtilleryBoosterPremium": {"canBuy": true, "canBuyCustom": {}, "costCR": 22500, "freeOfCharge": false, "id": 4271022000, "index": "PCY022", "name": "PCY022_ArtilleryBoosterPremium", "data": {"Default_gold": {"boostCoeff": 0.75, "consumableType": "artilleryBoosters", "criticalChance": 0.05, "reloadTime": 10.0, "workTime": 10.0}, "FR_BB": {"boostCoeff": 0.5, "consumableType": "artilleryBoosters", "numConsumables": 4, "reloadTime": 120.0, "workTime": 20.0}, "FR_CR_6_7_8_Gold": {"boostCoeff": 0.5, "consumableType": "artilleryBoosters", "numConsumables": 4, "reloadTime": 120.0, "workTime": 15.0}, "FR_CR_9_10_Gold": {"boostCoeff": 0.5, "consumableType": "artilleryBoosters", "numConsumables": 4, "reloadTime": 80.0, "workTime": 15.0}, "FR_DD_Gold": {"boostCoeff": 0.5, "consumableType": "artilleryBoosters", "numConsumables": 4, "reloadTime": 100.0, "workTime": 15.0}}}}
+{
+  "PCY009_CrashCrewPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4284653488,
+    "index": "PCY009",
+    "name": "PCY009_CrashCrewPremium",
+    "data": {
+      "B_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 80.0,
+        "workTime": 15.0
+      },
+      "B_Japan_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 80.0,
+        "workTime": 10.0
+      },
+      "B_RUS_Gold": {
+        "consumableType": "crashCrew",
+        "numConsumables": 4,
+        "reloadTime": 20.0,
+        "workTime": 15.0
+      },
+      "B_UK_Germany_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 80.0,
+        "workTime": 15.0
+      },
+      "B_USA_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 80.0,
+        "workTime": 20.0
+      },
+      "B_USSR": {
+        "consumableType": "crashCrew",
+        "numConsumables": 4,
+        "reloadTime": 40.0,
+        "workTime": 10.0
+      },
+      "CV_CA_CL_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 60.0,
+        "workTime": 5.0
+      },
+      "C_TierOne_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 25.0,
+        "workTime": 5.0
+      },
+      "D_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 40.0,
+        "workTime": 5.0
+      },
+      "Default_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 1800.0,
+        "workTime": 200.0
+      },
+      "Event_BB_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 60.0,
+        "workTime": 15.0
+      },
+      "Event_CA_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 40.0,
+        "workTime": 15.0
+      },
+      "Event_DD_Gold": {
+        "consumableType": "crashCrew",
+        "reloadTime": 30.0,
+        "workTime": 15.0
+      },
+      "Sub": {
+        "consumableType": "crashCrew",
+        "reloadTime": 40.0,
+        "workTime": 5.0
+      }
+    }
+  },
+  "PCY010_RegenCrewPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4283604912,
+    "index": "PCY010",
+    "name": "PCY010_RegenCrewPremium",
+    "data": {
+      "B_Colorado_Gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.0066,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "B_Deutsche_gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "B_Gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "B_RN": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.006,
+        "reloadTime": 60.0,
+        "workTime": 28.0
+      },
+      "B_Warspite_Gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.006,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "B_Yamato_Gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.0075,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "C_Gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "C_Low": {
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 80.0,
+        "workTime": 10.0
+      },
+      "D_Fast": {
+        "consumableType": "regenCrew",
+        "numConsumables": 2,
+        "regenerationHPSpeed": 0.015,
+        "reloadTime": 80.0,
+        "workTime": 20.0
+      },
+      "D_gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 2,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "EU_DD_High": {
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.01,
+        "reloadTime": 80.0,
+        "workTime": 14.0
+      },
+      "EU_DD_Low": {
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.01,
+        "reloadTime": 80.0,
+        "workTime": 10.0
+      },
+      "Gascogne_gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 40.0,
+        "workTime": 28.0
+      },
+      "UK_CA_PREM": {
+        "consumableType": "regenCrew",
+        "numConsumables": 2,
+        "regenerationHPSpeed": 0.02,
+        "reloadTime": 80.0,
+        "workTime": 20.0
+      },
+      "UK_CL_PREM": {
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.02,
+        "reloadTime": 80.0,
+        "workTime": 20.0
+      },
+      "UK_DD_gold": {
+        "consumableType": "regenCrew",
+        "numConsumables": 2,
+        "regenerationHPSpeed": 0.01,
+        "reloadTime": 80.0,
+        "workTime": 10.0
+      },
+      "UK_HT_BB_PREM": {
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.02,
+        "reloadTime": 120.0,
+        "workTime": 20.0
+      },
+      "USA_Gascogne": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 40.0,
+        "workTime": 28.0
+      }
+    }
+  },
+  "PCY011_AirDefenseDispPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4282556336,
+    "index": "PCY011",
+    "name": "PCY011_AirDefenseDispPremium",
+    "data": {
+      "Anthony_event_Gold": {
+        "areaDamageMultiplier": 2.0,
+        "bubbleDamageMultiplier": 2,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 4,
+        "reloadTime": 120.0,
+        "workTime": 15.0
+      },
+      "Default_Gold": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 3,
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      },
+      "Play_test_Gold": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 2,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 40.0
+      },
+      "SU_DD_Gold": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 4,
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      },
+      "Stalingrad": {
+        "areaDamageMultiplier": 1.25,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 60.0
+      },
+      "UK_UPs_Gold": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 4,
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      },
+      "US_Cruisers_Atlanta": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      },
+      "US_Cruisers_Gold": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 4,
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      },
+      "US_DD_Gold": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 4,
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      },
+      "Yubari_Gold": {
+        "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 2,
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      }
+    }
+  },
+  "PCY012_FighterPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4281507760,
+    "index": "PCY012",
+    "name": "PCY012_FighterPremium",
+    "data": {
+      "Fighter_1": {
+        "climbAngle": 55,
+        "consumableType": "fighter",
+        "distanceToKill": 35.0,
+        "dogFightTime": 5.0,
+        "fightersName": "PAAF001_Grumman_F3F",
+        "fightersNum": 1,
+        "flyAwayTime": 6.0,
+        "numConsumables": 3,
+        "radius": 100.0,
+        "reloadTime": 90.0,
+        "timeDelayAttack": 5.0,
+        "timeToTryingCatch": 40.0,
+        "timeWaitDelayAttack": 10.0,
+        "workTime": 60.0
+      },
+      "Fighter_2": {
+        "climbAngle": 55,
+        "consumableType": "fighter",
+        "distanceToKill": 35.0,
+        "dogFightTime": 5.0,
+        "fightersName": "PAAF001_Grumman_F3F",
+        "fightersNum": 2,
+        "flyAwayTime": 6.0,
+        "numConsumables": 3,
+        "radius": 100.0,
+        "reloadTime": 90.0,
+        "timeDelayAttack": 5.0,
+        "timeToTryingCatch": 40.0,
+        "timeWaitDelayAttack": 10.0,
+        "workTime": 60.0
+      },
+      "Fighter_3": {
+        "climbAngle": 55,
+        "consumableType": "fighter",
+        "distanceToKill": 35.0,
+        "dogFightTime": 5.0,
+        "fightersName": "PAAF001_Grumman_F3F",
+        "fightersNum": 3,
+        "flyAwayTime": 6.0,
+        "numConsumables": 3,
+        "radius": 100.0,
+        "reloadTime": 90.0,
+        "timeDelayAttack": 5.0,
+        "timeToTryingCatch": 40.0,
+        "timeWaitDelayAttack": 10.0,
+        "workTime": 60.0
+      },
+      "Fighter_4": {
+        "climbAngle": 55,
+        "consumableType": "fighter",
+        "distanceToKill": 35.0,
+        "dogFightTime": 5.0,
+        "fightersName": "PAAF001_Grumman_F3F",
+        "fightersNum": 4,
+        "flyAwayTime": 6.0,
+        "numConsumables": 3,
+        "radius": 100.0,
+        "reloadTime": 90.0,
+        "timeDelayAttack": 5.0,
+        "timeToTryingCatch": 40.0,
+        "timeWaitDelayAttack": 10.0,
+        "workTime": 60.0
+      },
+      "Musashi": {
+        "climbAngle": 55,
+        "consumableType": "fighter",
+        "distanceToKill": 35.0,
+        "dogFightTime": 5.0,
+        "fightersName": "PAAF001_Grumman_F3F",
+        "fightersNum": 4,
+        "flyAwayTime": 6.0,
+        "numConsumables": 3,
+        "radius": 100.0,
+        "reloadTime": 90.0,
+        "timeDelayAttack": 5.0,
+        "timeToTryingCatch": 40.0,
+        "timeWaitDelayAttack": 10.0,
+        "workTime": 80.0
+      }
+    }
+  },
+  "PCY013_SpotterPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4280459184,
+    "index": "PCY013",
+    "name": "PCY013_SpotterPremium",
+    "data": {
+      "Default": {
+        "artilleryDistCoeff": 1.2,
+        "consumableType": "scout",
+        "numConsumables": 4,
+        "reloadTime": 240.0,
+        "workTime": 100.0
+      },
+      "Lazo": {
+        "artilleryDistCoeff": 1.2,
+        "consumableType": "scout",
+        "numConsumables": 5,
+        "reloadTime": 10.0,
+        "workTime": 60.0
+      },
+      "Musashi": {
+        "artilleryDistCoeff": 1.2,
+        "consumableType": "scout",
+        "numConsumables": 4,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "Perth": {
+        "artilleryDistCoeff": 1.2,
+        "consumableType": "scout",
+        "numConsumables": 4,
+        "reloadTime": 240.0,
+        "workTime": 180.0
+      }
+    }
+  },
+  "PCY014_SmokeGeneratorPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4279410608,
+    "index": "PCY014",
+    "name": "PCY014_SmokeGeneratorPremium",
+    "data": {
+      "Cruiser_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 80.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "DE_Lvl_10_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 77.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_2_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 45.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_3_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 49.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_4_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 53.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_5_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 57.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_6_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 61.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_7_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 65.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_8_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 69.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "DE_Lvl_9_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 73.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Default": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 60.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 240.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 1.0
+      },
+      "Grozovoi_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 97.0,
+        "numConsumables": 2,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Haida_Gold": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 80.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "titleIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "workTime": 90.0
+      },
+      "IT_Oil_5_7": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 2,
+        "radius": 17.0,
+        "reloadTime": 180.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 25.0
+      },
+      "IT_Oil_8_10": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 2,
+        "radius": 17.0,
+        "reloadTime": 180.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 40.0
+      },
+      "IT_Oil_DD_8_10": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 3,
+        "radius": 17.0,
+        "reloadTime": 180.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 40.0
+      },
+      "IT_Oil_Gorizia": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 2,
+        "radius": 17.0,
+        "reloadTime": 140.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 40.0
+      },
+      "IT_Oil_IMPERO": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 3,
+        "radius": 17.0,
+        "reloadTime": 180.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 45.0
+      },
+      "IT_Oil_Test_Gold": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 15.0,
+        "numConsumables": 3,
+        "radius": 17.0,
+        "reloadTime": 180.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 35.0
+      },
+      "Leone": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 118.0,
+        "numConsumables": 2,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "Lvl_10_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 97.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_2_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 65.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_3_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 69.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_4_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 73.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_5_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 77.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_6_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 81.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_7_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 85.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_8_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 89.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_8_Gold_Kutuzov": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 89.0,
+        "numConsumables": 2,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "Lvl_9_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 93.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "PAZ_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 70.0,
+        "numConsumables": 5,
+        "radius": 15.0,
+        "reloadTime": 100.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "PanOceania_Gold": {
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "titleIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "workTime": 90.0
+      },
+      "Test": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 60.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 10.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
+      "UK_DD": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 40.0,
+        "numConsumables": 6,
+        "radius": 20.0,
+        "reloadTime": 70.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 10.0
+      },
+      "UK_Lvl_10_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 113.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_2_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 85.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_3_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 89.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_4_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 92.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_5_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 96.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_6_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 99.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_7_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 103.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_8_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 106.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "UK_Lvl_9_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 110.0,
+        "numConsumables": 3,
+        "radius": 20.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 15.0
+      },
+      "US_Lvl_10_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 130.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_2_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 106.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_3_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 109.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_4_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 112.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_5_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 115.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_6_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 118.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_7_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 121.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_8_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 124.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "US_Lvl_9_Gold": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 127.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      }
+    }
+  },
+  "PCY015_SpeedBoosterPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4278362032,
+    "index": "PCY015",
+    "name": "PCY015_SpeedBoosterPremium",
+    "data": {
+      "Cossack": {
+        "backwardEngineForsag": 1.75,
+        "backwardEngineForsagMaxSpeed": 5.0,
+        "boostCoeff": 0.08,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 1.75,
+        "forwardEngineForsagMaxSpeed": 34.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "Default": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.08,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "EU_DD_Turbo": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.3,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 4,
+        "reloadTime": 100.0,
+        "workTime": 60.0
+      },
+      "FR_AIGLE_PREM": {
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.2,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "FR_BB_PREM": {
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.08,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 180.0
+      },
+      "FR_CR_6_7_PREM": {
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.15,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 90.0,
+        "workTime": 180.0
+      },
+      "FR_CR_8_9_10_PREM": {
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.2,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 90.0,
+        "workTime": 180.0
+      },
+      "FR_CR_Henri_IV": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.2,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 1.0,
+        "forwardEngineForsagMaxSpeed": 15.0,
+        "numConsumables": 3,
+        "reloadTime": 90.0,
+        "workTime": 180.0
+      },
+      "FR_DD_2_7_PREM": {
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.2,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "FR_DD_8_10_PREM": {
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.2,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 90.0,
+        "workTime": 180.0
+      },
+      "FR_Terrible": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.2,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "GROZOVOI_PREM": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.08,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 2,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "Test": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 10.0,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 120.0
+      },
+      "UK_CL_PREM": {
+        "backwardEngineForsag": 4.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.15,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 4.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      }
+    }
+  },
+  "PCY016_SonarSearchPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4277313456,
+    "index": "PCY016",
+    "name": "PCY016_SonarSearchPremium",
+    "data": {
+      "C_4_7": {
+        "consumableType": "sonar",
+        "distShip": 133.3333,
+        "distTorpedo": 100.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 100.0
+      },
+      "C_4_7_Low": {
+        "consumableType": "sonar",
+        "distShip": 133.3333,
+        "distTorpedo": 100.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 60.0
+      },
+      "C_8_10": {
+        "consumableType": "sonar",
+        "distShip": 166.6666,
+        "distTorpedo": 116.6666,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 100.0
+      },
+      "Default": {
+        "consumableType": "sonar",
+        "distShip": 116.0,
+        "distTorpedo": 84.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 90.0
+      },
+      "Deutsche_C": {
+        "consumableType": "sonar",
+        "distShip": 166.0,
+        "distTorpedo": 116.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 110.0
+      },
+      "Deutsche_C_4_7": {
+        "consumableType": "sonar",
+        "distShip": 183.3333,
+        "distTorpedo": 125.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 110.0
+      },
+      "Deutsche_C_8_10": {
+        "consumableType": "sonar",
+        "distShip": 200.0,
+        "distTorpedo": 133.3333,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 120.0
+      },
+      "DukeOfYork": {
+        "consumableType": "sonar",
+        "distShip": 133.3333,
+        "distTorpedo": 100.0,
+        "maxDepth": -80.0,
+        "numConsumables": 2,
+        "reloadTime": 120.0,
+        "workTime": 100.0
+      },
+      "Haida_gold": {
+        "consumableType": "sonar",
+        "distShip": 116.6666,
+        "distTorpedo": 83.3333,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 180.0
+      },
+      "LoYang": {
+        "consumableType": "sonar",
+        "distShip": 183.3333,
+        "distTorpedo": 125.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 110.0
+      },
+      "S_6": {
+        "consumableType": "sonar",
+        "distShip": 133.3333,
+        "distTorpedo": 100.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 60.0
+      },
+      "Salem": {
+        "consumableType": "sonar",
+        "distShip": 166.6666,
+        "distTorpedo": 116.6666,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 100.0
+      },
+      "UKDD_6_10": {
+        "consumableType": "sonar",
+        "distShip": 100.0,
+        "distTorpedo": 100.0,
+        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 180.0
+      }
+    }
+  },
+  "PCY018_TorpedoReloaderPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4275216304,
+    "index": "PCY018",
+    "name": "PCY018_TorpedoReloaderPremium",
+    "data": {
+      "Default": {
+        "consumableType": "torpedoReloader",
+        "reloadTime": 270.0,
+        "torpedoReloadTime": 60.0,
+        "workTime": 1.0
+      },
+      "Jap_DD_prem_alt": {
+        "consumableType": "torpedoReloader",
+        "numConsumables": 3,
+        "reloadTime": 160.0,
+        "torpedoReloadTime": 5.0,
+        "workTime": 1.0
+      },
+      "Jap_DD_premium": {
+        "consumableType": "torpedoReloader",
+        "numConsumables": 3,
+        "reloadTime": 240.0,
+        "torpedoReloadTime": 8.0,
+        "workTime": 1.0
+      },
+      "Jap_DD_premium_tst": {
+        "consumableType": "torpedoReloader",
+        "numConsumables": 3,
+        "reloadTime": 240.0,
+        "torpedoReloadTime": 5.0,
+        "workTime": 1.0
+      },
+      "Monaghan_style_premium": {
+        "consumableType": "torpedoReloader",
+        "numConsumables": 3,
+        "reloadTime": 240.0,
+        "torpedoReloadTime": 30.0,
+        "workTime": 1.0
+      },
+      "PAZ_premium": {
+        "consumableType": "torpedoReloader",
+        "numConsumables": 3,
+        "reloadTime": 240.0,
+        "torpedoReloadTime": 8.0,
+        "workTime": 1.0
+      }
+    }
+  },
+  "PCY020_RLSSearchPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4273119152,
+    "index": "PCY020",
+    "name": "PCY020_RLSSearchPremium",
+    "data": {
+      "Black": {
+        "consumableType": "rls",
+        "distShip": 250.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 22.0
+      },
+      "Default": {
+        "consumableType": "rls",
+        "distShip": 270.0,
+        "maxDepth": -6.0,
+        "reloadTime": 180.0,
+        "workTime": 15.0
+      },
+      "EU_DD": {
+        "consumableType": "rls",
+        "distShip": 250.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 20.0
+      },
+      "Gb_7_BELFAST_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 283.33,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 25.0
+      },
+      "PAZ_10_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 250.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 25.0
+      },
+      "PAZ_8_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 250.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 20.0
+      },
+      "PAZ_9_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 250.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 22.0
+      },
+      "Salem_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 283.33,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 40.0
+      },
+      "USSR_10_BB": {
+        "affectedClasses": [
+          "Battleship",
+          "AirCarrier"
+        ],
+        "consumableType": "rls",
+        "distShip": 500.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 60.0
+      },
+      "USSR_10_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 400.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 30.0
+      },
+      "USSR_8_BB": {
+        "affectedClasses": [
+          "Battleship",
+          "AirCarrier"
+        ],
+        "consumableType": "rls",
+        "distShip": 500.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 40.0
+      },
+      "USSR_8_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 400.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 20.0
+      },
+      "USSR_9_BB": {
+        "affectedClasses": [
+          "Battleship",
+          "AirCarrier"
+        ],
+        "consumableType": "rls",
+        "distShip": 500.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 50.0
+      },
+      "USSR_9_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 400.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 25.0
+      },
+      "USSR_CA_8_10": {
+        "consumableType": "rls",
+        "distShip": 400.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 15.0
+      },
+      "USSR_OCHAKOV": {
+        "consumableType": "rls",
+        "distShip": 333.3,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 20.0
+      },
+      "US_10_CL": {
+        "consumableType": "rls",
+        "distShip": 300.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 40.0
+      },
+      "US_10_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 333.33,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 40.0
+      },
+      "US_7_ATLANTA_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 283.33,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 25.0
+      },
+      "US_7_INDIANAPOLIS_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 333.33,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 25.0
+      },
+      "US_8_CL": {
+        "consumableType": "rls",
+        "distShip": 300.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 30.0
+      },
+      "US_8_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 333.33,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 30.0
+      },
+      "US_9_CL": {
+        "consumableType": "rls",
+        "distShip": 300.0,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 35.0
+      },
+      "US_9_MISSOURI": {
+        "consumableType": "rls",
+        "distShip": 316.67,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 35.0
+      },
+      "US_9_PREMIUM": {
+        "consumableType": "rls",
+        "distShip": 333.33,
+        "maxDepth": -6.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 35.0
+      }
+    }
+  },
+  "PCY022_ArtilleryBoosterPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4271022000,
+    "index": "PCY022",
+    "name": "PCY022_ArtilleryBoosterPremium",
+    "data": {
+      "Default_gold": {
+        "boostCoeff": 0.75,
+        "consumableType": "artilleryBoosters",
+        "criticalChance": 0.05,
+        "reloadTime": 10.0,
+        "workTime": 10.0
+      },
+      "FR_BB": {
+        "boostCoeff": 0.5,
+        "consumableType": "artilleryBoosters",
+        "numConsumables": 4,
+        "reloadTime": 120.0,
+        "workTime": 20.0
+      },
+      "FR_CR_6_7_8_Gold": {
+        "boostCoeff": 0.5,
+        "consumableType": "artilleryBoosters",
+        "numConsumables": 4,
+        "reloadTime": 120.0,
+        "workTime": 15.0
+      },
+      "FR_CR_9_10_Gold": {
+        "boostCoeff": 0.5,
+        "consumableType": "artilleryBoosters",
+        "numConsumables": 4,
+        "reloadTime": 80.0,
+        "workTime": 15.0
+      },
+      "FR_DD_Gold": {
+        "boostCoeff": 0.5,
+        "consumableType": "artilleryBoosters",
+        "numConsumables": 4,
+        "reloadTime": 100.0,
+        "workTime": 15.0
+      }
+    }
+  }
+}

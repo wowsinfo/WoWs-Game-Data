@@ -20,6 +20,11 @@
     "reload": 34.28
   },
   {
+    "name": "PASB707_California",
+    "tier": 7,
+    "reload": 34.2
+  },
+  {
     "name": "PFSB109_Alsace",
     "tier": 9,
     "reload": 32.0
@@ -121,6 +126,11 @@
   },
   {
     "name": "PRSB518_Lenin",
+    "tier": 8,
+    "reload": 33.0
+  },
+  {
+    "name": "PRSB538_V_I_Lenin",
     "tier": 8,
     "reload": 33.0
   },
