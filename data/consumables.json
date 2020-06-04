@@ -1693,5 +1693,343 @@
         "workTime": 15.0
       }
     }
+  },
+  "PCY043_SubmarineFourthStatePremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4249001904,
+    "index": "PCY043",
+    "name": "PCY043_SubmarineFourthStatePremium",
+    "data": {
+      "Sub": {
+        "consumableType": "subsFourthState",
+        "newWaterline": -80,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 60.0
+      },
+      "Sub_Germany": {
+        "consumableType": "subsFourthState",
+        "newWaterline": -80,
+        "numConsumables": 4,
+        "reloadTime": 60.0,
+        "workTime": 120.0
+      },
+      "Sub_USA": {
+        "consumableType": "subsFourthState",
+        "newWaterline": -80,
+        "numConsumables": 2,
+        "reloadTime": 180.0,
+        "workTime": 180.0
+      }
+    }
+  },
+  "PXY101_MindControlPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4188183824,
+    "index": "PXY101",
+    "name": "PXY101_MindControlPremium",
+    "data": {
+      "Default": {
+        "consumableType": "trigger1",
+        "numConsumables": 4,
+        "reloadTime": 20.0,
+        "workTime": 10.0
+      },
+      "H2017_Kagero": {
+        "consumableType": "trigger1",
+        "numConsumables": 6,
+        "reloadTime": 45.0,
+        "workTime": 40.0
+      }
+    }
+  },
+  "PXY103_ProtectionPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4186086672,
+    "index": "PXY103",
+    "name": "PXY103_ProtectionPremium",
+    "data": {
+      "Default": {
+        "consumableType": "invulnerable",
+        "numConsumables": 2,
+        "reloadTime": 30.0,
+        "workTime": 10.0
+      },
+      "H2017_Tirpiz": {
+        "consumableType": "invulnerable",
+        "numConsumables": 8,
+        "reloadTime": 8.0,
+        "workTime": 10.0
+      }
+    }
+  },
+  "PXY104_HealAuraPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4185038096,
+    "index": "PXY104",
+    "name": "PXY104_HealAuraPremium",
+    "data": {
+      "Default": {
+        "consumableType": "trigger4",
+        "numConsumables": 2,
+        "reloadTime": 20.0,
+        "workTime": 10.0
+      },
+      "H2017_Tirpiz": {
+        "consumableType": "trigger4",
+        "numConsumables": 6,
+        "reloadTime": 45.0,
+        "workTime": 60.0
+      }
+    }
+  },
+  "PXY105_HealAllPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4183989520,
+    "index": "PXY105",
+    "name": "PXY105_HealAllPremium",
+    "data": {
+      "Default": {
+        "consumableType": "trigger5",
+        "numConsumables": 2,
+        "reloadTime": 20.0,
+        "workTime": 10.0
+      },
+      "H2017_Lex": {
+        "consumableType": "trigger5",
+        "numConsumables": 3,
+        "reloadTime": 20.0,
+        "workTime": 5.0
+      }
+    }
+  },
+  "PXY106_CrashAllPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4182940944,
+    "index": "PXY106",
+    "name": "PXY106_CrashAllPremium",
+    "data": {
+      "Default": {
+        "consumableType": "trigger6",
+        "numConsumables": 6,
+        "reloadTime": 20.0,
+        "workTime": 10.0
+      },
+      "H2017_Lex": {
+        "consumableType": "trigger6",
+        "numConsumables": 6,
+        "reloadTime": 30.0,
+        "workTime": 15.0
+      }
+    }
+  },
+  "PXY107_SpeedBoosterPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4181892368,
+    "index": "PXY107",
+    "name": "PXY107_SpeedBoosterPremium",
+    "data": {
+      "Default": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.08,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 2,
+        "reloadTime": 180.0,
+        "workTime": 120.0
+      },
+      "H2017_Kagero": {
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 2.0,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 30.0,
+        "forwardEngineForsagMaxSpeed": 30.0,
+        "numConsumables": 6,
+        "reloadTime": 30.0,
+        "workTime": 80.0
+      }
+    }
+  },
+  "PXY108_HolyWeaponPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4180843792,
+    "index": "PXY108",
+    "name": "PXY108_HolyWeaponPremium",
+    "data": {
+      "Default": {
+        "boostCoeff": 0.75,
+        "consumableType": "artilleryBoosters",
+        "criticalChance": 0.05,
+        "numConsumables": 2,
+        "reloadTime": 10.0,
+        "workTime": 10.0
+      },
+      "H2017_Chapaev": {
+        "boostCoeff": 0.25,
+        "consumableType": "artilleryBoosters",
+        "numConsumables": 6,
+        "reloadTime": 45.0,
+        "workTime": 30.0
+      },
+      "H2019": {
+        "boostCoeff": 0.5,
+        "consumableType": "artilleryBoosters",
+        "numConsumables": 0,
+        "reloadTime": 45.0,
+        "workTime": 30.0
+      }
+    }
+  },
+  "PXY109_TorpedoReloaderPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4179795216,
+    "index": "PXY109",
+    "name": "PXY109_TorpedoReloaderPremium",
+    "data": {
+      "Default": {
+        "consumableType": "torpedoReloader",
+        "numConsumables": 2,
+        "reloadTime": 270.0,
+        "torpedoReloadTime": 60.0,
+        "workTime": 1.0
+      },
+      "H2017_Kagero": {
+        "consumableType": "torpedoReloader",
+        "numConsumables": 4,
+        "reloadTime": 90.0,
+        "torpedoReloadTime": 1.0,
+        "workTime": 1.0
+      }
+    }
+  },
+  "PXY110_RLSSearchPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4178746640,
+    "index": "PXY110",
+    "name": "PXY110_RLSSearchPremium",
+    "data": {
+      "Default": {
+        "consumableType": "rls",
+        "distShip": 270.0,
+        "maxDepth": -6.0,
+        "numConsumables": 6,
+        "reloadTime": 180.0,
+        "workTime": 15.0
+      },
+      "H2017_Chapaev": {
+        "consumableType": "rls",
+        "distShip": 500.0,
+        "maxDepth": -6.0,
+        "reloadTime": 45.0,
+        "workTime": 45.0
+      }
+    }
+  },
+  "PXY112_SmokeGeneratorPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4176649488,
+    "index": "PXY112",
+    "name": "PXY112_SmokeGeneratorPremium",
+    "data": {
+      "Default": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 60.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 240.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 1.0
+      },
+      "H2016": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 60.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 135.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      }
+    }
+  },
+  "PXY113_CrashCrewPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4175600912,
+    "index": "PXY113",
+    "name": "PXY113_CrashCrewPremium",
+    "data": {
+      "Default": {
+        "consumableType": "crashCrew",
+        "numConsumables": 2,
+        "reloadTime": 1800.0,
+        "workTime": 200.0
+      },
+      "H2017_All": {
+        "consumableType": "crashCrew",
+        "reloadTime": 30.0,
+        "workTime": 10.0
+      },
+      "H2019": {
+        "consumableType": "crashCrew",
+        "reloadTime": 30.0,
+        "workTime": 10.0
+      }
+    }
+  },
+  "PXY114_RegenCrewPremium": {
+    "canBuy": false,
+    "canBuyCustom": {},
+    "freeOfCharge": true,
+    "id": 4174552336,
+    "index": "PXY114",
+    "name": "PXY114_RegenCrewPremium",
+    "data": {
+      "H2016": {
+        "consumableType": "regenCrew",
+        "numConsumables": 2,
+        "regenerationHPSpeed": 0.03,
+        "reloadTime": 30.0,
+        "workTime": 10.0
+      },
+      "H2019": {
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.2,
+        "reloadTime": 30.0,
+        "workTime": 15.0
+      }
+    }
   }
 }

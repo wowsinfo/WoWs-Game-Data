@@ -13,7 +13,7 @@ Some additional information for all ships that don't exist in the official API.
 - Ship consumables
 - AP shell information for calculating the penetration value
 - Indicate whether this is a paper ship
-- Total battles (wows-numbers.com/ships/, dataProvider.ships)
+- Total battles (https://wows-numbers.com/ships/, dataProvider.ships)
 
 ### AP Penetration
 - [reddit post](https://www.reddit.com/r/WorldOfWarships/comments/560yg2/wows_ballistic_model_penetration/)
@@ -40,6 +40,8 @@ A list of torpedoes which are more than 12km in range. There are some interestin
 ## Slow reloading guns (> 30sec)
 ## Big guns (>= 410mm)
 ## Small guns (< 120mm)
+## Ships
+All ships in the game including deleted ships and special event ships.
 
 ## Submarines
 A list of all submarines in the game. There are currently not visible on the API. 
