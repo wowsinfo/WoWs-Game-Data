@@ -2,7 +2,7 @@
   {
     "name": "PASB006_New_York_1934",
     "tier": 5,
-    "reload": 31.0
+    "reload": 30.5
   },
   {
     "name": "PASB034_New_Mexico_1941",
@@ -26,6 +26,11 @@
   },
   {
     "name": "PFSB109_Alsace",
+    "tier": 9,
+    "reload": 32.0
+  },
+  {
+    "name": "PGSB509_Ludendorff",
     "tier": 9,
     "reload": 32.0
   },
@@ -65,7 +70,12 @@
     "reload": 31.0
   },
   {
-    "name": "PJSB888_Asama",
+    "name": "PJSB878_Ignis_Purgatio",
+    "tier": 8,
+    "reload": 33.0
+  },
+  {
+    "name": "PJSB888_Ragnarok",
     "tier": 8,
     "reload": 33.0
   },

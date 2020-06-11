@@ -817,6 +817,18 @@
         "startDelayTime": 2.0,
         "workTime": 20.0
       },
+      "Ognevoy": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 89.0,
+        "numConsumables": 2,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
+      },
       "PAZ_Gold": {
         "consumableType": "smokeGenerator",
         "height": 5.0,
@@ -1083,6 +1095,18 @@
         "speedLimit": 12.5,
         "startDelayTime": 2.0,
         "workTime": 30.0
+      },
+      "Udaloy": {
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 93.0,
+        "numConsumables": 2,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 20.0
       }
     }
   },
@@ -1274,7 +1298,7 @@
         "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
-        "workTime": 60.0
+        "workTime": 70.0
       },
       "C_8_10": {
         "consumableType": "sonar",

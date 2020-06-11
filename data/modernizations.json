@@ -99,7 +99,8 @@
       "PGSB598",
       "PJSB506",
       "PJSB508",
-      "PJSC026"
+      "PJSC026",
+      "PGSB509"
     ],
     "shiptype": [
       "Cruiser",
@@ -383,7 +384,7 @@
     ]
   },
   "4238528432": {
-    "slot": 4,
+    "slot": 5,
     "ships": [
       "PASC210"
     ]
@@ -671,7 +672,8 @@
       "PRSC310",
       "PRSC215",
       "PRSC515",
-      "PGSD509"
+      "PGSB509",
+      "PGSD518"
     ],
     "excludes": [
       "PXSA005",
@@ -998,6 +1000,7 @@
       "PRSC209",
       "PRSC515",
       "PFSB528",
+      "PJSB878",
       "PJSB888",
       "PJSB510"
     ],
@@ -1158,7 +1161,7 @@
       "PBSD110",
       "PWSD510",
       "PZSD208",
-      "PGSD509"
+      "PGSD518"
     ]
   },
   "4257402800": {
@@ -1869,6 +1872,9 @@
     "shiplevel": [
       9,
       10
+    ],
+    "ships": [
+      "PGSB509"
     ],
     "shiptype": [
       "Cruiser",

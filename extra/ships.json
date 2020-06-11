@@ -65,7 +65,11 @@
   },
   "3363780304": {
     "ship_id_str": "PJSB888",
-    "name": "PJSB888_Asama"
+    "name": "PJSB888_Ragnarok"
+  },
+  "3374266064": {
+    "ship_id_str": "PJSB878",
+    "name": "PJSB878_Ignis_Purgatio"
   },
   "3439605008": {
     "ship_id_str": "PXSX815",
@@ -331,6 +335,10 @@
     "ship_id_str": "PJSD518",
     "name": "PJSD518_Asashio"
   },
+  "3751687984": {
+    "ship_id_str": "PGSD518",
+    "name": "PGSD518_Z_35"
+  },
   "3751720144": {
     "ship_id_str": "PZSC518",
     "name": "PZSC518_Martel_Wukong"
@@ -459,10 +467,6 @@
     "ship_id_str": "PASA510",
     "name": "PASA510_Roosevelt"
   },
-  "3761125168": {
-    "ship_id_str": "PGSD509",
-    "name": "PGSD509_Z_35"
-  },
   "3761125360": {
     "ship_id_str": "PASD509",
     "name": "PASD509_Benham"
@@ -482,6 +486,10 @@
   "3761190608": {
     "ship_id_str": "PJSB509",
     "name": "PJSB509_Musashi"
+  },
+  "3761190704": {
+    "ship_id_str": "PGSB509",
+    "name": "PGSB509_Ludendorff"
   },
   "3761190896": {
     "ship_id_str": "PASB509",
@@ -694,6 +702,10 @@
   "3764336624": {
     "ship_id_str": "PASB506",
     "name": "PASB506_Arizona_1941"
+  },
+  "3764369200": {
+    "ship_id_str": "PGSA506",
+    "name": "PGSA506_Erich_Loewenhardt"
   },
   "3765319120": {
     "ship_id_str": "PRSD505",
