@@ -1,5 +1,8 @@
-# WoWs Game Data (0.9.5.0)
+# WoWs Game Data (0.9.5.1)
 Extract some game data from World of Warships. There are also some other data that are collected by me. Most of them are formatted so it is possible to see what has changed. I may add more if WoWs Info needs it.
+
+## Setup
+You need to install python3, jyputer notebook and matplotlib (optional)
 
 ## Modernizations
 It includes all modernization (upgrades, legendary upgrades and special upgrades).

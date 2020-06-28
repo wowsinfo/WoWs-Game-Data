@@ -555,7 +555,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 1393
   },
   "3374266064": {
     "permoflages": [
@@ -596,7 +597,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 1210
   },
   "3439605008": {
     "consumables": [
@@ -923,7 +925,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 71664
+    "battles": 72287
   },
   "3530504176": {
     "permoflages": [
@@ -971,7 +973,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1207111
+    "battles": 1312169
   },
   "3532568272": {
     "permoflages": [
@@ -1012,7 +1014,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 15720
+    "battles": 15890
   },
   "3541972688": {
     "permoflages": [
@@ -1048,7 +1050,7 @@
         }
       ]
     ],
-    "battles": 46332
+    "battles": 47246
   },
   "3542005744": {
     "permoflages": [
@@ -1094,7 +1096,7 @@
         }
       ]
     ],
-    "battles": 46766
+    "battles": 47521
   },
   "3543054032": {
     "permoflages": [
@@ -1135,7 +1137,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 337347
+    "battles": 339632
   },
   "3550394352": {
     "permoflages": [
@@ -1183,7 +1185,7 @@
         }
       ]
     ],
-    "battles": 1695237
+    "battles": 1731246
   },
   "3551409616": {
     "permoflages": [
@@ -1232,7 +1234,7 @@
         }
       ]
     ],
-    "battles": 23846
+    "battles": 24801
   },
   "3551410160": {
     "permoflages": [
@@ -1279,7 +1281,7 @@
         }
       ]
     ],
-    "battles": 302717
+    "battles": 309014
   },
   "3551442640": {
     "permoflages": [
@@ -1320,7 +1322,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1058438
+    "battles": 1063478
   },
   "3551475152": {
     "permoflages": [
@@ -1398,7 +1400,7 @@
         }
       ]
     ],
-    "battles": 569563
+    "battles": 574495
   },
   "3552491216": {
     "permoflages": [
@@ -1446,7 +1448,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1735433
+    "battles": 1746764
   },
   "3552523984": {
     "permoflages": [
@@ -1483,7 +1485,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 821597
+    "battles": 827533
   },
   "3552524016": {
     "permoflages": [
@@ -1572,7 +1574,7 @@
         }
       ]
     ],
-    "battles": 2568
+    "battles": 2588
   },
   "3553539792": {
     "permoflages": [
@@ -1613,7 +1615,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 401083
+    "battles": 402900
   },
   "3553540080": {
     "permoflages": [
@@ -1655,7 +1657,7 @@
         }
       ]
     ],
-    "battles": 298394
+    "battles": 301649
   },
   "3553572560": {
     "permoflages": [
@@ -1692,7 +1694,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1113326
+    "battles": 1118441
   },
   "3553572848": {
     "permoflages": [
@@ -1732,7 +1734,8 @@
           "type": "Fighter_3"
         }
       ]
-    ]
+    ],
+    "battles": 34
   },
   "3554555600": {
     "permoflages": [
@@ -1769,7 +1772,7 @@
         }
       ]
     ],
-    "battles": 973189
+    "battles": 981653
   },
   "3554588464": {
     "permoflages": [
@@ -1816,7 +1819,7 @@
         }
       ]
     ],
-    "battles": 384918
+    "battles": 389579
   },
   "3554621136": {
     "permoflages": [
@@ -1853,7 +1856,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 628709
+    "battles": 632811
   },
   "3555636944": {
     "permoflages": [
@@ -1894,7 +1897,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1150515
+    "battles": 1156975
   },
   "3555669712": {
     "permoflages": [
@@ -1931,7 +1934,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1772700
+    "battles": 1783511
   },
   "3555670000": {
     "permoflages": [
@@ -1971,7 +1974,7 @@
         }
       ]
     ],
-    "battles": 1731593
+    "battles": 1749703
   },
   "3558094544": {
     "consumables": [
@@ -2035,7 +2038,7 @@
         }
       ]
     ],
-    "battles": 86929
+    "battles": 98185
   },
   "3655251408": {
     "permoflages": [
@@ -2083,7 +2086,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2259943
+    "battles": 2389885
   },
   "3655251952": {
     "permoflages": [
@@ -2140,7 +2143,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 300890
+    "battles": 323563
   },
   "3658397424": {
     "permoflages": [
@@ -2182,7 +2185,7 @@
         }
       ]
     ],
-    "battles": 556140
+    "battles": 563754
   },
   "3659445712": {
     "permoflages": [
@@ -2216,7 +2219,7 @@
         }
       ]
     ],
-    "battles": 39058
+    "battles": 41700
   },
   "3660461904": {
     "alphaPiercingHE": 22.0,
@@ -2333,7 +2336,7 @@
         }
       ]
     ],
-    "battles": 154791
+    "battles": 163216
   },
   "3667801808": {
     "permoflages": [
@@ -2377,7 +2380,7 @@
         }
       ]
     ],
-    "battles": 359459
+    "battles": 367149
   },
   "3667834576": {
     "permoflages": [
@@ -2425,7 +2428,7 @@
         }
       ]
     ],
-    "battles": 210204
+    "battles": 214238
   },
   "3667867440": {
     "permoflages": [
@@ -2467,7 +2470,7 @@
         }
       ]
     ],
-    "battles": 405318
+    "battles": 419375
   },
   "3667867632": {
     "permoflages": [
@@ -2509,7 +2512,7 @@
         }
       ]
     ],
-    "battles": 563985
+    "battles": 582838
   },
   "3667900208": {
     "permoflages": [
@@ -2520,7 +2523,7 @@
     ],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 99120
+    "battles": 105194
   },
   "3668850672": {
     "permoflages": [
@@ -2560,7 +2563,7 @@
         }
       ]
     ],
-    "battles": 42669
+    "battles": 44032
   },
   "3668883440": {
     "permoflages": [
@@ -2600,7 +2603,7 @@
         }
       ]
     ],
-    "battles": 162551
+    "battles": 164034
   },
   "3668916016": {
     "permoflages": [
@@ -2640,7 +2643,7 @@
         }
       ]
     ],
-    "battles": 126381
+    "battles": 133672
   },
   "3730748880": {
     "permoflages": [
@@ -2684,7 +2687,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 53638
+    "battles": 88687
   },
   "3730781648": {
     "permoflages": [
@@ -2760,7 +2763,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 16427
+    "battles": 28536
   },
   "3741267408": {
     "permoflages": [
@@ -2844,7 +2847,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 364
   },
   "3741300720": {
     "permoflages": [
@@ -2854,7 +2858,7 @@
       4182273968
     ],
     "consumables": [],
-    "battles": 210794
+    "battles": 218869
   },
   "3742316496": {
     "permoflages": [
@@ -2894,7 +2898,7 @@
         }
       ]
     ],
-    "battles": 1271058
+    "battles": 1280863
   },
   "3744380368": {
     "permoflages": [
@@ -2933,7 +2937,8 @@
           "type": "Fighter_2"
         }
       ]
-    ]
+    ],
+    "battles": 7599
   },
   "3749623248": {
     "permoflages": [
@@ -3022,7 +3027,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 997798
+    "battles": 1063748
   },
   "3750672176": {
     "permoflages": [
@@ -3060,7 +3065,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 42451
   },
   "3751687888": {
     "permoflages": [
@@ -3104,7 +3110,7 @@
         }
       ]
     ],
-    "battles": 1068662
+    "battles": 1096595
   },
   "3751687984": {
     "permoflages": [
@@ -3187,7 +3193,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 11544
+    "battles": 12180
   },
   "3751720400": {
     "permoflages": [
@@ -3228,7 +3234,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 201124
+    "battles": 205766
   },
   "3751720752": {
     "permoflages": [
@@ -3271,7 +3277,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 107942
+    "battles": 137366
   },
   "3751753168": {
     "permoflages": [
@@ -3311,7 +3317,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 421387
+    "battles": 448641
   },
   "3751753552": {
     "permoflages": [
@@ -3354,7 +3360,7 @@
         }
       ]
     ],
-    "battles": 2984476
+    "battles": 3097663
   },
   "3751753712": {
     "permoflages": [
@@ -3396,7 +3402,7 @@
         }
       ]
     ],
-    "battles": 1523313
+    "battles": 1612497
   },
   "3751786192": {
     "permoflages": [
@@ -3406,7 +3412,7 @@
       4182273968
     ],
     "consumables": [],
-    "battles": 320659
+    "battles": 340135
   },
   "3751786288": {
     "permoflages": [
@@ -3418,7 +3424,7 @@
     ],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 416278
+    "battles": 441654
   },
   "3751786448": {
     "permoflages": [
@@ -3428,7 +3434,7 @@
       4182273968
     ],
     "consumables": [],
-    "battles": 125297
+    "battles": 133272
   },
   "3751786480": {
     "permoflages": [
@@ -3439,7 +3445,7 @@
       4182273968
     ],
     "consumables": [],
-    "battles": 323778
+    "battles": 335475
   },
   "3752736720": {
     "permoflages": [
@@ -3486,7 +3492,7 @@
         }
       ]
     ],
-    "battles": 961567
+    "battles": 976489
   },
   "3752802256": {
     "permoflages": [
@@ -3517,7 +3523,7 @@
         }
       ]
     ],
-    "battles": 1672771
+    "battles": 1694974
   },
   "3753818064": {
     "permoflages": [
@@ -3560,7 +3566,7 @@
         }
       ]
     ],
-    "battles": 77349
+    "battles": 84152
   },
   "3754866128": {
     "permoflages": [
@@ -3598,7 +3604,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 90492
+    "battles": 188546
   },
   "3756963280": {
     "permoflages": [
@@ -3623,7 +3629,7 @@
         }
       ]
     ],
-    "battles": 87674
+    "battles": 88451
   },
   "3759585072": {
     "consumables": [
@@ -3686,7 +3692,7 @@
         }
       ]
     ],
-    "battles": 525410
+    "battles": 560192
   },
   "3760076496": {
     "permoflages": [
@@ -3729,7 +3735,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 5964
+    "battles": 9219
   },
   "3760076528": {
     "permoflages": [
@@ -3802,7 +3808,7 @@
         }
       ]
     ],
-    "battles": 134110
+    "battles": 143605
   },
   "3760109008": {
     "permoflages": [
@@ -3848,7 +3854,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 768049
+    "battles": 807782
   },
   "3760109264": {
     "permoflages": [
@@ -3896,7 +3902,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 327319
+    "battles": 348030
   },
   "3760109392": {
     "permoflages": [
@@ -3943,7 +3949,7 @@
         }
       ]
     ],
-    "battles": 111171
+    "battles": 122178
   },
   "3760109552": {
     "permoflages": [
@@ -3999,7 +4005,7 @@
         }
       ]
     ],
-    "battles": 1401406
+    "battles": 1478507
   },
   "3760141776": {
     "permoflages": [
@@ -4008,11 +4014,11 @@
     ],
     "alphaPiercingHE": 68.0,
     "ap": {
-      "weight": 1108.0,
+      "weight": 890.0,
       "diameter": 0.406,
-      "drag": 0.2367,
+      "drag": 0.2,
       "velocity": 870.0,
-      "krupp": 2430.0
+      "krupp": 2890.0
     },
     "sigma": 1.9,
     "consumables": [
@@ -4070,7 +4076,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 13556
   },
   "3760142160": {
     "permoflages": [
@@ -4116,7 +4123,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 208307
+    "battles": 222625
   },
   "3760142288": {
     "permoflages": [
@@ -4147,7 +4154,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 912231
+    "battles": 1025339
   },
   "3760142320": {
     "permoflages": [
@@ -4189,7 +4196,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 190240
+    "battles": 216550
   },
   "3760174896": {
     "permoflages": [
@@ -4245,7 +4252,7 @@
         }
       ]
     ],
-    "battles": 511681
+    "battles": 532293
   },
   "3761157584": {
     "permoflages": [
@@ -4293,7 +4300,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1063402
+    "battles": 1075531
   },
   "3761157936": {
     "permoflages": [
@@ -4345,7 +4352,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 11336
   },
   "3761190096": {
     "permoflages": [
@@ -4388,7 +4396,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 39656
+    "battles": 42276
   },
   "3761190608": {
     "permoflages": [
@@ -4430,7 +4438,7 @@
         }
       ]
     ],
-    "battles": 3277645
+    "battles": 3337544
   },
   "3761190704": {
     "permoflages": [
@@ -4446,7 +4454,7 @@
       "velocity": 820.0,
       "krupp": 2450.0
     },
-    "sigma": 1.8,
+    "sigma": 1.6,
     "consumables": [
       [
         {
@@ -4505,7 +4513,7 @@
         }
       ]
     ],
-    "battles": 4250043
+    "battles": 4277718
   },
   "3761681872": {
     "permoflages": [
@@ -4565,7 +4573,7 @@
         }
       ]
     ],
-    "battles": 1478955
+    "battles": 1490253
   },
   "3762173232": {
     "permoflages": [
@@ -4609,7 +4617,7 @@
         }
       ]
     ],
-    "battles": 29394
+    "battles": 38512
   },
   "3762173744": {
     "permoflages": [
@@ -4651,7 +4659,7 @@
         }
       ]
     ],
-    "battles": 395879
+    "battles": 409215
   },
   "3762173776": {
     "permoflages": [
@@ -4690,7 +4698,7 @@
         }
       ]
     ],
-    "battles": 204457
+    "battles": 210518
   },
   "3762173936": {
     "permoflages": [
@@ -4738,7 +4746,7 @@
         }
       ]
     ],
-    "battles": 613035
+    "battles": 622047
   },
   "3762205904": {
     "permoflages": [
@@ -4769,7 +4777,7 @@
         }
       ]
     ],
-    "battles": 273181
+    "battles": 283624
   },
   "3762206160": {
     "permoflages": [
@@ -4803,7 +4811,7 @@
         }
       ]
     ],
-    "battles": 3717812
+    "battles": 3731880
   },
   "3762206512": {
     "permoflages": [
@@ -4852,7 +4860,7 @@
         }
       ]
     ],
-    "battles": 1514264
+    "battles": 1536996
   },
   "3762206544": {
     "permoflages": [
@@ -4894,7 +4902,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 180860
+    "battles": 191337
   },
   "3762206672": {
     "permoflages": [
@@ -4938,7 +4946,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 19854
+    "battles": 21917
   },
   "3762206704": {
     "permoflages": [
@@ -4984,7 +4992,7 @@
         }
       ]
     ],
-    "battles": 99629
+    "battles": 102859
   },
   "3762238928": {
     "permoflages": [
@@ -5021,7 +5029,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 20000
+    "battles": 21293
   },
   "3762239184": {
     "permoflages": [
@@ -5065,7 +5073,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 580335
+    "battles": 592548
   },
   "3762239216": {
     "permoflages": [
@@ -5108,7 +5116,7 @@
         }
       ]
     ],
-    "battles": 799172
+    "battles": 815388
   },
   "3762239280": {
     "permoflages": [
@@ -5158,7 +5166,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 12748
   },
   "3762239312": {
     "permoflages": [
@@ -5210,7 +5219,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 419156
+    "battles": 426284
   },
   "3762239440": {
     "permoflages": [
@@ -5242,7 +5251,7 @@
         }
       ]
     ],
-    "battles": 232403
+    "battles": 238831
   },
   "3762239472": {
     "permoflages": [
@@ -5285,7 +5294,7 @@
         }
       ]
     ],
-    "battles": 1595115
+    "battles": 1612611
   },
   "3762272048": {
     "permoflages": [
@@ -5302,7 +5311,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 121763
+    "battles": 121830
   },
   "3762272208": {
     "permoflages": [
@@ -5312,7 +5321,7 @@
       4182273968
     ],
     "consumables": [],
-    "battles": 43978
+    "battles": 49098
   },
   "3762272240": {
     "permoflages": [
@@ -5328,7 +5337,7 @@
         }
       ]
     ],
-    "battles": 216733
+    "battles": 216911
   },
   "3762730256": {
     "consumables": [
@@ -5383,7 +5392,7 @@
         }
       ]
     ],
-    "battles": 193831
+    "battles": 197410
   },
   "3763221968": {
     "permoflages": [
@@ -5420,7 +5429,7 @@
         }
       ]
     ],
-    "battles": 1176542
+    "battles": 1182652
   },
   "3763222224": {
     "permoflages": [
@@ -5462,7 +5471,7 @@
         }
       ]
     ],
-    "battles": 62708
+    "battles": 66606
   },
   "3763254608": {
     "permoflages": [
@@ -5502,7 +5511,7 @@
         }
       ]
     ],
-    "battles": 131790
+    "battles": 132853
   },
   "3763255024": {
     "permoflages": [
@@ -5548,7 +5557,7 @@
         }
       ]
     ],
-    "battles": 239655
+    "battles": 242759
   },
   "3763255248": {
     "permoflages": [
@@ -5590,7 +5599,7 @@
         }
       ]
     ],
-    "battles": 2494869
+    "battles": 2504169
   },
   "3763255280": {
     "permoflages": [
@@ -5634,7 +5643,7 @@
         }
       ]
     ],
-    "battles": 1055087
+    "battles": 1060012
   },
   "3763287760": {
     "permoflages": [
@@ -5666,7 +5675,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 203002
+    "battles": 208094
   },
   "3763287856": {
     "permoflages": [
@@ -5710,7 +5719,7 @@
         }
       ]
     ],
-    "battles": 6888404
+    "battles": 6954795
   },
   "3763288016": {
     "permoflages": [
@@ -5750,7 +5759,7 @@
         }
       ]
     ],
-    "battles": 947622
+    "battles": 956741
   },
   "3763288048": {
     "permoflages": [
@@ -5787,7 +5796,7 @@
         }
       ]
     ],
-    "battles": 123436
+    "battles": 130237
   },
   "3763320528": {
     "permoflages": [
@@ -5802,7 +5811,7 @@
         }
       ]
     ],
-    "battles": 261741
+    "battles": 261802
   },
   "3763320816": {
     "permoflages": [
@@ -5817,7 +5826,7 @@
         }
       ]
     ],
-    "battles": 707334
+    "battles": 708292
   },
   "3764270288": {
     "permoflages": [
@@ -5854,7 +5863,7 @@
         }
       ]
     ],
-    "battles": 722415
+    "battles": 731058
   },
   "3764270832": {
     "permoflages": [
@@ -5932,7 +5941,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 512918
+    "battles": 538332
   },
   "3764270928": {
     "permoflages": [
@@ -5969,7 +5978,7 @@
         }
       ]
     ],
-    "battles": 1420815
+    "battles": 1436941
   },
   "3764271056": {
     "permoflages": [
@@ -6006,7 +6015,7 @@
         }
       ]
     ],
-    "battles": 995811
+    "battles": 1000256
   },
   "3764271088": {
     "permoflages": [
@@ -6052,7 +6061,7 @@
         }
       ]
     ],
-    "battles": 201645
+    "battles": 204129
   },
   "3764303056": {
     "permoflages": [
@@ -6093,7 +6102,7 @@
         }
       ]
     ],
-    "battles": 366702
+    "battles": 373305
   },
   "3764303216": {
     "permoflages": [
@@ -6139,7 +6148,7 @@
         }
       ]
     ],
-    "battles": 557464
+    "battles": 562740
   },
   "3764303312": {
     "permoflages": [
@@ -6179,7 +6188,7 @@
         }
       ]
     ],
-    "battles": 1204429
+    "battles": 1212828
   },
   "3764303600": {
     "permoflages": [
@@ -6221,7 +6230,7 @@
         }
       ]
     ],
-    "battles": 773864
+    "battles": 778558
   },
   "3764303664": {
     "permoflages": [
@@ -6271,7 +6280,7 @@
         }
       ]
     ],
-    "battles": 3443241
+    "battles": 3502480
   },
   "3764303696": {
     "permoflages": [
@@ -6318,7 +6327,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 648634
+    "battles": 655255
   },
   "3764336336": {
     "permoflages": [
@@ -6354,7 +6363,7 @@
         }
       ]
     ],
-    "battles": 529565
+    "battles": 536039
   },
   "3764336432": {
     "permoflages": [
@@ -6386,7 +6395,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1072367
+    "battles": 1104471
   },
   "3764336464": {
     "permoflages": [
@@ -6427,7 +6436,7 @@
         }
       ]
     ],
-    "battles": 2553013
+    "battles": 2580553
   },
   "3764336624": {
     "permoflages": [
@@ -6463,7 +6472,7 @@
         }
       ]
     ],
-    "battles": 952144
+    "battles": 961013
   },
   "3764369200": {
     "permoflages": [
@@ -6508,7 +6517,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 433702
+    "battles": 438789
   },
   "3765319664": {
     "permoflages": [
@@ -6546,7 +6555,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 83945
+    "battles": 86327
   },
   "3765351888": {
     "permoflages": [
@@ -6576,7 +6585,7 @@
         }
       ]
     ],
-    "battles": 141215
+    "battles": 142810
   },
   "3765352144": {
     "permoflages": [
@@ -6618,7 +6627,7 @@
         }
       ]
     ],
-    "battles": 26933
+    "battles": 28445
   },
   "3765352176": {
     "permoflages": [
@@ -6654,7 +6663,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 224457
+    "battles": 228014
   },
   "3765352400": {
     "permoflages": [
@@ -6696,7 +6705,7 @@
         }
       ]
     ],
-    "battles": 287200
+    "battles": 294685
   },
   "3765384656": {
     "permoflages": [
@@ -6728,7 +6737,7 @@
         }
       ]
     ],
-    "battles": 1951446
+    "battles": 1980784
   },
   "3765384944": {
     "permoflages": [
@@ -6758,7 +6767,7 @@
         }
       ]
     ],
-    "battles": 1538314
+    "battles": 1554685
   },
   "3766368080": {
     "permoflages": [
@@ -6795,7 +6804,7 @@
         }
       ]
     ],
-    "battles": 55083
+    "battles": 56511
   },
   "3766433072": {
     "permoflages": [
@@ -6825,7 +6834,7 @@
         }
       ]
     ],
-    "battles": 62773
+    "battles": 66870
   },
   "3767416176": {
     "permoflages": [
@@ -6854,7 +6863,7 @@
         }
       ]
     ],
-    "battles": 327713
+    "battles": 329288
   },
   "3767416784": {
     "permoflages": [
@@ -6890,7 +6899,7 @@
         }
       ]
     ],
-    "battles": 944948
+    "battles": 949346
   },
   "3767448848": {
     "consumables": [
@@ -6925,7 +6934,7 @@
         }
       ]
     ],
-    "battles": 14881
+    "battles": 14998
   },
   "3767449296": {
     "permoflages": [
@@ -6956,7 +6965,7 @@
         }
       ]
     ],
-    "battles": 108817
+    "battles": 109775
   },
   "3767449584": {
     "permoflages": [
@@ -6981,7 +6990,7 @@
         }
       ]
     ],
-    "battles": 390322
+    "battles": 408575
   },
   "3767482160": {
     "permoflages": [
@@ -7011,7 +7020,7 @@
         }
       ]
     ],
-    "battles": 237809
+    "battles": 238970
   },
   "3767482320": {
     "permoflages": [
@@ -7042,7 +7051,7 @@
         }
       ]
     ],
-    "battles": 40825
+    "battles": 41842
   },
   "3768465392": {
     "permoflages": [
@@ -7078,7 +7087,7 @@
         }
       ]
     ],
-    "battles": 295205
+    "battles": 299522
   },
   "3768497968": {
     "permoflages": [
@@ -7103,7 +7112,7 @@
         }
       ]
     ],
-    "battles": 827563
+    "battles": 832203
   },
   "3769513264": {
     "permoflages": [
@@ -7141,7 +7150,7 @@
         }
       ]
     ],
-    "battles": 2488380
+    "battles": 2521952
   },
   "3865982416": {
     "permoflages": [
@@ -7182,7 +7191,7 @@
         }
       ]
     ],
-    "battles": 938830
+    "battles": 948793
   },
   "3867587856": {
     "consumables": [
@@ -7240,7 +7249,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 476
+    "battles": 1547
   },
   "3971888592": {
     "permoflages": [
@@ -7285,7 +7294,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1172494
+    "battles": 1184424
   },
   "3972445456": {
     "consumables": [
@@ -7339,7 +7348,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1651919
+    "battles": 1707761
   },
   "4069438928": {
     "alphaPiercingHE": 25.0,
@@ -7371,7 +7380,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 5035
   },
   "4074649040": {
     "permoflages": [
@@ -7421,7 +7431,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1079719
+    "battles": 1095754
   },
   "4074649296": {
     "permoflages": [
@@ -7465,7 +7475,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1443894
+    "battles": 1481967
   },
   "4074649424": {
     "permoflages": [
@@ -7503,7 +7513,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 35321
+    "battles": 49260
   },
   "4074681808": {
     "permoflages": [
@@ -7549,7 +7559,8 @@
         }
       ]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 56573
   },
   "4074682320": {
     "permoflages": [
@@ -7591,7 +7602,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 93064
+    "battles": 109946
   },
   "4074682352": {
     "permoflages": [
@@ -7650,7 +7661,7 @@
         }
       ]
     ],
-    "battles": 2173340
+    "battles": 2218841
   },
   "4074747856": {
     "permoflages": [
@@ -7659,7 +7670,7 @@
     ],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 356165
+    "battles": 372606
   },
   "4075697872": {
     "permoflages": [
@@ -7699,7 +7710,7 @@
         }
       ]
     ],
-    "battles": 4425861
+    "battles": 4487606
   },
   "4075730384": {
     "permoflages": [
@@ -7755,7 +7766,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 9956
+    "battles": 35785
   },
   "4075730896": {
     "permoflages": [
@@ -7803,7 +7814,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 214537
+    "battles": 243836
   },
   "4075730928": {
     "permoflages": [
@@ -7861,7 +7872,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1478422
+    "battles": 1517129
   },
   "4076745936": {
     "permoflages": [
@@ -7900,7 +7911,7 @@
         }
       ]
     ],
-    "battles": 16558
+    "battles": 17584
   },
   "4076746192": {
     "permoflages": [
@@ -7950,7 +7961,7 @@
         }
       ]
     ],
-    "battles": 1346131
+    "battles": 1361427
   },
   "4076746448": {
     "permoflages": [
@@ -7992,7 +8003,7 @@
         }
       ]
     ],
-    "battles": 4992165
+    "battles": 5060828
   },
   "4076778960": {
     "permoflages": [
@@ -8035,7 +8046,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 8076
+    "battles": 52145
   },
   "4076779472": {
     "permoflages": [
@@ -8084,7 +8095,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 339500
+    "battles": 371137
   },
   "4076779504": {
     "permoflages": [
@@ -8139,7 +8150,7 @@
         }
       ]
     ],
-    "battles": 3693726
+    "battles": 3762761
   },
   "4077303056": {
     "consumables": [
@@ -8187,7 +8198,7 @@
         }
       ]
     ],
-    "battles": 906851
+    "battles": 919048
   },
   "4077795024": {
     "permoflages": [
@@ -8226,7 +8237,7 @@
         }
       ]
     ],
-    "battles": 2376141
+    "battles": 2408256
   },
   "4077828048": {
     "permoflages": [
@@ -8273,7 +8284,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 280682
+    "battles": 307976
   },
   "4077828080": {
     "permoflages": [
@@ -8316,7 +8327,7 @@
         }
       ]
     ],
-    "battles": 986321
+    "battles": 1017613
   },
   "4078843344": {
     "permoflages": [
@@ -8352,7 +8363,7 @@
         }
       ]
     ],
-    "battles": 1005682
+    "battles": 1015395
   },
   "4078843600": {
     "permoflages": [
@@ -8388,7 +8399,7 @@
         }
       ]
     ],
-    "battles": 2104039
+    "battles": 2127654
   },
   "4078876624": {
     "permoflages": [
@@ -8428,7 +8439,7 @@
         }
       ]
     ],
-    "battles": 347093
+    "battles": 378432
   },
   "4078876656": {
     "permoflages": [
@@ -8472,7 +8483,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1189470
+    "battles": 1218476
   },
   "4079891920": {
     "permoflages": [
@@ -8508,7 +8519,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 832750
+    "battles": 843588
   },
   "4079925200": {
     "permoflages": [
@@ -8547,11 +8558,11 @@
         }
       ]
     ],
-    "battles": 178108
+    "battles": 199352
   },
   "4081039312": {
     "consumables": [],
-    "battles": 522821
+    "battles": 542903
   },
   "4179015120": {
     "consumables": [
@@ -8622,7 +8633,7 @@
         }
       ]
     ],
-    "battles": 1160543
+    "battles": 1178484
   },
   "4179506480": {
     "permoflages": [
@@ -8665,7 +8676,7 @@
         }
       ]
     ],
-    "battles": 283574
+    "battles": 409337
   },
   "4179506640": {
     "permoflages": [
@@ -8708,7 +8719,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1572404
+    "battles": 1584258
   },
   "4179506992": {
     "permoflages": [
@@ -8754,7 +8765,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2117178
+    "battles": 2149696
   },
   "4179507024": {
     "permoflages": [
@@ -8793,7 +8804,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 282723
+    "battles": 299198
   },
   "4179507152": {
     "permoflages": [
@@ -8830,7 +8841,7 @@
         }
       ]
     ],
-    "battles": 677771
+    "battles": 703732
   },
   "4179539408": {
     "permoflages": [
@@ -8879,7 +8890,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3492812
+    "battles": 3593378
   },
   "4179539696": {
     "permoflages": [
@@ -8927,7 +8938,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 606875
+    "battles": 693962
   },
   "4179539760": {
     "permoflages": [
@@ -8979,7 +8990,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 6977571
+    "battles": 7090499
   },
   "4179539792": {
     "permoflages": [
@@ -9034,7 +9045,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2013877
+    "battles": 2042662
   },
   "4179539920": {
     "permoflages": [
@@ -9081,7 +9092,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 5168230
+    "battles": 5248387
   },
   "4179572176": {
     "permoflages": [
@@ -9112,7 +9123,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1273679
+    "battles": 1342461
   },
   "4179572528": {
     "permoflages": [
@@ -9160,7 +9171,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 8648622
+    "battles": 8859102
   },
   "4179572560": {
     "permoflages": [
@@ -9198,7 +9209,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3000322
+    "battles": 3065103
   },
   "4179572688": {
     "permoflages": [
@@ -9229,7 +9240,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3011784
+    "battles": 3073407
   },
   "4179605200": {
     "permoflages": [
@@ -9239,7 +9250,7 @@
     ],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 748279
+    "battles": 784710
   },
   "4179605296": {
     "permoflages": [
@@ -9254,7 +9265,7 @@
       4290375600
     ],
     "consumables": [],
-    "battles": 1055012
+    "battles": 1097771
   },
   "4180554960": {
     "permoflages": [
@@ -9294,7 +9305,7 @@
         }
       ]
     ],
-    "battles": 892207
+    "battles": 907551
   },
   "4180555056": {
     "permoflages": [
@@ -9337,7 +9348,7 @@
         }
       ]
     ],
-    "battles": 345440
+    "battles": 448179
   },
   "4180555216": {
     "permoflages": [
@@ -9373,7 +9384,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1142613
+    "battles": 1143884
   },
   "4180555568": {
     "permoflages": [
@@ -9416,7 +9427,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1816890
+    "battles": 1843078
   },
   "4180555600": {
     "permoflages": [
@@ -9453,7 +9464,7 @@
         }
       ]
     ],
-    "battles": 380772
+    "battles": 398516
   },
   "4180555728": {
     "permoflages": [
@@ -9489,7 +9500,7 @@
         }
       ]
     ],
-    "battles": 887234
+    "battles": 913926
   },
   "4180587984": {
     "permoflages": [
@@ -9536,7 +9547,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3105429
+    "battles": 3272173
   },
   "4180588272": {
     "permoflages": [
@@ -9584,7 +9595,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 516721
+    "battles": 569781
   },
   "4180588336": {
     "permoflages": [
@@ -9635,7 +9646,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 4511551
+    "battles": 4575711
   },
   "4180588368": {
     "permoflages": [
@@ -9697,7 +9708,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1574330
+    "battles": 1602532
   },
   "4180588496": {
     "permoflages": [
@@ -9743,7 +9754,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3432772
+    "battles": 3476663
   },
   "4180588528": {
     "permoflages": [
@@ -9799,7 +9810,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1722996
+    "battles": 1771181
   },
   "4180620752": {
     "permoflages": [
@@ -9835,7 +9846,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1033893
+    "battles": 1093603
   },
   "4180621104": {
     "permoflages": [
@@ -9882,7 +9893,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 6290851
+    "battles": 6421642
   },
   "4180621136": {
     "permoflages": [
@@ -9925,7 +9936,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2727932
+    "battles": 2791966
   },
   "4180621264": {
     "permoflages": [
@@ -9966,7 +9977,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1758155
+    "battles": 1794011
   },
   "4181112272": {
     "consumables": [
@@ -10037,7 +10048,7 @@
         }
       ]
     ],
-    "battles": 873611
+    "battles": 887569
   },
   "4181603632": {
     "permoflages": [
@@ -10081,7 +10092,7 @@
         }
       ]
     ],
-    "battles": 386619
+    "battles": 490151
   },
   "4181603792": {
     "permoflages": [
@@ -10117,7 +10128,7 @@
         }
       ]
     ],
-    "battles": 629154
+    "battles": 629797
   },
   "4181604048": {
     "permoflages": [
@@ -10160,7 +10171,7 @@
         }
       ]
     ],
-    "battles": 2422137
+    "battles": 2472678
   },
   "4181604144": {
     "permoflages": [
@@ -10206,7 +10217,7 @@
         }
       ]
     ],
-    "battles": 2381020
+    "battles": 2411765
   },
   "4181604176": {
     "permoflages": [
@@ -10244,7 +10255,7 @@
         }
       ]
     ],
-    "battles": 371064
+    "battles": 386774
   },
   "4181604304": {
     "permoflages": [
@@ -10275,7 +10286,7 @@
         }
       ]
     ],
-    "battles": 1286096
+    "battles": 1317222
   },
   "4181636560": {
     "permoflages": [
@@ -10310,7 +10321,7 @@
         }
       ]
     ],
-    "battles": 3845529
+    "battles": 3900621
   },
   "4181636848": {
     "permoflages": [
@@ -10353,7 +10364,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 642292
+    "battles": 702319
   },
   "4181636912": {
     "permoflages": [
@@ -10395,7 +10406,7 @@
         }
       ]
     ],
-    "battles": 7362627
+    "battles": 7453387
   },
   "4181636944": {
     "permoflages": [
@@ -10452,7 +10463,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2818350
+    "battles": 2856248
   },
   "4181637072": {
     "permoflages": [
@@ -10507,7 +10518,7 @@
         }
       ]
     ],
-    "battles": 4412402
+    "battles": 4459317
   },
   "4181637104": {
     "permoflages": [
@@ -10554,7 +10565,7 @@
         }
       ]
     ],
-    "battles": 1987103
+    "battles": 2045578
   },
   "4181669328": {
     "permoflages": [
@@ -10593,7 +10604,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1450252
+    "battles": 1529481
   },
   "4181669680": {
     "permoflages": [
@@ -10645,7 +10656,7 @@
         }
       ]
     ],
-    "battles": 15314091
+    "battles": 15585433
   },
   "4181669712": {
     "permoflages": [
@@ -10694,7 +10705,7 @@
         }
       ]
     ],
-    "battles": 3210194
+    "battles": 3272986
   },
   "4181669840": {
     "permoflages": [
@@ -10737,7 +10748,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2506957
+    "battles": 2555400
   },
   "4181702352": {
     "permoflages": [
@@ -10747,7 +10758,7 @@
       4287229872
     ],
     "consumables": [],
-    "battles": 1111348
+    "battles": 1171121
   },
   "4181702448": {
     "permoflages": [
@@ -10765,7 +10776,7 @@
       4214779856
     ],
     "consumables": [],
-    "battles": 731399
+    "battles": 759117
   },
   "4181702640": {
     "permoflages": [
@@ -10776,7 +10787,7 @@
       4287229872
     ],
     "consumables": [],
-    "battles": 1351982
+    "battles": 1413112
   },
   "4182160656": {
     "consumables": [
@@ -10822,7 +10833,7 @@
         }
       ]
     ],
-    "battles": 1276537
+    "battles": 1291125
   },
   "4182652208": {
     "permoflages": [
@@ -10859,7 +10870,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 412449
+    "battles": 489511
   },
   "4182652368": {
     "permoflages": [
@@ -10908,7 +10919,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1297879
+    "battles": 1309737
   },
   "4182652624": {
     "permoflages": [
@@ -10943,7 +10954,7 @@
         }
       ]
     ],
-    "battles": 5683807
+    "battles": 5752223
   },
   "4182652720": {
     "permoflages": [
@@ -10984,7 +10995,7 @@
         }
       ]
     ],
-    "battles": 2529709
+    "battles": 2556605
   },
   "4182652752": {
     "permoflages": [
@@ -11020,7 +11031,7 @@
         }
       ]
     ],
-    "battles": 375069
+    "battles": 389548
   },
   "4182652880": {
     "permoflages": [
@@ -11055,7 +11066,7 @@
         }
       ]
     ],
-    "battles": 1166446
+    "battles": 1186602
   },
   "4182685136": {
     "permoflages": [
@@ -11087,7 +11098,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 4396510
+    "battles": 4455281
   },
   "4182685424": {
     "permoflages": [
@@ -11127,7 +11138,7 @@
         }
       ]
     ],
-    "battles": 602055
+    "battles": 648099
   },
   "4182685488": {
     "permoflages": [
@@ -11167,7 +11178,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 8096384
+    "battles": 8181155
   },
   "4182685520": {
     "permoflages": [
@@ -11219,7 +11230,7 @@
         }
       ]
     ],
-    "battles": 2905520
+    "battles": 2936121
   },
   "4182685648": {
     "permoflages": [
@@ -11267,7 +11278,7 @@
         }
       ]
     ],
-    "battles": 5510678
+    "battles": 5562169
   },
   "4182685680": {
     "permoflages": [
@@ -11309,7 +11320,7 @@
         }
       ]
     ],
-    "battles": 1605715
+    "battles": 1651463
   },
   "4182717904": {
     "permoflages": [
@@ -11345,7 +11356,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1409264
+    "battles": 1474725
   },
   "4182718256": {
     "permoflages": [
@@ -11384,7 +11395,7 @@
         }
       ]
     ],
-    "battles": 10903253
+    "battles": 11056208
   },
   "4182718288": {
     "permoflages": [
@@ -11414,7 +11425,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3598271
+    "battles": 3651001
   },
   "4182718416": {
     "permoflages": [
@@ -11453,7 +11464,7 @@
         }
       ]
     ],
-    "battles": 3540697
+    "battles": 3591603
   },
   "4183209424": {
     "consumables": [
@@ -11555,7 +11566,7 @@
         }
       ]
     ],
-    "battles": 1119846
+    "battles": 1130918
   },
   "4183700784": {
     "permoflages": [
@@ -11592,7 +11603,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 423296
+    "battles": 475113
   },
   "4183700944": {
     "permoflages": [
@@ -11627,7 +11638,7 @@
         }
       ]
     ],
-    "battles": 1094321
+    "battles": 1096441
   },
   "4183701200": {
     "permoflages": [
@@ -11662,7 +11673,7 @@
         }
       ]
     ],
-    "battles": 4217492
+    "battles": 4272228
   },
   "4183701296": {
     "permoflages": [
@@ -11705,7 +11716,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3162255
+    "battles": 3194235
   },
   "4183701328": {
     "permoflages": [
@@ -11741,7 +11752,7 @@
         }
       ]
     ],
-    "battles": 429736
+    "battles": 443300
   },
   "4183701456": {
     "permoflages": [
@@ -11777,7 +11788,7 @@
         }
       ]
     ],
-    "battles": 1044550
+    "battles": 1060412
   },
   "4183733712": {
     "permoflages": [
@@ -11811,7 +11822,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 4752323
+    "battles": 4800931
   },
   "4183734000": {
     "permoflages": [
@@ -11851,7 +11862,7 @@
         }
       ]
     ],
-    "battles": 648330
+    "battles": 689720
   },
   "4183734064": {
     "permoflages": [
@@ -11892,7 +11903,7 @@
         }
       ]
     ],
-    "battles": 10831342
+    "battles": 10940543
   },
   "4183734096": {
     "permoflages": [
@@ -11940,7 +11951,7 @@
         }
       ]
     ],
-    "battles": 3446218
+    "battles": 3479515
   },
   "4183734224": {
     "permoflages": [
@@ -11991,7 +12002,7 @@
         }
       ]
     ],
-    "battles": 4731353
+    "battles": 4769702
   },
   "4183734256": {
     "permoflages": [
@@ -12031,7 +12042,7 @@
         }
       ]
     ],
-    "battles": 1416528
+    "battles": 1458475
   },
   "4183766480": {
     "permoflages": [
@@ -12061,7 +12072,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1215385
+    "battles": 1270393
   },
   "4183766832": {
     "permoflages": [
@@ -12098,7 +12109,7 @@
         }
       ]
     ],
-    "battles": 8787785
+    "battles": 8902539
   },
   "4183766864": {
     "permoflages": [
@@ -12130,7 +12141,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2416824
+    "battles": 2454990
   },
   "4183766992": {
     "permoflages": [
@@ -12166,14 +12177,14 @@
         }
       ]
     ],
-    "battles": 2790856
+    "battles": 2828177
   },
   "4183799504": {
     "permoflages": [
       4172836784
     ],
     "consumables": [],
-    "battles": 1393867
+    "battles": 1456647
   },
   "4183799600": {
     "permoflages": [
@@ -12188,14 +12199,14 @@
       3926421456
     ],
     "consumables": [],
-    "battles": 978055
+    "battles": 1006564
   },
   "4183799792": {
     "permoflages": [
       4172836784
     ],
     "consumables": [],
-    "battles": 1397612
+    "battles": 1452384
   },
   "4184749264": {
     "alphaPiercingHE": 20.0,
@@ -12228,7 +12239,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 996010
+    "battles": 1006802
   },
   "4184749360": {
     "permoflages": [
@@ -12263,7 +12274,7 @@
         }
       ]
     ],
-    "battles": 339501
+    "battles": 384275
   },
   "4184749520": {
     "permoflages": [
@@ -12298,7 +12309,7 @@
         }
       ]
     ],
-    "battles": 1517011
+    "battles": 1521316
   },
   "4184749776": {
     "alphaPiercingHE": 20.0,
@@ -12330,7 +12341,7 @@
         }
       ]
     ],
-    "battles": 2935346
+    "battles": 2978090
   },
   "4184749872": {
     "alphaPiercingHE": 18.0,
@@ -12368,7 +12379,7 @@
         }
       ]
     ],
-    "battles": 3162239
+    "battles": 3196879
   },
   "4184749904": {
     "permoflages": [
@@ -12397,7 +12408,7 @@
         }
       ]
     ],
-    "battles": 321438
+    "battles": 333075
   },
   "4184750032": {
     "alphaPiercingHE": 20.0,
@@ -12423,7 +12434,7 @@
         }
       ]
     ],
-    "battles": 725881
+    "battles": 740081
   },
   "4184782288": {
     "alphaPiercingHE": 30.0,
@@ -12455,7 +12466,7 @@
         }
       ]
     ],
-    "battles": 3928345
+    "battles": 3959579
   },
   "4184782576": {
     "permoflages": [
@@ -12494,7 +12505,7 @@
         }
       ]
     ],
-    "battles": 459761
+    "battles": 492016
   },
   "4184782640": {
     "alphaPiercingHE": 38.0,
@@ -12526,7 +12537,7 @@
         }
       ]
     ],
-    "battles": 9724601
+    "battles": 9826324
   },
   "4184782672": {
     "alphaPiercingHE": 25.0,
@@ -12558,7 +12569,7 @@
         }
       ]
     ],
-    "battles": 3426626
+    "battles": 3457653
   },
   "4184782800": {
     "permoflages": [
@@ -12606,7 +12617,7 @@
         }
       ]
     ],
-    "battles": 3505811
+    "battles": 3535847
   },
   "4184815056": {
     "alphaPiercingHE": 59.0,
@@ -12633,7 +12644,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 886463
+    "battles": 931819
   },
   "4184815408": {
     "alphaPiercingHE": 76.0,
@@ -12665,7 +12676,7 @@
         }
       ]
     ],
-    "battles": 8192716
+    "battles": 8306100
   },
   "4184815440": {
     "alphaPiercingHE": 57.0,
@@ -12691,7 +12702,7 @@
         }
       ]
     ],
-    "battles": 1480895
+    "battles": 1506776
   },
   "4184815568": {
     "alphaPiercingHE": 86.0,
@@ -12723,7 +12734,7 @@
         }
       ]
     ],
-    "battles": 2995750
+    "battles": 3033470
   },
   "4185797840": {
     "alphaPiercingHE": 21.0,
@@ -12755,7 +12766,7 @@
         }
       ]
     ],
-    "battles": 813299
+    "battles": 819313
   },
   "4185797936": {
     "alphaPiercingHE": 20.0,
@@ -12781,7 +12792,7 @@
         }
       ]
     ],
-    "battles": 30265
+    "battles": 39041
   },
   "4185798096": {
     "alphaPiercingHE": 17.0,
@@ -12813,7 +12824,7 @@
         }
       ]
     ],
-    "battles": 2315000
+    "battles": 2327051
   },
   "4185798448": {
     "alphaPiercingHE": 18.0,
@@ -12846,7 +12857,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2708842
+    "battles": 2730061
   },
   "4185798480": {
     "alphaPiercingHE": 22.0,
@@ -12872,7 +12883,7 @@
         }
       ]
     ],
-    "battles": 51493
+    "battles": 55392
   },
   "4185798608": {
     "alphaPiercingHE": 17.0,
@@ -12898,7 +12909,7 @@
         }
       ]
     ],
-    "battles": 250032
+    "battles": 261541
   },
   "4185830864": {
     "alphaPiercingHE": 22.0,
@@ -12924,7 +12935,7 @@
         }
       ]
     ],
-    "battles": 2437143
+    "battles": 2457377
   },
   "4185831152": {
     "alphaPiercingCS": 42.3,
@@ -12950,7 +12961,7 @@
         }
       ]
     ],
-    "battles": 91051
+    "battles": 99510
   },
   "4185831216": {
     "alphaPiercingHE": 38.0,
@@ -12976,7 +12987,7 @@
         }
       ]
     ],
-    "battles": 4986767
+    "battles": 5031800
   },
   "4185831248": {
     "alphaPiercingHE": 26.0,
@@ -13008,7 +13019,7 @@
         }
       ]
     ],
-    "battles": 2036867
+    "battles": 2050828
   },
   "4185831376": {
     "ap": {
@@ -13039,7 +13050,7 @@
         }
       ]
     ],
-    "battles": 2538593
+    "battles": 2560150
   },
   "4185863632": {
     "alphaPiercingHE": 51.0,
@@ -13065,7 +13076,7 @@
         }
       ]
     ],
-    "battles": 191010
+    "battles": 202824
   },
   "4185863984": {
     "alphaPiercingHE": 76.0,
@@ -13091,7 +13102,7 @@
         }
       ]
     ],
-    "battles": 5227698
+    "battles": 5277774
   },
   "4185864016": {
     "alphaPiercingHE": 51.0,
@@ -13117,7 +13128,7 @@
         }
       ]
     ],
-    "battles": 537574
+    "battles": 547420
   },
   "4185864144": {
     "alphaPiercingHE": 86.0,
@@ -13143,11 +13154,11 @@
         }
       ]
     ],
-    "battles": 1839956
+    "battles": 1858360
   },
   "4185896656": {
     "consumables": [],
-    "battles": 972544
+    "battles": 1021193
   },
   "4185896752": {
     "consumables": [],
@@ -13155,7 +13166,7 @@
   },
   "4185896944": {
     "consumables": [],
-    "battles": 945850
+    "battles": 993481
   },
   "4186846416": {
     "alphaPiercingHE": 17.0,
@@ -13187,7 +13198,7 @@
         }
       ]
     ],
-    "battles": 299849
+    "battles": 302094
   },
   "4186846512": {
     "alphaPiercingHE": 17.0,
@@ -13213,7 +13224,7 @@
         }
       ]
     ],
-    "battles": 20495
+    "battles": 25600
   },
   "4186846672": {
     "alphaPiercingHE": 17.0,
@@ -13245,7 +13256,7 @@
         }
       ]
     ],
-    "battles": 1476085
+    "battles": 1484921
   },
   "4186847024": {
     "alphaPiercingHE": 18.0,
@@ -13277,7 +13288,7 @@
         }
       ]
     ],
-    "battles": 1226485
+    "battles": 1236754
   },
   "4186847056": {
     "alphaPiercingHE": 17.0,
@@ -13304,7 +13315,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 26825
+    "battles": 28627
   },
   "4186847184": {
     "alphaPiercingHE": 17.0,
@@ -13330,7 +13341,7 @@
         }
       ]
     ],
-    "battles": 98811
+    "battles": 102072
   },
   "4186879440": {
     "alphaPiercingHE": 25.0,
@@ -13350,7 +13361,7 @@
         }
       ]
     ],
-    "battles": 1158959
+    "battles": 1169951
   },
   "4186879728": {
     "alphaPiercingCS": 41.8,
@@ -13370,7 +13381,7 @@
         }
       ]
     ],
-    "battles": 31642
+    "battles": 33808
   },
   "4186879792": {
     "alphaPiercingHE": 18.0,
@@ -13390,7 +13401,7 @@
         }
       ]
     ],
-    "battles": 3071978
+    "battles": 3099702
   },
   "4186879824": {
     "alphaPiercingHE": 23.0,
@@ -13411,7 +13422,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1109007
+    "battles": 1118306
   },
   "4186879952": {
     "ap": {
@@ -13436,7 +13447,7 @@
         }
       ]
     ],
-    "battles": 1326492
+    "battles": 1337320
   },
   "4186912208": {
     "alphaPiercingHE": 51.0,
@@ -13463,7 +13474,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 88619
+    "battles": 93564
   },
   "4186912560": {
     "permoflages": [
@@ -13492,7 +13503,7 @@
         }
       ]
     ],
-    "battles": 2691710
+    "battles": 2718108
   },
   "4186912592": {
     "alphaPiercingHE": 51.0,
@@ -13519,7 +13530,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 300905
+    "battles": 304890
   },
   "4186912720": {
     "alphaPiercingHE": 76.0,
@@ -13545,7 +13556,7 @@
         }
       ]
     ],
-    "battles": 730063
+    "battles": 736935
   },
   "4187894992": {
     "alphaPiercingHE": 18.0,
@@ -13578,7 +13589,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 293724
+    "battles": 296587
   },
   "4187895088": {
     "alphaPiercingHE": 17.0,
@@ -13604,7 +13615,7 @@
         }
       ]
     ],
-    "battles": 15742
+    "battles": 18766
   },
   "4187895248": {
     "alphaPiercingHE": 17.0,
@@ -13637,7 +13648,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 767607
+    "battles": 773584
   },
   "4187895600": {
     "alphaPiercingHE": 15.0,
@@ -13669,7 +13680,7 @@
         }
       ]
     ],
-    "battles": 1088617
+    "battles": 1097299
   },
   "4187895632": {
     "alphaPiercingHE": 17.0,
@@ -13695,7 +13706,7 @@
         }
       ]
     ],
-    "battles": 19124
+    "battles": 20239
   },
   "4187895760": {
     "alphaPiercingHE": 17.0,
@@ -13721,7 +13732,7 @@
         }
       ]
     ],
-    "battles": 57317
+    "battles": 58932
   },
   "4187928016": {
     "alphaPiercingHE": 20.0,
@@ -13741,7 +13752,7 @@
         }
       ]
     ],
-    "battles": 359872
+    "battles": 363230
   },
   "4187928304": {
     "alphaPiercingCS": 34.2,
@@ -13761,7 +13772,7 @@
         }
       ]
     ],
-    "battles": 30801
+    "battles": 32704
   },
   "4187928400": {
     "alphaPiercingHE": 28.0,
@@ -13781,7 +13792,7 @@
         }
       ]
     ],
-    "battles": 330131
+    "battles": 332895
   },
   "4187928528": {
     "ap": {
@@ -13806,7 +13817,7 @@
         }
       ]
     ],
-    "battles": 482022
+    "battles": 486293
   },
   "4188976336": {
     "alphaPiercingHE": 21.0,
@@ -13819,7 +13830,7 @@
         }
       ]
     ],
-    "battles": 126063
+    "battles": 127045
   },
   "4188976432": {
     "alphaPiercingHE": 20.0,
@@ -13832,7 +13843,7 @@
         }
       ]
     ],
-    "battles": 25550
+    "battles": 30703
   },
   "4188976592": {
     "alphaPiercingHE": 22.0,
@@ -13846,7 +13857,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 768121
+    "battles": 773473
   },
   "4188976880": {
     "alphaPiercingHE": 20.0,
@@ -13859,7 +13870,7 @@
         }
       ]
     ],
-    "battles": 23886
+    "battles": 25059
   },
   "4188976976": {
     "alphaPiercingHE": 23.0,
@@ -13872,7 +13883,7 @@
         }
       ]
     ],
-    "battles": 221965
+    "battles": 223145
   },
   "4188977104": {
     "alphaPiercingHE": 17.0,
@@ -13885,7 +13896,7 @@
         }
       ]
     ],
-    "battles": 1111114
+    "battles": 1116485
   },
   "4247008528": {
     "permoflages": [
@@ -13935,7 +13946,7 @@
         }
       ]
     ],
-    "battles": 57423
+    "battles": 59225
   },
   "4248057104": {
     "permoflages": [
@@ -13985,7 +13996,7 @@
         }
       ]
     ],
-    "battles": 431099
+    "battles": 439233
   },
   "4249105680": {
     "consumables": [
@@ -14047,7 +14058,7 @@
         }
       ]
     ],
-    "battles": 5501988
+    "battles": 5542516
   },
   "4256085712": {
     "alphaPiercingHE": 20.0,
@@ -14060,7 +14071,7 @@
         }
       ]
     ],
-    "battles": 598944
+    "battles": 603584
   },
   "4258182864": {
     "alphaPiercingHE": 25.0,
@@ -14080,7 +14091,7 @@
         }
       ]
     ],
-    "battles": 1257535
+    "battles": 1269507
   },
   "4258542864": {
     "consumables": [
@@ -14142,7 +14153,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 6084263
+    "battles": 6179611
   },
   "4259264496": {
     "permoflages": [
@@ -14178,7 +14189,7 @@
         }
       ]
     ],
-    "battles": 10843906
+    "battles": 10947814
   },
   "4259591440": {
     "consumables": [
@@ -14228,7 +14239,7 @@
         }
       ]
     ],
-    "battles": 1387886
+    "battles": 1394087
   },
   "4266538992": {
     "alphaPiercingHE": 17.0,
@@ -14260,7 +14271,7 @@
         }
       ]
     ],
-    "battles": 2313271
+    "battles": 2332114
   },
   "4266931472": {
     "consumables": [
@@ -14307,7 +14318,7 @@
         }
       ]
     ],
-    "battles": 3324420
+    "battles": 3339990
   },
   "4267620048": {
     "permoflages": [
@@ -14344,7 +14355,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 92303
+    "battles": 92711
   },
   "4267980048": {
     "consumables": [
@@ -14390,7 +14401,7 @@
         }
       ]
     ],
-    "battles": 423578
+    "battles": 427320
   },
   "4269028624": {
     "consumables": [
@@ -14444,7 +14455,7 @@
         }
       ]
     ],
-    "battles": 2166485
+    "battles": 2183254
   },
   "4269717488": {
     "alphaPiercingHE": 25.0,
@@ -14471,7 +14482,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 5606383
+    "battles": 5655536
   },
   "4270077200": {
     "consumables": [
@@ -14539,7 +14550,7 @@
         }
       ]
     ],
-    "battles": 4888559
+    "battles": 4927506
   },
   "4272895696": {
     "permoflages": [
@@ -14580,7 +14591,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 4403060
+    "battles": 4478751
   },
   "4273878288": {
     "sigma": 2.0,
@@ -14643,7 +14654,7 @@
         }
       ]
     ],
-    "battles": 6224055
+    "battles": 6329525
   },
   "4274926864": {
     "consumables": []
@@ -14678,7 +14689,7 @@
         }
       ]
     ],
-    "battles": 4654977
+    "battles": 4700344
   },
   "4274960368": {
     "alphaPiercingHE": 34.0,
@@ -14816,7 +14827,7 @@
         }
       ]
     ],
-    "battles": 9412136
+    "battles": 9575492
   },
   "4276041712": {
     "permoflages": [
@@ -14856,7 +14867,7 @@
         }
       ]
     ],
-    "battles": 6826151
+    "battles": 6925580
   },
   "4276368656": {
     "consumables": [
@@ -14905,7 +14916,7 @@
         }
       ]
     ],
-    "battles": 550520
+    "battles": 554285
   },
   "4277057520": {
     "permoflages": [
@@ -14958,7 +14969,7 @@
         }
       ]
     ],
-    "battles": 1837461
+    "battles": 1840200
   },
   "4277090288": {
     "permoflages": [
@@ -15000,7 +15011,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 7236114
+    "battles": 7344351
   },
   "4277122768": {
     "permoflages": [
@@ -15016,7 +15027,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 396189
+    "battles": 396392
   },
   "4277417232": {
     "consumables": [
@@ -15095,7 +15106,7 @@
         }
       ]
     ],
-    "battles": 2992621
+    "battles": 3017403
   },
   "4279219920": {
     "permoflages": [
@@ -15109,7 +15120,7 @@
         }
       ]
     ],
-    "battles": 715574
+    "battles": 716156
   },
   "4279220208": {
     "permoflages": [
@@ -15123,7 +15134,7 @@
         }
       ]
     ],
-    "battles": 644862
+    "battles": 645053
   },
   "4280169744": {
     "consumables": []
@@ -15162,7 +15173,7 @@
         }
       ]
     ],
-    "battles": 109372
+    "battles": 110613
   },
   "4280170480": {
     "alphaPiercingHE": 21.0,
@@ -15199,7 +15210,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 5178513
+    "battles": 5221993
   },
   "4280202960": {
     "permoflages": [
@@ -15282,7 +15293,7 @@
         }
       ]
     ],
-    "battles": 3471135
+    "battles": 3477746
   },
   "4281218320": {
     "consumables": [],
@@ -15329,7 +15340,7 @@
         }
       ]
     ],
-    "battles": 5385695
+    "battles": 5444847
   },
   "4281251088": {
     "permoflages": [
@@ -15378,7 +15389,7 @@
         }
       ]
     ],
-    "battles": 5519493
+    "battles": 5561440
   },
   "4281284304": {
     "permoflages": [
@@ -15420,7 +15431,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 7072552
+    "battles": 7159466
   },
   "4281284592": {
     "permoflages": [
@@ -15450,7 +15461,7 @@
         }
       ]
     ],
-    "battles": 1267827
+    "battles": 1274099
   },
   "4281317360": {
     "permoflages": [
@@ -15464,7 +15475,7 @@
         }
       ]
     ],
-    "battles": 847940
+    "battles": 848498
   },
   "4282266896": {
     "alphaPiercingHE": 21.0,
@@ -15509,7 +15520,7 @@
         }
       ]
     ],
-    "battles": 10419308
+    "battles": 10578102
   },
   "4282299664": {
     "permoflages": [
@@ -15577,7 +15588,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3734658
+    "battles": 3787435
   },
   "4282300400": {
     "permoflages": [
@@ -15616,7 +15627,7 @@
         }
       ]
     ],
-    "battles": 5368725
+    "battles": 5382109
   },
   "4282333168": {
     "permoflages": [
@@ -15658,7 +15669,7 @@
         }
       ]
     ],
-    "battles": 10557993
+    "battles": 10686834
   },
   "4282365648": {
     "permoflages": [
@@ -15673,7 +15684,7 @@
         }
       ]
     ],
-    "battles": 1370053
+    "battles": 1371150
   },
   "4282365936": {
     "permoflages": [
@@ -15689,7 +15700,7 @@
         }
       ]
     ],
-    "battles": 1839912
+    "battles": 1842132
   },
   "4283315472": {
     "alphaPiercingHE": 21.0,
@@ -15756,7 +15767,7 @@
         }
       ]
     ],
-    "battles": 191327
+    "battles": 192813
   },
   "4283414224": {
     "permoflages": [
@@ -15770,7 +15781,7 @@
         }
       ]
     ],
-    "battles": 2067800
+    "battles": 2070877
   },
   "4284364048": {
     "alphaPiercingHE": 21.0,
@@ -15814,7 +15825,7 @@
         }
       ]
     ],
-    "battles": 1189340
+    "battles": 1191272
   },
   "4284396816": {
     "alphaPiercingHE": 51.0,
@@ -15851,7 +15862,7 @@
         }
       ]
     ],
-    "battles": 17254
+    "battles": 18674
   },
   "4284429584": {
     "permoflages": [
@@ -15906,7 +15917,7 @@
         }
       ]
     ],
-    "battles": 7781255
+    "battles": 7860743
   },
   "4284463088": {
     "permoflages": [
@@ -15920,7 +15931,7 @@
         }
       ]
     ],
-    "battles": 2557361
+    "battles": 2562217
   },
   "4285412624": {
     "permoflages": [
@@ -15994,7 +16005,7 @@
         }
       ]
     ],
-    "battles": 6486005
+    "battles": 6560567
   },
   "4285478160": {
     "permoflages": [
@@ -16023,7 +16034,7 @@
         }
       ]
     ],
-    "battles": 2725693
+    "battles": 2731838
   },
   "4286461200": {
     "alphaPiercingHE": 21.0,
@@ -16077,7 +16088,7 @@
         }
       ]
     ],
-    "battles": 5098755
+    "battles": 5135359
   },
   "4286494416": {
     "permoflages": [
@@ -16116,7 +16127,7 @@
         }
       ]
     ],
-    "battles": 6578761
+    "battles": 6638909
   },
   "4286526736": {
     "permoflages": [
@@ -16162,7 +16173,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1109464
+    "battles": 1116333
   },
   "4286527472": {
     "permoflages": [
@@ -16201,7 +16212,7 @@
         }
       ]
     ],
-    "battles": 8836872
+    "battles": 8926681
   },
   "4287509776": {
     "consumables": [
@@ -16252,7 +16263,7 @@
         }
       ]
     ],
-    "battles": 2890979
+    "battles": 2896538
   },
   "4287542544": {
     "alphaPiercingHE": 37.0,
@@ -16304,7 +16315,7 @@
         }
       ]
     ],
-    "battles": 6535328
+    "battles": 6594126
   },
   "4287543280": {
     "permoflages": [
@@ -16344,7 +16355,7 @@
         }
       ]
     ],
-    "battles": 10822192
+    "battles": 10861125
   },
   "4287575312": {
     "alphaPiercingHE": 101.0,
@@ -16389,7 +16400,7 @@
         }
       ]
     ],
-    "battles": 7469310
+    "battles": 7546643
   },
   "4288558800": {
     "permoflages": [
@@ -16428,7 +16439,7 @@
         }
       ]
     ],
-    "battles": 3229846
+    "battles": 3239771
   },
   "4288559088": {
     "permoflages": [
@@ -16467,7 +16478,7 @@
         }
       ]
     ],
-    "battles": 5168101
+    "battles": 5205681
   },
   "4288591120": {
     "ap": {
@@ -16519,7 +16530,7 @@
         }
       ]
     ],
-    "battles": 4652736
+    "battles": 4682637
   },
   "4288623888": {
     "alphaPiercingHE": 72.0,
@@ -16570,7 +16581,7 @@
         }
       ]
     ],
-    "battles": 9249156
+    "battles": 9335623
   },
   "4288624624": {
     "permoflages": [
@@ -16606,7 +16617,7 @@
         }
       ]
     ],
-    "battles": 8945310
+    "battles": 9037739
   },
   "4288657104": {
     "consumables": [
@@ -16617,7 +16628,7 @@
         }
       ]
     ],
-    "battles": 3385671
+    "battles": 3396312
   },
   "4288657392": {
     "permoflages": [
@@ -16631,7 +16642,7 @@
         }
       ]
     ],
-    "battles": 3194588
+    "battles": 3202870
   },
   "4288952304": {
     "consumables": [
@@ -16686,7 +16697,7 @@
         }
       ]
     ],
-    "battles": 3867466
+    "battles": 3883846
   },
   "4289607664": {
     "permoflages": [
@@ -16727,7 +16738,7 @@
         }
       ]
     ],
-    "battles": 5231554
+    "battles": 5267585
   },
   "4289639696": {
     "alphaPiercingHE": 34.0,
@@ -16772,7 +16783,7 @@
         }
       ]
     ],
-    "battles": 6820170
+    "battles": 6885170
   },
   "4289640432": {
     "alphaPiercingHE": 25.0,
@@ -16804,7 +16815,7 @@
         }
       ]
     ],
-    "battles": 9195744
+    "battles": 9289747
   },
   "4289672464": {
     "alphaPiercingHE": 95.0,
@@ -16868,7 +16879,7 @@
         }
       ]
     ],
-    "battles": 7534686
+    "battles": 7586628
   },
   "4290688272": {
     "alphaPiercingHE": 34.0,
@@ -16911,7 +16922,7 @@
         }
       ]
     ],
-    "battles": 980969
+    "battles": 990349
   },
   "4290689008": {
     "permoflages": [
@@ -16934,7 +16945,7 @@
         }
       ]
     ],
-    "battles": 5867651
+    "battles": 5914789
   },
   "4290721040": {
     "alphaPiercingHE": 95.0,
@@ -16997,7 +17008,7 @@
         }
       ]
     ],
-    "battles": 9161250
+    "battles": 9239096
   },
   "4290753808": {
     "consumables": [
@@ -17024,7 +17035,7 @@
         }
       ]
     ],
-    "battles": 4176244
+    "battles": 4198358
   },
   "4291049456": {
     "consumables": [
@@ -17103,7 +17114,7 @@
         }
       ]
     ],
-    "battles": 6517970
+    "battles": 6573697
   },
   "4291736848": {
     "sigma": 2.0,
@@ -17162,7 +17173,7 @@
         }
       ]
     ],
-    "battles": 2870975
+    "battles": 2886422
   },
   "4291737584": {
     "permoflages": [
@@ -17188,7 +17199,7 @@
         }
       ]
     ],
-    "battles": 354870
+    "battles": 356504
   },
   "4291769616": {
     "consumables": [
@@ -17237,7 +17248,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 5832967
+    "battles": 5881592
   },
   "4291802384": {
     "consumables": [
@@ -17303,7 +17314,7 @@
         }
       ]
     ],
-    "battles": 2013335
+    "battles": 2025990
   },
   "4292753392": {
     "alphaPiercingHE": 17.0,
@@ -17335,7 +17346,7 @@
         }
       ]
     ],
-    "battles": 1085620
+    "battles": 1095272
   },
   "4292785424": {
     "alphaPiercingHE": 34.0,
@@ -17373,7 +17384,7 @@
         }
       ]
     ],
-    "battles": 159830
+    "battles": 160576
   },
   "4292785968": {
     "alphaPiercingHE": 18.0,
@@ -17393,7 +17404,7 @@
         }
       ]
     ],
-    "battles": 1562411
+    "battles": 1578790
   },
   "4292786160": {
     "alphaPiercingHE": 21.0,
@@ -17413,7 +17424,7 @@
         }
       ]
     ],
-    "battles": 1301221
+    "battles": 1315307
   },
   "4292818192": {
     "alphaPiercingHE": 51.0,
@@ -17473,7 +17484,7 @@
         }
       ]
     ],
-    "battles": 13579938
+    "battles": 13726500
   },
   "4292818896": {
     "permoflages": [
@@ -17510,7 +17521,7 @@
         }
       ]
     ],
-    "battles": 2361622
+    "battles": 2384326
   },
   "4292850960": {
     "consumables": [
@@ -17531,7 +17542,7 @@
         }
       ]
     ],
-    "battles": 2939856
+    "battles": 2953091
   },
   "4292851696": {
     "consumables": [
@@ -17542,7 +17553,7 @@
         }
       ]
     ],
-    "battles": 4207489
+    "battles": 4223315
   },
   "4293145872": {
     "consumables": [
@@ -17629,7 +17640,7 @@
         }
       ]
     ],
-    "battles": 1023684
+    "battles": 1029368
   },
   "4293801680": {
     "permoflages": [
@@ -17666,7 +17677,7 @@
         }
       ]
     ],
-    "battles": 321055
+    "battles": 322047
   },
   "4293834000": {
     "alphaPiercingHE": 100.0,
@@ -17716,7 +17727,7 @@
         }
       ]
     ],
-    "battles": 254020
+    "battles": 255353
   },
   "4293834544": {
     "alphaPiercingHE": 21.0,
@@ -17730,7 +17741,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1120398
+    "battles": 1131456
   },
   "4293834736": {
     "alphaPiercingHE": 25.0,
@@ -17743,7 +17754,7 @@
         }
       ]
     ],
-    "battles": 962253
+    "battles": 970432
   },
   "4293866768": {
     "alphaPiercingHE": 100.0,
@@ -17800,7 +17811,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 492282
+    "battles": 494382
   },
   "4293867216": {
     "alphaPiercingHE": 51.0,
@@ -17826,7 +17837,7 @@
         }
       ]
     ],
-    "battles": 2636976
+    "battles": 2659520
   },
   "4293867504": {
     "alphaPiercingHE": 51.0,
@@ -17852,7 +17863,7 @@
         }
       ]
     ],
-    "battles": 3957618
+    "battles": 3996021
   },
   "4293899536": {
     "consumables": [
