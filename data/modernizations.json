@@ -673,7 +673,9 @@
       "PRSC215",
       "PRSC515",
       "PGSB509",
-      "PGSD518"
+      "PGSD518",
+      "PASC518",
+      "PGSC507"
     ],
     "excludes": [
       "PXSA005",
@@ -818,7 +820,8 @@
       "PRSC528",
       "PRSC209",
       "PRSC310",
-      "PWSD910"
+      "PWSD910",
+      "PGSC507"
     ],
     "excludes": [
       "PXSA005",
@@ -1002,7 +1005,9 @@
       "PFSB528",
       "PJSB878",
       "PJSB888",
-      "PJSB510"
+      "PJSB510",
+      "PASC518",
+      "PISB708"
     ],
     "excludes": [
       "PXSA005",
@@ -1049,7 +1054,8 @@
       "PBSC507",
       "PBSC516",
       "PASC707",
-      "PJSC026"
+      "PJSC026",
+      "PASC518"
     ],
     "shiptype": [
       "Destroyer"
@@ -1864,7 +1870,8 @@
       "PRSB109",
       "PRSB110",
       "PRSB709",
-      "PASB510"
+      "PASB510",
+      "PRSD810"
     ]
   },
   "4279422896": {

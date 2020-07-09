@@ -21,11 +21,11 @@
   },
   "3333404368": {
     "ship_id_str": "PJSA917",
-    "name": "PJSA917_Hakuryu_1942"
+    "name": "PJSA917_TST_Hakuryu"
   },
   "3335501808": {
     "ship_id_str": "PASA915",
-    "name": "PASA915_Midway_1945"
+    "name": "PASA915_TST_Midway"
   },
   "3337500656": {
     "ship_id_str": "PASD913",
@@ -59,6 +59,10 @@
     "ship_id_str": "PBSB910",
     "name": "PBSB910_Conqueror"
   },
+  "3340744656": {
+    "ship_id_str": "PBSA910",
+    "name": "PBSA910_TST_Audacious"
+  },
   "3346282480": {
     "ship_id_str": "PASX904",
     "name": "PASX904_Cimarron"
@@ -74,6 +78,10 @@
   "3439605008": {
     "ship_id_str": "PXSX815",
     "name": "PXSX815_Bogue_Clone"
+  },
+  "3445503440": {
+    "ship_id_str": "PRSD810",
+    "name": "PRSD810_R_10"
   },
   "3445503984": {
     "ship_id_str": "PASD810",
@@ -153,7 +161,7 @@
   },
   "3551475152": {
     "ship_id_str": "PRSB709",
-    "name": "PRSB709_KIM"
+    "name": "PRSB709_AZUR_Sov_Russia"
   },
   "3552458448": {
     "ship_id_str": "PJSD708",
@@ -169,7 +177,7 @@
   },
   "3552524016": {
     "ship_id_str": "PISB708",
-    "name": "PISB708_Impero"
+    "name": "PISB708_AZUR_Littorio"
   },
   "3552524272": {
     "ship_id_str": "PASB708",
@@ -351,6 +359,10 @@
     "ship_id_str": "PGSC518",
     "name": "PGSC518_Mainz"
   },
+  "3751720944": {
+    "ship_id_str": "PASC518",
+    "name": "PASC518_Anchorage"
+  },
   "3751753168": {
     "ship_id_str": "PRSB518",
     "name": "PRSB518_Lenin"
@@ -489,7 +501,7 @@
   },
   "3761190704": {
     "ship_id_str": "PGSB509",
-    "name": "PGSB509_Ludendorff"
+    "name": "PGSB509_Pommern"
   },
   "3761190896": {
     "ship_id_str": "PASB509",
@@ -606,6 +618,10 @@
   "3763255024": {
     "ship_id_str": "PISC507",
     "name": "PISC507_Duca_degli_Abruzzi"
+  },
+  "3763255088": {
+    "ship_id_str": "PGSC507",
+    "name": "PGSC507_Munchen"
   },
   "3763255248": {
     "ship_id_str": "PBSC507",

@@ -30,13 +30,8 @@
     "reload": 32.0
   },
   {
-    "name": "PGSB509_Ludendorff",
+    "name": "PGSB509_Pommern",
     "tier": 9,
-    "reload": 33.0
-  },
-  {
-    "name": "PISB708_Impero",
-    "tier": 8,
     "reload": 33.0
   },
   {
@@ -145,7 +140,7 @@
     "reload": 33.0
   },
   {
-    "name": "PRSB709_KIM",
+    "name": "PRSB709_AZUR_Sov_Russia",
     "tier": 9,
     "reload": 33.0
   },
