@@ -1,5 +1,6 @@
 import requests
 import zipfile
+import re
 
 
 def download_game_params():
@@ -16,6 +17,20 @@ def unzip_game_params():
         zip_ref.extractall('cache/')
 
 
+def get_ship_battles_raw():
+    """Downloads the ship battles from the server"""
+    url = 'https://wows-numbers.com/ships/'
+    r = requests.get(url).text
+    # parse html with regex
+    regex_str = 'dataProvider.ships = (.*);'
+    regex = re.compile(regex_str)
+    ship_battles_raw = regex.findall(r)[0]
+
+    with open('cache/ship_battles_raw.json', 'w') as f:
+        f.write(ship_battles_raw)
+
+
 if __name__ == '__main__':
     download_game_params()
     unzip_game_params()
+    get_ship_battles_raw()

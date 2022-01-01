@@ -1,19 +1,352 @@
 {
+  "4197633968": {
+    "slot": 2,
+    "nation": ["Russia"],
+    "shiplevel": [6, 8, 10],
+    "ships": ["PGSA510", "PGSA610", "PFSA506"],
+    "shiptype": ["AirCarrier"],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005"
+    ]
+  },
+  "4198682544": {
+    "slot": 4,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [8, 9, 10, 11],
+    "shiptype": ["Submarine"]
+  },
+  "4199731120": {
+    "slot": 3,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["Submarine"]
+  },
+  "4200779696": {
+    "slot": 3,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "ships": [
+      "PUSC506",
+      "PGSC106",
+      "PGSC107",
+      "PGSC108",
+      "PGSC109",
+      "PGSC110",
+      "PGSC507",
+      "PGSC508",
+      "PGSC518",
+      "PGSC718",
+      "PGSC910",
+      "PISC106",
+      "PISC107",
+      "PISC108",
+      "PISC109",
+      "PISC110",
+      "PISC506",
+      "PISC507",
+      "PJSC610",
+      "PRSC106",
+      "PRSC107",
+      "PRSC108",
+      "PRSC109",
+      "PRSC210",
+      "PRSC506",
+      "PRSC518",
+      "PRSC528",
+      "PRSC538",
+      "PRSC548",
+      "PRSC610",
+      "PBSC106",
+      "PBSC107",
+      "PBSC108",
+      "PBSC109",
+      "PBSC110",
+      "PBSC510",
+      "PASC006",
+      "PASC587",
+      "PASC707",
+      "PASC810",
+      "PHSC508",
+      "PBSC528",
+      "PZSC506",
+      "PZSC110",
+      "PZSC109",
+      "PZSC108",
+      "PZSC107",
+      "PZSC106",
+      "PZSC509"
+    ],
+    "shiptype": ["Destroyer"],
+    "excludes": ["PISD506", "PRSD505"]
+  },
+  "4202876848": {
+    "slot": 3,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["Battleship", "Cruiser"],
+    "excludes": [
+      "PJSB526",
+      "PASB519",
+      "PJSC018",
+      "PUSC506",
+      "PGSC106",
+      "PGSC107",
+      "PGSC108",
+      "PGSC109",
+      "PGSC110",
+      "PGSC507",
+      "PGSC508",
+      "PGSC518",
+      "PGSC910",
+      "PISC106",
+      "PISC107",
+      "PISC108",
+      "PISC109",
+      "PISC110",
+      "PISC506",
+      "PISC507",
+      "PZSC506",
+      "PRSC106",
+      "PRSC107",
+      "PRSC108",
+      "PRSC109",
+      "PRSC210",
+      "PRSC506",
+      "PRSC518",
+      "PRSC528",
+      "PRSC538",
+      "PRSC548",
+      "PRSC610",
+      "PBSC106",
+      "PBSC107",
+      "PBSC108",
+      "PBSC109",
+      "PBSC110",
+      "PBSC510",
+      "PBSC528",
+      "PASC006",
+      "PASC587",
+      "PASC707",
+      "PASC810",
+      "PJSC610",
+      "PRSC520",
+      "PGSC718",
+      "PZSC106",
+      "PZSC107",
+      "PZSC108",
+      "PZSC109",
+      "PZSC110",
+      "PZSC509"
+    ]
+  },
+  "4203925424": {
+    "slot": 5,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [9, 10, 11],
+    "shiptype": ["Submarine"]
+  },
+  "4204974000": {
+    "slot": 2,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["Submarine"]
+  },
+  "4206022576": {
+    "slot": 0,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["Submarine"]
+  },
+  "4207071152": {
+    "slot": 1,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["Submarine"]
+  },
+  "4208119728": {
+    "slot": 2,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["Submarine"]
+  },
+  "4209168304": {
+    "slot": 3,
+    "nation": ["Russia"],
+    "shiplevel": [6, 8, 10, 11],
+    "ships": ["PGSA510", "PGSA610", "PFSA506"],
+    "shiptype": ["AirCarrier"],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005"
+    ]
+  },
+  "4210216880": { "slot": 5, "ships": ["PJSB700"] },
+  "4211265456": { "slot": 5, "ships": ["PBSA210"] },
+  "4212314032": { "slot": 5, "ships": ["PRSB110"] },
+  "4213362608": { "slot": 4, "ships": ["PJSD210"] },
+  "4214411184": { "slot": 5, "ships": ["PFSD110"] },
+  "4215459760": { "slot": 4, "ships": ["PBSD110"] },
   "4216508336": {
     "slot": 5,
-    "shiplevel": [
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer",
-      "AirCarrier"
-    ],
+    "shiplevel": [9, 10, 11],
+    "ships": ["PASB013"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -31,65 +364,107 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4217556912": {
     "slot": 4,
-    "shiplevel": [
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ]
+    "shiplevel": [8, 9, 10, 11],
+    "shiptype": ["AirCarrier"]
   },
   "4218605488": {
     "slot": 4,
-    "shiplevel": [
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013",
-      "PGSD508",
-      "PBSC507"
-    ],
-    "shiptype": [
-      "Cruiser",
-      "Destroyer",
-      "Battleship"
+    "shiplevel": [8, 9, 10, 11],
+    "ships": ["PASB013", "PGSD508", "PBSC507"],
+    "shiptype": ["Cruiser", "Destroyer", "Battleship", "Submarine"],
+    "excludes": [
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4219654064": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ],
-    "excludes": [
-      "PBSA508"
-    ]
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
+    "excludes": ["PBSA508", "PGSA510", "PFSA506"]
   },
   "4220702640": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
     "ships": [
       "PGSB002",
       "PGSB107",
@@ -100,12 +475,17 @@
       "PJSB506",
       "PJSB508",
       "PJSC026",
-      "PGSB509"
+      "PGSB509",
+      "PGSB599",
+      "PASB538",
+      "PGSB518",
+      "PGSB207",
+      "PGSB208",
+      "PGSB209",
+      "PGSB210",
+      "PBSB610"
     ],
-    "shiptype": [
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiptype": ["Cruiser", "Destroyer", "Submarine"],
     "excludes": [
       "PWSD510",
       "PFSC510",
@@ -138,26 +518,49 @@
       "PASC710",
       "PASC718",
       "PRSC209",
-      "PRSC310"
+      "PRSC310",
+      "PUSC516",
+      "PXSD025",
+      "PXSC016",
+      "PXSC102",
+      "PBSC518",
+      "PBSD510",
+      "PASC528",
+      "PHSC105",
+      "PHSC108",
+      "PHSC508",
+      "PHSC110",
+      "PHSC106",
+      "PHSC107",
+      "PHSC109",
+      "PWSD710",
+      "PASC538",
+      "PFSC509",
+      "PHSD509",
+      "PBSC610",
+      "PASC519",
+      "PASC111"
     ]
   },
   "4221751216": {
     "slot": 1,
-    "shiplevel": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "Submarine"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -175,24 +578,36 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4222799792": {
     "slot": 1,
-    "shiplevel": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -207,17 +622,23 @@
   },
   "4223848368": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -227,22 +648,31 @@
       "PXSC006",
       "PXSC007",
       "PXSD004",
-      "PXSD005"
+      "PXSD005",
+      "PGSA610",
+      "PRSA508",
+      "PFSA506"
     ]
   },
   "4224896944": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -253,45 +683,30 @@
       "PXSC007",
       "PXSD004",
       "PXSD005",
-      "PBSA508"
+      "PBSA508",
+      "PGSA510",
+      "PFSA506"
     ]
   },
   "4225945520": {
     "slot": 3,
-    "shiplevel": [
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ],
-    "excludes": [
-      "PXSA005",
-      "PXSB006",
-      "PXSB007",
-      "PXSC004",
-      "PXSC005",
-      "PXSC006",
-      "PXSC007",
-      "PXSD004",
-      "PXSD005"
-    ]
-  },
-  "4226994096": {
-    "slot": 3,
-    "shiplevel": [
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -302,21 +717,31 @@
       "PXSC007",
       "PXSD004",
       "PXSD005",
-      "PBSA508"
+      "PGSA610",
+      "PRSA110",
+      "PRSA106",
+      "PRSA108"
     ]
   },
-  "4228042672": {
+  "4226994096": {
     "slot": 3,
-    "shiplevel": [
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -326,130 +751,66 @@
       "PXSC006",
       "PXSC007",
       "PXSD004",
-      "PXSD005"
+      "PXSD005",
+      "PBSA508",
+      "PGSA510",
+      "PFSA506"
     ]
   },
-  "4229091248": {
-    "slot": 5,
-    "ships": [
-      "PJSA017"
+  "4228042672": {
+    "slot": 3,
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
+    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
+    "excludes": [
+      "PXSA005",
+      "PXSB006",
+      "PXSB007",
+      "PXSC004",
+      "PXSC005",
+      "PXSC006",
+      "PXSC007",
+      "PXSD004",
+      "PXSD005",
+      "PGSA610",
+      "PRSA508",
+      "PFSA506"
     ]
   },
-  "4230139824": {
-    "slot": 5,
-    "ships": [
-      "PASA015"
-    ]
-  },
-  "4231188400": {
-    "slot": 5,
-    "ships": [
-      "PRSD210"
-    ]
-  },
-  "4232236976": {
-    "slot": 4,
-    "ships": [
-      "PZSD110"
-    ]
-  },
-  "4233285552": {
-    "slot": 4,
-    "ships": [
-      "PASD013"
-    ]
-  },
-  "4234334128": {
-    "slot": 5,
-    "ships": [
-      "PJSD012"
-    ]
-  },
-  "4235382704": {
-    "slot": 4,
-    "ships": [
-      "PGSD110"
-    ]
-  },
-  "4236431280": {
-    "slot": 4,
-    "ships": [
-      "PRSD110"
-    ]
-  },
-  "4237479856": {
-    "slot": 5,
-    "ships": [
-      "PRSC110"
-    ]
-  },
-  "4238528432": {
-    "slot": 5,
-    "ships": [
-      "PASC210"
-    ]
-  },
-  "4239577008": {
-    "slot": 5,
-    "ships": [
-      "PASC020"
-    ]
-  },
-  "4240625584": {
-    "slot": 4,
-    "ships": [
-      "PBSC110"
-    ]
-  },
-  "4241674160": {
-    "slot": 4,
-    "ships": [
-      "PFSC110",
-      "PFSC810"
-    ]
-  },
-  "4242722736": {
-    "slot": 4,
-    "ships": [
-      "PGSC110"
-    ]
-  },
-  "4243771312": {
-    "slot": 5,
-    "ships": [
-      "PJSC034"
-    ]
-  },
-  "4244819888": {
-    "slot": 4,
-    "ships": [
-      "PASB017"
-    ]
-  },
-  "4245868464": {
-    "slot": 5,
-    "ships": [
-      "PJSB018"
-    ]
-  },
-  "4246917040": {
-    "slot": 5,
-    "ships": [
-      "PGSB110"
-    ]
-  },
-  "4247965616": {
-    "slot": 5,
-    "ships": [
-      "PFSB110"
-    ]
-  },
-  "4249014192": {
-    "slot": 4,
-    "ships": [
-      "PBSB110"
-    ]
-  },
+  "4229091248": { "slot": 5, "ships": ["PJSA110"] },
+  "4230139824": { "slot": 5, "ships": ["PASA110"] },
+  "4231188400": { "slot": 5, "ships": ["PRSD210"] },
+  "4232236976": { "slot": 4, "ships": ["PZSD110"] },
+  "4233285552": { "slot": 4, "ships": ["PASD013"] },
+  "4234334128": { "slot": 5, "ships": ["PJSD012"] },
+  "4235382704": { "slot": 4, "ships": ["PGSD110"] },
+  "4236431280": { "slot": 4, "ships": ["PRSD110"] },
+  "4237479856": { "slot": 5, "ships": ["PRSC110"] },
+  "4238528432": { "slot": 5, "ships": ["PASC210"] },
+  "4239577008": { "slot": 5, "ships": ["PASC020"] },
+  "4240625584": { "slot": 4, "ships": ["PBSC110"] },
+  "4241674160": { "slot": 4, "ships": ["PFSC110", "PFSC810"] },
+  "4242722736": { "slot": 4, "ships": ["PGSC110"] },
+  "4243771312": { "slot": 5, "ships": ["PJSC034"] },
+  "4244819888": { "slot": 4, "ships": ["PASB017"] },
+  "4245868464": { "slot": 5, "ships": ["PJSB018"] },
+  "4246917040": { "slot": 5, "ships": ["PGSB110"] },
+  "4247965616": { "slot": 5, "ships": ["PFSB110"] },
+  "4249014192": { "slot": 4, "ships": ["PBSB110"] },
   "4250062768": {
     "slot": 1,
     "ships": [
@@ -460,6 +821,7 @@
       "PBSC507",
       "PASB509",
       "PASC006",
+      "PASC587",
       "PRSC110",
       "PRSC509",
       "PRSC510",
@@ -494,7 +856,15 @@
       "PRSC528",
       "PRSC209",
       "PRSC310",
-      "PRSB528"
+      "PRSB528",
+      "PBSC528",
+      "PBSC510",
+      "PBSC518",
+      "PASB538",
+      "PASC528",
+      "PWSD710",
+      "PASC519",
+      "PASC111"
     ],
     "excludes": [
       "PXSA005",
@@ -519,7 +889,7 @@
   "4251111344": {
     "slot": 1,
     "ships": [
-      "PJSD998",
+      "PJSD528",
       "PUSC506",
       "PUSD507",
       "PWSD510",
@@ -550,6 +920,7 @@
       "PGSC508",
       "PGSC509",
       "PGSC518",
+      "PGSC718",
       "PGSC706",
       "PGSC910",
       "PGSD105",
@@ -569,18 +940,21 @@
       "PJSC009",
       "PJSC012",
       "PJSC013",
-      "PJSC014",
       "PJSC018",
+      "PJSC918",
+      "PJSC919",
       "PJSC026",
       "PJSC034",
       "PJSC038",
       "PJSC505",
       "PJSC510",
       "PJSC520",
+      "PJSC590",
       "PJSC598",
       "PJSC705",
       "PJSC707",
       "PJSC708",
+      "PJSC718",
       "PJSC709",
       "PJSC717",
       "PJSC727",
@@ -592,6 +966,7 @@
       "PZSC508",
       "PZSD208",
       "PZSD508",
+      "PZSD598",
       "PRSC003",
       "PRSC104",
       "PRSC105",
@@ -622,6 +997,7 @@
       "PBSC208",
       "PBSC209",
       "PBSC210",
+      "PBSC910",
       "PBSC505",
       "PBSC507",
       "PBSC508",
@@ -632,8 +1008,10 @@
       "PBSD109",
       "PBSD110",
       "PBSD517",
+      "PBSD598",
       "PASC005",
       "PASC006",
+      "PASC587",
       "PASC016",
       "PASC019",
       "PASC020",
@@ -665,6 +1043,7 @@
       "PGSB910",
       "PGSC519",
       "PRSC538",
+      "PRSC548",
       "PRSC208",
       "PRSC210",
       "PRSC528",
@@ -673,9 +1052,47 @@
       "PRSC215",
       "PRSC515",
       "PGSB509",
+      "PGSB599",
       "PGSD518",
       "PASC518",
-      "PGSC507"
+      "PGSC507",
+      "PBSC528",
+      "PBSC510",
+      "PUSC516",
+      "PUSD510",
+      "PASC810",
+      "PGSC517",
+      "PBSD510",
+      "PASC528",
+      "PHSC104",
+      "PHSC105",
+      "PHSC106",
+      "PHSC107",
+      "PHSC108",
+      "PHSC109",
+      "PHSC110",
+      "PGSB111",
+      "PASC538",
+      "PFSC509",
+      "PHSD509",
+      "PGSB206",
+      "PGSB207",
+      "PGSB208",
+      "PGSB209",
+      "PGSB210",
+      "PBSB610",
+      "PGSB206",
+      "PGSB207",
+      "PGSB208",
+      "PGSB209",
+      "PGSB210",
+      "PBSB610",
+      "PBSC610",
+      "PASC519",
+      "PGSB310",
+      "PZSC509",
+      "PASC111",
+      "PFSC111"
     ],
     "excludes": [
       "PXSA005",
@@ -725,14 +1142,18 @@
       "PJSC009",
       "PJSC012",
       "PJSC018",
+      "PJSC918",
+      "PJSC919",
       "PJSC034",
       "PJSC038",
       "PJSC510",
       "PJSC520",
+      "PJSC590",
       "PJSC598",
       "PJSC705",
       "PJSC707",
       "PJSC708",
+      "PJSC718",
       "PJSC709",
       "PJSC717",
       "PJSC727",
@@ -742,6 +1163,7 @@
       "PVSC507",
       "PZSC518",
       "PZSD508",
+      "PZSD598",
       "PRSC106",
       "PRSC107",
       "PRSC108",
@@ -762,6 +1184,7 @@
       "PBSB507",
       "PBSD605",
       "PASC006",
+      "PASC587",
       "PASC016",
       "PASC019",
       "PASC020",
@@ -803,10 +1226,12 @@
       "PASC610",
       "PFSD210",
       "PGSC518",
+      "PGSC718",
       "PASC599",
       "PBSC208",
       "PBSC209",
       "PBSC210",
+      "PBSC910",
       "PBSC508",
       "PWSD108",
       "PWSD109",
@@ -815,13 +1240,42 @@
       "PBSC206",
       "PBSC207",
       "PRSC538",
+      "PRSC548",
       "PRSC208",
       "PRSC210",
       "PRSC528",
       "PRSC209",
       "PRSC310",
       "PWSD910",
-      "PGSC507"
+      "PGSC507",
+      "PASB517",
+      "PASB108",
+      "PASB109",
+      "PASB110",
+      "PASB910",
+      "PASC810",
+      "PGSD209",
+      "PGSD210",
+      "PZSD518",
+      "PZSD718",
+      "PGSC517",
+      "PBSC518",
+      "PGSD529",
+      "PASC528",
+      "PHSC110",
+      "PHSC109",
+      "PHSC108",
+      "PASC538",
+      "PFSC509",
+      "PHSD509",
+      "PASC519",
+      "PZSC110",
+      "PZSC109",
+      "PZSC108",
+      "PZSC107",
+      "PZSC106",
+      "PASC111",
+      "PFSC111"
     ],
     "excludes": [
       "PXSA005",
@@ -846,27 +1300,29 @@
   },
   "4253208496": {
     "slot": 0,
-    "shiplevel": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013"
-    ],
+    "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "ships": ["PASB013"],
     "shiptype": [
       "Battleship",
       "AirCarrier",
       "Cruiser",
       "Destroyer",
-      "Auxiliary"
+      "Submarine"
     ],
     "excludes": [
       "PXSA005",
@@ -885,7 +1341,15 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4254257072": {
@@ -894,6 +1358,7 @@
       "PUSC506",
       "PFSB108",
       "PFSB506",
+      "PFSB596",
       "PFSB508",
       "PFSC109",
       "PGSB002",
@@ -927,9 +1392,11 @@
       "PJSB003",
       "PJSB006",
       "PJSB007",
+      "PJSB715",
       "PJSB010",
       "PJSB013",
       "PJSB018",
+      "PJSB700",
       "PJSB021",
       "PJSB506",
       "PJSB508",
@@ -943,6 +1410,7 @@
       "PJSC034",
       "PJSC510",
       "PJSC520",
+      "PJSC590",
       "PJSC810",
       "PJSC934",
       "PZSB509",
@@ -1007,7 +1475,36 @@
       "PJSB888",
       "PJSB510",
       "PASC518",
-      "PISB708"
+      "PISB708",
+      "PASB108",
+      "PASB109",
+      "PASB110",
+      "PASB910",
+      "PASB517",
+      "PASB505",
+      "PJSB519",
+      "PFSB507",
+      "PISB108",
+      "PISB110",
+      "PISB509",
+      "PISB109",
+      "PASB528",
+      "PASB538",
+      "PUSB507",
+      "PASC528",
+      "PHSC104",
+      "PHSC105",
+      "PHSC106",
+      "PHSC107",
+      "PGSC517",
+      "PBSB526",
+      "PGSB111",
+      "PJSB111",
+      "PFSC509",
+      "PGSB518",
+      "PBSB610",
+      "PGSB310",
+      "PISB519"
     ],
     "excludes": [
       "PXSA005",
@@ -1031,17 +1528,25 @@
   },
   "4255305648": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
     "ships": [
       "PUSC506",
-      "PJSC014",
+      "PJSC610",
       "PZSC506",
       "PRSC508",
       "PRSC610",
@@ -1055,11 +1560,24 @@
       "PBSC516",
       "PASC707",
       "PJSC026",
-      "PASC518"
+      "PASC518",
+      "PBSC528",
+      "PUSC516",
+      "PGSD519",
+      "PBSC510",
+      "PBSC518",
+      "PASC538",
+      "PBSC610",
+      "PZSC110",
+      "PZSC109",
+      "PZSC108",
+      "PZSC107",
+      "PZSC106",
+      "PZSC105",
+      "PZSC509",
+      "PRSD410"
     ],
-    "shiptype": [
-      "Destroyer"
-    ],
+    "shiptype": ["Destroyer"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1099,22 +1617,32 @@
       "PFSD508",
       "PFSD808",
       "PBSD605",
-      "PISD510",
-      "PWSD508"
+      "PISD509",
+      "PWSD508",
+      "PISB108",
+      "PISB110",
+      "PWSD710",
+      "PGSD516"
     ]
   },
   "4256354224": {
     "slot": 1,
-    "shiplevel": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
+    "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10, 11],
     "ships": [
       "PFSB108",
       "PFSB109",
@@ -1122,6 +1650,7 @@
       "PFSB508",
       "PFSB510",
       "PFSB518",
+      "PFSB599",
       "PFSC106",
       "PFSC107",
       "PFSC108",
@@ -1131,14 +1660,19 @@
       "PFSC508",
       "PFSC510",
       "PFSC810",
-      "PJSC014",
+      "PJSC610",
       "PJSC505",
       "PASB729",
-      "PFSB528"
+      "PFSB528",
+      "PZSB519",
+      "PGSC517",
+      "PHSC508",
+      "PBSB526",
+      "PFSC509",
+      "PBSB610",
+      "PFSC111"
     ],
-    "shiptype": [
-      "Destroyer"
-    ],
+    "shiptype": ["Destroyer"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1167,24 +1701,35 @@
       "PBSD110",
       "PWSD510",
       "PZSD208",
-      "PGSD518"
+      "PGSD518",
+      "PGSD207",
+      "PGSD208",
+      "PGSD209",
+      "PGSD210",
+      "PBSD510",
+      "PHSD509"
     ]
   },
   "4257402800": {
     "slot": 4,
-    "shiplevel": [
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PBSC507",
-      "PGSD508"
-    ],
-    "shiptype": [
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [8, 9, 10, 11],
+    "ships": ["PBSC507", "PGSD508"],
+    "shiptype": ["Cruiser", "Destroyer"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1202,17 +1747,16 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSD025",
+      "PXSC101",
+      "PXSC016",
+      "PXSC102"
     ]
   },
   "4258451376": {
     "slot": 0,
-    "ships": [
-      "PJSC503",
-      "PJSC014",
-      "PJSC004",
-      "PJSC026"
-    ],
+    "ships": ["PJSC503", "PJSC004", "PJSC026"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1230,27 +1774,30 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PJSC610"
     ]
   },
   "4259499952": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PJSC026"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "ships": ["PJSC026"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer"],
     "excludes": [
       "PASB705",
       "PASB006",
@@ -1287,53 +1834,77 @@
       "PASB507",
       "PASB729",
       "PASB510",
-      "PASB707"
+      "PASB707",
+      "PASB108",
+      "PASB109",
+      "PASB110",
+      "PASB910",
+      "PASB517",
+      "PASB505",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015",
+      "PASB528",
+      "PASB538",
+      "PASB519"
     ]
   },
   "4260548528": {
     "slot": 0,
-    "shiplevel": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer",
-      "Auxiliary"
-    ],
+    "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "Auxiliary"],
     "excludes": [
-      "PXSA005"
+      "PXSA005",
+      "PXSB005",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4261597104": {
     "slot": 0,
-    "shiplevel": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer",
-      "AirCarrier"
-    ],
+    "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"],
     "excludes": [
       "PXSB003",
       "PXSA001",
@@ -1366,29 +1937,36 @@
       "PXSB005",
       "PXSB002",
       "PFSD102",
-      "PWSD102"
+      "PWSD102",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4262645680": {
     "slot": 0,
-    "shiplevel": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer",
-      "Auxiliary"
-    ],
+    "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "Submarine"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1406,24 +1984,23 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4263694256": {
     "slot": 5,
-    "nation": [
-      "usa"
-    ],
-    "shiplevel": [
-      9,
-      10
-    ],
-    "ships": [
-      "PASB013"
-    ],
-    "shiptype": [
-      "Battleship"
-    ],
+    "nation": ["USA"],
+    "shiplevel": [9, 10, 11],
+    "ships": ["PASB013"],
+    "shiptype": ["Battleship"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1446,23 +2023,10 @@
   },
   "4264742832": {
     "slot": 2,
-    "nation": [
-      "usa"
-    ],
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "ships": [
-      "PASB013"
-    ],
-    "shiptype": [
-      "Battleship"
-    ],
+    "nation": ["USA"],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "ships": ["PASB013"],
+    "shiptype": ["Battleship"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1485,22 +2049,24 @@
   },
   "4265791408": {
     "slot": 4,
-    "shiplevel": [
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013",
-      "PBSC507",
-      "PGSD508"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer",
-      "AirCarrier"
-    ],
+    "shiplevel": [8, 9, 10, 11],
+    "ships": ["PASB013", "PBSC507", "PGSD508"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1518,26 +2084,37 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4266839984": {
     "slot": 4,
-    "shiplevel": [
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013",
-      "PBSC507",
-      "PGSD508"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [8, 9, 10, 11],
+    "ships": ["PASB013", "PBSC507", "PGSD508"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "Submarine"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1555,27 +2132,37 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4267888560": {
     "slot": 3,
-    "shiplevel": [
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013",
-      "PJSC026"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "ships": ["PASB013", "PJSC026"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1593,27 +2180,37 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4268937136": {
     "slot": 3,
-    "shiplevel": [
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013",
-      "PJSC026"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "ships": ["PASB013", "PJSC026"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer", "Submarine"],
     "excludes": [
       "PBSC106",
       "PBSC107",
@@ -1627,6 +2224,7 @@
       "PBSD109",
       "PBSD110",
       "PBSD517",
+      "PBSD598",
       "PUSC506",
       "PXSA005",
       "PXSB006",
@@ -1644,26 +2242,51 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PBSC528",
+      "PBSC510",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015",
+      "PUSC516",
+      "PUSD510",
+      "PBSC518",
+      "PBSD510",
+      "PBSC610",
+      "PASB910",
+      "PBSB610"
     ]
   },
   "4269985712": {
     "slot": 3,
-    "shiplevel": [
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013"
-    ],
+    "shiplevel": [6, 7, 8, 9, 10, 11],
+    "ships": ["PASB013"],
     "shiptype": [
       "Battleship",
       "Cruiser",
       "Destroyer",
-      "AirCarrier"
+      "AirCarrier",
+      "Submarine"
     ],
     "excludes": [
       "PXSA005",
@@ -1682,26 +2305,41 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4273131440": {
     "slot": 1,
-    "shiplevel": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
+    "shiplevel": [3, 4, 5, 6, 7, 8, 9, 10, 11],
     "shiptype": [
       "Battleship",
       "Cruiser",
       "Destroyer",
-      "AirCarrier"
+      "AirCarrier",
+      "Submarine"
     ],
     "excludes": [
       "PXSA005",
@@ -1720,27 +2358,37 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4275228592": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PJSC026"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "ships": ["PJSC026"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1758,21 +2406,39 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PVSB505",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015",
+      "PBSB505"
     ]
   },
   "4276277168": {
     "slot": 5,
-    "shiplevel": [
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASA508"
-    ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [9, 10, 11],
+    "ships": ["PASA508"],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1795,16 +2461,24 @@
   },
   "4277325744": {
     "slot": 5,
-    "shiplevel": [
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASA508"
-    ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [9, 10, 11],
+    "ships": ["PASA508"],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1827,15 +2501,23 @@
   },
   "4278374320": {
     "slot": 5,
-    "shiplevel": [
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [9, 10, 11],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer"],
     "excludes": [
       "PASB012",
       "PASB018",
@@ -1871,22 +2553,44 @@
       "PRSB110",
       "PRSB709",
       "PASB510",
-      "PRSD810"
+      "PRSD810",
+      "PASB108",
+      "PASB109",
+      "PASB110",
+      "PASB910",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015",
+      "PASB519",
+      "PRSD410",
+      "PRSD111"
     ]
   },
   "4279422896": {
     "slot": 5,
-    "shiplevel": [
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PGSB509"
-    ],
-    "shiptype": [
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [9, 10, 11],
+    "ships": ["PGSB509", "PGSB599", "PGSB209", "PGSB210", "PBSB610"],
+    "shiptype": ["Cruiser", "Destroyer", "Submarine"],
     "excludes": [
       "PRSC110",
       "PRSC910",
@@ -1924,23 +2628,42 @@
       "PASC610",
       "PASC599",
       "PRSC209",
-      "PRSC310"
+      "PRSC310",
+      "PXSD025",
+      "PXSC016",
+      "PXSC102",
+      "PBSD510",
+      "PASC528",
+      "PHSC110",
+      "PHSC109",
+      "PWSD710",
+      "PFSC509",
+      "PHSD509",
+      "PBSC610",
+      "PASC519",
+      "PASC111"
     ]
   },
   "4280471472": {
     "slot": 5,
-    "shiplevel": [
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [9, 10, 11],
+    "ships": ["PASB013"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -1958,33 +2681,44 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4281520048": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "AirCarrier"
-    ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "ships": ["PASB013"],
+    "shiptype": ["Battleship", "Cruiser", "AirCarrier"],
     "excludes": [
       "PASA002",
       "PASA006",
       "PASA507",
       "PASC005",
       "PASC006",
+      "PASC587",
       "PASC016",
       "PASC044",
       "PASC045",
@@ -2011,21 +2745,52 @@
       "PASC210",
       "PASC209",
       "PASA528",
+      "PASA598",
       "PRSC610",
       "PFSC510",
-      "PRSC528"
+      "PRSC528",
+      "PJSC610",
+      "PXSB011",
+      "PXSB009",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015",
+      "PZSA508",
+      "PASC810",
+      "PBSC518",
+      "PHSC105",
+      "PHSC508",
+      "PHSC106",
+      "PHSC107",
+      "PZSC110",
+      "PZSC109",
+      "PZSC108",
+      "PZSC107",
+      "PZSC106",
+      "PZSC509"
     ]
   },
   "4284665776": {
     "slot": 4,
-    "shiplevel": [
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [8, 9, 10, 11],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -2048,23 +2813,24 @@
   },
   "4287811504": {
     "slot": 2,
-    "shiplevel": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PASB013",
-      "PJSC026"
-    ],
-    "shiptype": [
-      "Battleship",
-      "Cruiser",
-      "Destroyer"
-    ],
+    "shiplevel": [5, 6, 7, 8, 9, 10, 11],
+    "ships": ["PASB013", "PJSC026"],
+    "shiptype": ["Battleship", "Cruiser", "Destroyer"],
     "excludes": [
       "PXSA005",
       "PXSB006",
@@ -2082,29 +2848,37 @@
       "PXSC002",
       "PXSB008",
       "PXSB005",
-      "PXSB002"
+      "PXSB002",
+      "PXSB011",
+      "PXSB009",
+      "PXSD025",
+      "PXSC101",
+      "PXSB103",
+      "PXSC016",
+      "PXSC102",
+      "PXSB015"
     ]
   },
   "4290957232": {
     "slot": 0,
-    "shiplevel": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+    "nation": [
+      "France",
+      "USA",
+      "Russia",
+      "Japan",
+      "United_Kingdom",
+      "Germany",
+      "Italy",
+      "Europe",
+      "Netherlands",
+      "Spain",
+      "Pan_Asia",
+      "Pan_America",
+      "Commonwealth"
     ],
-    "ships": [
-      "PXSA005"
-    ],
-    "shiptype": [
-      "AirCarrier"
-    ],
+    "shiplevel": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "ships": ["PXSA005"],
+    "shiptype": ["AirCarrier"],
     "excludes": [
       "PXSB006",
       "PXSB007",

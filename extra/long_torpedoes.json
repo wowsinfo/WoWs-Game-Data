@@ -56,19 +56,19 @@
     "type": "USA"
   },
   {
-    "name": "PAPT042_Mk28_Acoustic",
-    "dist": 17.991004497751124,
-    "speed": 64.05,
-    "spotted": 2.5,
-    "reaction": 15.012310094277309,
+    "name": "PAPT043_Mk29_Sub",
+    "dist": 11.994002998500749,
+    "speed": 93.45,
+    "spotted": 2.4,
+    "reaction": 9.877762686751451,
     "type": "USA"
   },
   {
-    "name": "PAPT043_Mk29_Acoustic",
-    "dist": 17.991004497751124,
-    "speed": 64.05,
-    "spotted": 2.5,
-    "reaction": 15.012310094277309,
+    "name": "PAPT044_Mk29_Sub_Magnetic",
+    "dist": 11.994002998500749,
+    "speed": 93.45,
+    "spotted": 2.4,
+    "reaction": 9.877762686751451,
     "type": "USA"
   },
   {
@@ -77,6 +77,62 @@
     "speed": 67.2,
     "spotted": 1.3,
     "reaction": 7.44047619047619,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT020_G7E_T3_Sub",
+    "dist": 12.494752623688155,
+    "speed": 80.85000000000001,
+    "spotted": 2.1,
+    "reaction": 9.990009990009987,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT021_G7E_T4_Sub",
+    "dist": 13.994002998500749,
+    "speed": 86.10000000000001,
+    "spotted": 2.2,
+    "reaction": 9.827570803180558,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT022_G7E_T3_Sub_Magnetic",
+    "dist": 12.494752623688155,
+    "speed": 80.85000000000001,
+    "spotted": 2.1,
+    "reaction": 9.990009990009987,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT036_G7A_T1_Z44",
+    "dist": 11.994002998500749,
+    "speed": 67.2,
+    "spotted": 1.3,
+    "reaction": 7.44047619047619,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT040_G7_T1_Asf_B",
+    "dist": 11.994002998500749,
+    "speed": 52.5,
+    "spotted": 1.2,
+    "reaction": 8.791208791208792,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT041_G7_T1_Asf_C",
+    "dist": 13.493253373313342,
+    "speed": 52.5,
+    "spotted": 1.2,
+    "reaction": 8.791208791208792,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT043_G7E_T4_Sub_Magnetic",
+    "dist": 13.994002998500749,
+    "speed": 86.10000000000001,
+    "spotted": 2.2,
+    "reaction": 9.827570803180558,
     "type": "Germany"
   },
   {
@@ -113,6 +169,14 @@
   },
   {
     "name": "PIPT009_533_SI270_N",
+    "dist": 13.493253373313342,
+    "speed": 58.800000000000004,
+    "spotted": 1.1,
+    "reaction": 7.195185766614337,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT011_533_NAPOLI",
     "dist": 13.493253373313342,
     "speed": 58.800000000000004,
     "spotted": 1.1,
@@ -208,6 +272,46 @@
     "type": "Japan"
   },
   {
+    "name": "PJPT046_610MM_T11",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 1.7,
+    "reaction": 9.294188398666009,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT047_610MM_Type93_ALT_T11",
+    "dist": 20.0,
+    "speed": 65.10000000000001,
+    "spotted": 2.5,
+    "reaction": 14.77017606049864,
+    "type": "Japan"
+  },
+  {
+    "name": "PJPT120_610_Kitakami",
+    "dist": 14.992503748125936,
+    "speed": 59.85,
+    "spotted": 1.9,
+    "reaction": 12.21001221001221,
+    "type": "Japan"
+  },
+  {
+    "name": "PRPT051_53_38U_Sub",
+    "dist": 12.293853073463268,
+    "speed": 68.25,
+    "spotted": 1.7,
+    "reaction": 9.580163426317272,
+    "type": "Russia"
+  },
+  {
+    "name": "PUPT004_533_VAMPIRE_2",
+    "dist": 11.994002998500749,
+    "speed": 65.10000000000001,
+    "spotted": 1.3,
+    "reaction": 7.680491551459292,
+    "type": "Commonwealth"
+  },
+  {
     "name": "PWPT005_Torped_M1943",
     "dist": 11.994002998500749,
     "speed": 79.8,
@@ -264,19 +368,19 @@
     "type": "Events"
   },
   {
-    "name": "PXPT008_Mk_17",
-    "dist": 16.49175412293853,
-    "speed": 69.3,
-    "spotted": 1.4,
-    "reaction": 7.77000777000777,
-    "type": "Events"
-  },
-  {
     "name": "PXPT023_Sea_Torpedo_Type93",
     "dist": 11.994002998500749,
     "speed": 178.5,
     "spotted": 2.5,
     "reaction": 5.386770092652446,
+    "type": "Events"
+  },
+  {
+    "name": "PXPT301_Torpedo_Simple_Akizuki_2020",
+    "dist": 11.994002998500749,
+    "speed": 231.0,
+    "spotted": 2.0,
+    "reaction": 3.3300033300033296,
     "type": "Events"
   },
   {
@@ -309,6 +413,30 @@
     "speed": 67.2,
     "spotted": 0.8,
     "reaction": 4.5787545787545785,
+    "type": "Pan_Asia"
+  },
+  {
+    "name": "PZPT028_610MM_FEN_YANG",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 0.8,
+    "reaction": 4.373735717019298,
+    "type": "Pan_Asia"
+  },
+  {
+    "name": "PZPT030_610MM_WH_ORK",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 0.8,
+    "reaction": 4.373735717019298,
+    "type": "Pan_Asia"
+  },
+  {
+    "name": "PZPT034_MK16_MOD2_A",
+    "dist": 11.994002998500749,
+    "speed": 70.35000000000001,
+    "spotted": 0.8,
+    "reaction": 4.373735717019298,
     "type": "Pan_Asia"
   }
 ]

@@ -1,187 +1,126 @@
 [
   {
     "name": "PASS106_Cachalot",
-    "typeinfo": {
-      "nation": "USA",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "USA", "species": "Submarine", "type": "Ship" },
     "tier": 6,
-    "concealment": 4.86,
+    "concealment": 6.56,
     "id": 4183209968
   },
   {
     "name": "PASS108_Salmon",
-    "typeinfo": {
-      "nation": "USA",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "USA", "species": "Submarine", "type": "Ship" },
     "tier": 8,
-    "concealment": 6.0,
+    "concealment": 6.14,
     "id": 4181112816
   },
   {
     "name": "PASS110_Balao",
-    "typeinfo": {
-      "nation": "USA",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "USA", "species": "Submarine", "type": "Ship" },
     "tier": 10,
-    "concealment": 6.0,
+    "concealment": 6.04,
     "id": 4179015664
   },
   {
     "name": "PASS510_Gato",
-    "typeinfo": {
-      "nation": "USA",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "USA", "species": "Submarine", "type": "Ship" },
     "tier": 10,
-    "concealment": 6.0,
+    "concealment": 5.04,
     "id": 3759585264
   },
   {
     "name": "PGSS106_U_69",
-    "typeinfo": {
-      "nation": "Germany",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Germany", "species": "Submarine", "type": "Ship" },
     "tier": 6,
-    "concealment": 4.32,
+    "concealment": 5.82,
     "id": 4183209776
   },
   {
     "name": "PGSS108_U190",
-    "typeinfo": {
-      "nation": "Germany",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Germany", "species": "Submarine", "type": "Ship" },
     "tier": 8,
-    "concealment": 6.0,
+    "concealment": 5.78,
     "id": 4181112624
   },
   {
     "name": "PGSS110_U_2501",
-    "typeinfo": {
-      "nation": "Germany",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Germany", "species": "Submarine", "type": "Ship" },
     "tier": 10,
-    "concealment": 5.0,
+    "concealment": 5.74,
     "id": 4179015472
   },
   {
     "name": "PGSS510_U4501",
-    "typeinfo": {
-      "nation": "Germany",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Germany", "species": "Submarine", "type": "Ship" },
     "tier": 10,
-    "concealment": 6.0,
+    "concealment": 4.32,
     "id": 3759585072
   },
   {
+    "name": "PJSS508_I58",
+    "typeinfo": { "nation": "Japan", "species": "Submarine", "type": "Ship" },
+    "tier": 8,
+    "concealment": 6.12,
+    "id": 3761682128
+  },
+  {
     "name": "PRSS106_S_1",
-    "typeinfo": {
-      "nation": "Russia",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Russia", "species": "Submarine", "type": "Ship" },
     "tier": 6,
     "concealment": 4.5,
     "id": 4183209424
   },
   {
     "name": "PRSS108_L20",
-    "typeinfo": {
-      "nation": "Russia",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Russia", "species": "Submarine", "type": "Ship" },
     "tier": 8,
-    "concealment": 6.0,
+    "concealment": 5.04,
     "id": 4181112272
   },
   {
     "name": "PRSS110_K_type",
-    "typeinfo": {
-      "nation": "Russia",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Russia", "species": "Submarine", "type": "Ship" },
     "tier": 10,
-    "concealment": 6.0,
+    "concealment": 5.58,
     "id": 4179015120
   },
   {
     "name": "PRSS508_S_189",
-    "typeinfo": {
-      "nation": "Russia",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Russia", "species": "Submarine", "type": "Ship" },
     "tier": 8,
-    "concealment": 6.0,
+    "concealment": 4.86,
     "id": 3761681872
   },
   {
     "name": "PXSS107_Mina_Hurray",
-    "typeinfo": {
-      "nation": "Events",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Events", "species": "Submarine", "type": "Ship" },
     "tier": 7,
     "concealment": 3.96,
     "id": 4182160656
   },
   {
     "name": "PXSS207_Lazarus_Centurio",
-    "typeinfo": {
-      "nation": "Events",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Events", "species": "Submarine", "type": "Ship" },
     "tier": 10,
     "concealment": 5.5,
     "id": 4077303056
   },
   {
     "name": "PXSS307_Cyrus_Herrero",
-    "typeinfo": {
-      "nation": "Events",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Events", "species": "Submarine", "type": "Ship" },
     "tier": 7,
     "concealment": 4.32,
     "id": 3972445456
   },
   {
     "name": "PXSS407_Dr_Frankenship",
-    "typeinfo": {
-      "nation": "Events",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Events", "species": "Submarine", "type": "Ship" },
     "tier": 7,
     "concealment": 6.3,
     "id": 3867587856
   },
   {
     "name": "PXSS507_Klaus_V_Teslau",
-    "typeinfo": {
-      "nation": "Events",
-      "species": "Submarine",
-      "type": "Ship"
-    },
+    "typeinfo": { "nation": "Events", "species": "Submarine", "type": "Ship" },
     "tier": 10,
     "concealment": 6.0,
     "id": 3762730256

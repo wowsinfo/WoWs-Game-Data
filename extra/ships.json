@@ -1,292 +1,118 @@
 {
-  "3247355344": {
-    "ship_id_str": "PRSC999",
-    "name": "PRSC999_Seal"
-  },
-  "3248371408": {
-    "ship_id_str": "PJSD998",
-    "name": "PJSD998_Arashi"
-  },
-  "3315513040": {
-    "ship_id_str": "PJSC934",
-    "name": "PJSC934_Zao_1944"
-  },
-  "3332323024": {
-    "ship_id_str": "PJSB918",
-    "name": "PJSB918_Yamato_1944"
-  },
-  "3333371888": {
-    "ship_id_str": "PASB917",
-    "name": "PASB917_Montana_1945"
-  },
-  "3333404368": {
-    "ship_id_str": "PJSA917",
-    "name": "PJSA917_TST_Hakuryu"
-  },
-  "3335501808": {
-    "ship_id_str": "PASA915",
-    "name": "PASA915_TST_Midway"
-  },
-  "3337500656": {
-    "ship_id_str": "PASD913",
-    "name": "PASD913_Gearing_1945"
-  },
-  "3338548944": {
-    "ship_id_str": "PJSD912",
-    "name": "PJSD912_Shimakaze_1943"
-  },
-  "3340645680": {
-    "ship_id_str": "PWSD910",
-    "name": "PWSD910_Lappland"
-  },
-  "3340645840": {
-    "ship_id_str": "PRSD910",
-    "name": "PRSD910_Grozovoy_pr_40N"
-  },
-  "3340678608": {
-    "ship_id_str": "PRSC910",
-    "name": "PRSC910_Pr_66_Moskva"
-  },
-  "3340678960": {
-    "ship_id_str": "PGSC910",
-    "name": "PGSC910_Hindenburg"
-  },
+  "3247355344": { "ship_id_str": "PRSC999", "name": "PRSC999_Seal" },
+  "3247388368": { "ship_id_str": "PJSB999", "name": "PJSB999_Satsuma" },
+  "3247388464": { "ship_id_str": "PGSB999", "name": "PGSB999_Hannover" },
+  "3315513040": { "ship_id_str": "PJSC934", "name": "PJSC934_Zao_1944" },
+  "3331241680": { "ship_id_str": "PJSC919", "name": "PJSC919_Tone_Third" },
+  "3332290256": { "ship_id_str": "PJSC918", "name": "PJSC918_Tone_Second" },
+  "3332323024": { "ship_id_str": "PJSB918", "name": "PJSB918_Yamato_1944" },
+  "3333371888": { "ship_id_str": "PASB917", "name": "PASB917_Montana_1945" },
+  "3333404368": { "ship_id_str": "PJSA917", "name": "PJSA917_TST_Hakuryu" },
+  "3334420176": { "ship_id_str": "PJSB916", "name": "PJSB916_Ise_TEST2" },
+  "3335501808": { "ship_id_str": "PASA915", "name": "PASA915_TST_Midway" },
+  "3337500656": { "ship_id_str": "PASD913", "name": "PASD913_Gearing_1945" },
+  "3338548944": { "ship_id_str": "PJSD912", "name": "PJSD912_Shimakaze_1943" },
+  "3340645680": { "ship_id_str": "PWSD910", "name": "PWSD910_Lappland" },
+  "3340645840": { "ship_id_str": "PRSD910", "name": "PRSD910_Grozovoy_pr_40N" },
+  "3340678608": { "ship_id_str": "PRSC910", "name": "PRSC910_Pr_66_Moskva" },
+  "3340678960": { "ship_id_str": "PGSC910", "name": "PGSC910_Hindenburg" },
+  "3340679120": { "ship_id_str": "PBSC910", "name": "PBSC910_Cyclops" },
   "3340711728": {
     "ship_id_str": "PGSB910",
     "name": "PGSB910_Grossdeutschland"
   },
-  "3340711888": {
-    "ship_id_str": "PBSB910",
-    "name": "PBSB910_Conqueror"
-  },
-  "3340744656": {
-    "ship_id_str": "PBSA910",
-    "name": "PBSA910_TST_Audacious"
-  },
-  "3346282480": {
-    "ship_id_str": "PASX904",
-    "name": "PASX904_Cimarron"
-  },
-  "3363780304": {
-    "ship_id_str": "PJSB888",
-    "name": "PJSB888_Ragnarok"
-  },
-  "3374266064": {
-    "ship_id_str": "PJSB878",
-    "name": "PJSB878_Ignis_Purgatio"
-  },
-  "3439605008": {
-    "ship_id_str": "PXSX815",
-    "name": "PXSX815_Bogue_Clone"
-  },
-  "3445503440": {
-    "ship_id_str": "PRSD810",
-    "name": "PRSD810_R_10"
-  },
-  "3445503984": {
-    "ship_id_str": "PASD810",
-    "name": "PASD810_TST_GEARING"
-  },
-  "3445536464": {
-    "ship_id_str": "PJSC810",
-    "name": "PJSC810_TST_ZAO"
-  },
-  "3445536592": {
-    "ship_id_str": "PFSC810",
-    "name": "PFSC810_Henri_IV"
-  },
-  "3445569520": {
-    "ship_id_str": "PASB810",
-    "name": "PASB810_TST_MONTANA"
-  },
-  "3447600976": {
-    "ship_id_str": "PFSD808",
-    "name": "PFSD808_TST_TERRIBLE"
-  },
-  "3448747280": {
-    "ship_id_str": "PXSA807",
-    "name": "PXSA807_Ranger"
-  },
-  "3450812144": {
-    "ship_id_str": "PISB805",
-    "name": "PISB805_TST_CESARE"
-  },
-  "3457103568": {
-    "ship_id_str": "PJSB799",
-    "name": "PJSB799_Kirishima"
-  },
+  "3340711888": { "ship_id_str": "PBSB910", "name": "PBSB910_Conqueror" },
+  "3340711920": { "ship_id_str": "PASB910", "name": "PASB910_Connecticut" },
+  "3340744656": { "ship_id_str": "PBSA910", "name": "PBSA910_TST_Audacious" },
+  "3344905936": { "ship_id_str": "PJSB906", "name": "PJSB906_Ise_TEST1" },
+  "3346282480": { "ship_id_str": "PASX904", "name": "PASX904_Cimarron" },
+  "3363780304": { "ship_id_str": "PJSB888", "name": "PJSB888_Ragnarok" },
+  "3374266064": { "ship_id_str": "PJSB878", "name": "PJSB878_Ignis_Purgatio" },
+  "3439605008": { "ship_id_str": "PXSX815", "name": "PXSX815_Bogue_Clone" },
+  "3445503440": { "ship_id_str": "PRSD810", "name": "PRSD810_R_10" },
+  "3445503984": { "ship_id_str": "PASD810", "name": "PASD810_TST_GEARING" },
+  "3445536464": { "ship_id_str": "PJSC810", "name": "PJSC810_TST_ZAO" },
+  "3445536592": { "ship_id_str": "PFSC810", "name": "PFSC810_Henri_IV" },
+  "3445536752": { "ship_id_str": "PASC810", "name": "PASC810_Austin" },
+  "3445569520": { "ship_id_str": "PASB810", "name": "PASB810_TST_MONTANA" },
+  "3447600976": { "ship_id_str": "PFSD808", "name": "PFSD808_TST_TERRIBLE" },
+  "3448747280": { "ship_id_str": "PXSA807", "name": "PXSA807_Ranger" },
+  "3450812144": { "ship_id_str": "PISB805", "name": "PISB805_TST_CESARE" },
+  "3457103568": { "ship_id_str": "PJSB799", "name": "PJSB799_Kirishima" },
   "3515102480": {
     "ship_id_str": "PXSX743",
     "name": "PXSX743_Hall_Medway_Queen"
   },
-  "3522082512": {
-    "ship_id_str": "PJSC737",
-    "name": "PJSC737_Nachi"
+  "3522082512": { "ship_id_str": "PJSC737", "name": "PJSC737_Nachi" },
+  "3530504176": { "ship_id_str": "PASB729", "name": "PASB729_Georgia" },
+  "3532568272": { "ship_id_str": "PJSC727", "name": "PJSC727_Blue_Dragon" },
+  "3541972176": { "ship_id_str": "PZSD718", "name": "PZSD718_Warhammer_Ork" },
+  "3541972688": { "ship_id_str": "PJSD718", "name": "PJSD718_AZUR_Yukikaze" },
+  "3542005456": { "ship_id_str": "PJSC718", "name": "PJSC718_ARP_Maya" },
+  "3542005552": {
+    "ship_id_str": "PGSC718",
+    "name": "PGSC718_Warhammer_Blacktemplar"
   },
-  "3530504176": {
-    "ship_id_str": "PASB729",
-    "name": "PASB729_Georgia"
-  },
-  "3532568272": {
-    "ship_id_str": "PJSC727",
-    "name": "PJSC727_Blue_Dragon"
-  },
-  "3541972688": {
-    "ship_id_str": "PJSD718",
-    "name": "PJSD718_AZUR_Yukikaze"
-  },
-  "3542005744": {
-    "ship_id_str": "PASC718",
-    "name": "PASC718_AZUR_Montpelier"
-  },
-  "3543054032": {
-    "ship_id_str": "PJSC717",
-    "name": "PJSC717_Yellow_Dragon"
-  },
-  "3550394352": {
-    "ship_id_str": "PASC710",
-    "name": "PASC710_Salem"
-  },
+  "3542005744": { "ship_id_str": "PASC718", "name": "PASC718_AZUR_Montpelier" },
+  "3543054032": { "ship_id_str": "PJSC717", "name": "PJSC717_Yellow_Dragon" },
+  "3545183952": { "ship_id_str": "PJSB715", "name": "PJSB715_HSF_Hiei" },
+  "3550360880": { "ship_id_str": "PWSD710", "name": "PWSD710_Ragnar" },
+  "3550394352": { "ship_id_str": "PASC710", "name": "PASC710_Salem" },
   "3551409616": {
     "ship_id_str": "PRSD709",
     "name": "PRSD709_Pr_41_Neustrashimy"
   },
-  "3551410160": {
-    "ship_id_str": "PASD709",
-    "name": "PASD709_Black"
-  },
-  "3551442640": {
-    "ship_id_str": "PJSC709",
-    "name": "PJSC709_Haguro"
-  },
-  "3551475152": {
-    "ship_id_str": "PRSB709",
-    "name": "PRSB709_AZUR_Sov_Russia"
-  },
-  "3552458448": {
-    "ship_id_str": "PJSD708",
-    "name": "PJSD708_HSF_Harekaze"
-  },
-  "3552491216": {
-    "ship_id_str": "PJSC708",
-    "name": "PJSC708_ARP_Takao"
-  },
-  "3552523984": {
-    "ship_id_str": "PJSB708",
-    "name": "PJSB708_Hiei_Arpeggio"
-  },
-  "3552524016": {
-    "ship_id_str": "PISB708",
-    "name": "PISB708_AZUR_Littorio"
-  },
-  "3552524272": {
-    "ship_id_str": "PASB708",
-    "name": "PASB708_Alabama"
-  },
-  "3553539792": {
-    "ship_id_str": "PJSC707",
-    "name": "PJSC707_Ashigara"
-  },
-  "3553540080": {
-    "ship_id_str": "PASC707",
-    "name": "PASC707_Flint"
-  },
-  "3553572560": {
-    "ship_id_str": "PJSB707",
-    "name": "PJSB707_Haruna"
-  },
-  "3553572848": {
-    "ship_id_str": "PASB707",
-    "name": "PASB707_California"
-  },
-  "3554555600": {
-    "ship_id_str": "PJSD706",
-    "name": "PJSD706_Shinonome"
-  },
-  "3554588464": {
-    "ship_id_str": "PGSC706",
-    "name": "PGSC706_HSF_Graf_Spee"
-  },
-  "3554621136": {
-    "ship_id_str": "PJSB706",
-    "name": "PJSB706_Kirishima"
-  },
-  "3555636944": {
-    "ship_id_str": "PJSC705",
-    "name": "PJSC705_Myoko"
-  },
-  "3555669712": {
-    "ship_id_str": "PJSB705",
-    "name": "PJSB705_Kongou"
-  },
-  "3555670000": {
-    "ship_id_str": "PASB705",
-    "name": "PASB705_Texas_1944"
-  },
-  "3558094544": {
-    "ship_id_str": "PJSX702",
-    "name": "PJSX702_Support"
-  },
-  "3559143120": {
-    "ship_id_str": "PJSX701",
-    "name": "PJSX701_Support"
-  },
-  "3655218480": {
-    "ship_id_str": "PWSD610",
-    "name": "PWSD610_Smaland"
-  },
-  "3655251408": {
-    "ship_id_str": "PRSC610",
-    "name": "PRSC610_Smolensk"
-  },
-  "3655251952": {
-    "ship_id_str": "PASC610",
-    "name": "PASC610_Puerto_Rico"
-  },
-  "3658397424": {
-    "ship_id_str": "PISC607",
-    "name": "PISC607_Gorizia"
-  },
-  "3659445712": {
-    "ship_id_str": "PRSC606",
-    "name": "PRSC606_Admiral_Makarov"
-  },
-  "3660461904": {
-    "ship_id_str": "PFSD605",
-    "name": "PFSD605_Cyclone_event"
-  },
-  "3660462032": {
-    "ship_id_str": "PBSD605",
-    "name": "PBSD605_Anthony_Event"
-  },
-  "3666786288": {
-    "ship_id_str": "PASC599",
-    "name": "PASC599_Black_Alaska"
-  },
-  "3667801808": {
-    "ship_id_str": "PJSD598",
-    "name": "PJSD598_Black_Asashio"
-  },
-  "3667834576": {
-    "ship_id_str": "PJSC598",
-    "name": "PJSC598_Black_Atago"
-  },
-  "3667867440": {
-    "ship_id_str": "PGSB598",
-    "name": "PGSB598_Black_Tirpitz"
-  },
+  "3551410160": { "ship_id_str": "PASD709", "name": "PASD709_Black" },
+  "3551442640": { "ship_id_str": "PJSC709", "name": "PJSC709_Haguro" },
+  "3551475152": { "ship_id_str": "PRSB709", "name": "PRSB709_AZUR_Sov_Russia" },
+  "3552458448": { "ship_id_str": "PJSD708", "name": "PJSD708_HSF_Harekaze" },
+  "3552491216": { "ship_id_str": "PJSC708", "name": "PJSC708_ARP_Takao" },
+  "3552523984": { "ship_id_str": "PJSB708", "name": "PJSB708_Hiei_Arpeggio" },
+  "3552524016": { "ship_id_str": "PISB708", "name": "PISB708_AZUR_Littorio" },
+  "3552524272": { "ship_id_str": "PASB708", "name": "PASB708_Alabama" },
+  "3553539792": { "ship_id_str": "PJSC707", "name": "PJSC707_Ashigara" },
+  "3553540080": { "ship_id_str": "PASC707", "name": "PASC707_Flint" },
+  "3553572560": { "ship_id_str": "PJSB707", "name": "PJSB707_Haruna" },
+  "3553572848": { "ship_id_str": "PASB707", "name": "PASB707_California" },
+  "3554555600": { "ship_id_str": "PJSD706", "name": "PJSD706_Shinonome" },
+  "3554588464": { "ship_id_str": "PGSC706", "name": "PGSC706_HSF_Graf_Spee" },
+  "3554621136": { "ship_id_str": "PJSB706", "name": "PJSB706_Kirishima" },
+  "3555636944": { "ship_id_str": "PJSC705", "name": "PJSC705_Myoko" },
+  "3555669712": { "ship_id_str": "PJSB705", "name": "PJSB705_Kongou" },
+  "3555670000": { "ship_id_str": "PASB705", "name": "PASB705_Texas_1944" },
+  "3558094544": { "ship_id_str": "PJSX702", "name": "PJSX702_Support" },
+  "3559143120": { "ship_id_str": "PJSX701", "name": "PJSX701_Support" },
+  "3560912592": { "ship_id_str": "PJSB700", "name": "PJSB700_ARP_Yamato" },
+  "3655218480": { "ship_id_str": "PWSD610", "name": "PWSD610_Smaland" },
+  "3655251408": { "ship_id_str": "PRSC610", "name": "PRSC610_Smolensk" },
+  "3655251664": { "ship_id_str": "PJSC610", "name": "PJSC610_Kitakami" },
+  "3655251920": { "ship_id_str": "PBSC610", "name": "PBSC610_Gibraltar" },
+  "3655251952": { "ship_id_str": "PASC610", "name": "PASC610_Puerto_Rico" },
+  "3655284688": { "ship_id_str": "PBSB610", "name": "PBSB610_Incomparable" },
+  "3655317296": { "ship_id_str": "PGSA610", "name": "PGSA610_Max_Immelmann" },
+  "3658397424": { "ship_id_str": "PISC607", "name": "PISC607_Gorizia" },
+  "3659445712": { "ship_id_str": "PRSC606", "name": "PRSC606_Admiral_Makarov" },
+  "3660461904": { "ship_id_str": "PFSD605", "name": "PFSD605_Cyclone_event" },
+  "3660462032": { "ship_id_str": "PBSD605", "name": "PBSD605_Anthony_Event" },
+  "3666786288": { "ship_id_str": "PASC599", "name": "PASC599_Black_Alaska" },
+  "3666818864": { "ship_id_str": "PGSB599", "name": "PGSB599_Black_Pommern" },
+  "3666818896": { "ship_id_str": "PFSB599", "name": "PFSB599_Black_Jean_Bart" },
+  "3667801296": { "ship_id_str": "PZSD598", "name": "PZSD598_Black_LoYang" },
+  "3667801808": { "ship_id_str": "PJSD598", "name": "PJSD598_Black_Asashio" },
+  "3667802064": { "ship_id_str": "PBSD598", "name": "PBSD598_Black_Cossack" },
+  "3667834576": { "ship_id_str": "PJSC598", "name": "PJSC598_Black_Atago" },
+  "3667867440": { "ship_id_str": "PGSB598", "name": "PGSB598_Black_Tirpitz" },
   "3667867632": {
     "ship_id_str": "PASB598",
     "name": "PASB598_Black_Massachusetts"
   },
+  "3667900112": { "ship_id_str": "PJSA598", "name": "PJSA598_Black_Kaga" },
   "3667900208": {
     "ship_id_str": "PGSA598",
     "name": "PGSA598_Black_Graf_Zeppelin"
   },
-  "3668850672": {
-    "ship_id_str": "PASD597",
-    "name": "PASD597_Black_Sims"
-  },
+  "3667900400": { "ship_id_str": "PASA598", "name": "PASA598_Black_Saipan" },
+  "3668850672": { "ship_id_str": "PASD597", "name": "PASD597_Black_Sims" },
   "3668883440": {
     "ship_id_str": "PASC597",
     "name": "PASC597_Nueve_de_Julio_1951"
@@ -295,322 +121,133 @@
     "ship_id_str": "PGSB597",
     "name": "PGSB597_Black_Scharnhorst"
   },
-  "3730748880": {
-    "ship_id_str": "PRSC538",
-    "name": "PRSC538_Petr_Bagration"
-  },
-  "3730781648": {
-    "ship_id_str": "PRSB538",
-    "name": "PRSB538_V_I_Lenin"
-  },
-  "3741234640": {
-    "ship_id_str": "PRSC528",
-    "name": "PRSC528_Ochakov"
-  },
-  "3741267408": {
-    "ship_id_str": "PRSB528",
-    "name": "PRSB528_Borodino"
-  },
-  "3741267792": {
-    "ship_id_str": "PFSB528",
-    "name": "PFSB528_Champagne"
-  },
-  "3741300720": {
-    "ship_id_str": "PASA528",
-    "name": "PASA528_Saipan"
-  },
-  "3742316496": {
-    "ship_id_str": "PBSB527",
-    "name": "PBSB527_Duke_of_York"
-  },
-  "3744380368": {
-    "ship_id_str": "PRSC525",
-    "name": "PRSC525_Kirov"
-  },
-  "3749623248": {
-    "ship_id_str": "PRSC520",
-    "name": "PRSC520_Stalingrad"
-  },
-  "3749623504": {
-    "ship_id_str": "PJSC520",
-    "name": "PJSC520_Yoshino"
-  },
-  "3750672176": {
-    "ship_id_str": "PGSC519",
-    "name": "PGSC519_Aegir"
-  },
-  "3751687888": {
-    "ship_id_str": "PJSD518",
-    "name": "PJSD518_Asashio"
-  },
-  "3751687984": {
-    "ship_id_str": "PGSD518",
-    "name": "PGSD518_Z_35"
-  },
-  "3751720144": {
-    "ship_id_str": "PZSC518",
-    "name": "PZSC518_Martel_Wukong"
-  },
-  "3751720400": {
-    "ship_id_str": "PRSC518",
-    "name": "PRSC518_Lazo"
-  },
-  "3751720752": {
-    "ship_id_str": "PGSC518",
-    "name": "PGSC518_Mainz"
-  },
-  "3751720944": {
-    "ship_id_str": "PASC518",
-    "name": "PASC518_Anchorage"
-  },
-  "3751753168": {
-    "ship_id_str": "PRSB518",
-    "name": "PRSB518_Lenin"
-  },
-  "3751753552": {
-    "ship_id_str": "PFSB518",
-    "name": "PFSB518_Jean_Bart"
-  },
-  "3751753712": {
-    "ship_id_str": "PASB518",
-    "name": "PASB518_Massachusetts"
-  },
-  "3751786192": {
-    "ship_id_str": "PJSA518",
-    "name": "PJSA518_Kaga"
-  },
-  "3751786288": {
-    "ship_id_str": "PGSA518",
-    "name": "PGSA518_Graf_Zeppelin"
-  },
-  "3751786448": {
-    "ship_id_str": "PBSA518",
-    "name": "PBSA518_Ark_Royal"
-  },
-  "3751786480": {
-    "ship_id_str": "PASA518",
-    "name": "PASA518_Enterprise"
-  },
-  "3752736720": {
-    "ship_id_str": "PBSD517",
-    "name": "PBSD517_Cossack"
-  },
-  "3752802256": {
-    "ship_id_str": "PBSB517",
-    "name": "PBSB517_Nelson"
-  },
-  "3753818064": {
-    "ship_id_str": "PBSC516",
-    "name": "PBSC516_London"
-  },
-  "3754866128": {
-    "ship_id_str": "PRSC515",
-    "name": "PRSC515_Mikoyan"
-  },
-  "3756963280": {
-    "ship_id_str": "PRSC513",
-    "name": "PRSC513_Varyag"
-  },
-  "3759585072": {
-    "ship_id_str": "PGSS510",
-    "name": "PGSS510_U4501"
-  },
-  "3759585264": {
-    "ship_id_str": "PASS510",
-    "name": "PASS510_Gato"
-  },
-  "3760076080": {
-    "ship_id_str": "PWSD510",
-    "name": "PWSD510_Friesland"
-  },
-  "3760076496": {
-    "ship_id_str": "PJSD510",
-    "name": "PJSD510_Hayate"
-  },
-  "3760076528": {
-    "ship_id_str": "PISD510",
-    "name": "PISD510_Paolo_Emilio"
-  },
-  "3760076784": {
-    "ship_id_str": "PASD510",
-    "name": "PASD510_Somers"
-  },
-  "3760109008": {
-    "ship_id_str": "PRSC510",
-    "name": "PRSC510_Stalingrad"
-  },
-  "3760109264": {
-    "ship_id_str": "PJSC510",
-    "name": "PJSC510_Azumaya"
-  },
-  "3760109392": {
-    "ship_id_str": "PFSC510",
-    "name": "PFSC510_Colbert"
-  },
-  "3760109552": {
-    "ship_id_str": "PASC510",
-    "name": "PASC510_Alaska"
-  },
-  "3760141776": {
-    "ship_id_str": "PRSB510",
-    "name": "PRSB510_Slava"
-  },
-  "3760142032": {
-    "ship_id_str": "PJSB510",
-    "name": "PJSB510_Shikishima"
-  },
-  "3760142160": {
-    "ship_id_str": "PFSB510",
-    "name": "PFSB510_Bourgogne"
-  },
-  "3760142288": {
-    "ship_id_str": "PBSB510",
-    "name": "PBSB510_Thunderer"
-  },
-  "3760142320": {
-    "ship_id_str": "PASB510",
-    "name": "PASB510_Ohio"
-  },
-  "3760174896": {
-    "ship_id_str": "PGSA510",
-    "name": "PGSA510_Werner_Voss"
-  },
-  "3760175088": {
-    "ship_id_str": "PASA510",
-    "name": "PASA510_Roosevelt"
-  },
-  "3761125360": {
-    "ship_id_str": "PASD509",
-    "name": "PASD509_Benham"
-  },
-  "3761157584": {
-    "ship_id_str": "PRSC509",
-    "name": "PRSC509_Kronshtadt"
-  },
-  "3761157936": {
-    "ship_id_str": "PGSC509",
-    "name": "PGSC509_Siegfried"
-  },
-  "3761190096": {
-    "ship_id_str": "PZSB509",
-    "name": "PZSB509_Izumo_Bajie"
-  },
-  "3761190608": {
-    "ship_id_str": "PJSB509",
-    "name": "PJSB509_Musashi"
-  },
-  "3761190704": {
-    "ship_id_str": "PGSB509",
-    "name": "PGSB509_Pommern"
-  },
-  "3761190896": {
-    "ship_id_str": "PASB509",
-    "name": "PASB509_Missouri"
-  },
-  "3761681872": {
-    "ship_id_str": "PRSS508",
-    "name": "PRSS508_S_189"
-  },
-  "3762173136": {
-    "ship_id_str": "PZSD508",
-    "name": "PZSD508_LoYang"
-  },
-  "3762173232": {
-    "ship_id_str": "PWSD508",
-    "name": "PWSD508_Orkan"
-  },
-  "3762173744": {
-    "ship_id_str": "PGSD508",
-    "name": "PGSD508_Z_39"
-  },
-  "3762173776": {
-    "ship_id_str": "PFSD508",
-    "name": "PFSD508_Le_Terrible"
-  },
-  "3762173936": {
-    "ship_id_str": "PASD508",
-    "name": "PASD508_Kidd"
-  },
-  "3762205904": {
-    "ship_id_str": "PZSC508",
-    "name": "PZSC508_Irian"
-  },
-  "3762206160": {
-    "ship_id_str": "PRSC508",
-    "name": "PRSC508_Kutuzov_1952"
-  },
-  "3762206512": {
-    "ship_id_str": "PGSC508",
-    "name": "PGSC508_Prinz_Eugen"
-  },
-  "3762206544": {
-    "ship_id_str": "PFSC508",
-    "name": "PFSC508_Bayard"
-  },
-  "3762206672": {
-    "ship_id_str": "PBSC508",
-    "name": "PBSC508_Cheshire"
-  },
-  "3762206704": {
-    "ship_id_str": "PASC508",
-    "name": "PASC508_Wichita"
-  },
-  "3762238928": {
-    "ship_id_str": "PRSB508",
-    "name": "PRSB508_Poltava"
-  },
-  "3762239184": {
-    "ship_id_str": "PJSB508",
-    "name": "PJSB508_Kii"
-  },
-  "3762239216": {
-    "ship_id_str": "PISB508",
-    "name": "PISB508_Roma"
-  },
-  "3762239280": {
-    "ship_id_str": "PGSB508",
-    "name": "PGSB508_Odin"
-  },
-  "3762239312": {
-    "ship_id_str": "PFSB508",
-    "name": "PFSB508_Gascogne"
-  },
-  "3762239440": {
-    "ship_id_str": "PBSB508",
-    "name": "PBSB508_Vanguard"
-  },
-  "3762239472": {
-    "ship_id_str": "PASB508",
-    "name": "PASB508_Alabama"
-  },
-  "3762272048": {
-    "ship_id_str": "PGSA508",
-    "name": "PGSA508_Graf_Zeppelin"
-  },
-  "3762272208": {
-    "ship_id_str": "PBSA508",
-    "name": "PBSA508_Indomitable"
-  },
-  "3762272240": {
-    "ship_id_str": "PASA508",
-    "name": "PASA508_Enterprise"
-  },
-  "3762730256": {
-    "ship_id_str": "PXSS507",
-    "name": "PXSS507_Klaus_V_Teslau"
-  },
-  "3763221872": {
-    "ship_id_str": "PUSD507",
-    "name": "PUSD507_Haida"
-  },
-  "3763221968": {
-    "ship_id_str": "PRSD507",
-    "name": "PRSD507_Leningrad_1944"
-  },
-  "3763222224": {
-    "ship_id_str": "PJSD507",
-    "name": "PJSD507_Yudachi"
-  },
+  "3669964624": { "ship_id_str": "PFSB596", "name": "PFSB596_Black_Dunkerque" },
+  "3676223184": { "ship_id_str": "PJSC590", "name": "PJSC590_Black_Yoshino" },
+  "3679369200": { "ship_id_str": "PASC587", "name": "PASC587_Black_Atlanta" },
+  "3720263120": { "ship_id_str": "PRSC548", "name": "PRSC548_Bagration" },
+  "3730748880": { "ship_id_str": "PRSC538", "name": "PRSC538_Petr_Bagration" },
+  "3730749424": { "ship_id_str": "PASC538", "name": "PASC538_Rochester" },
+  "3730781648": { "ship_id_str": "PRSB538", "name": "PRSB538_V_I_Lenin" },
+  "3730782032": { "ship_id_str": "PFSB538", "name": "PFSB538_Flandre" },
+  "3730782192": { "ship_id_str": "PASB538", "name": "PASB538_Constellation" },
+  "3740153648": { "ship_id_str": "PGSD529", "name": "PGSD529_ZF_6" },
+  "3741202128": { "ship_id_str": "PJSD528", "name": "PJSD528_Harekaze_2" },
+  "3741234640": { "ship_id_str": "PRSC528", "name": "PRSC528_Ochakov" },
+  "3741235152": { "ship_id_str": "PBSC528", "name": "PBSC528_Belfast_1943" },
+  "3741235184": { "ship_id_str": "PASC528", "name": "PASC528_Congress" },
+  "3741267408": { "ship_id_str": "PRSB528", "name": "PRSB528_Borodino" },
+  "3741267792": { "ship_id_str": "PFSB528", "name": "PFSB528_Champagne" },
+  "3741267952": { "ship_id_str": "PASB528", "name": "PASB528_Alabama_VL" },
+  "3741300720": { "ship_id_str": "PASA528", "name": "PASA528_Saipan" },
+  "3742316496": { "ship_id_str": "PBSB527", "name": "PBSB527_Duke_of_York" },
+  "3743364816": { "ship_id_str": "PJSB526", "name": "PJSB526_Ise" },
+  "3743365072": { "ship_id_str": "PBSB526", "name": "PBSB526_Repulse" },
+  "3744380368": { "ship_id_str": "PRSC525", "name": "PRSC525_Kirov" },
+  "3749623248": { "ship_id_str": "PRSC520", "name": "PRSC520_Stalingrad" },
+  "3749623504": { "ship_id_str": "PJSC520", "name": "PJSC520_Yoshino" },
+  "3750639408": { "ship_id_str": "PGSD519", "name": "PGSD519_Z_44" },
+  "3750672176": { "ship_id_str": "PGSC519", "name": "PGSC519_Aegir" },
+  "3750672368": { "ship_id_str": "PASC519", "name": "PASC519_Tulsa" },
+  "3750704336": { "ship_id_str": "PZSB519", "name": "PZSB519_Alsace_Wujing" },
+  "3750704848": { "ship_id_str": "PJSB519", "name": "PJSB519_Hizen" },
+  "3750704880": { "ship_id_str": "PISB519", "name": "PISB519_Giuseppe_Verdi" },
+  "3750705136": { "ship_id_str": "PASB519", "name": "PASB519_Kearsarge" },
+  "3751687376": { "ship_id_str": "PZSD518", "name": "PZSD518_Fen_Yang" },
+  "3751687888": { "ship_id_str": "PJSD518", "name": "PJSD518_Asashio" },
+  "3751687984": { "ship_id_str": "PGSD518", "name": "PGSD518_Z_35" },
+  "3751720144": { "ship_id_str": "PZSC518", "name": "PZSC518_Martel_Wukong" },
+  "3751720400": { "ship_id_str": "PRSC518", "name": "PRSC518_Lazo" },
+  "3751720752": { "ship_id_str": "PGSC518", "name": "PGSC518_Mainz" },
+  "3751720912": { "ship_id_str": "PBSC518", "name": "PBSC518_Tiger_1959" },
+  "3751720944": { "ship_id_str": "PASC518", "name": "PASC518_Anchorage" },
+  "3751753168": { "ship_id_str": "PRSB518", "name": "PRSB518_Lenin" },
+  "3751753520": { "ship_id_str": "PGSB518", "name": "PGSB518_Brandenburg" },
+  "3751753552": { "ship_id_str": "PFSB518", "name": "PFSB518_Jean_Bart" },
+  "3751753712": { "ship_id_str": "PASB518", "name": "PASB518_Massachusetts" },
+  "3751786192": { "ship_id_str": "PJSA518", "name": "PJSA518_Kaga" },
+  "3751786288": { "ship_id_str": "PGSA518", "name": "PGSA518_Graf_Zeppelin" },
+  "3751786448": { "ship_id_str": "PBSA518", "name": "PBSA518_Ark_Royal" },
+  "3751786480": { "ship_id_str": "PASA518", "name": "PASA518_Enterprise" },
+  "3752736720": { "ship_id_str": "PBSD517", "name": "PBSD517_Cossack" },
+  "3752769328": { "ship_id_str": "PGSC517", "name": "PGSC517_Weimar" },
+  "3752802000": { "ship_id_str": "PJSB517", "name": "PJSB517_Hyuga" },
+  "3752802256": { "ship_id_str": "PBSB517", "name": "PBSB517_Nelson" },
+  "3752802288": { "ship_id_str": "PASB517", "name": "PASB517_Florida" },
+  "3753785136": {
+    "ship_id_str": "PGSD516",
+    "name": "PGSD516_Karl_von_Schonberg"
+  },
+  "3753817456": { "ship_id_str": "PUSC516", "name": "PUSC516_Mysore" },
+  "3753818064": { "ship_id_str": "PBSC516", "name": "PBSC516_London" },
+  "3753850320": { "ship_id_str": "PRSB516", "name": "PRSB516_Novorossiysk" },
+  "3754866128": { "ship_id_str": "PRSC515", "name": "PRSC515_Mikoyan" },
+  "3756963280": { "ship_id_str": "PRSC513", "name": "PRSC513_Varyag" },
+  "3759585072": { "ship_id_str": "PGSS510", "name": "PGSS510_U4501" },
+  "3759585264": { "ship_id_str": "PASS510", "name": "PASS510_Gato" },
+  "3760076080": { "ship_id_str": "PWSD510", "name": "PWSD510_Friesland" },
+  "3760076144": { "ship_id_str": "PUSD510", "name": "PUSD510_Vampire_2" },
+  "3760076496": { "ship_id_str": "PJSD510", "name": "PJSD510_Hayate" },
+  "3760076752": { "ship_id_str": "PBSD510", "name": "PBSD510_Druid" },
+  "3760076784": { "ship_id_str": "PASD510", "name": "PASD510_Somers" },
+  "3760109008": { "ship_id_str": "PRSC510", "name": "PRSC510_Stalingrad" },
+  "3760109264": { "ship_id_str": "PJSC510", "name": "PJSC510_Azumaya" },
+  "3760109296": { "ship_id_str": "PISC510", "name": "PISC510_Napoli" },
+  "3760109392": { "ship_id_str": "PFSC510", "name": "PFSC510_Colbert" },
+  "3760109520": { "ship_id_str": "PBSC510", "name": "PBSC510_Plymouth" },
+  "3760109552": { "ship_id_str": "PASC510", "name": "PASC510_Alaska" },
+  "3760141776": { "ship_id_str": "PRSB510", "name": "PRSB510_Slava" },
+  "3760142032": { "ship_id_str": "PJSB510", "name": "PJSB510_Shikishima" },
+  "3760142160": { "ship_id_str": "PFSB510", "name": "PFSB510_Bourgogne" },
+  "3760142288": { "ship_id_str": "PBSB510", "name": "PBSB510_Thunderer" },
+  "3760142320": { "ship_id_str": "PASB510", "name": "PASB510_Ohio" },
+  "3760174896": { "ship_id_str": "PGSA510", "name": "PGSA510_Werner_Voss" },
+  "3760175088": { "ship_id_str": "PASA510", "name": "PASA510_Roosevelt" },
+  "3761125104": { "ship_id_str": "PISD509", "name": "PISD509_Paolo_Emilio" },
+  "3761125136": { "ship_id_str": "PHSD509", "name": "PHSD509_Groningen" },
+  "3761125360": { "ship_id_str": "PASD509", "name": "PASD509_Benham" },
+  "3761157328": { "ship_id_str": "PZSC509", "name": "PZSC509_Dalian" },
+  "3761157584": { "ship_id_str": "PRSC509", "name": "PRSC509_Kronshtadt" },
+  "3761157936": { "ship_id_str": "PGSC509", "name": "PGSC509_Siegfried" },
+  "3761157968": { "ship_id_str": "PFSC509", "name": "PFSC509_Carnot" },
+  "3761190096": { "ship_id_str": "PZSB509", "name": "PZSB509_Izumo_Bajie" },
+  "3761190608": { "ship_id_str": "PJSB509", "name": "PJSB509_Musashi" },
+  "3761190640": { "ship_id_str": "PISB509", "name": "PISB509_Marco_Polo" },
+  "3761190704": { "ship_id_str": "PGSB509", "name": "PGSB509_Pommern" },
+  "3761190864": { "ship_id_str": "PBSB509", "name": "PBSB509_Marlborough" },
+  "3761190896": { "ship_id_str": "PASB509", "name": "PASB509_Missouri" },
+  "3761681872": { "ship_id_str": "PRSS508", "name": "PRSS508_S_189" },
+  "3761682128": { "ship_id_str": "PJSS508", "name": "PJSS508_I58" },
+  "3762173136": { "ship_id_str": "PZSD508", "name": "PZSD508_LoYang" },
+  "3762173232": { "ship_id_str": "PWSD508", "name": "PWSD508_Orkan" },
+  "3762173744": { "ship_id_str": "PGSD508", "name": "PGSD508_Z_39" },
+  "3762173776": { "ship_id_str": "PFSD508", "name": "PFSD508_Le_Terrible" },
+  "3762173936": { "ship_id_str": "PASD508", "name": "PASD508_Kidd" },
+  "3762205904": { "ship_id_str": "PZSC508", "name": "PZSC508_Irian" },
+  "3762206160": { "ship_id_str": "PRSC508", "name": "PRSC508_Kutuzov_1952" },
+  "3762206480": {
+    "ship_id_str": "PHSC508",
+    "name": "PHSC508_De_Zeven_Provincien"
+  },
+  "3762206512": { "ship_id_str": "PGSC508", "name": "PGSC508_Prinz_Eugen" },
+  "3762206544": { "ship_id_str": "PFSC508", "name": "PFSC508_Bayard" },
+  "3762206672": { "ship_id_str": "PBSC508", "name": "PBSC508_Cheshire" },
+  "3762206704": { "ship_id_str": "PASC508", "name": "PASC508_Wichita" },
+  "3762238928": { "ship_id_str": "PRSB508", "name": "PRSB508_Poltava" },
+  "3762239184": { "ship_id_str": "PJSB508", "name": "PJSB508_Kii" },
+  "3762239216": { "ship_id_str": "PISB508", "name": "PISB508_Roma" },
+  "3762239280": { "ship_id_str": "PGSB508", "name": "PGSB508_Odin" },
+  "3762239312": { "ship_id_str": "PFSB508", "name": "PFSB508_Gascogne" },
+  "3762239440": { "ship_id_str": "PBSB508", "name": "PBSB508_Vanguard" },
+  "3762239472": { "ship_id_str": "PASB508", "name": "PASB508_Alabama" },
+  "3762271440": { "ship_id_str": "PZSA508", "name": "PZSA508_Saipan_Sanzang" },
+  "3762271696": { "ship_id_str": "PRSA508", "name": "PRSA508_Chkalov" },
+  "3762272048": { "ship_id_str": "PGSA508", "name": "PGSA508_Graf_Zeppelin" },
+  "3762272208": { "ship_id_str": "PBSA508", "name": "PBSA508_Indomitable" },
+  "3762272240": { "ship_id_str": "PASA508", "name": "PASA508_Enterprise" },
+  "3762730256": { "ship_id_str": "PXSS507", "name": "PXSS507_Klaus_V_Teslau" },
+  "3763221872": { "ship_id_str": "PUSD507", "name": "PUSD507_Haida" },
+  "3763221968": { "ship_id_str": "PRSD507", "name": "PRSD507_Leningrad_1944" },
+  "3763222224": { "ship_id_str": "PJSD507", "name": "PJSD507_Yudachi" },
   "3763254608": {
     "ship_id_str": "PVSC507",
     "name": "PVSC507_Nueve_de_Julio_1951"
@@ -619,1554 +256,566 @@
     "ship_id_str": "PISC507",
     "name": "PISC507_Duca_degli_Abruzzi"
   },
-  "3763255088": {
-    "ship_id_str": "PGSC507",
-    "name": "PGSC507_Munchen"
-  },
-  "3763255248": {
-    "ship_id_str": "PBSC507",
-    "name": "PBSC507_Belfast_1959"
-  },
+  "3763255088": { "ship_id_str": "PGSC507", "name": "PGSC507_Munchen" },
+  "3763255248": { "ship_id_str": "PBSC507", "name": "PBSC507_Belfast_1959" },
   "3763255280": {
     "ship_id_str": "PASC507",
     "name": "PASC507_Indianapolis_1945"
   },
-  "3763287760": {
-    "ship_id_str": "PJSB507",
-    "name": "PJSB507_Ashitaka"
-  },
-  "3763287856": {
-    "ship_id_str": "PGSB507",
-    "name": "PGSB507_Scharnhorst"
-  },
-  "3763288016": {
-    "ship_id_str": "PBSB507",
-    "name": "PBSB507_Hood"
-  },
-  "3763288048": {
-    "ship_id_str": "PASB507",
-    "name": "PASB507_West_Virginia"
-  },
-  "3763320528": {
-    "ship_id_str": "PJSA507",
-    "name": "PJSA507_Kaga"
-  },
-  "3763320816": {
-    "ship_id_str": "PASA507",
-    "name": "PASA507_Saipan_1946"
-  },
-  "3764270288": {
-    "ship_id_str": "PZSD506",
-    "name": "PZSD506_Anshan"
-  },
-  "3764270832": {
-    "ship_id_str": "PISD506",
-    "name": "PISD506_Leone"
-  },
-  "3764270896": {
-    "ship_id_str": "PGSD506",
-    "name": "PGSD506_T_61"
-  },
-  "3764270928": {
-    "ship_id_str": "PFSD506",
-    "name": "PFSD506_Aigle"
-  },
-  "3764271056": {
-    "ship_id_str": "PBSD506",
-    "name": "PBSD506_Gallant"
-  },
-  "3764271088": {
-    "ship_id_str": "PASD506",
-    "name": "PASD506_Monaghan"
-  },
-  "3764303056": {
-    "ship_id_str": "PZSC506",
-    "name": "PZSC506_Huang_he"
-  },
-  "3764303216": {
-    "ship_id_str": "PUSC506",
-    "name": "PUSC506_Perth_1942"
-  },
-  "3764303312": {
-    "ship_id_str": "PRSC506",
-    "name": "PRSC506_Molotov_1943"
-  },
-  "3764303600": {
-    "ship_id_str": "PISC506",
-    "name": "PISC506_DucadAosta"
-  },
+  "3763287408": { "ship_id_str": "PUSB507", "name": "PUSB507_Yukon" },
+  "3763287760": { "ship_id_str": "PJSB507", "name": "PJSB507_Ashitaka" },
+  "3763287856": { "ship_id_str": "PGSB507", "name": "PGSB507_Scharnhorst" },
+  "3763287888": { "ship_id_str": "PFSB507", "name": "PFSB507_Strasbourg" },
+  "3763288016": { "ship_id_str": "PBSB507", "name": "PBSB507_Hood" },
+  "3763288048": { "ship_id_str": "PASB507", "name": "PASB507_West_Virginia" },
+  "3763320528": { "ship_id_str": "PJSA507", "name": "PJSA507_Kaga" },
+  "3763320816": { "ship_id_str": "PASA507", "name": "PASA507_Saipan_1946" },
+  "3764270288": { "ship_id_str": "PZSD506", "name": "PZSD506_Anshan" },
+  "3764270416": { "ship_id_str": "PVSD506", "name": "PVSD506_Jurua" },
+  "3764270832": { "ship_id_str": "PISD506", "name": "PISD506_Leone" },
+  "3764270896": { "ship_id_str": "PGSD506", "name": "PGSD506_T_61" },
+  "3764270928": { "ship_id_str": "PFSD506", "name": "PFSD506_Aigle" },
+  "3764271056": { "ship_id_str": "PBSD506", "name": "PBSD506_Gallant" },
+  "3764271088": { "ship_id_str": "PASD506", "name": "PASD506_Monaghan" },
+  "3764303056": { "ship_id_str": "PZSC506", "name": "PZSC506_Huang_he" },
+  "3764303216": { "ship_id_str": "PUSC506", "name": "PUSC506_Perth_1942" },
+  "3764303312": { "ship_id_str": "PRSC506", "name": "PRSC506_Molotov_1943" },
+  "3764303600": { "ship_id_str": "PISC506", "name": "PISC506_DucadAosta" },
   "3764303664": {
     "ship_id_str": "PGSC506",
     "name": "PGSC506_Admiral_Graf_Spee"
   },
-  "3764303696": {
-    "ship_id_str": "PFSC506",
-    "name": "PFSC506_De_Grasse"
-  },
-  "3764336336": {
-    "ship_id_str": "PJSB506",
-    "name": "PJSB506_Mutsu"
-  },
+  "3764303696": { "ship_id_str": "PFSC506", "name": "PFSC506_De_Grasse" },
+  "3764336336": { "ship_id_str": "PJSB506", "name": "PJSB506_Mutsu" },
   "3764336432": {
     "ship_id_str": "PGSB506",
     "name": "PGSB506_Prinz_Eithel_Friedrich"
   },
-  "3764336464": {
-    "ship_id_str": "PFSB506",
-    "name": "PFSB506_Dunkerque_1940"
-  },
-  "3764336624": {
-    "ship_id_str": "PASB506",
-    "name": "PASB506_Arizona_1941"
-  },
+  "3764336464": { "ship_id_str": "PFSB506", "name": "PFSB506_Dunkerque_1940" },
+  "3764336624": { "ship_id_str": "PASB506", "name": "PASB506_Arizona_1941" },
   "3764369200": {
     "ship_id_str": "PGSA506",
     "name": "PGSA506_Erich_Loewenhardt"
   },
-  "3765319120": {
-    "ship_id_str": "PRSD505",
-    "name": "PRSD505_Okhotnik_1917"
-  },
-  "3765319664": {
-    "ship_id_str": "PASD505",
-    "name": "PASD505_Hill"
-  },
-  "3765351888": {
-    "ship_id_str": "PRSC505",
-    "name": "PRSC505_KrasniKrym"
-  },
-  "3765352144": {
-    "ship_id_str": "PJSC505",
-    "name": "PJSC505_Yahagi"
-  },
-  "3765352176": {
-    "ship_id_str": "PISC505",
-    "name": "PISC505_Genova"
-  },
-  "3765352400": {
-    "ship_id_str": "PBSC505",
-    "name": "PBSC505_Exeter"
-  },
+  "3764369232": { "ship_id_str": "PFSA506", "name": "PFSA506_Bearn" },
+  "3765319120": { "ship_id_str": "PRSD505", "name": "PRSD505_Okhotnik_1917" },
+  "3765319664": { "ship_id_str": "PASD505", "name": "PASD505_Hill" },
+  "3765351888": { "ship_id_str": "PRSC505", "name": "PRSC505_KrasniKrym" },
+  "3765352144": { "ship_id_str": "PJSC505", "name": "PJSC505_Yahagi" },
+  "3765352176": { "ship_id_str": "PISC505", "name": "PISC505_Genova" },
+  "3765352400": { "ship_id_str": "PBSC505", "name": "PBSC505_Exeter" },
   "3765384656": {
     "ship_id_str": "PRSB505",
     "name": "PRSB505_Oktyabrskaya_Revolutsiya"
   },
-  "3765384944": {
-    "ship_id_str": "PISB505",
-    "name": "PISB505_Giulio_Cesare"
-  },
-  "3766368080": {
-    "ship_id_str": "PFSD504",
-    "name": "PFSD504_Siroco"
-  },
-  "3766433072": {
-    "ship_id_str": "PWSB504",
-    "name": "PWSB504_Viribus_Unitis"
-  },
-  "3767416176": {
-    "ship_id_str": "PUSD503",
-    "name": "PUSD503_Vampire"
-  },
+  "3765384944": { "ship_id_str": "PISB505", "name": "PISB505_Giulio_Cesare" },
+  "3765385168": { "ship_id_str": "PBSB505", "name": "PBSB505_Agincourt" },
+  "3765385200": { "ship_id_str": "PASB505", "name": "PASB505_Oklahoma" },
+  "3766368080": { "ship_id_str": "PFSD504", "name": "PFSD504_Siroco" },
+  "3766433072": { "ship_id_str": "PWSB504", "name": "PWSB504_Viribus_Unitis" },
+  "3767416176": { "ship_id_str": "PUSD503", "name": "PUSD503_Vampire" },
   "3767416784": {
     "ship_id_str": "PBSD503",
     "name": "PBSD503_Campbeltown_1941"
   },
-  "3767448848": {
-    "ship_id_str": "PXSC503",
-    "name": "PXSC503_SEABATTLE_CAP"
-  },
-  "3767449040": {
-    "ship_id_str": "PRSC503",
-    "name": "PRSC503_Oleg"
-  },
-  "3767449296": {
-    "ship_id_str": "PJSC503",
-    "name": "PJSC503_Katori"
-  },
-  "3767449584": {
-    "ship_id_str": "PASC503",
-    "name": "PASC503_Charleston"
-  },
-  "3767482160": {
-    "ship_id_str": "PGSB503",
-    "name": "PGSB503_Koenig_Albert"
-  },
-  "3767482320": {
-    "ship_id_str": "PBSB503",
-    "name": "PBSB503_Dreadnought"
-  },
-  "3768465392": {
-    "ship_id_str": "PASD502",
-    "name": "PASD502_Smith"
-  },
-  "3768497968": {
-    "ship_id_str": "PGSC502",
-    "name": "PGSC502_Emden_1908"
-  },
-  "3769513264": {
-    "ship_id_str": "PWSD501",
-    "name": "PWSD501_Blyskawica"
-  },
-  "3865982416": {
-    "ship_id_str": "PRSD409",
-    "name": "PRSD409_Pr_20i_Tashkent"
-  },
-  "3867587856": {
-    "ship_id_str": "PXSS407",
-    "name": "PXSS407_Dr_Frankenship"
-  },
-  "3969824208": {
-    "ship_id_str": "PRSC310",
-    "name": "PRSC310_Petropavlovsk"
-  },
-  "3971888592": {
-    "ship_id_str": "PRSD308",
-    "name": "PRSD308_Pr_48"
-  },
-  "3972445456": {
-    "ship_id_str": "PXSS307",
-    "name": "PXSS307_Cyrus_Herrero"
-  },
-  "4065212112": {
-    "ship_id_str": "PJSD219",
-    "name": "PJSD219_Kitakaze"
-  },
-  "4069438928": {
-    "ship_id_str": "PRSC215",
-    "name": "PRSC215_Kotovsky"
-  },
-  "4074649040": {
-    "ship_id_str": "PRSD210",
-    "name": "PRSD210_Grozovoy_pr_40N"
-  },
-  "4074649296": {
-    "ship_id_str": "PJSD210",
-    "name": "PJSD210_Harugumo"
-  },
-  "4074649424": {
-    "ship_id_str": "PFSD210",
-    "name": "PFSD210_Marceau"
-  },
+  "3767448848": { "ship_id_str": "PXSC503", "name": "PXSC503_SEABATTLE_CAP" },
+  "3767449040": { "ship_id_str": "PRSC503", "name": "PRSC503_Oleg" },
+  "3767449296": { "ship_id_str": "PJSC503", "name": "PJSC503_Katori" },
+  "3767449584": { "ship_id_str": "PASC503", "name": "PASC503_Charleston" },
+  "3767482160": { "ship_id_str": "PGSB503", "name": "PGSB503_Koenig_Albert" },
+  "3767482320": { "ship_id_str": "PBSB503", "name": "PBSB503_Dreadnought" },
+  "3768465392": { "ship_id_str": "PASD502", "name": "PASD502_Smith" },
+  "3768497488": { "ship_id_str": "PVSC502", "name": "PVSC502_Almirante_Abreu" },
+  "3768497968": { "ship_id_str": "PGSC502", "name": "PGSC502_Emden_1908" },
+  "3768857872": { "ship_id_str": "PXSX501", "name": "PXSX501_LIBERTY_ARM" },
+  "3769513264": { "ship_id_str": "PWSD501", "name": "PWSD501_Blyskawica" },
+  "3864933840": { "ship_id_str": "PRSD410", "name": "PRSD410_Yerevan" },
+  "3865982416": { "ship_id_str": "PRSD409", "name": "PRSD409_Pr_20i_Tashkent" },
+  "3867587856": { "ship_id_str": "PXSS407", "name": "PXSS407_Dr_Frankenship" },
+  "3969824208": { "ship_id_str": "PRSC310", "name": "PRSC310_Petropavlovsk" },
+  "3969857328": { "ship_id_str": "PGSB310", "name": "PGSB310_Preussen" },
+  "3971888592": { "ship_id_str": "PRSD308", "name": "PRSD308_Pr_48" },
+  "3972445456": { "ship_id_str": "PXSS307", "name": "PXSS307_Cyrus_Herrero" },
+  "4065212112": { "ship_id_str": "PJSD219", "name": "PJSD219_Kitakaze" },
+  "4069438928": { "ship_id_str": "PRSC215", "name": "PRSC215_Kotovsky" },
+  "4074649040": { "ship_id_str": "PRSD210", "name": "PRSD210_Grozovoy_pr_40N" },
+  "4074649296": { "ship_id_str": "PJSD210", "name": "PJSD210_Harugumo" },
+  "4074649392": { "ship_id_str": "PGSD210", "name": "PGSD210_Elbing" },
+  "4074649424": { "ship_id_str": "PFSD210", "name": "PFSD210_Marceau" },
   "4074681808": {
     "ship_id_str": "PRSC210",
     "name": "PRSC210_Pr_84_Alexander_Nevsky"
   },
-  "4074682320": {
-    "ship_id_str": "PBSC210",
-    "name": "PBSC210_Goliath"
+  "4074682320": { "ship_id_str": "PBSC210", "name": "PBSC210_Goliath" },
+  "4074682352": { "ship_id_str": "PASC210", "name": "PASC210_Worcester" },
+  "4074714928": { "ship_id_str": "PGSB210", "name": "PGSB210_Schlieffen" },
+  "4074747856": { "ship_id_str": "PBSA210", "name": "PBSA210_Audacious" },
+  "4075697872": { "ship_id_str": "PJSD209", "name": "PJSD209_Yugumo" },
+  "4075697968": { "ship_id_str": "PGSD209", "name": "PGSD209_Felix_Schultz" },
+  "4075730384": { "ship_id_str": "PRSC209", "name": "PRSC209_Riga" },
+  "4075730896": { "ship_id_str": "PBSC209", "name": "PBSC209_Drake" },
+  "4075730928": { "ship_id_str": "PASC209", "name": "PASC209_Seattle" },
+  "4075763504": { "ship_id_str": "PGSB209", "name": "PGSB209_Prinz_Rupprecht" },
+  "4076745936": { "ship_id_str": "PZSD208", "name": "PZSD208_Siliwangi_1959" },
+  "4076746192": { "ship_id_str": "PRSD208", "name": "PRSD208_Pr_30" },
+  "4076746448": { "ship_id_str": "PJSD208", "name": "PJSD208_Kagero" },
+  "4076746544": {
+    "ship_id_str": "PGSD208",
+    "name": "PGSD208_Gustav_Julius_Maerker"
   },
-  "4074682352": {
-    "ship_id_str": "PASC210",
-    "name": "PASC210_Worcester"
-  },
-  "4074747856": {
-    "ship_id_str": "PBSA210",
-    "name": "PBSA210_Audacious"
-  },
-  "4075697872": {
-    "ship_id_str": "PJSD209",
-    "name": "PJSD209_Yugumo"
-  },
-  "4075730384": {
-    "ship_id_str": "PRSC209",
-    "name": "PRSC209_Riga"
-  },
-  "4075730896": {
-    "ship_id_str": "PBSC209",
-    "name": "PBSC209_Drake"
-  },
-  "4075730928": {
-    "ship_id_str": "PASC209",
-    "name": "PASC209_Seattle"
-  },
-  "4076745936": {
-    "ship_id_str": "PZSD208",
-    "name": "PZSD208_Siliwangi_1959"
-  },
-  "4076746192": {
-    "ship_id_str": "PRSD208",
-    "name": "PRSD208_Pr_30"
-  },
-  "4076746448": {
-    "ship_id_str": "PJSD208",
-    "name": "PJSD208_Kagero"
-  },
-  "4076778960": {
-    "ship_id_str": "PRSC208",
-    "name": "PRSC208_Tallin"
-  },
-  "4076779472": {
-    "ship_id_str": "PBSC208",
-    "name": "PBSC208_Albemarle"
-  },
-  "4076779504": {
-    "ship_id_str": "PASC208",
-    "name": "PASC208_Cleveland"
-  },
+  "4076778960": { "ship_id_str": "PRSC208", "name": "PRSC208_Tallin" },
+  "4076779472": { "ship_id_str": "PBSC208", "name": "PBSC208_Albemarle" },
+  "4076779504": { "ship_id_str": "PASC208", "name": "PASC208_Cleveland" },
+  "4076812080": { "ship_id_str": "PGSB208", "name": "PGSB208_Zieten" },
   "4077303056": {
     "ship_id_str": "PXSS207",
     "name": "PXSS207_Lazarus_Centurio"
   },
-  "4077794768": {
-    "ship_id_str": "PRSD207",
-    "name": "PRSD207_Minsk"
-  },
-  "4077795024": {
-    "ship_id_str": "PJSD207",
-    "name": "PJSD207_Shiratsuyu"
-  },
-  "4077828048": {
-    "ship_id_str": "PBSC207",
-    "name": "PBSC207_Surrey"
-  },
-  "4077828080": {
-    "ship_id_str": "PASC207",
-    "name": "PASC207_Helena"
-  },
-  "4078843344": {
-    "ship_id_str": "PRSD206",
-    "name": "PRSD206_Pr_7"
-  },
-  "4078843600": {
-    "ship_id_str": "PJSD206",
-    "name": "PJSD206_Hatsuharu"
-  },
-  "4078876624": {
-    "ship_id_str": "PBSC206",
-    "name": "PBSC206_Devonshire"
-  },
-  "4078876656": {
-    "ship_id_str": "PASC206",
-    "name": "PASC206_Dallas"
-  },
+  "4077794768": { "ship_id_str": "PRSD207", "name": "PRSD207_Minsk" },
+  "4077795024": { "ship_id_str": "PJSD207", "name": "PJSD207_Shiratsuyu" },
+  "4077795120": { "ship_id_str": "PGSD207", "name": "PGSD207_Z_31" },
+  "4077828048": { "ship_id_str": "PBSC207", "name": "PBSC207_Surrey" },
+  "4077828080": { "ship_id_str": "PASC207", "name": "PASC207_Helena" },
+  "4077860656": { "ship_id_str": "PGSB207", "name": "PGSB207_Prinz_Heinrich" },
+  "4078843344": { "ship_id_str": "PRSD206", "name": "PRSD206_Pr_7" },
+  "4078843600": { "ship_id_str": "PJSD206", "name": "PJSD206_Hatsuharu" },
+  "4078876624": { "ship_id_str": "PBSC206", "name": "PBSC206_Devonshire" },
+  "4078876656": { "ship_id_str": "PASC206", "name": "PASC206_Dallas" },
+  "4078909232": { "ship_id_str": "PGSB206", "name": "PGSB206_Mackensen" },
   "4079891920": {
     "ship_id_str": "PRSD205",
     "name": "PRSD205_Podvoisky_pr_1929"
   },
-  "4079925200": {
-    "ship_id_str": "PBSC205",
-    "name": "PBSC205_Hawkins"
-  },
-  "4081039312": {
-    "ship_id_str": "PBSA204",
-    "name": "PBSA204_Hermes"
-  },
-  "4179015120": {
-    "ship_id_str": "PRSS110",
-    "name": "PRSS110_K_type"
-  },
-  "4179015472": {
-    "ship_id_str": "PGSS110",
-    "name": "PGSS110_U_2501"
-  },
-  "4179015664": {
-    "ship_id_str": "PASS110",
-    "name": "PASS110_Balao"
-  },
-  "4179506384": {
-    "ship_id_str": "PZSD110",
-    "name": "PZSD110_Hsiang_Yang"
-  },
-  "4179506480": {
-    "ship_id_str": "PWSD110",
-    "name": "PWSD110_Halland"
-  },
+  "4079925200": { "ship_id_str": "PBSC205", "name": "PBSC205_Hawkins" },
+  "4079957808": { "ship_id_str": "PGSB205", "name": "PGSB205_Derfflinger" },
+  "4081006384": { "ship_id_str": "PGSB204", "name": "PGSB204_Moltke" },
+  "4081039312": { "ship_id_str": "PBSA204", "name": "PBSA204_Hermes" },
+  "4082054960": { "ship_id_str": "PGSB203", "name": "PGSB203_Von_der_Tann" },
+  "4178458064": { "ship_id_str": "PRSD111", "name": "PRSD111_Zorky" },
+  "4178458320": { "ship_id_str": "PJSD111", "name": "PJSD111_Yamagiri" },
+  "4178491216": { "ship_id_str": "PFSC111", "name": "PFSC111_Conde" },
+  "4178491376": { "ship_id_str": "PASC111", "name": "PASC111_Annapolis" },
+  "4178523856": { "ship_id_str": "PJSB111", "name": "PJSB111_Satsuma" },
+  "4178523952": { "ship_id_str": "PGSB111", "name": "PGSB111_Hannover" },
+  "4179015120": { "ship_id_str": "PRSS110", "name": "PRSS110_K_type" },
+  "4179015472": { "ship_id_str": "PGSS110", "name": "PGSS110_U_2501" },
+  "4179015664": { "ship_id_str": "PASS110", "name": "PASS110_Balao" },
+  "4179506384": { "ship_id_str": "PZSD110", "name": "PZSD110_Hsiang_Yang" },
+  "4179506480": { "ship_id_str": "PWSD110", "name": "PWSD110_Halland" },
   "4179506640": {
     "ship_id_str": "PRSD110",
     "name": "PRSD110_Pr_24_Khabarovsk"
   },
-  "4179506992": {
-    "ship_id_str": "PGSD110",
-    "name": "PGSD110_Z_52"
-  },
-  "4179507024": {
-    "ship_id_str": "PFSD110",
-    "name": "PFSD110_Kleber"
-  },
-  "4179507152": {
-    "ship_id_str": "PBSD110",
-    "name": "PBSD110_Daring"
-  },
-  "4179539408": {
-    "ship_id_str": "PRSC110",
-    "name": "PRSC110_Pr_66_Moskva"
-  },
-  "4179539696": {
-    "ship_id_str": "PISC110",
-    "name": "PISC110_Venezia"
-  },
-  "4179539760": {
-    "ship_id_str": "PGSC110",
-    "name": "PGSC110_Hindenburg"
-  },
-  "4179539792": {
-    "ship_id_str": "PFSC110",
-    "name": "PFSC110_Henri_IV"
-  },
-  "4179539920": {
-    "ship_id_str": "PBSC110",
-    "name": "PBSC110_Minotaur"
-  },
+  "4179506992": { "ship_id_str": "PGSD110", "name": "PGSD110_Z_52" },
+  "4179507024": { "ship_id_str": "PFSD110", "name": "PFSD110_Kleber" },
+  "4179507152": { "ship_id_str": "PBSD110", "name": "PBSD110_Daring" },
+  "4179539152": { "ship_id_str": "PZSC110", "name": "PZSC110_Jinan" },
+  "4179539408": { "ship_id_str": "PRSC110", "name": "PRSC110_Pr_66_Moskva" },
+  "4179539696": { "ship_id_str": "PISC110", "name": "PISC110_Venezia" },
+  "4179539728": { "ship_id_str": "PHSC110", "name": "PHSC110_Gouden_Leeuw" },
+  "4179539760": { "ship_id_str": "PGSC110", "name": "PGSC110_Hindenburg" },
+  "4179539792": { "ship_id_str": "PFSC110", "name": "PFSC110_Henri_IV" },
+  "4179539920": { "ship_id_str": "PBSC110", "name": "PBSC110_Minotaur" },
   "4179572176": {
     "ship_id_str": "PRSB110",
     "name": "PRSB110_Sovetskaya_Rossiya"
+  },
+  "4179572464": {
+    "ship_id_str": "PISB110",
+    "name": "PISB110_Cristoforo_Colombo"
   },
   "4179572528": {
     "ship_id_str": "PGSB110",
     "name": "PGSB110_Grossdeutschland"
   },
-  "4179572560": {
-    "ship_id_str": "PFSB110",
-    "name": "PFSB110_France"
+  "4179572560": { "ship_id_str": "PFSB110", "name": "PFSB110_France" },
+  "4179572688": { "ship_id_str": "PBSB110", "name": "PBSB110_Conqueror" },
+  "4179572720": { "ship_id_str": "PASB110", "name": "PASB110_Vermont" },
+  "4179604944": {
+    "ship_id_str": "PRSA110",
+    "name": "PRSA110_Admiral_Nakhimov"
   },
-  "4179572688": {
-    "ship_id_str": "PBSB110",
-    "name": "PBSB110_Conqueror"
-  },
-  "4179605200": {
-    "ship_id_str": "PJSA110",
-    "name": "PJSA110_Hakuryu"
-  },
+  "4179605200": { "ship_id_str": "PJSA110", "name": "PJSA110_Hakuryu" },
   "4179605296": {
     "ship_id_str": "PGSA110",
     "name": "PGSA110_Manfred_Richthofen"
   },
-  "4179605488": {
-    "ship_id_str": "PASA110",
-    "name": "PASA110_Midway"
-  },
-  "4180554960": {
-    "ship_id_str": "PZSD109",
-    "name": "PZSD109_Chung_Mu"
-  },
-  "4180555056": {
-    "ship_id_str": "PWSD109",
-    "name": "PWSD109_Ostergotland"
-  },
-  "4180555216": {
-    "ship_id_str": "PRSD109",
-    "name": "PRSD109_Pr_48_Kiev"
-  },
-  "4180555568": {
-    "ship_id_str": "PGSD109",
-    "name": "PGSD109_Z_46"
-  },
-  "4180555600": {
-    "ship_id_str": "PFSD109",
-    "name": "PFSD109_Mogador"
-  },
-  "4180555728": {
-    "ship_id_str": "PBSD109",
-    "name": "PBSD109_Jutland"
-  },
-  "4180587984": {
-    "ship_id_str": "PRSC109",
-    "name": "PRSC109_Dmitry_Donskoy"
-  },
-  "4180588272": {
-    "ship_id_str": "PISC109",
-    "name": "PISC109_Brindisi"
-  },
-  "4180588336": {
-    "ship_id_str": "PGSC109",
-    "name": "PGSC109_Roon"
-  },
-  "4180588368": {
-    "ship_id_str": "PFSC109",
-    "name": "PFSC109_Saint_Louis"
-  },
-  "4180588496": {
-    "ship_id_str": "PBSC109",
-    "name": "PBSC109_Neptune"
-  },
-  "4180588528": {
-    "ship_id_str": "PASC109",
-    "name": "PASC109_Buffalo"
-  },
-  "4180620752": {
-    "ship_id_str": "PRSB109",
-    "name": "PRSB109_Sovetsky_Soyuz"
-  },
+  "4179605488": { "ship_id_str": "PASA110", "name": "PASA110_Midway" },
+  "4180554960": { "ship_id_str": "PZSD109", "name": "PZSD109_Chung_Mu" },
+  "4180555056": { "ship_id_str": "PWSD109", "name": "PWSD109_Ostergotland" },
+  "4180555216": { "ship_id_str": "PRSD109", "name": "PRSD109_Pr_48_Kiev" },
+  "4180555568": { "ship_id_str": "PGSD109", "name": "PGSD109_Z_46" },
+  "4180555600": { "ship_id_str": "PFSD109", "name": "PFSD109_Mogador" },
+  "4180555728": { "ship_id_str": "PBSD109", "name": "PBSD109_Jutland" },
+  "4180587728": { "ship_id_str": "PZSC109", "name": "PZSC109_Sejong" },
+  "4180587984": { "ship_id_str": "PRSC109", "name": "PRSC109_Dmitry_Donskoy" },
+  "4180588272": { "ship_id_str": "PISC109", "name": "PISC109_Brindisi" },
+  "4180588304": { "ship_id_str": "PHSC109", "name": "PHSC109_Johan_de_Witt" },
+  "4180588336": { "ship_id_str": "PGSC109", "name": "PGSC109_Roon" },
+  "4180588368": { "ship_id_str": "PFSC109", "name": "PFSC109_Saint_Louis" },
+  "4180588496": { "ship_id_str": "PBSC109", "name": "PBSC109_Neptune" },
+  "4180588528": { "ship_id_str": "PASC109", "name": "PASC109_Buffalo" },
+  "4180620752": { "ship_id_str": "PRSB109", "name": "PRSB109_Sovetsky_Soyuz" },
+  "4180621040": { "ship_id_str": "PISB109", "name": "PISB109_Lepanto" },
   "4180621104": {
     "ship_id_str": "PGSB109",
     "name": "PGSB109_Friedrich_der_Grosse"
   },
-  "4180621136": {
-    "ship_id_str": "PFSB109",
-    "name": "PFSB109_Alsace"
+  "4180621136": { "ship_id_str": "PFSB109", "name": "PFSB109_Alsace" },
+  "4180621264": { "ship_id_str": "PBSB109", "name": "PBSB109_Lion" },
+  "4180621296": { "ship_id_str": "PASB109", "name": "PASB109_Minnesota" },
+  "4181112272": { "ship_id_str": "PRSS108", "name": "PRSS108_L20" },
+  "4181112624": { "ship_id_str": "PGSS108", "name": "PGSS108_U190" },
+  "4181112816": { "ship_id_str": "PASS108", "name": "PASS108_Salmon" },
+  "4181603536": { "ship_id_str": "PZSD108", "name": "PZSD108_Hsien_Yang" },
+  "4181603632": { "ship_id_str": "PWSD108", "name": "PWSD108_Oland" },
+  "4181603792": { "ship_id_str": "PRSD108", "name": "PRSD108_Pr_20i_Tashkent" },
+  "4181604048": { "ship_id_str": "PJSD108", "name": "PJSD108_Akizuki" },
+  "4181604144": { "ship_id_str": "PGSD108", "name": "PGSD108_Z_23" },
+  "4181604176": { "ship_id_str": "PFSD108", "name": "PFSD108_Le_Fantasque" },
+  "4181604304": { "ship_id_str": "PBSD108", "name": "PBSD108_Lightning" },
+  "4181636304": { "ship_id_str": "PZSC108", "name": "PZSC108_Harbin" },
+  "4181636560": { "ship_id_str": "PRSC108", "name": "PRSC108_Pr_68_Chapaev" },
+  "4181636848": { "ship_id_str": "PISC108", "name": "PISC108_Amalfi" },
+  "4181636880": { "ship_id_str": "PHSC108", "name": "PHSC108_Haarlem" },
+  "4181636912": { "ship_id_str": "PGSC108", "name": "PGSC108_Hipper" },
+  "4181636944": { "ship_id_str": "PFSC108", "name": "PFSC108_Charles_Martel" },
+  "4181637072": { "ship_id_str": "PBSC108", "name": "PBSC108_Edinburgh" },
+  "4181637104": { "ship_id_str": "PASC108", "name": "PASC108_Baltimore_1944" },
+  "4181669328": { "ship_id_str": "PRSB108", "name": "PRSB108_Vladivostok" },
+  "4181669616": { "ship_id_str": "PISB108", "name": "PISB108_Vittorio_Veneto" },
+  "4181669680": { "ship_id_str": "PGSB108", "name": "PGSB108_Bismarck" },
+  "4181669712": { "ship_id_str": "PFSB108", "name": "PFSB108_Richelieu" },
+  "4181669840": { "ship_id_str": "PBSB108", "name": "PBSB108_Monarch" },
+  "4181669872": { "ship_id_str": "PASB108", "name": "PASB108_Kansas" },
+  "4181702096": { "ship_id_str": "PRSA108", "name": "PRSA108_Pobeda" },
+  "4181702352": { "ship_id_str": "PJSA108", "name": "PJSA108_Shokaku" },
+  "4181702448": { "ship_id_str": "PGSA108", "name": "PGSA108_Parseval" },
+  "4181702608": { "ship_id_str": "PBSA108", "name": "PBSA108_Implacable" },
+  "4181702640": { "ship_id_str": "PASA108", "name": "PASA108_Lexington" },
+  "4182160656": { "ship_id_str": "PXSS107", "name": "PXSS107_Mina_Hurray" },
+  "4182652112": { "ship_id_str": "PZSD107", "name": "PZSD107_Gadjah_Mada" },
+  "4182652208": { "ship_id_str": "PWSD107", "name": "PWSD107_Skane" },
+  "4182652368": { "ship_id_str": "PRSD107", "name": "PRSD107_Pr_35_Udaloy" },
+  "4182652624": { "ship_id_str": "PJSD107", "name": "PJSD107_Akatsuki" },
+  "4182652720": { "ship_id_str": "PGSD107", "name": "PGSD107_Leberecht_Maass" },
+  "4182652752": { "ship_id_str": "PFSD107", "name": "PFSD107_Vauquelin" },
+  "4182652880": { "ship_id_str": "PBSD107", "name": "PBSD107_Jervis" },
+  "4182684880": { "ship_id_str": "PZSC107", "name": "PZSC107_Chumphon" },
+  "4182685136": { "ship_id_str": "PRSC107", "name": "PRSC107_Schors" },
+  "4182685424": { "ship_id_str": "PISC107", "name": "PISC107_Zara" },
+  "4182685456": { "ship_id_str": "PHSC107", "name": "PHSC107_Eendracht" },
+  "4182685488": { "ship_id_str": "PGSC107", "name": "PGSC107_Yorck" },
+  "4182685520": { "ship_id_str": "PFSC107", "name": "PFSC107_Algerie" },
+  "4182685648": { "ship_id_str": "PBSC107", "name": "PBSC107_Fiji" },
+  "4182685680": { "ship_id_str": "PASC107", "name": "PASC107_New_Orlean_1944" },
+  "4182717904": { "ship_id_str": "PRSB107", "name": "PRSB107_Sinop" },
+  "4182718192": {
+    "ship_id_str": "PISB107",
+    "name": "PISB107_Francesco_Caracciolo"
   },
-  "4180621264": {
-    "ship_id_str": "PBSB109",
-    "name": "PBSB109_Lion"
-  },
-  "4181112272": {
-    "ship_id_str": "PRSS108",
-    "name": "PRSS108_L20"
-  },
-  "4181112624": {
-    "ship_id_str": "PGSS108",
-    "name": "PGSS108_U190"
-  },
-  "4181112816": {
-    "ship_id_str": "PASS108",
-    "name": "PASS108_Salmon"
-  },
-  "4181603536": {
-    "ship_id_str": "PZSD108",
-    "name": "PZSD108_Hsien_Yang"
-  },
-  "4181603632": {
-    "ship_id_str": "PWSD108",
-    "name": "PWSD108_Oland"
-  },
-  "4181603792": {
-    "ship_id_str": "PRSD108",
-    "name": "PRSD108_Pr_20i_Tashkent"
-  },
-  "4181604048": {
-    "ship_id_str": "PJSD108",
-    "name": "PJSD108_Akizuki"
-  },
-  "4181604144": {
-    "ship_id_str": "PGSD108",
-    "name": "PGSD108_Z_23"
-  },
-  "4181604176": {
-    "ship_id_str": "PFSD108",
-    "name": "PFSD108_Le_Fantasque"
-  },
-  "4181604304": {
-    "ship_id_str": "PBSD108",
-    "name": "PBSD108_Lightning"
-  },
-  "4181636560": {
-    "ship_id_str": "PRSC108",
-    "name": "PRSC108_Pr_68_Chapaev"
-  },
-  "4181636848": {
-    "ship_id_str": "PISC108",
-    "name": "PISC108_Amalfi"
-  },
-  "4181636912": {
-    "ship_id_str": "PGSC108",
-    "name": "PGSC108_Hipper"
-  },
-  "4181636944": {
-    "ship_id_str": "PFSC108",
-    "name": "PFSC108_Charles_Martel"
-  },
-  "4181637072": {
-    "ship_id_str": "PBSC108",
-    "name": "PBSC108_Edinburgh"
-  },
-  "4181637104": {
-    "ship_id_str": "PASC108",
-    "name": "PASC108_Baltimore_1944"
-  },
-  "4181669328": {
-    "ship_id_str": "PRSB108",
-    "name": "PRSB108_Vladivostok"
-  },
-  "4181669680": {
-    "ship_id_str": "PGSB108",
-    "name": "PGSB108_Bismarck"
-  },
-  "4181669712": {
-    "ship_id_str": "PFSB108",
-    "name": "PFSB108_Richelieu"
-  },
-  "4181669840": {
-    "ship_id_str": "PBSB108",
-    "name": "PBSB108_Monarch"
-  },
-  "4181702352": {
-    "ship_id_str": "PJSA108",
-    "name": "PJSA108_Shokaku"
-  },
-  "4181702448": {
-    "ship_id_str": "PGSA108",
-    "name": "PGSA108_Parseval"
-  },
-  "4181702608": {
-    "ship_id_str": "PBSA108",
-    "name": "PBSA108_Implacable"
-  },
-  "4181702640": {
-    "ship_id_str": "PASA108",
-    "name": "PASA108_Lexington"
-  },
-  "4182160656": {
-    "ship_id_str": "PXSS107",
-    "name": "PXSS107_Mina_Hurray"
-  },
-  "4182652112": {
-    "ship_id_str": "PZSD107",
-    "name": "PZSD107_Gadjah_Mada"
-  },
-  "4182652208": {
-    "ship_id_str": "PWSD107",
-    "name": "PWSD107_Skane"
-  },
-  "4182652368": {
-    "ship_id_str": "PRSD107",
-    "name": "PRSD107_Pr_35_Udaloy"
-  },
-  "4182652624": {
-    "ship_id_str": "PJSD107",
-    "name": "PJSD107_Akatsuki"
-  },
-  "4182652720": {
-    "ship_id_str": "PGSD107",
-    "name": "PGSD107_Leberecht_Maass"
-  },
-  "4182652752": {
-    "ship_id_str": "PFSD107",
-    "name": "PFSD107_Vauquelin"
-  },
-  "4182652880": {
-    "ship_id_str": "PBSD107",
-    "name": "PBSD107_Jervis"
-  },
-  "4182685136": {
-    "ship_id_str": "PRSC107",
-    "name": "PRSC107_Schors"
-  },
-  "4182685424": {
-    "ship_id_str": "PISC107",
-    "name": "PISC107_Zara"
-  },
-  "4182685488": {
-    "ship_id_str": "PGSC107",
-    "name": "PGSC107_Yorck"
-  },
-  "4182685520": {
-    "ship_id_str": "PFSC107",
-    "name": "PFSC107_Algerie"
-  },
-  "4182685648": {
-    "ship_id_str": "PBSC107",
-    "name": "PBSC107_Fiji"
-  },
-  "4182685680": {
-    "ship_id_str": "PASC107",
-    "name": "PASC107_New_Orlean_1944"
-  },
-  "4182717904": {
-    "ship_id_str": "PRSB107",
-    "name": "PRSB107_Sinop"
-  },
-  "4182718256": {
-    "ship_id_str": "PGSB107",
-    "name": "PGSB107_Gneisenau"
-  },
-  "4182718288": {
-    "ship_id_str": "PFSB107",
-    "name": "PFSB107_Lyon"
-  },
-  "4182718416": {
-    "ship_id_str": "PBSB107",
-    "name": "PBSB107_King_George_V"
-  },
-  "4183209424": {
-    "ship_id_str": "PRSS106",
-    "name": "PRSS106_S_1"
-  },
-  "4183209776": {
-    "ship_id_str": "PGSS106",
-    "name": "PGSS106_U_69"
-  },
-  "4183209968": {
-    "ship_id_str": "PASS106",
-    "name": "PASS106_Cachalot"
-  },
-  "4183700688": {
-    "ship_id_str": "PZSD106",
-    "name": "PZSD106_Fu_Shun"
-  },
-  "4183700784": {
-    "ship_id_str": "PWSD106",
-    "name": "PWSD106_Vasteras"
-  },
-  "4183700944": {
-    "ship_id_str": "PRSD106",
-    "name": "PRSD106_Pr_30_Ognevoy"
-  },
-  "4183701200": {
-    "ship_id_str": "PJSD106",
-    "name": "PJSD106_Fubuki"
-  },
-  "4183701296": {
-    "ship_id_str": "PGSD106",
-    "name": "PGSD106_Ernst_Gaede"
-  },
-  "4183701328": {
-    "ship_id_str": "PFSD106",
-    "name": "PFSD106_Guepard"
-  },
-  "4183701456": {
-    "ship_id_str": "PBSD106",
-    "name": "PBSD106_Icarus"
-  },
-  "4183733712": {
-    "ship_id_str": "PRSC106",
-    "name": "PRSC106_Pr_94_Budeny"
-  },
-  "4183734000": {
-    "ship_id_str": "PISC106",
-    "name": "PISC106_Trento"
-  },
-  "4183734064": {
-    "ship_id_str": "PGSC106",
-    "name": "PGSC106_Nurnberg"
-  },
+  "4182718256": { "ship_id_str": "PGSB107", "name": "PGSB107_Gneisenau" },
+  "4182718288": { "ship_id_str": "PFSB107", "name": "PFSB107_Lyon" },
+  "4182718416": { "ship_id_str": "PBSB107", "name": "PBSB107_King_George_V" },
+  "4183209424": { "ship_id_str": "PRSS106", "name": "PRSS106_S_1" },
+  "4183209776": { "ship_id_str": "PGSS106", "name": "PGSS106_U_69" },
+  "4183209968": { "ship_id_str": "PASS106", "name": "PASS106_Cachalot" },
+  "4183700688": { "ship_id_str": "PZSD106", "name": "PZSD106_Fu_Shun" },
+  "4183700784": { "ship_id_str": "PWSD106", "name": "PWSD106_Vasteras" },
+  "4183700944": { "ship_id_str": "PRSD106", "name": "PRSD106_Pr_30_Ognevoy" },
+  "4183701200": { "ship_id_str": "PJSD106", "name": "PJSD106_Fubuki" },
+  "4183701296": { "ship_id_str": "PGSD106", "name": "PGSD106_Ernst_Gaede" },
+  "4183701328": { "ship_id_str": "PFSD106", "name": "PFSD106_Guepard" },
+  "4183701456": { "ship_id_str": "PBSD106", "name": "PBSD106_Icarus" },
+  "4183733456": { "ship_id_str": "PZSC106", "name": "PZSC106_Rahmat" },
+  "4183733712": { "ship_id_str": "PRSC106", "name": "PRSC106_Pr_94_Budeny" },
+  "4183734000": { "ship_id_str": "PISC106", "name": "PISC106_Trento" },
+  "4183734032": { "ship_id_str": "PHSC106", "name": "PHSC106_Kijkduin" },
+  "4183734064": { "ship_id_str": "PGSC106", "name": "PGSC106_Nurnberg" },
   "4183734096": {
     "ship_id_str": "PFSC106",
     "name": "PFSC106_La_Galissonniere"
   },
-  "4183734224": {
-    "ship_id_str": "PBSC106",
-    "name": "PBSC106_Leander"
-  },
-  "4183734256": {
-    "ship_id_str": "PASC106",
-    "name": "PASC106_Pensacola_1944"
-  },
-  "4183766480": {
-    "ship_id_str": "PRSB106",
-    "name": "PRSB106_Izmail"
-  },
-  "4183766832": {
-    "ship_id_str": "PGSB106",
-    "name": "PGSB106_Bayern"
-  },
-  "4183766864": {
-    "ship_id_str": "PFSB106",
-    "name": "PFSB106_Normandie"
-  },
-  "4183766992": {
-    "ship_id_str": "PBSB106",
-    "name": "PBSB106_Queen_Elizabeth"
-  },
-  "4183799504": {
-    "ship_id_str": "PJSA106",
-    "name": "PJSA106_Ryujo"
-  },
-  "4183799600": {
-    "ship_id_str": "PGSA106",
-    "name": "PGSA106_Weser"
-  },
-  "4183799760": {
-    "ship_id_str": "PBSA106",
-    "name": "PBSA106_Furious"
-  },
-  "4183799792": {
-    "ship_id_str": "PASA106",
-    "name": "PASA106_Ranger"
-  },
-  "4184749264": {
-    "ship_id_str": "PZSD105",
-    "name": "PZSD105_Jian_Wei"
-  },
-  "4184749360": {
-    "ship_id_str": "PWSD105",
-    "name": "PWSD105_Visby"
-  },
-  "4184749520": {
-    "ship_id_str": "PRSD105",
-    "name": "PRSD105_Pr_7_Gnevny"
-  },
-  "4184749776": {
-    "ship_id_str": "PJSD105",
-    "name": "PJSD105_Mutsuki"
-  },
-  "4184749872": {
-    "ship_id_str": "PGSD105",
-    "name": "PGSD105_T_22"
-  },
-  "4184749904": {
-    "ship_id_str": "PFSD105",
-    "name": "PFSD105_Jaguar"
-  },
-  "4184750032": {
-    "ship_id_str": "PBSD105",
-    "name": "PBSD105_Acasta"
-  },
-  "4184782288": {
-    "ship_id_str": "PRSC105",
-    "name": "PRSC105_Kirov"
-  },
+  "4183734224": { "ship_id_str": "PBSC106", "name": "PBSC106_Leander" },
+  "4183734256": { "ship_id_str": "PASC106", "name": "PASC106_Pensacola_1944" },
+  "4183766480": { "ship_id_str": "PRSB106", "name": "PRSB106_Izmail" },
+  "4183766768": { "ship_id_str": "PISB106", "name": "PISB106_Andrea_Doria" },
+  "4183766832": { "ship_id_str": "PGSB106", "name": "PGSB106_Bayern" },
+  "4183766864": { "ship_id_str": "PFSB106", "name": "PFSB106_Normandie" },
+  "4183766992": { "ship_id_str": "PBSB106", "name": "PBSB106_Queen_Elizabeth" },
+  "4183799248": { "ship_id_str": "PRSA106", "name": "PRSA106_Serov" },
+  "4183799504": { "ship_id_str": "PJSA106", "name": "PJSA106_Ryujo" },
+  "4183799600": { "ship_id_str": "PGSA106", "name": "PGSA106_Weser" },
+  "4183799760": { "ship_id_str": "PBSA106", "name": "PBSA106_Furious" },
+  "4183799792": { "ship_id_str": "PASA106", "name": "PASA106_Ranger" },
+  "4184749264": { "ship_id_str": "PZSD105", "name": "PZSD105_Jian_Wei" },
+  "4184749360": { "ship_id_str": "PWSD105", "name": "PWSD105_Visby" },
+  "4184749520": { "ship_id_str": "PRSD105", "name": "PRSD105_Pr_7_Gnevny" },
+  "4184749776": { "ship_id_str": "PJSD105", "name": "PJSD105_Mutsuki" },
+  "4184749872": { "ship_id_str": "PGSD105", "name": "PGSD105_T_22" },
+  "4184749904": { "ship_id_str": "PFSD105", "name": "PFSD105_Jaguar" },
+  "4184750032": { "ship_id_str": "PBSD105", "name": "PBSD105_Acasta" },
+  "4184782032": { "ship_id_str": "PZSC105", "name": "PZSC105_Chung_King" },
+  "4184782288": { "ship_id_str": "PRSC105", "name": "PRSC105_Kirov" },
   "4184782576": {
     "ship_id_str": "PISC105",
     "name": "PISC105_Raimondo_Montecuccoli"
   },
-  "4184782640": {
-    "ship_id_str": "PGSC105",
-    "name": "PGSC105_Konigsberg"
-  },
-  "4184782672": {
-    "ship_id_str": "PFSC105",
-    "name": "PFSC105_Emile_Bertin"
-  },
-  "4184782800": {
-    "ship_id_str": "PBSC105",
-    "name": "PBSC105_Emerald"
-  },
-  "4184815056": {
-    "ship_id_str": "PRSB105",
-    "name": "PRSB105_Pyotr_Velikiy"
-  },
-  "4184815408": {
-    "ship_id_str": "PGSB105",
-    "name": "PGSB105_Koenig"
-  },
-  "4184815440": {
-    "ship_id_str": "PFSB105",
-    "name": "PFSB105_Bretagne"
-  },
-  "4184815568": {
-    "ship_id_str": "PBSB105",
-    "name": "PBSB105_Iron_Duke"
-  },
-  "4185797840": {
-    "ship_id_str": "PZSD104",
-    "name": "PZSD104_Shen_Yang"
-  },
-  "4185797936": {
-    "ship_id_str": "PWSD104",
-    "name": "PWSD104_Klas_Horn"
-  },
-  "4185798096": {
-    "ship_id_str": "PRSD104",
-    "name": "PRSD104_Izyaslav"
-  },
-  "4185798448": {
-    "ship_id_str": "PGSD104",
-    "name": "PGSD104_V_170"
-  },
-  "4185798480": {
-    "ship_id_str": "PFSD104",
-    "name": "PFSD104_Bourrasque"
-  },
-  "4185798608": {
-    "ship_id_str": "PBSD104",
-    "name": "PBSD104_Wakeful"
-  },
-  "4185830864": {
-    "ship_id_str": "PRSC104",
-    "name": "PRSC104_Svetlana"
-  },
+  "4184782608": { "ship_id_str": "PHSC105", "name": "PHSC105_Celebes" },
+  "4184782640": { "ship_id_str": "PGSC105", "name": "PGSC105_Konigsberg" },
+  "4184782672": { "ship_id_str": "PFSC105", "name": "PFSC105_Emile_Bertin" },
+  "4184782800": { "ship_id_str": "PBSC105", "name": "PBSC105_Emerald" },
+  "4184815056": { "ship_id_str": "PRSB105", "name": "PRSB105_Pyotr_Velikiy" },
+  "4184815344": { "ship_id_str": "PISB105", "name": "PISB105_Conte_di_Cavour" },
+  "4184815408": { "ship_id_str": "PGSB105", "name": "PGSB105_Koenig" },
+  "4184815440": { "ship_id_str": "PFSB105", "name": "PFSB105_Bretagne" },
+  "4184815568": { "ship_id_str": "PBSB105", "name": "PBSB105_Iron_Duke" },
+  "4185797840": { "ship_id_str": "PZSD104", "name": "PZSD104_Shen_Yang" },
+  "4185797936": { "ship_id_str": "PWSD104", "name": "PWSD104_Klas_Horn" },
+  "4185798096": { "ship_id_str": "PRSD104", "name": "PRSD104_Izyaslav" },
+  "4185798448": { "ship_id_str": "PGSD104", "name": "PGSD104_V_170" },
+  "4185798480": { "ship_id_str": "PFSD104", "name": "PFSD104_Bourrasque" },
+  "4185798608": { "ship_id_str": "PBSD104", "name": "PBSD104_Wakeful" },
+  "4185830864": { "ship_id_str": "PRSC104", "name": "PRSC104_Svetlana" },
   "4185831152": {
     "ship_id_str": "PISC104",
     "name": "PISC104_Alberto_da_Giussano"
   },
-  "4185831216": {
-    "ship_id_str": "PGSC104",
-    "name": "PGSC104_Karlsruhe"
-  },
-  "4185831248": {
-    "ship_id_str": "PFSC104",
-    "name": "PFSC104_Duguay_Trouin"
-  },
-  "4185831376": {
-    "ship_id_str": "PBSC104",
-    "name": "PBSC104_Danae"
-  },
-  "4185863632": {
-    "ship_id_str": "PRSB104",
-    "name": "PRSB104_Gangut"
-  },
-  "4185863984": {
-    "ship_id_str": "PGSB104",
-    "name": "PGSB104_Kaiser"
-  },
-  "4185864016": {
-    "ship_id_str": "PFSB104",
-    "name": "PFSB104_Courbet"
-  },
-  "4185864144": {
-    "ship_id_str": "PBSB104",
-    "name": "PBSB104_Orion"
-  },
-  "4185896656": {
-    "ship_id_str": "PJSA104",
-    "name": "PJSA104_Hosho"
-  },
-  "4185896752": {
-    "ship_id_str": "PGSA104",
-    "name": "PGSA104_Rhein"
-  },
-  "4185896944": {
-    "ship_id_str": "PASA104",
-    "name": "PASA104_Langley"
-  },
-  "4186846416": {
-    "ship_id_str": "PZSD103",
-    "name": "PZSD103_Phra_Ruang"
-  },
-  "4186846512": {
-    "ship_id_str": "PWSD103",
-    "name": "PWSD103_Romulus"
-  },
-  "4186846672": {
-    "ship_id_str": "PRSD103",
-    "name": "PRSD103_Derzky"
-  },
-  "4186847024": {
-    "ship_id_str": "PGSD103",
-    "name": "PGSD103_G_101"
-  },
-  "4186847056": {
-    "ship_id_str": "PFSD103",
-    "name": "PFSD103_Fusilier"
-  },
-  "4186847184": {
-    "ship_id_str": "PBSD103",
-    "name": "PBSD103_Valkyrie"
-  },
-  "4186879440": {
-    "ship_id_str": "PRSC103",
-    "name": "PRSC103_Bogatyr"
-  },
-  "4186879728": {
-    "ship_id_str": "PISC103",
-    "name": "PISC103_Taranto"
-  },
-  "4186879792": {
-    "ship_id_str": "PGSC103",
-    "name": "PGSC103_Kolberg"
-  },
-  "4186879824": {
-    "ship_id_str": "PFSC103",
-    "name": "PFSC103_Friant"
-  },
-  "4186879952": {
-    "ship_id_str": "PBSC103",
-    "name": "PBSC103_Caledon"
-  },
-  "4186912208": {
-    "ship_id_str": "PRSB103",
-    "name": "PRSB103_Knyaz_Suvorov"
-  },
-  "4186912560": {
-    "ship_id_str": "PGSB103",
-    "name": "PGSB103_Nassau"
-  },
-  "4186912592": {
-    "ship_id_str": "PFSB103",
-    "name": "PFSB103_Turenne"
-  },
-  "4186912720": {
-    "ship_id_str": "PBSB103",
-    "name": "PBSB103_Bellerophon"
-  },
-  "4187894992": {
-    "ship_id_str": "PZSD102",
-    "name": "PZSD102_Long_Jiang"
-  },
-  "4187895088": {
-    "ship_id_str": "PWSD102",
-    "name": "PWSD102_Tatra"
-  },
-  "4187895248": {
-    "ship_id_str": "PRSD102",
-    "name": "PRSD102_SM_Storojevoy"
-  },
-  "4187895600": {
-    "ship_id_str": "PGSD102",
-    "name": "PGSD102_V_25"
-  },
+  "4185831184": { "ship_id_str": "PHSC104", "name": "PHSC104_De_Ruyter" },
+  "4185831216": { "ship_id_str": "PGSC104", "name": "PGSC104_Karlsruhe" },
+  "4185831248": { "ship_id_str": "PFSC104", "name": "PFSC104_Duguay_Trouin" },
+  "4185831376": { "ship_id_str": "PBSC104", "name": "PBSC104_Danae" },
+  "4185863632": { "ship_id_str": "PRSB104", "name": "PRSB104_Gangut" },
+  "4185863920": { "ship_id_str": "PISB104", "name": "PISB104_Dante_Alighieri" },
+  "4185863984": { "ship_id_str": "PGSB104", "name": "PGSB104_Kaiser" },
+  "4185864016": { "ship_id_str": "PFSB104", "name": "PFSB104_Courbet" },
+  "4185864144": { "ship_id_str": "PBSB104", "name": "PBSB104_Orion" },
+  "4185896400": { "ship_id_str": "PRSA104", "name": "PRSA104_Komsomolets" },
+  "4185896656": { "ship_id_str": "PJSA104", "name": "PJSA104_Hosho" },
+  "4185896752": { "ship_id_str": "PGSA104", "name": "PGSA104_Rhein" },
+  "4185896944": { "ship_id_str": "PASA104", "name": "PASA104_Langley" },
+  "4186846416": { "ship_id_str": "PZSD103", "name": "PZSD103_Phra_Ruang" },
+  "4186846480": { "ship_id_str": "PXSD103", "name": "PXSD103_Oland_H2020" },
+  "4186846512": { "ship_id_str": "PWSD103", "name": "PWSD103_Romulus" },
+  "4186846672": { "ship_id_str": "PRSD103", "name": "PRSD103_Derzky" },
+  "4186847024": { "ship_id_str": "PGSD103", "name": "PGSD103_G_101" },
+  "4186847056": { "ship_id_str": "PFSD103", "name": "PFSD103_Fusilier" },
+  "4186847184": { "ship_id_str": "PBSD103", "name": "PBSD103_Valkyrie" },
+  "4186879440": { "ship_id_str": "PRSC103", "name": "PRSC103_Bogatyr" },
+  "4186879728": { "ship_id_str": "PISC103", "name": "PISC103_Taranto" },
+  "4186879760": { "ship_id_str": "PHSC103", "name": "PHSC103_Java" },
+  "4186879792": { "ship_id_str": "PGSC103", "name": "PGSC103_Kolberg" },
+  "4186879824": { "ship_id_str": "PFSC103", "name": "PFSC103_Friant" },
+  "4186879952": { "ship_id_str": "PBSC103", "name": "PBSC103_Caledon" },
+  "4186912016": { "ship_id_str": "PXSB103", "name": "PXSB103_France_H2020" },
+  "4186912208": { "ship_id_str": "PRSB103", "name": "PRSB103_Knyaz_Suvorov" },
+  "4186912560": { "ship_id_str": "PGSB103", "name": "PGSB103_Nassau" },
+  "4186912592": { "ship_id_str": "PFSB103", "name": "PFSB103_Turenne" },
+  "4186912720": { "ship_id_str": "PBSB103", "name": "PBSB103_Bellerophon" },
+  "4187894992": { "ship_id_str": "PZSD102", "name": "PZSD102_Long_Jiang" },
+  "4187895056": { "ship_id_str": "PXSD102", "name": "PXSD102_Akizuki_H2020" },
+  "4187895088": { "ship_id_str": "PWSD102", "name": "PWSD102_Tatra" },
+  "4187895248": { "ship_id_str": "PRSD102", "name": "PRSD102_SM_Storojevoy" },
+  "4187895600": { "ship_id_str": "PGSD102", "name": "PGSD102_V_25" },
   "4187895632": {
     "ship_id_str": "PFSD102",
     "name": "PFSD102_Enseigne_Gabolde"
   },
-  "4187895760": {
-    "ship_id_str": "PBSD102",
-    "name": "PBSD102_Medea"
+  "4187895760": { "ship_id_str": "PBSD102", "name": "PBSD102_Medea" },
+  "4187927824": { "ship_id_str": "PXSC102", "name": "PXSC102_Smolensk_H2020" },
+  "4187928016": { "ship_id_str": "PRSC102", "name": "PRSC102_Novik" },
+  "4187928304": { "ship_id_str": "PISC102", "name": "PISC102_Nino_Bixio" },
+  "4187928336": { "ship_id_str": "PHSC102", "name": "PHSC102_Gelderland" },
+  "4187928400": { "ship_id_str": "PFSC102", "name": "PFSC102_Jurien" },
+  "4187928528": { "ship_id_str": "PBSC102", "name": "PBSC102_Weymouth" },
+  "4188976336": { "ship_id_str": "PZSC101", "name": "PZSC101_Cheng_An" },
+  "4188976400": {
+    "ship_id_str": "PXSC101",
+    "name": "PXSC101_Hindenburg_H2020"
   },
-  "4187928016": {
-    "ship_id_str": "PRSC102",
-    "name": "PRSC102_Novik"
-  },
-  "4187928304": {
-    "ship_id_str": "PISC102",
-    "name": "PISC102_Nino_Bixio"
-  },
-  "4187928400": {
-    "ship_id_str": "PFSC102",
-    "name": "PFSC102_Jurien"
-  },
-  "4187928528": {
-    "ship_id_str": "PBSC102",
-    "name": "PBSC102_Weymouth"
-  },
-  "4188976336": {
-    "ship_id_str": "PZSC101",
-    "name": "PZSC101_Cheng_An"
-  },
-  "4188976432": {
-    "ship_id_str": "PWSC101",
-    "name": "PWSC101_Gryf"
-  },
-  "4188976592": {
-    "ship_id_str": "PRSC101",
-    "name": "PRSC101_Orlan"
-  },
-  "4188976880": {
-    "ship_id_str": "PISC101",
-    "name": "PISC101_Eritrea"
-  },
-  "4188976976": {
-    "ship_id_str": "PFSC101",
-    "name": "PFSC101_Bougainville"
-  },
-  "4188977104": {
-    "ship_id_str": "PBSC101",
-    "name": "PBSC101_Black_Swan"
-  },
-  "4247008528": {
-    "ship_id_str": "PXSX045",
-    "name": "PXSX045_Liberty"
-  },
+  "4188976432": { "ship_id_str": "PWSC101", "name": "PWSC101_Gryf" },
+  "4188976592": { "ship_id_str": "PRSC101", "name": "PRSC101_Orlan" },
+  "4188976880": { "ship_id_str": "PISC101", "name": "PISC101_Eritrea" },
+  "4188976912": { "ship_id_str": "PHSC101", "name": "PHSC101_Van_Kinsbergen" },
+  "4188976976": { "ship_id_str": "PFSC101", "name": "PFSC101_Bougainville" },
+  "4188977104": { "ship_id_str": "PBSC101", "name": "PBSC101_Black_Swan" },
+  "4189009168": { "ship_id_str": "PXSB101", "name": "PXSB101_Amagi_H2020" },
+  "4247008528": { "ship_id_str": "PXSX045", "name": "PXSX045_Liberty" },
   "4247697392": {
     "ship_id_str": "PASC045",
     "name": "PASC045_Marblehead_1924_Asus"
   },
-  "4248057104": {
-    "ship_id_str": "PXSX044",
-    "name": "PXSX044_Cimarron"
-  },
-  "4248745968": {
-    "ship_id_str": "PASC044",
-    "name": "PASC044_Marblehead_1924"
-  },
+  "4248057104": { "ship_id_str": "PXSX044", "name": "PXSX044_Cimarron" },
+  "4248745968": { "ship_id_str": "PASC044", "name": "PASC044_Marblehead_1924" },
   "4249105680": {
     "ship_id_str": "PXSX043",
     "name": "PXSX043_Medway_Queen_War"
   },
-  "4255037136": {
-    "ship_id_str": "PJSC038",
-    "name": "PJSC038_Atago_1944"
-  },
-  "4256085712": {
-    "ship_id_str": "PJSC037",
-    "name": "PJSC037_Hashidate_1940"
-  },
-  "4258182864": {
-    "ship_id_str": "PJSC035",
-    "name": "PJSC035_Chikuma_1912"
-  },
-  "4258542864": {
-    "ship_id_str": "PXSX034",
-    "name": "PXSX034_John_Cattling"
-  },
-  "4259231440": {
-    "ship_id_str": "PJSC034",
-    "name": "PJSC034_Zao_1944"
-  },
-  "4259264496": {
-    "ship_id_str": "PASB034",
-    "name": "PASB034_New_Mexico_1941"
-  },
-  "4259591440": {
-    "ship_id_str": "PXSX033",
-    "name": "PXSX033_Dyck"
-  },
-  "4264441840": {
-    "ship_id_str": "PASD029",
-    "name": "PASD029_Sims_1941"
-  },
-  "4266538992": {
-    "ship_id_str": "PASD027",
-    "name": "PASD027_Wickes_1918"
-  },
-  "4266931472": {
-    "ship_id_str": "PXSX026",
-    "name": "PXSX026_Canterbury"
-  },
-  "4267587280": {
-    "ship_id_str": "PJSD026",
-    "name": "PJSD026_Camo_Kamikaze"
-  },
-  "4267620048": {
-    "ship_id_str": "PJSC026",
-    "name": "PJSC026_Iwaki_1944"
-  },
-  "4267980048": {
-    "ship_id_str": "PXSX025",
-    "name": "PXSX025_Medway_Queen"
-  },
-  "4268635856": {
-    "ship_id_str": "PJSD025",
-    "name": "PJSD025_True_Kamikaze"
-  },
-  "4269028624": {
-    "ship_id_str": "PXSX024",
-    "name": "PXSX024_Aronia"
-  },
+  "4255037136": { "ship_id_str": "PJSC038", "name": "PJSC038_Atago_1944" },
+  "4256085712": { "ship_id_str": "PJSC037", "name": "PJSC037_Hashidate_1940" },
+  "4257494288": { "ship_id_str": "PXSX035", "name": "PXSX035_Landing_Ship_1" },
+  "4258182864": { "ship_id_str": "PJSC035", "name": "PJSC035_Chikuma_1912" },
+  "4258542864": { "ship_id_str": "PXSX034", "name": "PXSX034_John_Cattling" },
+  "4259231440": { "ship_id_str": "PJSC034", "name": "PJSC034_Zao_1944" },
+  "4259264496": { "ship_id_str": "PASB034", "name": "PASB034_New_Mexico_1941" },
+  "4259591440": { "ship_id_str": "PXSX033", "name": "PXSX033_Dyck" },
+  "4264441840": { "ship_id_str": "PASD029", "name": "PASD029_Sims_1941" },
+  "4266538992": { "ship_id_str": "PASD027", "name": "PASD027_Wickes_1918" },
+  "4266931472": { "ship_id_str": "PXSX026", "name": "PXSX026_Canterbury" },
+  "4267587280": { "ship_id_str": "PJSD026", "name": "PJSD026_Camo_Kamikaze" },
+  "4267620048": { "ship_id_str": "PJSC026", "name": "PJSC026_Iwaki_1944" },
+  "4267980048": { "ship_id_str": "PXSX025", "name": "PXSX025_Medway_Queen" },
+  "4268635408": { "ship_id_str": "PXSD025", "name": "PXSD025_Berserk" },
+  "4268635856": { "ship_id_str": "PJSD025", "name": "PJSD025_True_Kamikaze" },
+  "4269028624": { "ship_id_str": "PXSX024", "name": "PXSX024_Aronia" },
   "4269683984": {
     "ship_id_str": "PXSD024",
     "name": "PXSD024_Khabarovsk_H2019"
   },
-  "4269684432": {
-    "ship_id_str": "PJSD024",
-    "name": "PJSD024_Wakatake_1923"
-  },
-  "4269717488": {
-    "ship_id_str": "PASC024",
-    "name": "PASC024_Phoenix_1917"
-  },
-  "4270077200": {
-    "ship_id_str": "PXSX023",
-    "name": "PXSX023_HMS_SS_Lorina"
-  },
-  "4270732560": {
-    "ship_id_str": "PXSD023",
-    "name": "PXSD023_Gearing_H2019"
-  },
-  "4271781136": {
-    "ship_id_str": "PXSD022",
-    "name": "PXSD022_Shimakaze_H2019"
-  },
-  "4272829712": {
-    "ship_id_str": "PXSD021",
-    "name": "PXSD021_Kleber_PA"
-  },
-  "4272830448": {
-    "ship_id_str": "PASD021",
-    "name": "PASD021_Fletcher_1943"
-  },
-  "4272895696": {
-    "ship_id_str": "PJSB021",
-    "name": "PJSB021_Izumo_1938"
-  },
-  "4273878288": {
-    "ship_id_str": "PXSD020",
-    "name": "PXSD020_Khabarovsk_PA"
-  },
-  "4273911792": {
-    "ship_id_str": "PASC020",
-    "name": "PASC020_Des_Moines_1948"
-  },
-  "4274926864": {
-    "ship_id_str": "PXSD019",
-    "name": "PXSD019_Daring_PA"
-  },
-  "4274927600": {
-    "ship_id_str": "PASD019",
-    "name": "PASD019_Clemson_1920"
-  },
-  "4274960368": {
-    "ship_id_str": "PASC019",
-    "name": "PASC019_Burlington_1944"
-  },
-  "4275975440": {
-    "ship_id_str": "PXSD018",
-    "name": "PXSD018_Harugumo_PA"
-  },
-  "4276008656": {
-    "ship_id_str": "PJSC018",
-    "name": "PJSC018_Tone"
-  },
-  "4276041424": {
-    "ship_id_str": "PJSB018",
-    "name": "PJSB018_Yamato_1944"
-  },
-  "4276041712": {
-    "ship_id_str": "PASB018",
-    "name": "PASB018_Iowa_1944"
-  },
+  "4269684432": { "ship_id_str": "PJSD024", "name": "PJSD024_Wakatake_1923" },
+  "4269717488": { "ship_id_str": "PASC024", "name": "PASC024_Phoenix_1917" },
+  "4270077200": { "ship_id_str": "PXSX023", "name": "PXSX023_HMS_SS_Lorina" },
+  "4270732560": { "ship_id_str": "PXSD023", "name": "PXSD023_Gearing_H2019" },
+  "4271781136": { "ship_id_str": "PXSD022", "name": "PXSD022_Shimakaze_H2019" },
+  "4272829712": { "ship_id_str": "PXSD021", "name": "PXSD021_Kleber_PA" },
+  "4272830448": { "ship_id_str": "PASD021", "name": "PASD021_Fletcher_1943" },
+  "4272895696": { "ship_id_str": "PJSB021", "name": "PJSB021_Izumo_1938" },
+  "4273878288": { "ship_id_str": "PXSD020", "name": "PXSD020_Khabarovsk_PA" },
+  "4273911792": { "ship_id_str": "PASC020", "name": "PASC020_Des_Moines_1948" },
+  "4274926864": { "ship_id_str": "PXSD019", "name": "PXSD019_Daring_PA" },
+  "4274927600": { "ship_id_str": "PASD019", "name": "PASD019_Clemson_1920" },
+  "4274960368": { "ship_id_str": "PASC019", "name": "PASC019_Burlington_1944" },
+  "4275975440": { "ship_id_str": "PXSD018", "name": "PXSD018_Harugumo_PA" },
+  "4276008656": { "ship_id_str": "PJSC018", "name": "PJSC018_Tone" },
+  "4276041424": { "ship_id_str": "PJSB018", "name": "PJSB018_Yamato_1944" },
+  "4276041712": { "ship_id_str": "PASB018", "name": "PASB018_Iowa_1944" },
   "4276368656": {
     "ship_id_str": "PXSX017",
     "name": "PXSX017_Caboteur_de_35_metres"
   },
-  "4277024016": {
-    "ship_id_str": "PXSD017",
-    "name": "PXSD017_Gearing_PA"
-  },
-  "4277024464": {
-    "ship_id_str": "PJSD017",
-    "name": "PJSD017_Kamikaze_1930"
-  },
-  "4277057520": {
-    "ship_id_str": "PASC017",
-    "name": "PASC017_Baltimore_1944"
-  },
-  "4277090288": {
-    "ship_id_str": "PASB017",
-    "name": "PASB017_Montana_1945"
-  },
-  "4277122768": {
-    "ship_id_str": "PJSA017",
-    "name": "PJSA017_Hakuryu_1942"
-  },
-  "4277417232": {
-    "ship_id_str": "PXSX016",
-    "name": "PXSX016_Goliath"
-  },
-  "4278072592": {
-    "ship_id_str": "PXSD016",
-    "name": "PXSD016_Shimakaze_PA"
-  },
-  "4278106096": {
-    "ship_id_str": "PASC016",
-    "name": "PASC016_Worcester_1948"
-  },
-  "4279121168": {
-    "ship_id_str": "PXSD015",
-    "name": "PXSD015_Grozovoy_PA"
-  },
-  "4279154384": {
-    "ship_id_str": "PJSC015",
-    "name": "PJSC015_Tatsuta_1919"
-  },
-  "4279219920": {
-    "ship_id_str": "PJSA015",
-    "name": "PJSA015_Taiho_1944"
-  },
-  "4279220208": {
-    "ship_id_str": "PASA015",
-    "name": "PASA015_Midway_1945"
-  },
-  "4280169744": {
-    "ship_id_str": "PXSD014",
-    "name": "PXSD014_Hsiang_Yang_PA"
-  },
+  "4277024016": { "ship_id_str": "PXSD017", "name": "PXSD017_Gearing_PA" },
+  "4277024464": { "ship_id_str": "PJSD017", "name": "PJSD017_Kamikaze_1930" },
+  "4277057520": { "ship_id_str": "PASC017", "name": "PASC017_Baltimore_1944" },
+  "4277090288": { "ship_id_str": "PASB017", "name": "PASB017_Montana_1945" },
+  "4277122768": { "ship_id_str": "PJSA017", "name": "PJSA017_Hakuryu_1942" },
+  "4277417232": { "ship_id_str": "PXSX016", "name": "PXSX016_Goliath" },
+  "4278072592": { "ship_id_str": "PXSD016", "name": "PXSD016_Shimakaze_PA" },
+  "4278105360": { "ship_id_str": "PXSC016", "name": "PXSC016_Monster_Cruiser" },
+  "4278106096": { "ship_id_str": "PASC016", "name": "PASC016_Worcester_1948" },
+  "4279121168": { "ship_id_str": "PXSD015", "name": "PXSD015_Grozovoy_PA" },
+  "4279154384": { "ship_id_str": "PJSC015", "name": "PJSC015_Tatsuta_1919" },
+  "4279186704": { "ship_id_str": "PXSB015", "name": "PXSB015_Crab_Battleship" },
+  "4279219920": { "ship_id_str": "PJSA015", "name": "PJSA015_Taiho_1944" },
+  "4279220208": { "ship_id_str": "PASA015", "name": "PASA015_Midway_1945" },
+  "4280169744": { "ship_id_str": "PXSD014", "name": "PXSD014_Hsiang_Yang_PA" },
   "4280170192": {
     "ship_id_str": "PJSD014",
     "name": "PJSD014_Tachibana_1912_Asus"
   },
-  "4280170480": {
-    "ship_id_str": "PASD014",
-    "name": "PASD014_Leader_1919"
-  },
-  "4280202960": {
-    "ship_id_str": "PJSC014",
-    "name": "PJSC014_Kitakami_1945"
-  },
-  "4280203248": {
-    "ship_id_str": "PASC014",
-    "name": "PASC014_New_Orlean_1944"
-  },
-  "4281218320": {
-    "ship_id_str": "PXSD013",
-    "name": "PXSD013_Z_52_PA"
-  },
-  "4281219056": {
-    "ship_id_str": "PASD013",
-    "name": "PASD013_Gearing_1945"
-  },
-  "4281251088": {
-    "ship_id_str": "PXSC013",
-    "name": "PXSC013_Henri_H2019"
-  },
-  "4281251536": {
-    "ship_id_str": "PJSC013",
-    "name": "PJSC013_Kuma_1938"
-  },
-  "4281284304": {
-    "ship_id_str": "PJSB013",
-    "name": "PJSB013_Amagi_1942"
-  },
-  "4281284592": {
-    "ship_id_str": "PASB013",
-    "name": "PASB013_Arkansas_1912"
-  },
-  "4281317360": {
-    "ship_id_str": "PASA013",
-    "name": "PASA013_Essex_1945"
-  },
-  "4282266896": {
-    "ship_id_str": "PXSD012",
-    "name": "PXSD012_Shimakaze2"
-  },
-  "4282267344": {
-    "ship_id_str": "PJSD012",
-    "name": "PJSD012_Shimakaze_1943"
-  },
+  "4280170480": { "ship_id_str": "PASD014", "name": "PASD014_Leader_1919" },
+  "4280202960": { "ship_id_str": "PJSC014", "name": "PJSC014_Kitakami_1945" },
+  "4280203248": { "ship_id_str": "PASC014", "name": "PASC014_New_Orlean_1944" },
+  "4281218320": { "ship_id_str": "PXSD013", "name": "PXSD013_Z_52_PA" },
+  "4281219056": { "ship_id_str": "PASD013", "name": "PASD013_Gearing_1945" },
+  "4281251088": { "ship_id_str": "PXSC013", "name": "PXSC013_Henri_H2019" },
+  "4281251536": { "ship_id_str": "PJSC013", "name": "PJSC013_Kuma_1938" },
+  "4281284304": { "ship_id_str": "PJSB013", "name": "PJSB013_Amagi_1942" },
+  "4281284592": { "ship_id_str": "PASB013", "name": "PASB013_Arkansas_1912" },
+  "4281317360": { "ship_id_str": "PASA013", "name": "PASA013_Essex_1945" },
+  "4282266896": { "ship_id_str": "PXSD012", "name": "PXSD012_Shimakaze2" },
+  "4282267344": { "ship_id_str": "PJSD012", "name": "PJSD012_Shimakaze_1943" },
   "4282299664": {
     "ship_id_str": "PXSC012",
     "name": "PXSC012_Hindenburg_H2019"
   },
-  "4282300112": {
-    "ship_id_str": "PJSC012",
-    "name": "PJSC012_Ibuki_1944"
-  },
-  "4282300400": {
-    "ship_id_str": "PASC012",
-    "name": "PASC012_Pensacola_1944"
-  },
+  "4282300112": { "ship_id_str": "PJSC012", "name": "PJSC012_Ibuki_1944" },
+  "4282300400": { "ship_id_str": "PASC012", "name": "PASC012_Pensacola_1944" },
   "4282333168": {
     "ship_id_str": "PASB012",
     "name": "PASB012_North_Carolina_1945"
   },
-  "4282365648": {
-    "ship_id_str": "PJSA012",
-    "name": "PJSA012_Zuikaku_1944"
-  },
-  "4282365936": {
-    "ship_id_str": "PASA012",
-    "name": "PASA012_Lexington_1944"
-  },
-  "4283315472": {
-    "ship_id_str": "PXSD011",
-    "name": "PXSD011_FlyFire2"
-  },
-  "4283348240": {
-    "ship_id_str": "PXSC011",
-    "name": "PXSC011_Alaska_H2019"
-  },
-  "4283381008": {
-    "ship_id_str": "PXSB011",
-    "name": "PXSB011_Montana_H2019"
-  },
-  "4283381456": {
-    "ship_id_str": "PJSB011",
-    "name": "PJSB011_Mikasa_1905"
-  },
-  "4283414224": {
-    "ship_id_str": "PJSA011",
-    "name": "PJSA011_Hiryu_1942"
-  },
-  "4284364048": {
-    "ship_id_str": "PXSD010",
-    "name": "PXSD010_Blue_Aster2"
-  },
-  "4284364496": {
-    "ship_id_str": "PJSD010",
-    "name": "PJSD010_Kagero_1943"
-  },
-  "4284396816": {
-    "ship_id_str": "PXSC010",
-    "name": "PXSC010_Hinden_Apr2019"
-  },
-  "4284397008": {
-    "ship_id_str": "PRSC010",
-    "name": "PRSC010_Diana_1905_Asus"
-  },
-  "4284429584": {
-    "ship_id_str": "PXSB010",
-    "name": "PXSB010_France_H2019"
-  },
-  "4284430032": {
-    "ship_id_str": "PJSB010",
-    "name": "PJSB010_Nagato_1944"
-  },
-  "4284463088": {
-    "ship_id_str": "PASA010",
-    "name": "PASA010_Ranger_1944"
-  },
-  "4285412624": {
-    "ship_id_str": "PXSD009",
-    "name": "PXSD009_Kiev_H2018"
-  },
-  "4285445392": {
-    "ship_id_str": "PXSC009",
-    "name": "PXSC009_Mogami_H2018"
-  },
-  "4285445840": {
-    "ship_id_str": "PJSC009",
-    "name": "PJSC009_Mogami_1935"
-  },
-  "4285478160": {
-    "ship_id_str": "PXSB009",
-    "name": "PXSB009_Yamato_H2019"
-  },
-  "4285511376": {
-    "ship_id_str": "PJSA009",
-    "name": "PJSA009_Ryujo_1933"
-  },
-  "4286461200": {
-    "ship_id_str": "PXSD008",
-    "name": "PXSD008_Z_23_H2018"
-  },
-  "4286461936": {
-    "ship_id_str": "PASD008",
-    "name": "PASD008_Benson_1945"
-  },
-  "4286494416": {
-    "ship_id_str": "PJSC008",
-    "name": "PJSC008_Myoko_1945"
-  },
+  "4282365648": { "ship_id_str": "PJSA012", "name": "PJSA012_Zuikaku_1944" },
+  "4282365936": { "ship_id_str": "PASA012", "name": "PASA012_Lexington_1944" },
+  "4283315472": { "ship_id_str": "PXSD011", "name": "PXSD011_FlyFire2" },
+  "4283348240": { "ship_id_str": "PXSC011", "name": "PXSC011_Alaska_H2019" },
+  "4283381008": { "ship_id_str": "PXSB011", "name": "PXSB011_Montana_H2019" },
+  "4283381456": { "ship_id_str": "PJSB011", "name": "PJSB011_Mikasa_1905" },
+  "4283414224": { "ship_id_str": "PJSA011", "name": "PJSA011_Hiryu_1942" },
+  "4284364048": { "ship_id_str": "PXSD010", "name": "PXSD010_Blue_Aster2" },
+  "4284364496": { "ship_id_str": "PJSD010", "name": "PJSD010_Kagero_1943" },
+  "4284396816": { "ship_id_str": "PXSC010", "name": "PXSC010_Hinden_Apr2019" },
+  "4284397008": { "ship_id_str": "PRSC010", "name": "PRSC010_Diana_1905_Asus" },
+  "4284429584": { "ship_id_str": "PXSB010", "name": "PXSB010_France_H2019" },
+  "4284430032": { "ship_id_str": "PJSB010", "name": "PJSB010_Nagato_1944" },
+  "4284463088": { "ship_id_str": "PASA010", "name": "PASA010_Ranger_1944" },
+  "4285412624": { "ship_id_str": "PXSD009", "name": "PXSD009_Kiev_H2018" },
+  "4285445392": { "ship_id_str": "PXSC009", "name": "PXSC009_Mogami_H2018" },
+  "4285445840": { "ship_id_str": "PJSC009", "name": "PJSC009_Mogami_1935" },
+  "4285478160": { "ship_id_str": "PXSB009", "name": "PXSB009_Yamato_H2019" },
+  "4285511376": { "ship_id_str": "PJSA009", "name": "PJSA009_Ryujo_1933" },
+  "4286461200": { "ship_id_str": "PXSD008", "name": "PXSD008_Z_23_H2018" },
+  "4286461936": { "ship_id_str": "PASD008", "name": "PASD008_Benson_1945" },
+  "4286494416": { "ship_id_str": "PJSC008", "name": "PJSC008_Myoko_1945" },
   "4286526736": {
     "ship_id_str": "PXSB008",
     "name": "PXSB008_North_Carolina_H2018"
   },
-  "4286527184": {
-    "ship_id_str": "PJSB008",
-    "name": "PJSB008_Ishizuchi_1921"
-  },
-  "4286527472": {
-    "ship_id_str": "PASB008",
-    "name": "PASB008_Colorado_1945"
-  },
-  "4287509776": {
-    "ship_id_str": "PXSD007",
-    "name": "PXSD007_Scnellboot_S38"
-  },
-  "4287510224": {
-    "ship_id_str": "PJSD007",
-    "name": "PJSD007_Fubuki_1944"
-  },
-  "4287542544": {
-    "ship_id_str": "PXSC007",
-    "name": "PXSC007_Aurora"
-  },
-  "4287542992": {
-    "ship_id_str": "PJSC007",
-    "name": "PJSC007_Aoba_1943"
-  },
-  "4287543280": {
-    "ship_id_str": "PASC007",
-    "name": "PASC007_Cleveland_1945"
-  },
-  "4287575312": {
-    "ship_id_str": "PXSB007",
-    "name": "PXSB007_Alldestroyer"
-  },
-  "4287575760": {
-    "ship_id_str": "PJSB007",
-    "name": "PJSB007_Kongo_1942"
-  },
-  "4288558800": {
-    "ship_id_str": "PJSD006",
-    "name": "PJSD006_Hatsuharu_1945"
-  },
-  "4288559088": {
-    "ship_id_str": "PASD006",
-    "name": "PASD006_Mahan_1936"
-  },
-  "4288591120": {
-    "ship_id_str": "PXSC006",
-    "name": "PXSC006_Norma"
-  },
-  "4288591856": {
-    "ship_id_str": "PASC006",
-    "name": "PASC006_Atlanta_1942"
-  },
-  "4288623888": {
-    "ship_id_str": "PXSB006",
-    "name": "PXSB006_Paris"
-  },
-  "4288624336": {
-    "ship_id_str": "PJSB006",
-    "name": "PJSB006_Fuso_1943"
-  },
-  "4288624624": {
-    "ship_id_str": "PASB006",
-    "name": "PASB006_New_York_1934"
-  },
-  "4288657104": {
-    "ship_id_str": "PJSA006",
-    "name": "PJSA006_Zuiho_1944"
-  },
+  "4286527184": { "ship_id_str": "PJSB008", "name": "PJSB008_Ishizuchi_1921" },
+  "4286527472": { "ship_id_str": "PASB008", "name": "PASB008_Colorado_1945" },
+  "4287509776": { "ship_id_str": "PXSD007", "name": "PXSD007_Scnellboot_S38" },
+  "4287510224": { "ship_id_str": "PJSD007", "name": "PJSD007_Fubuki_1944" },
+  "4287542544": { "ship_id_str": "PXSC007", "name": "PXSC007_Aurora" },
+  "4287542992": { "ship_id_str": "PJSC007", "name": "PJSC007_Aoba_1943" },
+  "4287543280": { "ship_id_str": "PASC007", "name": "PASC007_Cleveland_1945" },
+  "4287575312": { "ship_id_str": "PXSB007", "name": "PXSB007_Alldestroyer" },
+  "4287575760": { "ship_id_str": "PJSB007", "name": "PJSB007_Kongo_1942" },
+  "4288558800": { "ship_id_str": "PJSD006", "name": "PJSD006_Hatsuharu_1945" },
+  "4288559088": { "ship_id_str": "PASD006", "name": "PASD006_Mahan_1936" },
+  "4288591120": { "ship_id_str": "PXSC006", "name": "PXSC006_Norma" },
+  "4288591856": { "ship_id_str": "PASC006", "name": "PASC006_Atlanta_1942" },
+  "4288623888": { "ship_id_str": "PXSB006", "name": "PXSB006_Paris" },
+  "4288624336": { "ship_id_str": "PJSB006", "name": "PJSB006_Fuso_1943" },
+  "4288624624": { "ship_id_str": "PASB006", "name": "PASB006_New_York_1934" },
+  "4288657104": { "ship_id_str": "PJSA006", "name": "PJSA006_Zuiho_1944" },
   "4288657392": {
     "ship_id_str": "PASA006",
     "name": "PASA006_Independence_1945"
   },
-  "4288952304": {
-    "ship_id_str": "PASX005",
-    "name": "PASX005_St_Clair"
-  },
-  "4289606928": {
-    "ship_id_str": "PXSD005",
-    "name": "PXSD005_Blue_Aster"
-  },
-  "4289607376": {
-    "ship_id_str": "PJSD005",
-    "name": "PJSD005_Mutsuki_1926"
-  },
-  "4289607664": {
-    "ship_id_str": "PASD005",
-    "name": "PASD005_Farragut_1944"
-  },
-  "4289639696": {
-    "ship_id_str": "PXSC005",
-    "name": "PXSC005_Zaya"
-  },
-  "4289640144": {
-    "ship_id_str": "PJSC005",
-    "name": "PJSC005_Furutaka_1926"
-  },
-  "4289640432": {
-    "ship_id_str": "PASC005",
-    "name": "PASC005_Omaha_1923"
-  },
-  "4289672464": {
-    "ship_id_str": "PXSB005",
-    "name": "PXSB005_Bismarck_H2017"
-  },
-  "4289705232": {
-    "ship_id_str": "PXSA005",
-    "name": "PXSA005_Hellcarrier"
-  },
-  "4290655504": {
-    "ship_id_str": "PXSD004",
-    "name": "PXSD004_FlyFire"
-  },
-  "4290655952": {
-    "ship_id_str": "PJSD004",
-    "name": "PJSD004_Minekadze_1920"
-  },
-  "4290688272": {
-    "ship_id_str": "PXSC004",
-    "name": "PXSC004_Galaxy"
-  },
-  "4290688720": {
-    "ship_id_str": "PJSC004",
-    "name": "PJSC004_Yubari_1944"
-  },
-  "4290689008": {
-    "ship_id_str": "PASC004",
-    "name": "PASC004_St_Louis_1906"
-  },
+  "4288952304": { "ship_id_str": "PASX005", "name": "PASX005_St_Clair" },
+  "4289606928": { "ship_id_str": "PXSD005", "name": "PXSD005_Blue_Aster" },
+  "4289607376": { "ship_id_str": "PJSD005", "name": "PJSD005_Mutsuki_1926" },
+  "4289607664": { "ship_id_str": "PASD005", "name": "PASD005_Farragut_1944" },
+  "4289639696": { "ship_id_str": "PXSC005", "name": "PXSC005_Zaya" },
+  "4289640144": { "ship_id_str": "PJSC005", "name": "PJSC005_Furutaka_1926" },
+  "4289640432": { "ship_id_str": "PASC005", "name": "PASC005_Omaha_1923" },
+  "4289672464": { "ship_id_str": "PXSB005", "name": "PXSB005_Bismarck_H2017" },
+  "4289705232": { "ship_id_str": "PXSA005", "name": "PXSA005_Hellcarrier" },
+  "4290655504": { "ship_id_str": "PXSD004", "name": "PXSD004_FlyFire" },
+  "4290655952": { "ship_id_str": "PJSD004", "name": "PJSD004_Minekadze_1920" },
+  "4290688272": { "ship_id_str": "PXSC004", "name": "PXSC004_Galaxy" },
+  "4290688720": { "ship_id_str": "PJSC004", "name": "PJSC004_Yubari_1944" },
+  "4290689008": { "ship_id_str": "PASC004", "name": "PASC004_St_Louis_1906" },
   "4290721040": {
     "ship_id_str": "PXSB004",
     "name": "PXSB004_Tirpiz_1942_H2017"
   },
-  "4290721776": {
-    "ship_id_str": "PASB004",
-    "name": "PASB004_Arkansas_1912"
-  },
+  "4290721776": { "ship_id_str": "PASB004", "name": "PASB004_Arkansas_1912" },
   "4290753808": {
     "ship_id_str": "PXSA004",
     "name": "PXSA004_Zuikaku_1944_H2017"
   },
-  "4290754544": {
-    "ship_id_str": "PASA004",
-    "name": "PASA004_Langley_1929"
-  },
-  "4291049456": {
-    "ship_id_str": "PASX003",
-    "name": "PASX003_Liberty"
-  },
-  "4291704080": {
-    "ship_id_str": "PXSD003",
-    "name": "PXSD003_Kagero_H2017"
-  },
-  "4291704528": {
-    "ship_id_str": "PJSD003",
-    "name": "PJSD003_Isokaze_1917"
-  },
+  "4290754544": { "ship_id_str": "PASA004", "name": "PASA004_Langley_1929" },
+  "4291049456": { "ship_id_str": "PASX003", "name": "PASX003_Liberty" },
+  "4291704080": { "ship_id_str": "PXSD003", "name": "PXSD003_Kagero_H2017" },
+  "4291704528": { "ship_id_str": "PJSD003", "name": "PJSD003_Isokaze_1917" },
   "4291736848": {
     "ship_id_str": "PXSC003",
     "name": "PXSC003_Pr_68_Chapaev_H2017"
   },
-  "4291737040": {
-    "ship_id_str": "PRSC003",
-    "name": "PRSC003_Murmansk_1944"
-  },
-  "4291737584": {
-    "ship_id_str": "PASC003",
-    "name": "PASC003_Albany_1898"
-  },
-  "4291769616": {
-    "ship_id_str": "PXSB003",
-    "name": "PXSB003_Zeekasa"
-  },
-  "4291770064": {
-    "ship_id_str": "PJSB003",
-    "name": "PJSB003_Myogi_1912"
-  },
+  "4291737040": { "ship_id_str": "PRSC003", "name": "PRSC003_Murmansk_1944" },
+  "4291737584": { "ship_id_str": "PASC003", "name": "PASC003_Albany_1898" },
+  "4291769616": { "ship_id_str": "PXSB003", "name": "PXSB003_Zeekasa" },
+  "4291770064": { "ship_id_str": "PJSB003", "name": "PJSB003_Myogi_1912" },
   "4291802384": {
     "ship_id_str": "PXSA003",
     "name": "PXSA003_Lexington_1944_H2017"
@@ -2175,106 +824,40 @@
     "ship_id_str": "PXSD002",
     "name": "PXSD002_Benson_1945_H2017"
   },
-  "4292753104": {
-    "ship_id_str": "PJSD002",
-    "name": "PJSD002_Umikaze_1925"
-  },
-  "4292753392": {
-    "ship_id_str": "PASD002",
-    "name": "PASD002_Sampson_1917"
-  },
+  "4292753104": { "ship_id_str": "PJSD002", "name": "PJSD002_Umikaze_1925" },
+  "4292753392": { "ship_id_str": "PASD002", "name": "PASD002_Sampson_1917" },
   "4292785424": {
     "ship_id_str": "PXSC002",
     "name": "PXSC002_Charles_Martel_H2017"
   },
-  "4292785616": {
-    "ship_id_str": "PRSC002",
-    "name": "PRSC002_Diana_1905"
-  },
-  "4292785968": {
-    "ship_id_str": "PGSC002",
-    "name": "PGSC002_Drezden_1908"
-  },
-  "4292786160": {
-    "ship_id_str": "PASC002",
-    "name": "PASC002_Chester_1908"
-  },
-  "4292818192": {
-    "ship_id_str": "PXSB002",
-    "name": "PXSB002_Rasputin"
-  },
-  "4292818736": {
-    "ship_id_str": "PGSB002",
-    "name": "PGSB002_Tirpiz_1942"
-  },
-  "4292818896": {
-    "ship_id_str": "PBSB002",
-    "name": "PBSB002_Warspite_1941"
-  },
+  "4292785616": { "ship_id_str": "PRSC002", "name": "PRSC002_Diana_1905" },
+  "4292785968": { "ship_id_str": "PGSC002", "name": "PGSC002_Drezden_1908" },
+  "4292786160": { "ship_id_str": "PASC002", "name": "PASC002_Chester_1908" },
+  "4292818192": { "ship_id_str": "PXSB002", "name": "PXSB002_Rasputin" },
+  "4292818736": { "ship_id_str": "PGSB002", "name": "PGSB002_Tirpiz_1942" },
+  "4292818896": { "ship_id_str": "PBSB002", "name": "PBSB002_Warspite_1941" },
   "4292850960": {
     "ship_id_str": "PXSA002",
     "name": "PXSA002_Invisible_Air_Ally_1"
   },
-  "4292851408": {
-    "ship_id_str": "PJSA002",
-    "name": "PJSA002_Hosho_1939"
-  },
-  "4292851696": {
-    "ship_id_str": "PASA002",
-    "name": "PASA002_Bogue_1942"
-  },
-  "4293145872": {
-    "ship_id_str": "PXSX001",
-    "name": "PXSX001_Transylvania"
-  },
-  "4293146608": {
-    "ship_id_str": "PASX001",
-    "name": "PASX001_Cimarron"
-  },
-  "4293801232": {
-    "ship_id_str": "PXSD001",
-    "name": "PXSD001_VanHellsink"
-  },
+  "4292851408": { "ship_id_str": "PJSA002", "name": "PJSA002_Hosho_1939" },
+  "4292851696": { "ship_id_str": "PASA002", "name": "PASA002_Bogue_1942" },
+  "4293145872": { "ship_id_str": "PXSX001", "name": "PXSX001_Transylvania" },
+  "4293146608": { "ship_id_str": "PASX001", "name": "PASX001_Cimarron" },
+  "4293801232": { "ship_id_str": "PXSD001", "name": "PXSD001_VanHellsink" },
   "4293801424": {
     "ship_id_str": "PRSD001",
     "name": "PRSD001_Gremyashchy_1942"
   },
-  "4293801680": {
-    "ship_id_str": "PJSD001",
-    "name": "PJSD001_Tachibana_1912"
-  },
-  "4293834000": {
-    "ship_id_str": "PXSC001",
-    "name": "PXSC001_Dr_Frankenship"
-  },
-  "4293834192": {
-    "ship_id_str": "PRSC001",
-    "name": "PRSC001_Avrora_1917"
-  },
-  "4293834544": {
-    "ship_id_str": "PGSC001",
-    "name": "PGSC001_Hermelin_1940"
-  },
-  "4293834736": {
-    "ship_id_str": "PASC001",
-    "name": "PASC001_Erie_1936"
-  },
-  "4293866768": {
-    "ship_id_str": "PXSB001",
-    "name": "PXSB001_Mr_Hyde"
-  },
-  "4293866960": {
-    "ship_id_str": "PRSB001",
-    "name": "PRSB001_Nikolay_I"
-  },
-  "4293867216": {
-    "ship_id_str": "PJSB001",
-    "name": "PJSB001_Kawachi_1912"
-  },
-  "4293867504": {
-    "ship_id_str": "PASB001",
-    "name": "PASB001_Michigan_1916"
-  },
+  "4293801680": { "ship_id_str": "PJSD001", "name": "PJSD001_Tachibana_1912" },
+  "4293834000": { "ship_id_str": "PXSC001", "name": "PXSC001_Dr_Frankenship" },
+  "4293834192": { "ship_id_str": "PRSC001", "name": "PRSC001_Avrora_1917" },
+  "4293834544": { "ship_id_str": "PGSC001", "name": "PGSC001_Hermelin_1940" },
+  "4293834736": { "ship_id_str": "PASC001", "name": "PASC001_Erie_1936" },
+  "4293866768": { "ship_id_str": "PXSB001", "name": "PXSB001_Mr_Hyde" },
+  "4293866960": { "ship_id_str": "PRSB001", "name": "PRSB001_Nikolay_I" },
+  "4293867216": { "ship_id_str": "PJSB001", "name": "PJSB001_Kawachi_1912" },
+  "4293867504": { "ship_id_str": "PASB001", "name": "PASB001_Michigan_1916" },
   "4293899536": {
     "ship_id_str": "PXSA001",
     "name": "PXSA001_Invisible_Air_Enemy_1"

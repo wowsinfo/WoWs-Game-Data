@@ -1,23 +1,35 @@
 {
   "PCY009_CrashCrewPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4284653488,
     "index": "PCY009",
     "name": "PCY009_CrashCrewPremium",
     "data": {
+      "B_DE_LIM": {
+        "SpecialSoundID": "Default",
+        "consumableType": "crashCrew",
+        "descIDs": "PCY009_CrashCrew_Limited_Premium",
+        "iconIDs": "PCY009_CrashCrew_Limited_Premium",
+        "numConsumables": 4,
+        "reloadTime": 40.0,
+        "titleIDs": "PCY009_CrashCrew_Limited_Premium",
+        "workTime": 10.0
+      },
       "B_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 80.0,
         "workTime": 15.0
       },
       "B_Japan_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 80.0,
         "workTime": 10.0
       },
       "B_RUS_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "descIDs": "PCY009_CrashCrew_Limited_Premium",
         "iconIDs": "PCY009_CrashCrew_Limited_Premium",
@@ -27,16 +39,25 @@
         "workTime": 15.0
       },
       "B_UK_Germany_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 80.0,
         "workTime": 15.0
       },
+      "B_USA_CNTCT": {
+        "SpecialSoundID": "Default",
+        "consumableType": "crashCrew",
+        "reloadTime": 80.0,
+        "workTime": 30.0
+      },
       "B_USA_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 80.0,
         "workTime": 20.0
       },
       "B_USSR": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "descIDs": "PCY009_CrashCrew_Limited_Premium",
         "iconIDs": "PCY009_CrashCrew_Limited_Premium",
@@ -46,56 +67,71 @@
         "workTime": 10.0
       },
       "CV_CA_CL_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 60.0,
         "workTime": 5.0
       },
       "C_TierOne_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 25.0,
         "workTime": 5.0
       },
       "D_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 40.0,
         "workTime": 5.0
       },
       "Default_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 1800.0,
         "workTime": 200.0
       },
       "Event_BB_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 60.0,
         "workTime": 15.0
       },
       "Event_CA_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 40.0,
         "workTime": 15.0
       },
       "Event_DD_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 30.0,
         "workTime": 15.0
       },
+      "ITA_BB": {
+        "SpecialSoundID": "Default",
+        "consumableType": "crashCrew",
+        "reloadTime": 80.0,
+        "workTime": 15.0
+      },
       "Sub": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 40.0,
         "workTime": 5.0
-      }
+      },
+      "custom": {}
     }
   },
   "PCY010_RegenCrewPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4283604912,
     "index": "PCY010",
     "name": "PCY010_RegenCrewPremium",
     "data": {
       "B_Colorado_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.0066,
@@ -103,6 +139,7 @@
         "workTime": 28.0
       },
       "B_Deutsche_gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.005,
@@ -110,6 +147,7 @@
         "workTime": 28.0
       },
       "B_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.005,
@@ -117,6 +155,7 @@
         "workTime": 28.0
       },
       "B_RN": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.006,
@@ -124,6 +163,7 @@
         "workTime": 28.0
       },
       "B_Warspite_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.006,
@@ -131,6 +171,7 @@
         "workTime": 28.0
       },
       "B_Yamato_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.0075,
@@ -138,6 +179,7 @@
         "workTime": 28.0
       },
       "C_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 3,
         "regenerationHPSpeed": 0.005,
@@ -145,6 +187,7 @@
         "workTime": 28.0
       },
       "C_Low": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 3,
         "regenerationHPSpeed": 0.005,
@@ -152,6 +195,7 @@
         "workTime": 10.0
       },
       "D_Fast": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "descIDs": "PCY010_RegenCrew_Eheal_Premium",
         "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
@@ -162,6 +206,7 @@
         "workTime": 20.0
       },
       "D_gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 2,
         "regenerationHPSpeed": 0.005,
@@ -169,6 +214,7 @@
         "workTime": 28.0
       },
       "EU_DD_High": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 3,
         "regenerationHPSpeed": 0.01,
@@ -176,20 +222,47 @@
         "workTime": 14.0
       },
       "EU_DD_Low": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 3,
         "regenerationHPSpeed": 0.01,
         "reloadTime": 80.0,
         "workTime": 10.0
       },
+      "EU_HEAL_Ragnar": {
+        "SpecialSoundID": "Default",
+        "consumableType": "regenCrew",
+        "numConsumables": 2,
+        "regenerationHPSpeed": 0.01,
+        "reloadTime": 80.0,
+        "workTime": 14.0
+      },
       "Gascogne_gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.005,
         "reloadTime": 40.0,
         "workTime": 28.0
       },
+      "ITA_BB": {
+        "SpecialSoundID": "Default",
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
+      "Ned_BC_Gascogne": {
+        "SpecialSoundID": "Default",
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 40.0,
+        "workTime": 28.0
+      },
       "UK_CA_PREM": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "descIDs": "PCY010_RegenCrew_Eheal_Premium",
         "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
@@ -200,6 +273,7 @@
         "workTime": 20.0
       },
       "UK_CL_PREM": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "descIDs": "PCY010_RegenCrew_Eheal_Premium",
         "iconIDs": "PCY010_RegenCrew_Eheal_Premium",
@@ -210,6 +284,7 @@
         "workTime": 20.0
       },
       "UK_DD_gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 2,
         "regenerationHPSpeed": 0.01,
@@ -217,6 +292,7 @@
         "workTime": 10.0
       },
       "UK_HT_BB_PREM": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 3,
         "regenerationHPSpeed": 0.02,
@@ -224,23 +300,25 @@
         "workTime": 20.0
       },
       "USA_Gascogne": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.005,
         "reloadTime": 40.0,
         "workTime": 28.0
-      }
+      },
+      "custom": {}
     }
   },
   "PCY011_AirDefenseDispPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4282556336,
     "index": "PCY011",
     "name": "PCY011_AirDefenseDispPremium",
     "data": {
       "Anthony_event_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 2.0,
         "bubbleDamageMultiplier": 2,
         "consumableType": "airDefenseDisp",
@@ -249,6 +327,7 @@
         "workTime": 15.0
       },
       "Default_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
@@ -257,6 +336,7 @@
         "workTime": 40.0
       },
       "Play_test_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
         "bubbleDamageMultiplier": 2,
         "consumableType": "airDefenseDisp",
@@ -265,6 +345,7 @@
         "workTime": 40.0
       },
       "SU_DD_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
@@ -273,6 +354,7 @@
         "workTime": 40.0
       },
       "Stalingrad": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.25,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
@@ -281,6 +363,7 @@
         "workTime": 60.0
       },
       "UK_UPs_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
@@ -289,6 +372,7 @@
         "workTime": 40.0
       },
       "US_Cruisers_Atlanta": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
@@ -296,7 +380,17 @@
         "workTime": 40.0
       },
       "US_Cruisers_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
+        "bubbleDamageMultiplier": 4.0,
+        "consumableType": "airDefenseDisp",
+        "numConsumables": 4,
+        "reloadTime": 80.0,
+        "workTime": 40.0
+      },
+      "US_DD_Branch": {
+        "SpecialSoundID": "Default",
+        "areaDamageMultiplier": 2.0,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
         "numConsumables": 4,
@@ -304,15 +398,8 @@
         "workTime": 40.0
       },
       "US_DD_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
-        "bubbleDamageMultiplier": 4.0,
-        "consumableType": "airDefenseDisp",
-        "numConsumables": 4,
-        "reloadTime": 80.0,
-        "workTime": 40.0
-      },
-      "US_DD_Super": {
-        "areaDamageMultiplier": 1.75,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
         "numConsumables": 4,
@@ -320,24 +407,26 @@
         "workTime": 40.0
       },
       "Yubari_Gold": {
+        "SpecialSoundID": "Default",
         "areaDamageMultiplier": 1.5,
         "bubbleDamageMultiplier": 4.0,
         "consumableType": "airDefenseDisp",
         "numConsumables": 2,
         "reloadTime": 80.0,
         "workTime": 40.0
-      }
+      },
+      "custom": {}
     }
   },
   "PCY012_FighterPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4281507760,
     "index": "PCY012",
     "name": "PCY012_FighterPremium",
     "data": {
       "Fighter_1": {
+        "SpecialSoundID": "Default",
         "climbAngle": 55,
         "consumableType": "fighter",
         "distanceToKill": 35.0,
@@ -354,6 +443,7 @@
         "workTime": 60.0
       },
       "Fighter_2": {
+        "SpecialSoundID": "Default",
         "climbAngle": 55,
         "consumableType": "fighter",
         "distanceToKill": 35.0,
@@ -370,6 +460,7 @@
         "workTime": 60.0
       },
       "Fighter_3": {
+        "SpecialSoundID": "Default",
         "climbAngle": 55,
         "consumableType": "fighter",
         "distanceToKill": 35.0,
@@ -386,6 +477,7 @@
         "workTime": 60.0
       },
       "Fighter_4": {
+        "SpecialSoundID": "Default",
         "climbAngle": 55,
         "consumableType": "fighter",
         "distanceToKill": 35.0,
@@ -402,6 +494,7 @@
         "workTime": 60.0
       },
       "Musashi": {
+        "SpecialSoundID": "Default",
         "climbAngle": 55,
         "consumableType": "fighter",
         "distanceToKill": 35.0,
@@ -416,18 +509,19 @@
         "timeToTryingCatch": 40.0,
         "timeWaitDelayAttack": 10.0,
         "workTime": 80.0
-      }
+      },
+      "custom": {}
     }
   },
   "PCY013_SpotterPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4280459184,
     "index": "PCY013",
     "name": "PCY013_SpotterPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "artilleryDistCoeff": 1.2,
         "consumableType": "scout",
         "numConsumables": 4,
@@ -435,6 +529,7 @@
         "workTime": 100.0
       },
       "Lazo": {
+        "SpecialSoundID": "Default",
         "artilleryDistCoeff": 1.2,
         "consumableType": "scout",
         "descIDs": "PCY013_Spotter_Circle_Premium",
@@ -445,6 +540,7 @@
         "workTime": 60.0
       },
       "Musashi": {
+        "SpecialSoundID": "Default",
         "artilleryDistCoeff": 1.2,
         "consumableType": "scout",
         "numConsumables": 4,
@@ -452,23 +548,33 @@
         "workTime": 120.0
       },
       "Perth": {
+        "SpecialSoundID": "Default",
         "artilleryDistCoeff": 1.2,
         "consumableType": "scout",
         "numConsumables": 4,
         "reloadTime": 240.0,
         "workTime": 180.0
-      }
+      },
+      "Weimar": {
+        "SpecialSoundID": "Default",
+        "artilleryDistCoeff": 1.3,
+        "consumableType": "scout",
+        "numConsumables": 4,
+        "reloadTime": 240.0,
+        "workTime": 60.0
+      },
+      "custom": {}
     }
   },
   "PCY014_SmokeGeneratorPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4279410608,
     "index": "PCY014",
     "name": "PCY014_SmokeGeneratorPremium",
     "data": {
       "Cruiser_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 80.0,
@@ -481,6 +587,7 @@
         "workTime": 15.0
       },
       "DE_Lvl_10_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 77.0,
@@ -493,6 +600,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_2_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 45.0,
@@ -505,6 +613,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_3_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 49.0,
@@ -517,6 +626,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_4_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 53.0,
@@ -529,6 +639,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_5_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 57.0,
@@ -541,6 +652,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_6_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 61.0,
@@ -553,6 +665,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_7_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 65.0,
@@ -565,6 +678,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_8_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 69.0,
@@ -577,6 +691,7 @@
         "workTime": 20.0
       },
       "DE_Lvl_9_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 73.0,
@@ -589,6 +704,7 @@
         "workTime": 20.0
       },
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 60.0,
@@ -601,6 +717,7 @@
         "workTime": 1.0
       },
       "Grozovoi_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 97.0,
@@ -613,6 +730,7 @@
         "workTime": 20.0
       },
       "Haida_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
         "height": 5.0,
@@ -628,6 +746,7 @@
         "workTime": 90.0
       },
       "IT_Oil_5_7": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGeneratorOil_Premium",
         "height": 5.0,
@@ -642,6 +761,7 @@
         "workTime": 25.0
       },
       "IT_Oil_8_10": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGeneratorOil_Premium",
         "height": 5.0,
@@ -655,35 +775,8 @@
         "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
         "workTime": 40.0
       },
-      "IT_Oil_DD_8_10": {
-        "consumableType": "smokeGenerator",
-        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
-        "height": 5.0,
-        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
-        "lifeTime": 10.0,
-        "numConsumables": 5,
-        "radius": 17.0,
-        "reloadTime": 140.0,
-        "spawnBackwardShift": 0.3,
-        "speedLimit": 60.0,
-        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
-        "workTime": 30.0
-      },
-      "IT_Oil_Gorizia": {
-        "consumableType": "smokeGenerator",
-        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
-        "height": 5.0,
-        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
-        "lifeTime": 10.0,
-        "numConsumables": 2,
-        "radius": 17.0,
-        "reloadTime": 140.0,
-        "spawnBackwardShift": 0.3,
-        "speedLimit": 60.0,
-        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
-        "workTime": 40.0
-      },
-      "IT_Oil_IMPERO": {
+      "IT_Oil_BB": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGeneratorOil_Premium",
         "height": 5.0,
@@ -697,7 +790,53 @@
         "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
         "workTime": 45.0
       },
+      "IT_Oil_BB_Verdi": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 15.0,
+        "numConsumables": 3,
+        "radius": 30.0,
+        "reloadTime": 180.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 80.0
+      },
+      "IT_Oil_Gorizia": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 2,
+        "radius": 17.0,
+        "reloadTime": 140.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 60.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 40.0
+      },
+      "IT_Oil_Paolo_Emilio": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 5,
+        "radius": 17.0,
+        "reloadTime": 140.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 100.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 35.0
+      },
       "IT_Oil_Test_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGeneratorOil_Premium",
         "height": 5.0,
@@ -711,7 +850,24 @@
         "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
         "workTime": 35.0
       },
+      "Kitakami": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+        "lifeTime": 40.0,
+        "numConsumables": 6,
+        "radius": 15.0,
+        "reloadTime": 80.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "titleIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+        "workTime": 15.0
+      },
       "Leone": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 118.0,
@@ -723,7 +879,21 @@
         "startDelayTime": 2.0,
         "workTime": 30.0
       },
+      "Liberty_Convoy_Gold": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 45.0,
+        "numConsumables": 5,
+        "radius": 20.0,
+        "reloadTime": 70.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
       "Lvl_10_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 97.0,
@@ -736,6 +906,7 @@
         "workTime": 20.0
       },
       "Lvl_2_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 65.0,
@@ -748,6 +919,7 @@
         "workTime": 20.0
       },
       "Lvl_3_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 69.0,
@@ -760,6 +932,7 @@
         "workTime": 20.0
       },
       "Lvl_4_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 73.0,
@@ -772,6 +945,7 @@
         "workTime": 20.0
       },
       "Lvl_5_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 77.0,
@@ -784,6 +958,7 @@
         "workTime": 20.0
       },
       "Lvl_6_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 81.0,
@@ -796,6 +971,7 @@
         "workTime": 20.0
       },
       "Lvl_7_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 85.0,
@@ -808,6 +984,7 @@
         "workTime": 20.0
       },
       "Lvl_8_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 89.0,
@@ -820,6 +997,7 @@
         "workTime": 20.0
       },
       "Lvl_8_Gold_Kutuzov": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 89.0,
@@ -832,6 +1010,7 @@
         "workTime": 20.0
       },
       "Lvl_9_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 93.0,
@@ -844,6 +1023,7 @@
         "workTime": 20.0
       },
       "Ognevoy": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 89.0,
@@ -855,7 +1035,21 @@
         "startDelayTime": 2.0,
         "workTime": 20.0
       },
+      "PAZ_CL": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 70.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 100.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
       "PAZ_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 70.0,
@@ -868,6 +1062,7 @@
         "workTime": 30.0
       },
       "PanOceania_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
         "height": 5.0,
@@ -883,6 +1078,7 @@
         "workTime": 90.0
       },
       "Test": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 60.0,
@@ -894,7 +1090,24 @@
         "startDelayTime": 2.0,
         "workTime": 20.0
       },
+      "UK_Belfast_43": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+        "lifeTime": 40.0,
+        "numConsumables": 5,
+        "radius": 20.0,
+        "reloadTime": 70.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "titleIDs": "PCY014_SmokeGenerator_Cycle_Premium",
+        "workTime": 15.0
+      },
       "UK_DD": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
         "height": 5.0,
@@ -910,6 +1123,7 @@
         "workTime": 10.0
       },
       "UK_Lvl_10_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 113.0,
@@ -922,6 +1136,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_2_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 85.0,
@@ -934,6 +1149,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_3_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 89.0,
@@ -946,6 +1162,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_4_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 92.0,
@@ -958,6 +1175,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_5_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 96.0,
@@ -970,6 +1188,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_6_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 99.0,
@@ -982,6 +1201,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_7_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 103.0,
@@ -994,6 +1214,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_8_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 106.0,
@@ -1006,6 +1227,7 @@
         "workTime": 15.0
       },
       "UK_Lvl_9_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 110.0,
@@ -1018,9 +1240,10 @@
         "workTime": 15.0
       },
       "US_Anchorage": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
-        "lifeTime": 124.0,
+        "lifeTime": 104.0,
         "numConsumables": 2,
         "radius": 15.0,
         "reloadTime": 160.0,
@@ -1030,6 +1253,7 @@
         "workTime": 30.0
       },
       "US_Lvl_10_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 130.0,
@@ -1042,6 +1266,7 @@
         "workTime": 30.0
       },
       "US_Lvl_2_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 106.0,
@@ -1054,6 +1279,7 @@
         "workTime": 30.0
       },
       "US_Lvl_3_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 109.0,
@@ -1066,6 +1292,7 @@
         "workTime": 30.0
       },
       "US_Lvl_4_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 112.0,
@@ -1078,6 +1305,7 @@
         "workTime": 30.0
       },
       "US_Lvl_5_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 115.0,
@@ -1090,6 +1318,7 @@
         "workTime": 30.0
       },
       "US_Lvl_6_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 118.0,
@@ -1102,6 +1331,7 @@
         "workTime": 30.0
       },
       "US_Lvl_7_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 121.0,
@@ -1114,6 +1344,7 @@
         "workTime": 30.0
       },
       "US_Lvl_8_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 124.0,
@@ -1126,6 +1357,7 @@
         "workTime": 30.0
       },
       "US_Lvl_9_Gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 127.0,
@@ -1137,7 +1369,21 @@
         "startDelayTime": 2.0,
         "workTime": 30.0
       },
+      "US_Rochester": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 104.0,
+        "numConsumables": 2,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
       "Udaloy": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 93.0,
@@ -1148,18 +1394,35 @@
         "speedLimit": 12.5,
         "startDelayTime": 2.0,
         "workTime": 20.0
-      }
+      },
+      "Vampire_2": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 120.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "titleIDs": "PCY014_SmokeGeneratorCrawler_Premium",
+        "workTime": 90.0
+      },
+      "custom": {}
     }
   },
   "PCY015_SpeedBoosterPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4278362032,
     "index": "PCY015",
     "name": "PCY015_SpeedBoosterPremium",
     "data": {
       "Cossack": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 1.75,
         "backwardEngineForsagMaxSpeed": 5.0,
         "boostCoeff": 0.08,
@@ -1171,6 +1434,7 @@
         "workTime": 120.0
       },
       "Default": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.08,
@@ -1182,6 +1446,7 @@
         "workTime": 120.0
       },
       "EU_DD_Turbo": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.3,
@@ -1195,7 +1460,23 @@
         "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
         "workTime": 60.0
       },
+      "EU_DD_Turbo_Ragnar": {
+        "SpecialSoundID": "Default",
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.3,
+        "consumableType": "speedBoosters",
+        "descIDs": "PCY015_SpeedBooster_Imp_Premium",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
+        "numConsumables": 2,
+        "reloadTime": 180.0,
+        "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
+        "workTime": 60.0
+      },
       "FR_AIGLE_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 4.0,
         "backwardEngineForsagMaxSpeed": 12.0,
         "boostCoeff": 0.2,
@@ -1207,6 +1488,7 @@
         "workTime": 120.0
       },
       "FR_BB_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 4.0,
         "backwardEngineForsagMaxSpeed": 12.0,
         "boostCoeff": 0.08,
@@ -1218,6 +1500,7 @@
         "workTime": 180.0
       },
       "FR_CR_6_7_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 4.0,
         "backwardEngineForsagMaxSpeed": 12.0,
         "boostCoeff": 0.15,
@@ -1229,6 +1512,7 @@
         "workTime": 180.0
       },
       "FR_CR_8_9_10_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 4.0,
         "backwardEngineForsagMaxSpeed": 12.0,
         "boostCoeff": 0.2,
@@ -1240,6 +1524,7 @@
         "workTime": 180.0
       },
       "FR_CR_Henri_IV": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.2,
@@ -1251,6 +1536,7 @@
         "workTime": 180.0
       },
       "FR_DD_2_7_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 4.0,
         "backwardEngineForsagMaxSpeed": 12.0,
         "boostCoeff": 0.2,
@@ -1262,6 +1548,7 @@
         "workTime": 120.0
       },
       "FR_DD_8_10_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 4.0,
         "backwardEngineForsagMaxSpeed": 12.0,
         "boostCoeff": 0.2,
@@ -1272,7 +1559,20 @@
         "reloadTime": 90.0,
         "workTime": 180.0
       },
+      "FR_Repulse": {
+        "SpecialSoundID": "Default",
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.08,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 90.0,
+        "workTime": 180.0
+      },
       "FR_Terrible": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.2,
@@ -1284,6 +1584,7 @@
         "workTime": 120.0
       },
       "GROZOVOI_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.08,
@@ -1294,7 +1595,8 @@
         "reloadTime": 120.0,
         "workTime": 120.0
       },
-      "IT_DD_8_10": {
+      "IT_Paolo_Emilio": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.25,
@@ -1306,9 +1608,22 @@
         "numConsumables": 5,
         "reloadTime": 140.0,
         "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
-        "workTime": 30.0
+        "workTime": 50.0
+      },
+      "Incomparable": {
+        "SpecialSoundID": "Default",
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
+        "boostCoeff": 0.08,
+        "consumableType": "speedBoosters",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 180.0
       },
       "Test": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 10.0,
@@ -1320,6 +1635,7 @@
         "workTime": 120.0
       },
       "UK_CL_PREM": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 4.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.15,
@@ -1329,154 +1645,192 @@
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 120.0
-      }
+      },
+      "custom": {}
     }
   },
   "PCY016_SonarSearchPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4277313456,
     "index": "PCY016",
     "name": "PCY016_SonarSearchPremium",
     "data": {
       "C_4_7": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 133.3333,
         "distTorpedo": 100.0,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 100.0
       },
       "C_4_7_Low": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 133.3333,
         "distTorpedo": 100.0,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 70.0
       },
       "C_8_10": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 166.6666,
         "distTorpedo": 116.6666,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 100.0
       },
+      "C_8_RCHSTR": {
+        "SpecialSoundID": "Default",
+        "consumableType": "sonar",
+        "distShip": 166.6666,
+        "distTorpedo": 116.6666,
+        "numConsumables": 2,
+        "reloadTime": 120.0,
+        "workTime": 100.0
+      },
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 116.0,
         "distTorpedo": 84.0,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 90.0
       },
       "Deutsche_C": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 166.0,
         "distTorpedo": 116.0,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 110.0
       },
       "Deutsche_C_4_7": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 183.3333,
         "distTorpedo": 125.0,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 110.0
       },
       "Deutsche_C_8_10": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 200.0,
         "distTorpedo": 133.3333,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 120.0
       },
       "DukeOfYork": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 133.3333,
         "distTorpedo": 100.0,
-        "maxDepth": -80.0,
         "numConsumables": 2,
         "reloadTime": 120.0,
         "workTime": 100.0
       },
       "Haida_gold": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 116.6666,
         "distTorpedo": 83.3333,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 180.0
       },
       "LoYang": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 183.3333,
         "distTorpedo": 125.0,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 110.0
       },
+      "S_10": {
+        "SpecialSoundID": "Default",
+        "consumableType": "sonar",
+        "distShip": 200.0,
+        "distTorpedo": 133.3333,
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 60.0
+      },
       "S_6": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 133.3333,
         "distTorpedo": 100.0,
-        "maxDepth": -80.0,
+        "numConsumables": 3,
+        "reloadTime": 180.0,
+        "workTime": 60.0
+      },
+      "S_8": {
+        "SpecialSoundID": "Default",
+        "consumableType": "sonar",
+        "distShip": 166.67,
+        "distTorpedo": 116.67,
         "numConsumables": 3,
         "reloadTime": 180.0,
         "workTime": 60.0
       },
       "Salem": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "distShip": 166.6666,
         "distTorpedo": 116.6666,
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 100.0
       },
       "UKDD_6_10": {
+        "SpecialSoundID": "Default",
         "consumableType": "sonar",
         "descIDs": "PCY016_SonarSearch_Short_Premium",
         "distShip": 100.0,
         "distTorpedo": 100.0,
         "iconIDs": "PCY016_SonarSearch_Short_Premium",
-        "maxDepth": -80.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "titleIDs": "PCY016_SonarSearch_Short_Premium",
         "workTime": 180.0
-      }
+      },
+      "UK_Belfast_43": {
+        "SpecialSoundID": "Default",
+        "consumableType": "sonar",
+        "distShip": 166.6666,
+        "distTorpedo": 116.6666,
+        "numConsumables": 2,
+        "reloadTime": 120.0,
+        "workTime": 100.0
+      },
+      "custom": {}
     }
   },
   "PCY018_TorpedoReloaderPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4275216304,
     "index": "PCY018",
     "name": "PCY018_TorpedoReloaderPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "reloadTime": 270.0,
         "torpedoReloadTime": 60.0,
         "workTime": 1.0
       },
       "Jap_DD_prem_alt": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 3,
         "reloadTime": 160.0,
@@ -1484,6 +1838,7 @@
         "workTime": 1.0
       },
       "Jap_DD_premium": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 3,
         "reloadTime": 240.0,
@@ -1491,6 +1846,7 @@
         "workTime": 1.0
       },
       "Jap_DD_premium_tst": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 3,
         "reloadTime": 240.0,
@@ -1498,265 +1854,324 @@
         "workTime": 1.0
       },
       "Monaghan_style_premium": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 3,
         "reloadTime": 240.0,
         "torpedoReloadTime": 30.0,
         "workTime": 1.0
       },
+      "PAZ_CA": {
+        "SpecialSoundID": "Default",
+        "consumableType": "torpedoReloader",
+        "numConsumables": 2,
+        "reloadTime": 300.0,
+        "torpedoReloadTime": 8.0,
+        "workTime": 1.0
+      },
       "PAZ_premium": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 3,
         "reloadTime": 240.0,
         "torpedoReloadTime": 8.0,
         "workTime": 1.0
-      }
+      },
+      "custom": {}
     }
   },
   "PCY020_RLSSearchPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4273119152,
     "index": "PCY020",
     "name": "PCY020_RLSSearchPremium",
     "data": {
       "Black": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 250.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 22.0
       },
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 270.0,
-        "maxDepth": -6.0,
         "reloadTime": 180.0,
         "workTime": 15.0
       },
       "EU_DD": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 250.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 20.0
       },
+      "EU_RLS_Ragnar": {
+        "SpecialSoundID": "Default",
+        "consumableType": "rls",
+        "distShip": 250.0,
+        "numConsumables": 2,
+        "reloadTime": 120.0,
+        "workTime": 30.0
+      },
       "Gb_7_BELFAST_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 283.33,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 25.0
       },
       "PAZ_10_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 250.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 25.0
       },
       "PAZ_8_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 250.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 20.0
       },
       "PAZ_9_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 250.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 22.0
       },
       "Salem_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 283.33,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 40.0
       },
+      "Tiger_59": {
+        "SpecialSoundID": "Default",
+        "consumableType": "rls",
+        "distShip": 300.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 30.0
+      },
+      "UK_Belfast_43": {
+        "SpecialSoundID": "Default",
+        "consumableType": "rls",
+        "distShip": 300.0,
+        "numConsumables": 2,
+        "reloadTime": 120.0,
+        "workTime": 25.0
+      },
       "USSR_10_BB": {
-        "affectedClasses": [
-          "Battleship",
-          "AirCarrier"
-        ],
+        "SpecialSoundID": "Default",
+        "affectedClasses": ["Battleship", "AirCarrier"],
         "consumableType": "rls",
         "distShip": 500.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 180.0,
         "workTime": 60.0
       },
       "USSR_10_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 400.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 30.0
       },
       "USSR_8_BB": {
-        "affectedClasses": [
-          "Battleship",
-          "AirCarrier"
-        ],
+        "SpecialSoundID": "Default",
+        "affectedClasses": ["Battleship", "AirCarrier"],
         "consumableType": "rls",
         "distShip": 500.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 180.0,
         "workTime": 40.0
       },
       "USSR_8_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 400.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 20.0
       },
       "USSR_9_BB": {
-        "affectedClasses": [
-          "Battleship",
-          "AirCarrier"
-        ],
+        "SpecialSoundID": "Default",
+        "affectedClasses": ["Battleship", "AirCarrier"],
         "consumableType": "rls",
         "distShip": 500.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 180.0,
         "workTime": 50.0
       },
       "USSR_9_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 400.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 25.0
       },
       "USSR_CA_8_10": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 400.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 15.0
       },
       "USSR_OCHAKOV": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 333.3,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 20.0
       },
       "US_10_CL": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 300.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 40.0
       },
       "US_10_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 333.33,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 40.0
       },
       "US_7_ATLANTA_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 283.33,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 25.0
       },
       "US_7_INDIANAPOLIS_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 333.33,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 25.0
       },
+      "US_8_BLTMR": {
+        "SpecialSoundID": "Default",
+        "consumableType": "rls",
+        "distShip": 333.33,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 27.0
+      },
       "US_8_CL": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 300.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 30.0
       },
+      "US_8_CL_CLEV": {
+        "SpecialSoundID": "Default",
+        "consumableType": "rls",
+        "distShip": 300.0,
+        "numConsumables": 3,
+        "reloadTime": 120.0,
+        "workTime": 27.0
+      },
+      "US_8_CL_RCHSTR": {
+        "SpecialSoundID": "Default",
+        "consumableType": "rls",
+        "distShip": 300.0,
+        "numConsumables": 2,
+        "reloadTime": 120.0,
+        "workTime": 25.0
+      },
       "US_8_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 333.33,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 30.0
       },
       "US_9_CL": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 300.0,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 35.0
       },
       "US_9_MISSOURI": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 316.67,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 35.0
       },
       "US_9_PREMIUM": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 333.33,
-        "maxDepth": -6.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 35.0
-      }
+      },
+      "custom": {}
     }
   },
   "PCY022_ArtilleryBoosterPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4271022000,
     "index": "PCY022",
     "name": "PCY022_ArtilleryBoosterPremium",
     "data": {
       "Default_gold": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.75,
         "consumableType": "artilleryBoosters",
-        "criticalChance": 0.05,
         "reloadTime": 10.0,
         "workTime": 10.0
       },
       "FR_BB": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.5,
         "consumableType": "artilleryBoosters",
         "numConsumables": 4,
         "reloadTime": 120.0,
         "workTime": 20.0
       },
+      "FR_BB_Strasbourg": {
+        "SpecialSoundID": "Default",
+        "boostCoeff": 0.5,
+        "consumableType": "artilleryBoosters",
+        "numConsumables": 4,
+        "reloadTime": 180.0,
+        "workTime": 20.0
+      },
       "FR_CR_6_7_8_Gold": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.5,
         "consumableType": "artilleryBoosters",
         "numConsumables": 4,
@@ -1764,6 +2179,7 @@
         "workTime": 15.0
       },
       "FR_CR_9_10_Gold": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.5,
         "consumableType": "artilleryBoosters",
         "numConsumables": 4,
@@ -1771,164 +2187,162 @@
         "workTime": 15.0
       },
       "FR_DD_Gold": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.5,
         "consumableType": "artilleryBoosters",
         "numConsumables": 4,
         "reloadTime": 100.0,
         "workTime": 15.0
-      }
-    }
-  },
-  "PCY043_SubmarineFourthStatePremium": {
-    "canBuy": false,
-    "canBuyCustom": {},
-    "freeOfCharge": true,
-    "id": 4249001904,
-    "index": "PCY043",
-    "name": "PCY043_SubmarineFourthStatePremium",
-    "data": {
-      "Sub": {
-        "consumableType": "subsFourthState",
-        "newWaterline": -80,
+      },
+      "IJN_BB_HYUGA": {
+        "SpecialSoundID": "Default",
+        "boostCoeff": 0.5,
+        "consumableType": "artilleryBoosters",
         "numConsumables": 3,
-        "reloadTime": 120.0,
-        "workTime": 60.0
-      },
-      "Sub_Germany": {
-        "consumableType": "subsFourthState",
-        "newWaterline": -80,
-        "numConsumables": 4,
         "reloadTime": 60.0,
-        "workTime": 120.0
+        "workTime": 15.0
       },
-      "Sub_USA": {
-        "consumableType": "subsFourthState",
-        "newWaterline": -80,
-        "numConsumables": 2,
-        "reloadTime": 180.0,
-        "workTime": 180.0
-      }
+      "USA_Austin": {
+        "SpecialSoundID": "Default",
+        "boostCoeff": 0.25,
+        "consumableType": "artilleryBoosters",
+        "reloadTime": 125.0,
+        "workTime": 15.0
+      },
+      "custom": {}
     }
   },
   "PXY101_MindControlPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4188183824,
     "index": "PXY101",
     "name": "PXY101_MindControlPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger1",
         "numConsumables": 4,
         "reloadTime": 20.0,
         "workTime": 10.0
       },
       "H2017_Kagero": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger1",
         "numConsumables": 6,
         "reloadTime": 45.0,
         "workTime": 40.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY103_ProtectionPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4186086672,
     "index": "PXY103",
     "name": "PXY103_ProtectionPremium",
     "data": {
       "Default": {
-        "consumableType": "invulnerable",
+        "SpecialSoundID": "Default",
+        "consumableType": "trigger7",
+        "logic": "invulnerable",
         "numConsumables": 2,
         "reloadTime": 30.0,
         "workTime": 10.0
       },
       "H2017_Tirpiz": {
-        "consumableType": "invulnerable",
+        "SpecialSoundID": "Default",
+        "consumableType": "trigger7",
+        "logic": "invulnerable",
         "numConsumables": 8,
         "reloadTime": 8.0,
         "workTime": 10.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY104_HealAuraPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4185038096,
     "index": "PXY104",
     "name": "PXY104_HealAuraPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger4",
         "numConsumables": 2,
         "reloadTime": 20.0,
         "workTime": 10.0
       },
       "H2017_Tirpiz": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger4",
         "numConsumables": 6,
         "reloadTime": 45.0,
         "workTime": 60.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY105_HealAllPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4183989520,
     "index": "PXY105",
     "name": "PXY105_HealAllPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger5",
         "numConsumables": 2,
         "reloadTime": 20.0,
         "workTime": 10.0
       },
       "H2017_Lex": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger5",
         "numConsumables": 3,
         "reloadTime": 20.0,
         "workTime": 5.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY106_CrashAllPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4182940944,
     "index": "PXY106",
     "name": "PXY106_CrashAllPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger6",
         "numConsumables": 6,
         "reloadTime": 20.0,
         "workTime": 10.0
       },
       "H2017_Lex": {
+        "SpecialSoundID": "Default",
         "consumableType": "trigger6",
         "numConsumables": 6,
         "reloadTime": 30.0,
         "workTime": 15.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY107_SpeedBoosterPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4181892368,
     "index": "PXY107",
     "name": "PXY107_SpeedBoosterPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 0.08,
@@ -1940,35 +2354,37 @@
         "workTime": 120.0
       },
       "H2017_Kagero": {
+        "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
         "backwardEngineForsagMaxSpeed": 10.0,
         "boostCoeff": 2.0,
         "consumableType": "speedBoosters",
-        "forwardEngineForsag": 30.0,
-        "forwardEngineForsagMaxSpeed": 30.0,
+        "forwardEngineForsag": 4.0,
+        "forwardEngineForsagMaxSpeed": 4.0,
         "numConsumables": 6,
         "reloadTime": 30.0,
         "workTime": 80.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY108_HolyWeaponPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4180843792,
     "index": "PXY108",
     "name": "PXY108_HolyWeaponPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.75,
         "consumableType": "artilleryBoosters",
-        "criticalChance": 0.05,
         "numConsumables": 2,
         "reloadTime": 10.0,
         "workTime": 10.0
       },
       "H2017_Chapaev": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.25,
         "consumableType": "artilleryBoosters",
         "numConsumables": 6,
@@ -1976,23 +2392,25 @@
         "workTime": 30.0
       },
       "H2019": {
+        "SpecialSoundID": "Default",
         "boostCoeff": 0.5,
         "consumableType": "artilleryBoosters",
         "numConsumables": 0,
         "reloadTime": 45.0,
         "workTime": 30.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY109_TorpedoReloaderPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4179795216,
     "index": "PXY109",
     "name": "PXY109_TorpedoReloaderPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 2,
         "reloadTime": 270.0,
@@ -2000,48 +2418,50 @@
         "workTime": 1.0
       },
       "H2017_Kagero": {
+        "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 4,
         "reloadTime": 90.0,
         "torpedoReloadTime": 1.0,
         "workTime": 1.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY110_RLSSearchPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4178746640,
     "index": "PXY110",
     "name": "PXY110_RLSSearchPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 270.0,
-        "maxDepth": -6.0,
         "numConsumables": 6,
         "reloadTime": 180.0,
         "workTime": 15.0
       },
       "H2017_Chapaev": {
+        "SpecialSoundID": "Default",
         "consumableType": "rls",
         "distShip": 500.0,
-        "maxDepth": -6.0,
         "reloadTime": 45.0,
         "workTime": 45.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY112_SmokeGeneratorPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4176649488,
     "index": "PXY112",
     "name": "PXY112_SmokeGeneratorPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 60.0,
@@ -2054,6 +2474,7 @@
         "workTime": 1.0
       },
       "H2016": {
+        "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "height": 5.0,
         "lifeTime": 60.0,
@@ -2064,44 +2485,48 @@
         "speedLimit": 12.5,
         "startDelayTime": 2.0,
         "workTime": 30.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY113_CrashCrewPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4175600912,
     "index": "PXY113",
     "name": "PXY113_CrashCrewPremium",
     "data": {
       "Default": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "numConsumables": 2,
         "reloadTime": 1800.0,
         "workTime": 200.0
       },
       "H2017_All": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 30.0,
         "workTime": 10.0
       },
       "H2019": {
+        "SpecialSoundID": "Default",
         "consumableType": "crashCrew",
         "reloadTime": 30.0,
         "workTime": 10.0
-      }
+      },
+      "custom": {}
     }
   },
   "PXY114_RegenCrewPremium": {
     "canBuy": false,
-    "canBuyCustom": {},
     "freeOfCharge": true,
     "id": 4174552336,
     "index": "PXY114",
     "name": "PXY114_RegenCrewPremium",
     "data": {
       "H2016": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 2,
         "regenerationHPSpeed": 0.03,
@@ -2109,12 +2534,14 @@
         "workTime": 10.0
       },
       "H2019": {
+        "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
         "numConsumables": 4,
         "regenerationHPSpeed": 0.2,
         "reloadTime": 30.0,
         "workTime": 15.0
-      }
+      },
+      "custom": {}
     }
   }
 }

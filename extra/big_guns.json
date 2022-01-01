@@ -18,6 +18,18 @@
     "diametre": 457.0
   },
   {
+    "name": "PAPA123_457MM_AP_18_47_B1",
+    "damage": 15750.0,
+    "speed": 732.0,
+    "diametre": 457.0
+  },
+  {
+    "name": "PAPA991_457MM_AP_CONNECTICUT",
+    "damage": 15750.0,
+    "speed": 732.0,
+    "diametre": 457.0
+  },
+  {
     "name": "PBPA046_457MM_MII_AP",
     "damage": 14900.0,
     "speed": 762.0,
@@ -42,6 +54,12 @@
     "diametre": 457.0
   },
   {
+    "name": "PBPA106_508MM_AP_INCOMPARABLE",
+    "damage": 19500.0,
+    "speed": 751.0,
+    "diametre": 508.0
+  },
+  {
     "name": "PCPA043_410mm_BASIC_MG_AP",
     "damage": 12400.0,
     "speed": 790.0,
@@ -64,6 +82,24 @@
     "damage": 13500.0,
     "speed": 800.0,
     "diametre": 420.0
+  },
+  {
+    "name": "PGPA116_483MM_AP_HANNOVER",
+    "damage": 17300.0,
+    "speed": 810.0,
+    "diametre": 483.0
+  },
+  {
+    "name": "PGPA118_420MM_AP_L_50",
+    "damage": 12950.0,
+    "speed": 835.0,
+    "diametre": 420.0
+  },
+  {
+    "name": "PGPA127_457MM_AP_PREUSSEN",
+    "damage": 15000.0,
+    "speed": 810.0,
+    "diametre": 457.0
   },
   {
     "name": "PJPA005_Shell_410mm_AP_APC_Type_91",
@@ -138,6 +174,18 @@
     "diametre": 410.0
   },
   {
+    "name": "PJPA108_410MM_AP_HIZEN",
+    "damage": 12750.0,
+    "speed": 834.0,
+    "diametre": 410.0
+  },
+  {
+    "name": "PJPA118_510MM_AP_SATSUMA",
+    "damage": 19400.0,
+    "speed": 765.0,
+    "diametre": 510.0
+  },
+  {
     "name": "PRPA080_457MM_AP",
     "damage": 14500.0,
     "speed": 800.0,
@@ -164,6 +212,12 @@
   {
     "name": "PXPA091_YAMATO_H2019_AP",
     "damage": 20720.0,
+    "speed": 780.0,
+    "diametre": 460.0
+  },
+  {
+    "name": "PXPA116_AP_MONSTER_CRAB",
+    "damage": 14800.0,
     "speed": 780.0,
     "diametre": 460.0
   },

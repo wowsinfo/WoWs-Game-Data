@@ -78,6 +78,12 @@
     "diametre": 76.0
   },
   {
+    "name": "PBPA104_102MM_HE_31LBS",
+    "damage": 1500.0,
+    "speed": 800.0,
+    "diametre": 102.0
+  },
+  {
     "name": "PCPA002_76mm_BASIC_MG_HE",
     "damage": 200.0,
     "speed": 823.0,
@@ -300,6 +306,12 @@
     "diametre": 88.0
   },
   {
+    "name": "PRPA133_102MM_HE_B_2",
+    "damage": 1500.0,
+    "speed": 755.0,
+    "diametre": 102.0
+  },
+  {
     "name": "PUPA003_102MM_HE_31lb",
     "damage": 1500.0,
     "speed": 805.0,
@@ -310,6 +322,12 @@
     "damage": 1500.0,
     "speed": 805.0,
     "diametre": 102.0
+  },
+  {
+    "name": "PUPA011_114MM_HE_VAMPIRE_2",
+    "damage": 1700.0,
+    "speed": 746.0,
+    "diametre": 113.0
   },
   {
     "name": "PWPA010_100MM_HE_47_OTO1931",
@@ -384,6 +402,30 @@
     "diametre": 105.0
   },
   {
+    "name": "PXPA104_ATBA_HE_Hindenburg_H2020",
+    "damage": 4000.0,
+    "speed": 900.0,
+    "diametre": 105.0
+  },
+  {
+    "name": "PXPA106_ATBA_BOMB_Hindenburg_H2020",
+    "damage": 1400.0,
+    "speed": 600.0,
+    "diametre": 105.0
+  },
+  {
+    "name": "PXPA304_ATBA_HE_Amagi_H2020",
+    "damage": 3900.0,
+    "speed": 900.0,
+    "diametre": 105.0
+  },
+  {
+    "name": "PXPA306_ATBA_BOMB_Amagi_H2020",
+    "damage": 1800.0,
+    "speed": 600.0,
+    "diametre": 105.0
+  },
+  {
     "name": "PZPA011_102MM_HE_QF_MKIV",
     "damage": 1500.0,
     "speed": 664.0,
@@ -400,5 +442,35 @@
     "damage": 1400.0,
     "speed": 1000.0,
     "diametre": 100.0
+  },
+  {
+    "name": "PZPA031_100MM_HE_FEN_YANG",
+    "damage": 1500.0,
+    "speed": 1000.0,
+    "diametre": 100.0
+  },
+  {
+    "name": "PZPA035_100MM_55_1930_HE",
+    "damage": 1400.0,
+    "speed": 855.0,
+    "diametre": 100.0
+  },
+  {
+    "name": "PZPA037_100MM_HE_WH_ORK",
+    "damage": 1500.0,
+    "speed": 1000.0,
+    "diametre": 100.0
+  },
+  {
+    "name": "PZPA047_114MM_HE_MK16",
+    "damage": 1600.0,
+    "speed": 746.0,
+    "diametre": 113.0
+  },
+  {
+    "name": "PZPA051_102MM_HE_35LBS",
+    "damage": 1500.0,
+    "speed": 811.0,
+    "diametre": 102.0
   }
 ]

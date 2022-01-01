@@ -1,3 +1,4 @@
+# json and all temp files
 **/.ipynb_checkpoints
 *.json
 **/__pycache__/
@@ -9,3 +10,9 @@
 
 # virtual environment
 .env/
+
+# include node packages
+!package*.json
+!.prettierrc.json
+# ignore node_modules
+**/node_modules/

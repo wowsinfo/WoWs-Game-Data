@@ -1,126 +1,38 @@
 {
-  "3762272048": {
-    "name": "Graf Zeppelin",
-    "tier": 8
-  },
-  "3762272240": {
-    "name": "Enterprise",
-    "tier": 8
-  },
-  "3763320528": {
-    "name": "Kaga",
-    "tier": 7
-  },
-  "3763320816": {
-    "name": "Saipan",
-    "tier": 7
-  },
-  "4180555216": {
-    "name": "Kiev",
-    "tier": 7
-  },
-  "4181603792": {
-    "name": "Tashkent",
-    "tier": 8
-  },
-  "4183700944": {
-    "name": "Ognevoy",
-    "tier": 6
-  },
-  "4184749520": {
-    "name": "Gnevny",
-    "tier": 5
-  },
-  "4184782288": {
-    "name": "Kirov",
-    "tier": 5
-  },
-  "4277057520": {
-    "name": "Baltimore",
-    "tier": 9
-  },
-  "4277122768": {
-    "name": "Hakuryu",
-    "tier": 10
-  },
-  "4279219920": {
-    "name": "Taiho",
-    "tier": 9
-  },
-  "4279220208": {
-    "name": "Midway",
-    "tier": 10
-  },
-  "4280203248": {
-    "name": "New Orlean",
-    "tier": 8
-  },
-  "4281317360": {
-    "name": "Essex",
-    "tier": 9
-  },
-  "4282300400": {
-    "name": "Pensacola",
-    "tier": 7
-  },
-  "4282365648": {
-    "name": "Zuikaku",
-    "tier": 8
-  },
-  "4282365936": {
-    "name": "Lexington",
-    "tier": 8
-  },
-  "4283414224": {
-    "name": "Hiryu",
-    "tier": 7
-  },
-  "4284364496": {
-    "name": "Kagero",
-    "tier": 9
-  },
-  "4284463088": {
-    "name": "Ranger",
-    "tier": 7
-  },
-  "4285511376": {
-    "name": "Ryujo",
-    "tier": 6
-  },
-  "4287510224": {
-    "name": "Fubuki",
-    "tier": 8
-  },
-  "4287543280": {
-    "name": "Cleveland",
-    "tier": 6
-  },
-  "4288558800": {
-    "name": "Hatsuharu",
-    "tier": 7
-  },
-  "4288657104": {
-    "name": "Zuiho",
-    "tier": 5
-  },
-  "4288657392": {
-    "name": "Independence",
-    "tier": 6
-  },
-  "4289607376": {
-    "name": "Mutsuki",
-    "tier": 6
-  },
-  "4290754544": {
-    "name": "Langley",
-    "tier": 4
-  },
-  "4292851408": {
-    "name": "Hosho",
-    "tier": 4
-  },
-  "4292851696": {
-    "name": "Bogue",
-    "tier": 5
-  }
+  "3331241680": { "name": "Tone Third", "tier": 8 },
+  "3332290256": { "name": "Tone Second", "tier": 8 },
+  "3334420176": { "name": "Ise TEST2", "tier": 6 },
+  "3344905936": { "name": "Ise TEST1", "tier": 6 },
+  "3730781648": { "name": "V I Lenin", "tier": 8 },
+  "3762272048": { "name": "Graf Zeppelin", "tier": 8 },
+  "3762272240": { "name": "Enterprise", "tier": 8 },
+  "3763320528": { "name": "Kaga", "tier": 7 },
+  "3763320816": { "name": "Saipan 1946", "tier": 7 },
+  "4180555216": { "name": "Pr 48 Kiev", "tier": 7 },
+  "4181603792": { "name": "Pr 20i Tashkent", "tier": 8 },
+  "4183700944": { "name": "Pr 30 Ognevoy", "tier": 6 },
+  "4184749520": { "name": "Pr 7 Gnevny", "tier": 5 },
+  "4184782288": { "name": "Kirov", "tier": 5 },
+  "4277057520": { "name": "Baltimore 1944", "tier": 9 },
+  "4277122768": { "name": "Hakuryu 1942", "tier": 10 },
+  "4279219920": { "name": "Taiho 1944", "tier": 9 },
+  "4279220208": { "name": "Midway 1945", "tier": 10 },
+  "4280203248": { "name": "New Orlean 1944", "tier": 8 },
+  "4281317360": { "name": "Essex 1945", "tier": 9 },
+  "4282300400": { "name": "Pensacola 1944", "tier": 7 },
+  "4282365648": { "name": "Zuikaku 1944", "tier": 8 },
+  "4282365936": { "name": "Lexington 1944", "tier": 8 },
+  "4283414224": { "name": "Hiryu 1942", "tier": 7 },
+  "4284364496": { "name": "Kagero 1943", "tier": 9 },
+  "4284463088": { "name": "Ranger 1944", "tier": 7 },
+  "4285511376": { "name": "Ryujo 1933", "tier": 6 },
+  "4287510224": { "name": "Fubuki 1944", "tier": 8 },
+  "4287543280": { "name": "Cleveland 1945", "tier": 6 },
+  "4288558800": { "name": "Hatsuharu 1945", "tier": 7 },
+  "4288657104": { "name": "Zuiho 1944", "tier": 5 },
+  "4288657392": { "name": "Independence 1945", "tier": 6 },
+  "4289607376": { "name": "Mutsuki 1926", "tier": 6 },
+  "4290754544": { "name": "Langley 1929", "tier": 4 },
+  "4292851408": { "name": "Hosho 1939", "tier": 4 },
+  "4292851696": { "name": "Bogue 1942", "tier": 5 }
 }

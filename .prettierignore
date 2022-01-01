@@ -1,0 +1,13 @@
+# Ignore folders
+cache/
+.vscode/
+.env/
+icons/
+node_modules/
+tools/
+
+# Ignore all python files
+*.py
+
+# never format plugin because it needs to be small
+data/plugin.json

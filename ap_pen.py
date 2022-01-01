@@ -10,15 +10,15 @@ modified by me.
 from math import *
 import matplotlib.pyplot as plt
 
-# SHELL CONSTANTS, they should be provided
+
 def get_ap_penetration(ap, output=False):
-    penetration_value = 0.5561613 # PENETRATION
-    G = 9.81 # GRAVITY
-    sea_level_temperature = 288 # TEMPERATURE AT SEA LEVEL
-    temperature_lapse_rate = 0.0065 # TEMPERATURE LAPSE RATE
-    sea_level_pressure = 101325 # PRESSURE AT SEA LEVEL
-    univ_gas_constant = 8.31447 # UNIV GAS CONSTANT
-    mass_air = 0.0289644 # MOLAR MASS OF AIR
+    penetration_value = 0.5561613  # PENETRATION
+    G = 9.81  # GRAVITY
+    sea_level_temperature = 288  # TEMPERATURE AT SEA LEVEL
+    temperature_lapse_rate = 0.0065  # TEMPERATURE LAPSE RATE
+    sea_level_pressure = 101325  # PRESSURE AT SEA LEVEL
+    univ_gas_constant = 8.31447  # UNIV GAS CONSTANT
+    mass_air = 0.0289644  # MOLAR MASS OF AIR
 
     shell_weight = ap['weight']
     shell_diameter = ap['diameter']
@@ -26,14 +26,16 @@ def get_ap_penetration(ap, output=False):
     shell_velocity = ap['velocity']
     shell_krupp = ap['krupp']
 
-    cw_quadratic = 1 # QUADRATIC DRAG COEFFICIENT
-    cw_linear = 100 + 1000 / 3 * shell_diameter # LINEAR DRAG COEFFICIENT
+    cw_quadratic = 1  # QUADRATIC DRAG COEFFICIENT
+    cw_linear = 100 + 1000 / 3 * shell_diameter  # LINEAR DRAG COEFFICIENT
 
-    penetration_value = penetration_value * shell_krupp / 2400 # KRUPP INCLUSION
-    drag_constant = 0.5 * shell_drag * (shell_diameter / 2) ** 2 * pi / shell_weight # CONSTANTS TERMS OF DRAG
+    penetration_value = penetration_value * shell_krupp / 2400  # KRUPP INCLUSION
+    drag_constant = 0.5 * shell_drag * \
+        (shell_diameter / 2) ** 2 * pi / \
+        shell_weight  # CONSTANTS TERMS OF DRAG
 
     alpha = []
-    # ELEV. ANGLES 0...15, 
+    # ELEV. ANGLES 0...15,
     # 150 is used here because step cannot be 0.1, the point here is to have lots of angles
     # 150 should be replace because it is different for every ship
     for i in range(0, 150, 1):
@@ -42,7 +44,7 @@ def get_ap_penetration(ap, output=False):
     armour = []
     distance = []
     time = []
-    dt = 0.1 # TIME STEP
+    dt = 0.1  # TIME STEP
 
     # for each alpha angle do:
     for i in range(1, len(alpha)):
@@ -51,7 +53,7 @@ def get_ap_penetration(ap, output=False):
         x = 0
         y = 0
         time_taken = 0
-        
+
         # follow flight path until shell hits ground again
         while y >= 0:
 
@@ -59,19 +61,22 @@ def get_ap_penetration(ap, output=False):
             y = y + dt * v_y
 
             temperature = sea_level_temperature - temperature_lapse_rate * y
-            pressure = sea_level_pressure * (1 - temperature_lapse_rate * y / sea_level_temperature) ** (G * mass_air / (univ_gas_constant * temperature_lapse_rate))
+            pressure = sea_level_pressure * (1 - temperature_lapse_rate * y / sea_level_temperature) ** (
+                G * mass_air / (univ_gas_constant * temperature_lapse_rate))
             rho = pressure * mass_air / (univ_gas_constant * temperature)
 
-            v_x = v_x - dt * drag_constant * rho * (cw_quadratic * v_x ** 2 + cw_linear * v_x)
+            v_x = v_x - dt * drag_constant * rho * \
+                (cw_quadratic * v_x ** 2 + cw_linear * v_x)
             # copysign when x = 1, it is the same as sign
-            v_y = v_y - dt * G - dt * drag_constant * rho * (cw_quadratic * v_y ** 2 + cw_linear * abs(v_y)) * copysign(1, v_y)
+            v_y = v_y - dt * G - dt * drag_constant * rho * \
+                (cw_quadratic * v_y ** 2 + cw_linear * abs(v_y)) * copysign(1, v_y)
 
             time_taken = time_taken + dt
 
-
         v_total = (v_y ** 2 + v_x ** 2) ** 0.5
         # PENETRATION FORMULA
-        ap_pen = penetration_value * v_total ** 1.1 * shell_weight ** 0.55 / (shell_diameter * 1000) ** 0.65
+        ap_pen = penetration_value * v_total ** 1.1 * \
+            shell_weight ** 0.55 / (shell_diameter * 1000) ** 0.65
         # IMPACT ANGLE ON BELT ARMOR
         impact_angle = atan(abs(v_y) / abs(v_x))
 
@@ -99,5 +104,8 @@ def get_ap_penetration(ap, output=False):
     ax2.plot(distance, time)
     plt.show()
 
+
 # testing only
-# get_ap_penetration({'weight': 55, 'drag': 0.321, 'velocity': 950, 'diameter': 0.152, 'krupp': 2216})
+if __name__ == '__main__':
+    get_ap_penetration({'weight': 55, 'drag': 0.321,
+                       'velocity': 950, 'diameter': 0.152, 'krupp': 2216})

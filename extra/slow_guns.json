@@ -1,152 +1,51 @@
 [
-  {
-    "name": "PASB006_New_York_1934",
-    "tier": 5,
-    "reload": 30.5
-  },
-  {
-    "name": "PASB034_New_Mexico_1941",
-    "tier": 6,
-    "reload": 34.2
-  },
-  {
-    "name": "PASB506_Arizona_1941",
-    "tier": 6,
-    "reload": 35.0
-  },
-  {
-    "name": "PASB705_Texas_1944",
-    "tier": 5,
-    "reload": 34.28
-  },
-  {
-    "name": "PASB707_California",
-    "tier": 7,
-    "reload": 34.2
-  },
-  {
-    "name": "PFSB109_Alsace",
-    "tier": 9,
-    "reload": 32.0
-  },
-  {
-    "name": "PGSB509_Pommern",
-    "tier": 9,
-    "reload": 33.0
-  },
-  {
-    "name": "PJSB007_Kongo_1942",
-    "tier": 5,
-    "reload": 31.0
-  },
-  {
-    "name": "PJSB507_Ashitaka",
-    "tier": 7,
-    "reload": 31.0
-  },
-  {
-    "name": "PJSB705_Kongou",
-    "tier": 5,
-    "reload": 31.0
-  },
-  {
-    "name": "PJSB706_Kirishima",
-    "tier": 5,
-    "reload": 31.0
-  },
-  {
-    "name": "PJSB707_Haruna",
-    "tier": 5,
-    "reload": 31.0
-  },
-  {
-    "name": "PJSB708_Hiei_Arpeggio",
-    "tier": 5,
-    "reload": 31.0
-  },
-  {
-    "name": "PJSB878_Ignis_Purgatio",
-    "tier": 8,
-    "reload": 33.0
-  },
-  {
-    "name": "PJSB888_Ragnarok",
-    "tier": 8,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB001_Nikolay_I",
-    "tier": 4,
-    "reload": 36.0
-  },
-  {
-    "name": "PRSB103_Knyaz_Suvorov",
-    "tier": 3,
-    "reload": 36.0
-  },
-  {
-    "name": "PRSB104_Gangut",
-    "tier": 4,
-    "reload": 36.0
-  },
-  {
-    "name": "PRSB105_Pyotr_Velikiy",
-    "tier": 5,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB106_Izmail",
-    "tier": 6,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB107_Sinop",
-    "tier": 7,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB108_Vladivostok",
-    "tier": 8,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB109_Sovetsky_Soyuz",
-    "tier": 9,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB110_Sovetskaya_Rossiya",
-    "tier": 10,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB505_Oktyabrskaya_Revolutsiya",
-    "tier": 5,
-    "reload": 32.0
-  },
-  {
-    "name": "PRSB510_Slava",
-    "tier": 10,
-    "reload": 33.5
-  },
-  {
-    "name": "PRSB518_Lenin",
-    "tier": 8,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB538_V_I_Lenin",
-    "tier": 8,
-    "reload": 33.0
-  },
-  {
-    "name": "PRSB709_AZUR_Sov_Russia",
-    "tier": 9,
-    "reload": 33.0
-  },
-  {
-    "name": "PZSB509_Izumo_Bajie",
-    "tier": 9,
-    "reload": 32.0
-  }
+  { "name": "PASB006_New_York_1934", "tier": 5, "reload": 30.5 },
+  { "name": "PASB034_New_Mexico_1941", "tier": 6, "reload": 34.2 },
+  { "name": "PASB108_Kansas", "tier": 8, "reload": 40.0 },
+  { "name": "PASB109_Minnesota", "tier": 9, "reload": 40.0 },
+  { "name": "PASB110_Vermont", "tier": 10, "reload": 40.0 },
+  { "name": "PASB505_Oklahoma", "tier": 5, "reload": 38.0 },
+  { "name": "PASB506_Arizona_1941", "tier": 6, "reload": 35.0 },
+  { "name": "PASB517_Florida", "tier": 7, "reload": 33.5 },
+  { "name": "PASB519_Kearsarge", "tier": 9, "reload": 36.0 },
+  { "name": "PASB705_Texas_1944", "tier": 5, "reload": 34.28 },
+  { "name": "PASB707_California", "tier": 7, "reload": 34.2 },
+  { "name": "PASB910_Connecticut", "tier": 10, "reload": 40.0 },
+  { "name": "PBSB505_Agincourt", "tier": 5, "reload": 36.0 },
+  { "name": "PFSB109_Alsace", "tier": 9, "reload": 32.0 },
+  { "name": "PFSB538_Flandre", "tier": 8, "reload": 33.0 },
+  { "name": "PGSB111_Hannover", "tier": 11, "reload": 31.5 },
+  { "name": "PGSB509_Pommern", "tier": 9, "reload": 33.0 },
+  { "name": "PGSB599_Black_Pommern", "tier": 9, "reload": 33.0 },
+  { "name": "PGSB999_Hannover", "tier": 11, "reload": 31.5 },
+  { "name": "PISB104_Dante_Alighieri", "tier": 4, "reload": 33.0 },
+  { "name": "PISB107_Francesco_Caracciolo", "tier": 7, "reload": 33.0 },
+  { "name": "PISB108_Vittorio_Veneto", "tier": 8, "reload": 34.0 },
+  { "name": "PISB109_Lepanto", "tier": 9, "reload": 37.0 },
+  { "name": "PISB110_Cristoforo_Colombo", "tier": 10, "reload": 37.0 },
+  { "name": "PISB509_Marco_Polo", "tier": 9, "reload": 36.0 },
+  { "name": "PJSB007_Kongo_1942", "tier": 5, "reload": 31.0 },
+  { "name": "PJSB507_Ashitaka", "tier": 7, "reload": 31.0 },
+  { "name": "PJSB519_Hizen", "tier": 9, "reload": 38.0 },
+  { "name": "PJSB878_Ignis_Purgatio", "tier": 8, "reload": 33.0 },
+  { "name": "PJSB888_Ragnarok", "tier": 8, "reload": 33.0 },
+  { "name": "PJSB999_Satsuma", "tier": 11, "reload": 32.0 },
+  { "name": "PRSB001_Nikolay_I", "tier": 4, "reload": 36.0 },
+  { "name": "PRSB103_Knyaz_Suvorov", "tier": 3, "reload": 36.0 },
+  { "name": "PRSB104_Gangut", "tier": 4, "reload": 36.0 },
+  { "name": "PRSB105_Pyotr_Velikiy", "tier": 5, "reload": 33.0 },
+  { "name": "PRSB106_Izmail", "tier": 6, "reload": 33.0 },
+  { "name": "PRSB107_Sinop", "tier": 7, "reload": 33.0 },
+  { "name": "PRSB108_Vladivostok", "tier": 8, "reload": 33.0 },
+  { "name": "PRSB109_Sovetsky_Soyuz", "tier": 9, "reload": 33.0 },
+  { "name": "PRSB110_Sovetskaya_Rossiya", "tier": 10, "reload": 33.0 },
+  { "name": "PRSB505_Oktyabrskaya_Revolutsiya", "tier": 5, "reload": 32.0 },
+  { "name": "PRSB510_Slava", "tier": 10, "reload": 33.5 },
+  { "name": "PRSB518_Lenin", "tier": 8, "reload": 33.0 },
+  { "name": "PRSB528_Borodino", "tier": 8, "reload": 31.0 },
+  { "name": "PRSB538_V_I_Lenin", "tier": 8, "reload": 33.0 },
+  { "name": "PRSB709_AZUR_Sov_Russia", "tier": 9, "reload": 33.0 },
+  { "name": "PUSB507_Yukon", "tier": 7, "reload": 31.5 },
+  { "name": "PZSB509_Izumo_Bajie", "tier": 9, "reload": 32.0 },
+  { "name": "PZSB519_Alsace_Wujing", "tier": 9, "reload": 32.0 }
 ]
