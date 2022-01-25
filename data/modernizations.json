@@ -124,7 +124,8 @@
       "PZSC108",
       "PZSC107",
       "PZSC106",
-      "PZSC509"
+      "PZSC509",
+      "PBSC526"
     ],
     "shiptype": ["Destroyer"],
     "excludes": ["PISD506", "PRSD505"]
@@ -200,7 +201,8 @@
       "PZSC108",
       "PZSC109",
       "PZSC110",
-      "PZSC509"
+      "PZSC509",
+      "PBSC526"
     ]
   },
   "4203925424": {
@@ -539,7 +541,9 @@
       "PHSD509",
       "PBSC610",
       "PASC519",
-      "PASC111"
+      "PASC111",
+      "PSSC506",
+      "PRSC710"
     ]
   },
   "4221751216": {
@@ -1090,9 +1094,12 @@
       "PBSC610",
       "PASC519",
       "PGSB310",
-      "PZSC509",
       "PASC111",
-      "PFSC111"
+      "PFSC111",
+      "PSSC506",
+      "PRSC710",
+      "PASD610",
+      "PVSB508"
     ],
     "excludes": [
       "PXSA005",
@@ -1275,7 +1282,10 @@
       "PZSC107",
       "PZSC106",
       "PASC111",
-      "PFSC111"
+      "PFSC111",
+      "PBSC526",
+      "PRSC710",
+      "PASD610"
     ],
     "excludes": [
       "PXSA005",
@@ -1535,7 +1545,6 @@
       "Japan",
       "United_Kingdom",
       "Germany",
-      "Italy",
       "Europe",
       "Netherlands",
       "Spain",
@@ -1575,7 +1584,8 @@
       "PZSC106",
       "PZSC105",
       "PZSC509",
-      "PRSD410"
+      "PBSC526",
+      "PISD506"
     ],
     "shiptype": ["Destroyer"],
     "excludes": [
@@ -1617,7 +1627,6 @@
       "PFSD508",
       "PFSD808",
       "PBSD605",
-      "PISD509",
       "PWSD508",
       "PISB108",
       "PISB110",
@@ -1670,6 +1679,7 @@
       "PBSB526",
       "PFSC509",
       "PBSB610",
+      "PSSC506",
       "PFSC111"
     ],
     "shiptype": ["Destroyer"],
@@ -1707,7 +1717,14 @@
       "PGSD209",
       "PGSD210",
       "PBSD510",
-      "PHSD509"
+      "PHSD509",
+      "PASD610",
+      "PISD103",
+      "PISD104",
+      "PISD105",
+      "PISD106",
+      "PISD107",
+      "PISD507"
     ]
   },
   "4257402800": {
@@ -2259,7 +2276,8 @@
       "PBSD510",
       "PBSC610",
       "PASB910",
-      "PBSB610"
+      "PBSB610",
+      "PBSC526"
     ]
   },
   "4269985712": {
@@ -2568,7 +2586,9 @@
       "PXSB015",
       "PASB519",
       "PRSD410",
-      "PRSD111"
+      "PRSD111",
+      "PISD110",
+      "PISD109"
     ]
   },
   "4279422896": {
@@ -2641,7 +2661,8 @@
       "PHSD509",
       "PBSC610",
       "PASC519",
-      "PASC111"
+      "PASC111",
+      "PRSC710"
     ]
   },
   "4280471472": {
@@ -2769,7 +2790,8 @@
       "PZSC108",
       "PZSC107",
       "PZSC106",
-      "PZSC509"
+      "PZSC509",
+      "PBSC526"
     ]
   },
   "4284665776": {

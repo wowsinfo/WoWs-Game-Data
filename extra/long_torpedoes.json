@@ -72,6 +72,14 @@
     "type": "USA"
   },
   {
+    "name": "PAPT050_533_SHERMAN",
+    "dist": 16.49175412293853,
+    "speed": 69.3,
+    "spotted": 1.4,
+    "reaction": 7.77000777000777,
+    "type": "USA"
+  },
+  {
     "name": "PGPT019_T4_Falke_PatternAcoustic",
     "dist": 20.0,
     "speed": 67.2,
@@ -136,6 +144,22 @@
     "type": "Germany"
   },
   {
+    "name": "PGPT045_G7A_T1C",
+    "dist": 11.994002998500749,
+    "speed": 52.5,
+    "spotted": 1.2,
+    "reaction": 8.791208791208792,
+    "type": "Germany"
+  },
+  {
+    "name": "PGPT046_G7A_T1D",
+    "dist": 13.493253373313342,
+    "speed": 52.5,
+    "spotted": 1.2,
+    "reaction": 8.791208791208792,
+    "type": "Germany"
+  },
+  {
     "name": "PIPT001_533_SI270_DUCA",
     "dist": 11.994002998500749,
     "speed": 53.550000000000004,
@@ -181,6 +205,30 @@
     "speed": 58.800000000000004,
     "spotted": 1.1,
     "reaction": 7.195185766614337,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT015_533_SI270_M2",
+    "dist": 11.994002998500749,
+    "speed": 58.800000000000004,
+    "spotted": 1.1,
+    "reaction": 7.195185766614337,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT016_533_SI270_H2",
+    "dist": 11.994002998500749,
+    "speed": 58.800000000000004,
+    "spotted": 1.0,
+    "reaction": 6.541077969649397,
+    "type": "Italy"
+  },
+  {
+    "name": "PIPT017_533_SI270_N2",
+    "dist": 13.493253373313342,
+    "speed": 58.800000000000004,
+    "spotted": 1.0,
+    "reaction": 6.541077969649397,
     "type": "Italy"
   },
   {
@@ -288,6 +336,14 @@
     "type": "Japan"
   },
   {
+    "name": "PJPT049_610MM_Type93_ALT_T11_2",
+    "dist": 20.0,
+    "speed": 67.2,
+    "spotted": 2.5,
+    "reaction": 14.308608058608058,
+    "type": "Japan"
+  },
+  {
     "name": "PJPT120_610_Kitakami",
     "dist": 14.992503748125936,
     "speed": 59.85,
@@ -297,6 +353,14 @@
   },
   {
     "name": "PRPT051_53_38U_Sub",
+    "dist": 12.293853073463268,
+    "speed": 68.25,
+    "spotted": 1.7,
+    "reaction": 9.580163426317272,
+    "type": "Russia"
+  },
+  {
+    "name": "PRPT999_53_TST_SUB",
     "dist": 12.293853073463268,
     "speed": 68.25,
     "spotted": 1.7,
@@ -437,6 +501,14 @@
     "speed": 70.35000000000001,
     "spotted": 0.8,
     "reaction": 4.373735717019298,
+    "type": "Pan_Asia"
+  },
+  {
+    "name": "PZPT037_MK17_E",
+    "dist": 13.493253373313342,
+    "speed": 72.45,
+    "spotted": 0.8,
+    "reaction": 4.246960768699899,
     "type": "Pan_Asia"
   }
 ]

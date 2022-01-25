@@ -178,6 +178,14 @@
         "reloadTime": 80.0,
         "workTime": 28.0
       },
+      "C_DALIAN": {
+        "SpecialSoundID": "Default",
+        "consumableType": "regenCrew",
+        "numConsumables": 4,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 80.0,
+        "workTime": 28.0
+      },
       "C_Gold": {
         "SpecialSoundID": "Default",
         "consumableType": "regenCrew",
@@ -306,6 +314,14 @@
         "regenerationHPSpeed": 0.005,
         "reloadTime": 40.0,
         "workTime": 28.0
+      },
+      "USSR_C_Sevastopol": {
+        "SpecialSoundID": "Default",
+        "consumableType": "regenCrew",
+        "numConsumables": 3,
+        "regenerationHPSpeed": 0.005,
+        "reloadTime": 200.0,
+        "workTime": 90.0
       },
       "custom": {}
     }
@@ -803,7 +819,52 @@
         "spawnBackwardShift": 0.3,
         "speedLimit": 60.0,
         "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
-        "workTime": 80.0
+        "workTime": 60.0
+      },
+      "IT_Oil_DD_2_4": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 3,
+        "radius": 15.0,
+        "reloadTime": 90.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 100.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 25.0
+      },
+      "IT_Oil_DD_5_7": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 4,
+        "radius": 15.0,
+        "reloadTime": 90.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 100.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 30.0
+      },
+      "IT_Oil_DD_8_10": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "descIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "height": 5.0,
+        "iconIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "lifeTime": 10.0,
+        "numConsumables": 6,
+        "radius": 15.0,
+        "reloadTime": 90.0,
+        "spawnBackwardShift": 0.3,
+        "speedLimit": 100.0,
+        "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
+        "workTime": 40.0
       },
       "IT_Oil_Gorizia": {
         "SpecialSoundID": "Default",
@@ -1042,7 +1103,20 @@
         "lifeTime": 70.0,
         "numConsumables": 3,
         "radius": 15.0,
-        "reloadTime": 100.0,
+        "reloadTime": 110.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
+      "PAZ_DALIAN": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 70.0,
+        "numConsumables": 4,
+        "radius": 15.0,
+        "reloadTime": 110.0,
         "spawnBackwardShift": 0.4,
         "speedLimit": 12.5,
         "startDelayTime": 2.0,
@@ -1090,7 +1164,7 @@
         "startDelayTime": 2.0,
         "workTime": 20.0
       },
-      "UK_Belfast_43": {
+      "UK_C_SHORT": {
         "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
         "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
@@ -1382,6 +1456,19 @@
         "startDelayTime": 2.0,
         "workTime": 30.0
       },
+      "US_SHERMAN": {
+        "SpecialSoundID": "Default",
+        "consumableType": "smokeGenerator",
+        "height": 5.0,
+        "lifeTime": 130.0,
+        "numConsumables": 2,
+        "radius": 15.0,
+        "reloadTime": 160.0,
+        "spawnBackwardShift": 0.4,
+        "speedLimit": 12.5,
+        "startDelayTime": 2.0,
+        "workTime": 30.0
+      },
       "Udaloy": {
         "SpecialSoundID": "Default",
         "consumableType": "smokeGenerator",
@@ -1594,6 +1681,21 @@
         "numConsumables": 2,
         "reloadTime": 120.0,
         "workTime": 120.0
+      },
+      "IT_DD": {
+        "SpecialSoundID": "Default",
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 10.0,
+        "boostCoeff": 0.25,
+        "consumableType": "speedBoosters",
+        "descIDs": "PCY015_SpeedBooster_Imp_Premium",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
+        "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
+        "numConsumables": 6,
+        "reloadTime": 160.0,
+        "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
+        "workTime": 25.0
       },
       "IT_Paolo_Emilio": {
         "SpecialSoundID": "Default",
@@ -1865,6 +1967,14 @@
         "SpecialSoundID": "Default",
         "consumableType": "torpedoReloader",
         "numConsumables": 2,
+        "reloadTime": 300.0,
+        "torpedoReloadTime": 8.0,
+        "workTime": 1.0
+      },
+      "PAZ_CA_midtier": {
+        "SpecialSoundID": "Default",
+        "consumableType": "torpedoReloader",
+        "numConsumables": 1,
         "reloadTime": 300.0,
         "torpedoReloadTime": 8.0,
         "workTime": 1.0

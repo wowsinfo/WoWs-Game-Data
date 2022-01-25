@@ -228,6 +228,12 @@
     "diametre": 102.0
   },
   {
+    "name": "PIPA063_102MM_31LBS_HE",
+    "damage": 1450.0,
+    "speed": 850.0,
+    "diametre": 102.0
+  },
+  {
     "name": "PJPA026_Shell_76mm_HE_O_Mk_2",
     "damage": 1300.0,
     "speed": 680.0,

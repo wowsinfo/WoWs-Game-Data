@@ -24,6 +24,7 @@
   { "name": "PISB109_Lepanto", "tier": 9, "reload": 37.0 },
   { "name": "PISB110_Cristoforo_Colombo", "tier": 10, "reload": 37.0 },
   { "name": "PISB509_Marco_Polo", "tier": 9, "reload": 36.0 },
+  { "name": "PISB519_Giuseppe_Verdi", "tier": 9, "reload": 31.0 },
   { "name": "PJSB007_Kongo_1942", "tier": 5, "reload": 31.0 },
   { "name": "PJSB507_Ashitaka", "tier": 7, "reload": 31.0 },
   { "name": "PJSB519_Hizen", "tier": 9, "reload": 38.0 },

@@ -87,8 +87,15 @@
     "name": "PRSS508_S_189",
     "typeinfo": { "nation": "Russia", "species": "Submarine", "type": "Ship" },
     "tier": 8,
-    "concealment": 4.86,
+    "concealment": 5.66,
     "id": 3761681872
+  },
+  {
+    "name": "PRSS999_Tst_sub",
+    "typeinfo": { "nation": "Russia", "species": "Submarine", "type": "Ship" },
+    "tier": 10,
+    "concealment": 6.04,
+    "id": 3246831056
   },
   {
     "name": "PXSS107_Mina_Hurray",

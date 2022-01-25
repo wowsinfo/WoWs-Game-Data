@@ -1,6 +1,7 @@
 import requests
 import zipfile
 import re
+import os
 
 
 def download_game_params():
@@ -31,6 +32,8 @@ def get_ship_battles_raw():
 
 
 if __name__ == '__main__':
+    if not os.path.exists('cache'):
+        os.mkdir('cache')
     download_game_params()
     unzip_game_params()
     get_ship_battles_raw()
