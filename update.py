@@ -1,5 +1,6 @@
-from update_cached_data import *
-from extract_game_params import *
+import os
+from update_cached_data import download_game_params, unzip_game_params, get_ship_battles_raw
+from extract_game_params import writeAll, writeExtra, merge_all
 
 if __name__ == '__main__':
     print('Updating cached data...')
