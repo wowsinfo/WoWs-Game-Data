@@ -84,7 +84,7 @@ for key in keys:
 print(len(ships))
 
 # save this to extra as well
-writeToJson(ships, 'extra/ships.json')
+# writeToJson(ships, 'extra/ships.json')
 
 # %%
 # upgrade, NO LONGER NEEDED
