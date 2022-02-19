@@ -417,7 +417,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 27864
+    "battles": 28696
   },
   "3374266064": {
     "permoflages": [4182273968, 3665227472, 3665227472],
@@ -439,7 +439,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 32606
+    "battles": 33595
   },
   "3439605008": {
     "consumables": [
@@ -535,7 +535,9 @@
     "isPaperShip": true
   },
   "3445536752": {
-    "permoflages": [4168642480, 4290375600, 4276744112, 3791056880, 4168642480],
+    "permoflages": [
+      4168642480, 4290375600, 4276744112, 3791056880, 3790008304, 4168642480
+    ],
     "alphaPiercingHE": 21.0,
     "alphaPiercingCS": 36.0,
     "sigma": 2.05,
@@ -547,7 +549,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 101022
+    "battles": 109108
   },
   "3445569520": {
     "permoflages": [4168642480],
@@ -637,7 +639,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 78415
+    "battles": 78687
   },
   "3530504176": {
     "permoflages": [4180176816, 4291424176, 4279889840, 4278841264, 4180176816],
@@ -660,7 +662,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_CR_6_7_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 3469610
+    "battles": 3518871
   },
   "3532568272": {
     "permoflages": [3846631120, 3846631120],
@@ -682,13 +684,13 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 18421
+    "battles": 18782
   },
   "3541972176": {
     "permoflages": [4182273968, 3874942160, 3874942160],
     "alphaPiercingHE": 17.0,
     "ap": {
-      "weight": 16.5,
+      "weight": 19.0,
       "diameter": 0.1,
       "drag": 0.3837,
       "velocity": 1000.0,
@@ -702,7 +704,7 @@
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_prem_alt" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Gold" }]
     ],
-    "battles": 4744
+    "battles": 5387
   },
   "3541972688": {
     "permoflages": [3719753424, 3719753424],
@@ -720,7 +722,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_8_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 98271
+    "battles": 99196
   },
   "3542005456": {
     "permoflages": [3792105168, 3792105168],
@@ -743,7 +745,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 15292
+    "battles": 15548
   },
   "3542005552": {
     "permoflages": [4182273968, 3874942768, 3874942768],
@@ -765,7 +767,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 13020
+    "battles": 14572
   },
   "3542005744": {
     "permoflages": [3835097072, 3835097072],
@@ -787,7 +789,7 @@
       ],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 77866
+    "battles": 78287
   },
   "3543054032": {
     "permoflages": [3857116880, 3857116880],
@@ -809,7 +811,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 356320
+    "battles": 358444
   },
   "3545183952": {
     "permoflages": [3923177168, 3923177168],
@@ -826,7 +828,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 20233
+    "battles": 20571
   },
   "3550360880": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -846,7 +848,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "EU_DD_Turbo_Ragnar" }]
     ],
     "isPaperShip": true,
-    "battles": 65815
+    "battles": 84347
   },
   "3550393808": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -860,12 +862,13 @@
     },
     "sigma": 2.05,
     "consumables": [
-      [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
+      [{ "name": "PCY009_CrashCrewPremium", "type": "USSR_C_Sevastopol" }],
       [
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_Cruisers_Gold" },
         { "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }
       ],
-      [{ "name": "PCY010_RegenCrewPremium", "type": "USSR_C_Sevastopol" }]
+      [{ "name": "PCY010_RegenCrewPremium", "type": "USSR_C_Sevastopol" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "USSR_C_Sevastopol" }]
     ],
     "isPaperShip": true
   },
@@ -889,7 +892,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_CL_PREM" }]
     ],
-    "battles": 2546038
+    "battles": 2586299
   },
   "3551409616": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264, 4169691056],
@@ -909,7 +912,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "D_Fast" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "GROZOVOI_PREM" }]
     ],
-    "battles": 227094
+    "battles": 245445
   },
   "3551410160": {
     "permoflages": [
@@ -934,7 +937,7 @@
         { "name": "PCY020_RLSSearchPremium", "type": "Black" }
       ]
     ],
-    "battles": 440564
+    "battles": 445509
   },
   "3551442640": {
     "permoflages": [3825659600, 3825659600],
@@ -956,7 +959,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 1026458
+    "battles": 1030183
   },
   "3551475152": {
     "permoflages": [3972459984, 3972459984],
@@ -975,7 +978,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_4" }]
     ],
     "isPaperShip": true,
-    "battles": 55428
+    "battles": 56043
   },
   "3552458448": {
     "permoflages": [3761794768, 3761696464, 3740724944, 3761696464],
@@ -996,7 +999,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 650912
+    "battles": 654761
   },
   "3552491216": {
     "permoflages": [3794202320, 3793153744, 3794202320],
@@ -1019,7 +1022,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1800267
+    "battles": 1809468
   },
   "3552523984": {
     "permoflages": [3920031440, 3920031440],
@@ -1038,7 +1041,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 838541
+    "battles": 842289
   },
   "3552524016": {
     "permoflages": [3972460272, 3972460272],
@@ -1059,7 +1062,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 43547
+    "battles": 44071
   },
   "3552524272": {
     "permoflages": [
@@ -1082,7 +1085,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 3300
+    "battles": 3321
   },
   "3553539792": {
     "permoflages": [3804688080, 3804688080],
@@ -1104,7 +1107,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 402124
+    "battles": 403434
   },
   "3553540080": {
     "permoflages": [3866652656, 3343413232, 3342364656, 3866652656],
@@ -1128,7 +1131,7 @@
       ],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_7_Gold" }]
     ],
-    "battles": 470108
+    "battles": 480977
   },
   "3553572560": {
     "permoflages": [3930517200, 3930517200],
@@ -1147,7 +1150,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 1079355
+    "battles": 1083594
   },
   "3553572848": {
     "permoflages": [4182273968, 3939954672, 4182273968],
@@ -1168,7 +1171,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 89484
+    "battles": 92469
   },
   "3554555600": {
     "permoflages": [4182273968, 3954732752, 4182273968],
@@ -1186,7 +1189,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1229761
+    "battles": 1239421
   },
   "3554588464": {
     "permoflages": [3868651312, 3868749616, 3868651312],
@@ -1208,7 +1211,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 418486
+    "battles": 420738
   },
   "3554621136": {
     "permoflages": [3941002960, 3941002960],
@@ -1227,7 +1230,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 627032
+    "battles": 629948
   },
   "3555636944": {
     "permoflages": [3815173840, 3815173840],
@@ -1249,7 +1252,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 1130618
+    "battles": 1136748
   },
   "3555669712": {
     "permoflages": [3951488720, 3951488720],
@@ -1268,7 +1271,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 1774820
+    "battles": 1783529
   },
   "3555670000": {
     "permoflages": [
@@ -1288,7 +1291,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 1918754
+    "battles": 1929122
   },
   "3558094544": {
     "consumables": [
@@ -1319,7 +1322,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_4" }
       ]
     ],
-    "battles": 80026
+    "battles": 81886
   },
   "3655218480": {
     "permoflages": [4168642480, 4178177328, 4290375600, 4276744112, 4168642480],
@@ -1338,7 +1341,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_High" }],
       [{ "name": "PCY020_RLSSearchPremium", "type": "EU_DD" }]
     ],
-    "battles": 484385
+    "battles": 498848
   },
   "3655219184": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -1350,7 +1353,8 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_SHERMAN" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Branch" }]
-    ]
+    ],
+    "battles": 373
   },
   "3655251408": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -1375,7 +1379,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 3938448
+    "battles": 3986249
   },
   "3655251664": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -1412,7 +1416,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_Lvl_5_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 7600
+    "battles": 10176
   },
   "3655251952": {
     "permoflages": [4168642480, 4290375600, 3874942960, 4276744112, 4168642480],
@@ -1439,7 +1443,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 605632
+    "battles": 612739
   },
   "3655284688": {
     "permoflages": [4168642480, 4276744112, 4290375600, 4168642480],
@@ -1463,13 +1467,13 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 6808
+    "battles": 23538
   },
   "3655317296": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 180898
+    "battles": 196041
   },
   "3658397424": {
     "permoflages": [4182273968, 4182273968],
@@ -1488,7 +1492,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
-    "battles": 685281
+    "battles": 688439
   },
   "3659445712": {
     "permoflages": [4182273968, 4182273968],
@@ -1508,7 +1512,7 @@
         { "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }
       ]
     ],
-    "battles": 134945
+    "battles": 138423
   },
   "3660461904": {
     "alphaPiercingHE": 22.0,
@@ -1568,7 +1572,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 443990
+    "battles": 464444
   },
   "3666818864": {
     "permoflages": [4291424176, 4279889840, 4278841264, 3970363184, 3970363184],
@@ -1587,7 +1591,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 38079
+    "battles": 45572
   },
   "3666818896": {
     "permoflages": [4291424176, 4279889840, 4278841264, 3970363216, 3970363216],
@@ -1606,7 +1610,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_BB" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_BB_PREM" }]
     ],
-    "battles": 538890
+    "battles": 573354
   },
   "3667801296": {
     "permoflages": [4292472752, 4287229872, 3751210192, 3751210192],
@@ -1628,7 +1632,7 @@
         { "name": "PCY016_SonarSearchPremium", "type": "LoYang" }
       ]
     ],
-    "battles": 9811
+    "battles": 12341
   },
   "3667801808": {
     "permoflages": [3730239184, 4292472752, 4287229872, 3730239184],
@@ -1647,7 +1651,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_premium" }]
     ],
-    "battles": 635729
+    "battles": 652431
   },
   "3667802064": {
     "permoflages": [4287229872, 4292472752, 3730239440, 3730239440],
@@ -1666,7 +1670,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Cossack" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }]
     ],
-    "battles": 113766
+    "battles": 120555
   },
   "3667834576": {
     "permoflages": [3856068304, 4292472752, 4287229872, 3856068304],
@@ -1688,7 +1692,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 317431
+    "battles": 324313
   },
   "3667867440": {
     "permoflages": [3929468720, 4292472752, 4287229872, 3929468720],
@@ -1709,7 +1713,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 653179
+    "battles": 663738
   },
   "3667867632": {
     "permoflages": [3960926192, 4292472752, 4287229872, 3960926192],
@@ -1730,23 +1734,23 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 959206
+    "battles": 976719
   },
   "3667900112": {
     "permoflages": [4292472752, 4287229872, 4170641104, 4170641104],
     "consumables": [],
-    "battles": 117617
+    "battles": 123716
   },
   "3667900208": {
     "permoflages": [4293521200, 4292472752, 4287229872, 4293521200],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 195452
+    "battles": 198095
   },
   "3667900400": {
     "permoflages": [4292472752, 4287229872, 4076269552, 4076269552],
     "consumables": [],
-    "battles": 4730
+    "battles": 5454
   },
   "3668850672": {
     "permoflages": [4293521392, 4293521392],
@@ -1767,7 +1771,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Gold" }
       ]
     ],
-    "battles": 97418
+    "battles": 99332
   },
   "3668883440": {
     "permoflages": [4182273968, 4182273968],
@@ -1788,7 +1792,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_CL_PREM" }]
     ],
-    "battles": 197137
+    "battles": 199061
   },
   "3668916016": {
     "permoflages": [4292472624, 4292472624],
@@ -1809,7 +1813,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 295034
+    "battles": 300955
   },
   "3669964624": {
     "permoflages": [3942051664, 3942051664],
@@ -1830,7 +1834,7 @@
         { "name": "PCY013_SpotterPremium", "type": "Default" }
       ]
     ],
-    "battles": 35271
+    "battles": 43405
   },
   "3676223184": {
     "permoflages": [4290375600, 4276744112, 3853971152, 3853971152],
@@ -1856,7 +1860,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 27678
+    "battles": 34915
   },
   "3679369200": {
     "permoflages": [3857117168, 3857117168],
@@ -1880,7 +1884,7 @@
       ],
       [{ "name": "PCY020_RLSSearchPremium", "type": "US_7_ATLANTA_PREMIUM" }]
     ],
-    "battles": 77100
+    "battles": 79985
   },
   "3720263120": {
     "permoflages": [3856166352, 3856166352],
@@ -1923,7 +1927,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 182885
+    "battles": 186189
   },
   "3730749424": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -1942,7 +1946,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_RCHSTR" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Rochester" }]
     ],
-    "battles": 11994
+    "battles": 14148
   },
   "3730781648": {
     "permoflages": [4213730768, 4292472752, 4287229872, 4213730768],
@@ -1978,7 +1982,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 74238
+    "battles": 81495
   },
   "3730782192": {
     "permoflages": [4182273968, 3958829040, 4287229872, 4292472752, 4182273968],
@@ -2001,7 +2005,11 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 36780
+    "battles": 40566
+  },
+  "3730814960": {
+    "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
+    "consumables": []
   },
   "3740153648": {
     "permoflages": [
@@ -2024,7 +2032,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 183931
+    "battles": 194005
   },
   "3741202128": {
     "permoflages": [3924225744, 3924225744],
@@ -2043,7 +2051,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 23468
+    "battles": 23981
   },
   "3741234640": {
     "permoflages": [4182273968, 4183420368, 4292472752, 4287229872, 4182273968],
@@ -2055,7 +2063,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 107465
+    "battles": 110384
   },
   "3741235152": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -2077,7 +2085,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 66025
+    "battles": 69350
   },
   "3741235184": {
     "permoflages": [4287229872, 4182273968, 4292472752, 4182273968],
@@ -2104,7 +2112,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "D_gold" }]
     ],
     "isPaperShip": true,
-    "battles": 42376
+    "battles": 48427
   },
   "3741267408": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -2123,7 +2131,7 @@
       [{ "name": "PCY020_RLSSearchPremium", "type": "USSR_9_PREMIUM" }]
     ],
     "isPaperShip": true,
-    "battles": 51812
+    "battles": 58319
   },
   "3741267792": {
     "permoflages": [4287229872, 4182273968, 4292472752, 4182273968],
@@ -2146,7 +2154,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_BB_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 82598
+    "battles": 85252
   },
   "3741267952": {
     "permoflages": [
@@ -2171,12 +2179,12 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 657
+    "battles": 738
   },
   "3741300720": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
     "consumables": [],
-    "battles": 323545
+    "battles": 327010
   },
   "3742316496": {
     "permoflages": [
@@ -2196,10 +2204,10 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_RN" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "DukeOfYork" }]
     ],
-    "battles": 1675827
+    "battles": 1701862
   },
   "3743332304": {
-    "permoflages": [4182273968, 4182273968],
+    "permoflages": [4182273968, 3868749776, 4182273968],
     "alphaPiercingHE": 22.0,
     "ap": {
       "weight": 36.3,
@@ -2212,8 +2220,9 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }],
-      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_C_SHORT" }]
-    ]
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_C_SHORT_DIDO" }]
+    ],
+    "battles": 10
   },
   "3743364816": {
     "permoflages": [4182273968, 4182273968],
@@ -2230,7 +2239,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_Japan_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 95769
+    "battles": 102124
   },
   "3743365072": {
     "permoflages": [4182273968, 3973509072, 4182273968],
@@ -2249,7 +2258,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_Repulse" }]
     ],
-    "battles": 18607
+    "battles": 41269
   },
   "3744380368": {
     "permoflages": [4186468272, 3869699536, 4186468272],
@@ -2270,7 +2279,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_2" }
       ]
     ],
-    "battles": 381636
+    "battles": 393447
   },
   "3749623248": {
     "permoflages": [
@@ -2315,7 +2324,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 2581278
+    "battles": 2652380
   },
   "3750639408": {
     "permoflages": [4291424176, 4279889840, 4180176816, 4278841264, 4180176816],
@@ -2334,7 +2343,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 187744
+    "battles": 204238
   },
   "3750672176": {
     "permoflages": [
@@ -2355,7 +2364,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 969205
+    "battles": 1013387
   },
   "3750672368": {
     "permoflages": [4180176816, 4291424176, 4278841264, 4279889840, 4180176816],
@@ -2378,7 +2387,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 17434
+    "battles": 22601
   },
   "3750704336": {
     "permoflages": [
@@ -2400,7 +2409,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_BB_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 55638
+    "battles": 56953
   },
   "3750704848": {
     "permoflages": [
@@ -2424,7 +2433,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 247381
+    "battles": 255752
   },
   "3750704880": {
     "permoflages": [4180176816, 4291424176, 4279889840, 4278841264, 4180176816],
@@ -2447,7 +2456,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 17686
+    "battles": 27035
   },
   "3750705136": {
     "permoflages": [4180176816, 4291424176, 4278841264, 4279889840, 4180176816],
@@ -2465,13 +2474,13 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 82453
+    "battles": 104712
   },
   "3751687376": {
     "permoflages": [4182273968, 4292472752, 4287229872, 3755404496, 4182273968],
     "alphaPiercingHE": 17.0,
     "ap": {
-      "weight": 16.5,
+      "weight": 19.0,
       "diameter": 0.1,
       "drag": 0.3837,
       "velocity": 1000.0,
@@ -2485,7 +2494,7 @@
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_prem_alt" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Gold" }]
     ],
-    "battles": 23584
+    "battles": 25908
   },
   "3751687888": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -2504,7 +2513,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_premium" }]
     ],
-    "battles": 1752161
+    "battles": 1778637
   },
   "3751687984": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -2522,7 +2531,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 32899
+    "battles": 33878
   },
   "3751720144": {
     "permoflages": [3758550224, 4182273968, 4292472752, 4287229872, 3758550224],
@@ -2542,7 +2551,7 @@
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "PAZ_premium" }]
     ],
     "isPaperShip": true,
-    "battles": 37446
+    "battles": 37987
   },
   "3751720400": {
     "permoflages": [4182273968, 4182273968],
@@ -2564,7 +2573,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Lazo" }]
     ],
     "isPaperShip": true,
-    "battles": 429138
+    "battles": 443429
   },
   "3751720752": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -2586,7 +2595,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 823533
+    "battles": 847143
   },
   "3751720912": {
     "permoflages": [4182273968, 3866652624, 4292472752, 4287229872, 4182273968],
@@ -2605,7 +2614,7 @@
       [{ "name": "PCY020_RLSSearchPremium", "type": "US_8_CL" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
-    "battles": 18105
+    "battles": 19993
   },
   "3751720944": {
     "permoflages": [4182273968, 4292472752, 4287229872, 3803639792, 4182273968],
@@ -2628,7 +2637,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Anchorage" }]
     ],
     "isPaperShip": true,
-    "battles": 236170
+    "battles": 240448
   },
   "3751753168": {
     "permoflages": [
@@ -2649,7 +2658,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 997606
+    "battles": 1015582
   },
   "3751753520": {
     "permoflages": [4182273968, 4287229872, 4292472752, 3957780272, 4182273968],
@@ -2671,7 +2680,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 101685
+    "battles": 117043
   },
   "3751753552": {
     "permoflages": [4180176816, 4291424176, 4279889840, 4278841264, 4180176816],
@@ -2690,7 +2699,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_BB" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_BB_PREM" }]
     ],
-    "battles": 4676532
+    "battles": 4724431
   },
   "3751753712": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -2711,28 +2720,28 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 2927747
+    "battles": 2955872
   },
   "3751786192": {
     "permoflages": [4182273968, 4292472752, 4287229872, 3845582544, 4182273968],
     "consumables": [],
-    "battles": 710055
+    "battles": 724837
   },
   "3751786288": {
     "permoflages": [4182273968, 3835195184, 4292472752, 4287229872, 4182273968],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 715515
+    "battles": 722921
   },
   "3751786448": {
     "permoflages": [4182273968, 4172738512, 4183224272, 4182273968],
     "consumables": [],
-    "battles": 272724
+    "battles": 278474
   },
   "3751786480": {
     "permoflages": [4182273968, 4170641392, 4292472752, 4287229872, 4182273968],
     "consumables": [],
-    "battles": 478852
+    "battles": 482774
   },
   "3752736720": {
     "permoflages": [
@@ -2754,7 +2763,29 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Cossack" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }]
     ],
-    "battles": 1320088
+    "battles": 1337977
+  },
+  "3752769232": {
+    "permoflages": [4182273968, 4182273968],
+    "alphaPiercingHE": 34.0,
+    "ap": {
+      "weight": 125.85,
+      "diameter": 0.203,
+      "drag": 0.337,
+      "velocity": 840.0,
+      "krupp": 2468.0
+    },
+    "sigma": 2.0,
+    "consumables": [
+      [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
+      [
+        { "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" },
+        { "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }
+      ],
+      [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }],
+      [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
+      [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "IJN_CA_MAYA2" }]
+    ]
   },
   "3752769328": {
     "permoflages": [4182273968, 3824709424, 4182273968],
@@ -2780,7 +2811,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 31190
+    "battles": 36238
   },
   "3752802000": {
     "permoflages": [4182273968, 3973508816, 4182273968],
@@ -2799,7 +2830,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "IJN_BB_HYUGA" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
-    "battles": 38374
+    "battles": 42978
   },
   "3752802256": {
     "permoflages": [4182273968, 3941003216, 4182273968],
@@ -2816,7 +2847,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_CL_PREM" }]
     ],
-    "battles": 2299917
+    "battles": 2317202
   },
   "3752802288": {
     "permoflages": [4182273968, 3972460528, 4182273968],
@@ -2839,7 +2870,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 137121
+    "battles": 142581
   },
   "3753785136": {
     "permoflages": [4182273968, 4182273968],
@@ -2858,7 +2889,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 2887
+    "battles": 3348
   },
   "3753817456": {
     "permoflages": [4182273968, 4182273968],
@@ -2876,7 +2907,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PanOceania_Gold" }]
     ],
-    "battles": 10547
+    "battles": 11348
   },
   "3753818064": {
     "permoflages": [4182273968, 3743969232, 4182273968],
@@ -2895,7 +2926,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_Lvl_6_Gold" }]
     ],
-    "battles": 206108
+    "battles": 209196
   },
   "3753850320": {
     "permoflages": [4182273968, 4182273968],
@@ -2912,7 +2943,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_USSR" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 33062
+    "battles": 45603
   },
   "3754866128": {
     "permoflages": [4186468272, 4185517520, 4186468272],
@@ -2931,7 +2962,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 339641
+    "battles": 341841
   },
   "3756963280": {
     "permoflages": [4186468272, 3861310928, 4186468272],
@@ -2947,7 +2978,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 105147
+    "battles": 106468
   },
   "3759585072": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "Sub" }]]
@@ -2975,7 +3006,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 1141396
+    "battles": 1155470
   },
   "3760076144": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -2994,7 +3025,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Cossack" }]
     ],
-    "battles": 122923
+    "battles": 133146
   },
   "3760076496": {
     "permoflages": [4168642480, 4290375600, 3717656272, 4276744112, 4168642480],
@@ -3016,7 +3047,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 99468
+    "battles": 106600
   },
   "3760076752": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -3035,7 +3066,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_DD_gold" }]
     ],
     "isPaperShip": true,
-    "battles": 38532
+    "battles": 44835
   },
   "3760076784": {
     "permoflages": [
@@ -3055,7 +3086,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_10_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 535637
+    "battles": 551124
   },
   "3760109008": {
     "permoflages": [
@@ -3077,7 +3108,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1774392
+    "battles": 1820675
   },
   "3760109264": {
     "permoflages": [4180176816, 4291424176, 4279889840, 4278841264, 4180176816],
@@ -3100,7 +3131,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "Gascogne_gold" }]
     ],
     "isPaperShip": true,
-    "battles": 808994
+    "battles": 836698
   },
   "3760109296": {
     "permoflages": [4168642480, 4276744112, 4290375600, 4168543984, 4168642480],
@@ -3120,7 +3151,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 293314
+    "battles": 335335
   },
   "3760109392": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -3142,7 +3173,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_CR_8_9_10_PREM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Colorado_Gold" }]
     ],
-    "battles": 316479
+    "battles": 325232
   },
   "3760109520": {
     "permoflages": [
@@ -3164,7 +3195,7 @@
       [{ "name": "PCY020_RLSSearchPremium", "type": "US_10_CL" }]
     ],
     "isPaperShip": true,
-    "battles": 77994
+    "battles": 83155
   },
   "3760109552": {
     "permoflages": [
@@ -3192,7 +3223,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 3011154
+    "battles": 3052276
   },
   "3760141776": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -3210,7 +3241,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 444675
+    "battles": 468922
   },
   "3760142032": {
     "permoflages": [
@@ -3234,7 +3265,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 470729
+    "battles": 497447
   },
   "3760142160": {
     "permoflages": [
@@ -3256,7 +3287,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_CR_6_7_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 729958
+    "battles": 762626
   },
   "3760142288": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -3268,7 +3299,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "UK_UPs_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 4187040
+    "battles": 4260567
   },
   "3760142320": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -3290,7 +3321,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 835953
+    "battles": 868960
   },
   "3760174896": {
     "permoflages": [4168642480, 4290375600, 4276744112],
@@ -3302,7 +3333,7 @@
       4168642480, 4290375600, 4276744112, 4179030000, 4168544240, 4168642480
     ],
     "consumables": [],
-    "battles": 222201
+    "battles": 230339
   },
   "3761125104": {
     "permoflages": [4180176816, 4291424176, 4279889840, 4278841264, 4180176816],
@@ -3320,7 +3351,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_Paolo_Emilio" }]
     ],
     "isPaperShip": true,
-    "battles": 156851
+    "battles": 164784
   },
   "3761125136": {
     "permoflages": [4180176816, 4291424176, 4278841264, 4279889840, 4180176816],
@@ -3339,7 +3370,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 99486
+    "battles": 120459
   },
   "3761125360": {
     "permoflages": [
@@ -3362,7 +3393,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Gold" }
       ]
     ],
-    "battles": 948012
+    "battles": 971540
   },
   "3761157328": {
     "permoflages": [
@@ -3382,7 +3413,8 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_DALIAN" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_DALIAN" }]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 4039
   },
   "3761157584": {
     "permoflages": [4180176816, 4291424176, 4279889840, 4278841264, 4180176816],
@@ -3405,7 +3437,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1283050
+    "battles": 1295856
   },
   "3761157936": {
     "permoflages": [
@@ -3433,7 +3465,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 264520
+    "battles": 274127
   },
   "3761157968": {
     "permoflages": [4180176816, 4291424176, 4278841264, 4279889840, 4180176816],
@@ -3460,7 +3492,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 82313
+    "battles": 99691
   },
   "3761190096": {
     "permoflages": [
@@ -3484,7 +3516,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 117263
+    "battles": 119563
   },
   "3761190608": {
     "permoflages": [
@@ -3508,7 +3540,7 @@
         { "name": "PCY012_FighterPremium", "type": "Musashi" }
       ]
     ],
-    "battles": 4523521
+    "battles": 4575300
   },
   "3761190640": {
     "permoflages": [
@@ -3532,7 +3564,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 193100
+    "battles": 209278
   },
   "3761190704": {
     "permoflages": [
@@ -3553,7 +3585,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 2201178
+    "battles": 2295584
   },
   "3761190864": {
     "permoflages": [
@@ -3573,7 +3605,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 17104
+    "battles": 49329
   },
   "3761190896": {
     "permoflages": [
@@ -3594,10 +3626,10 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY020_RLSSearchPremium", "type": "US_9_MISSOURI" }]
     ],
-    "battles": 4898460
+    "battles": 4942741
   },
   "3761681872": {
-    "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
+    "permoflages": [4182273968, 4182273968],
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "Sub" }]]
   },
   "3761682128": {
@@ -3627,7 +3659,7 @@
         { "name": "PCY016_SonarSearchPremium", "type": "LoYang" }
       ]
     ],
-    "battles": 1606098
+    "battles": 1616449
   },
   "3762173232": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -3646,7 +3678,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_Low" }],
       [{ "name": "PCY020_RLSSearchPremium", "type": "EU_DD" }]
     ],
-    "battles": 194414
+    "battles": 200654
   },
   "3762173744": {
     "permoflages": [4182273968, 4182273968],
@@ -3665,7 +3697,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 619842
+    "battles": 625015
   },
   "3762173776": {
     "permoflages": [4182273968, 3871895376, 4292472752, 4287229872, 4182273968],
@@ -3683,7 +3715,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_DD_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_Terrible" }]
     ],
-    "battles": 304632
+    "battles": 308974
   },
   "3762173936": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -3705,7 +3737,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Gold" }
       ]
     ],
-    "battles": 889289
+    "battles": 900776
   },
   "3762205904": {
     "permoflages": [4182273968, 3866553552, 4292472752, 4287229872, 4182273968],
@@ -3715,7 +3747,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }],
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "PAZ_premium" }]
     ],
-    "battles": 466042
+    "battles": 475542
   },
   "3762206160": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -3728,7 +3760,7 @@
       ],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_8_Gold_Kutuzov" }]
     ],
-    "battles": 3739280
+    "battles": 3753320
   },
   "3762206480": {
     "permoflages": [4292472752, 4287229872, 4182273968, 3856068368, 4182273968],
@@ -3746,7 +3778,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "Ned_BC_Gascogne" }]
     ],
-    "battles": 90492
+    "battles": 102199
   },
   "3762206512": {
     "permoflages": [
@@ -3770,7 +3802,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 1858417
+    "battles": 1875243
   },
   "3762206544": {
     "permoflages": [4182273968, 3932614480, 4292472752, 4287229872, 4182273968],
@@ -3785,7 +3817,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_CR_6_7_8_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 363413
+    "battles": 370632
   },
   "3762206672": {
     "permoflages": [4182273968, 4292472752, 4287229872, 3742920656, 4182273968],
@@ -3807,7 +3839,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 56329
+    "battles": 57964
   },
   "3762206704": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -3831,7 +3863,7 @@
         { "name": "PCY013_SpotterPremium", "type": "Default" }
       ]
     ],
-    "battles": 179814
+    "battles": 182984
   },
   "3762238800": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -3845,8 +3877,7 @@
     "sigma": 1.8,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_USA_Gold" }],
-      [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
-      [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
+      [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true
   },
@@ -3867,7 +3898,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 52942
+    "battles": 55353
   },
   "3762239184": {
     "permoflages": [4182273968, 3971411664, 4292472752, 4287229872, 4182273968],
@@ -3889,7 +3920,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 815981
+    "battles": 828119
   },
   "3762239216": {
     "permoflages": [4182273968, 3971411696, 4292472752, 4287229872, 4182273968],
@@ -3910,7 +3941,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 1149596
+    "battles": 1163443
   },
   "3762239280": {
     "permoflages": [
@@ -3935,7 +3966,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 848514
+    "battles": 859699
   },
   "3762239312": {
     "permoflages": [
@@ -3961,7 +3992,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_BB_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 543853
+    "battles": 550085
   },
   "3762239440": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
@@ -3978,7 +4009,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_RN" }]
     ],
-    "battles": 406459
+    "battles": 413169
   },
   "3762239472": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4215828464, 4182273968],
@@ -3999,19 +4030,19 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 1830688
+    "battles": 1847638
   },
   "3762271440": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4084657360, 4084657360],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 16532
+    "battles": 16827
   },
   "3762271696": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4170640848, 4182273968],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 91193
+    "battles": 104850
   },
   "3762272048": {
     "permoflages": [4182273968, 3835195184, 4182273968],
@@ -4023,7 +4054,7 @@
   "3762272208": {
     "permoflages": [4182273968, 4292472752, 4287229872, 4182273968],
     "consumables": [],
-    "battles": 152151
+    "battles": 156176
   },
   "3762272240": {
     "permoflages": [4182273968, 4170641392, 4182273968],
@@ -4052,7 +4083,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "Haida_gold" }]
     ],
-    "battles": 287016
+    "battles": 289879
   },
   "3763221968": {
     "permoflages": [4182273968, 3762744784, 4182273968],
@@ -4070,7 +4101,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_7_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1236882
+    "battles": 1243920
   },
   "3763222224": {
     "permoflages": [4182273968, 4182273968],
@@ -4089,7 +4120,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_premium" }]
     ],
-    "battles": 230743
+    "battles": 237762
   },
   "3763222256": {
     "permoflages": [4182273968, 4182273968],
@@ -4098,7 +4129,8 @@
     "sigma": 2.0,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
-      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }]
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_DD_FR25" }]
     ]
   },
   "3763254608": {
@@ -4120,7 +4152,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_CL_PREM" }]
     ],
-    "battles": 162966
+    "battles": 165052
   },
   "3763255024": {
     "permoflages": [4182273968, 4182273968],
@@ -4142,7 +4174,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 306543
+    "battles": 310286
   },
   "3763255088": {
     "permoflages": [4182273968, 4182273968],
@@ -4164,7 +4196,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 89677
+    "battles": 94134
   },
   "3763255248": {
     "permoflages": [4182273968, 3929468880, 4182273968],
@@ -4183,7 +4215,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_Lvl_7_Gold" }],
       [{ "name": "PCY020_RLSSearchPremium", "type": "Gb_7_BELFAST_PREMIUM" }]
     ],
-    "battles": 2562407
+    "battles": 2573761
   },
   "3763255280": {
     "permoflages": [4182273968, 4182273968],
@@ -4210,7 +4242,7 @@
         }
       ]
     ],
-    "battles": 1106533
+    "battles": 1111262
   },
   "3763287408": {
     "permoflages": [4182273968, 3972558192, 3962072432, 4182273968],
@@ -4232,7 +4264,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 6820
+    "battles": 11454
   },
   "3763287760": {
     "permoflages": [4182273968, 3972460240, 4182273968],
@@ -4250,7 +4282,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 330190
+    "battles": 337922
   },
   "3763287856": {
     "permoflages": [
@@ -4273,7 +4305,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 7464633
+    "battles": 7502459
   },
   "3763287888": {
     "permoflages": [4182273968, 3961974608, 4182273968],
@@ -4297,7 +4329,7 @@
         { "name": "PCY013_SpotterPremium", "type": "Default" }
       ]
     ],
-    "battles": 169902
+    "battles": 176534
   },
   "3763288016": {
     "permoflages": [
@@ -4317,7 +4349,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "UK_UPs_Gold" }]
     ],
-    "battles": 1091101
+    "battles": 1098661
   },
   "3763288048": {
     "permoflages": [4182273968, 3973509104, 4182273968],
@@ -4335,7 +4367,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 278756
+    "battles": 283818
   },
   "3763320528": {
     "permoflages": [4182273968, 4182273968],
@@ -4365,7 +4397,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 941675
+    "battles": 952197
   },
   "3764270416": {
     "permoflages": [4182273968, 3763793232, 4182273968],
@@ -4383,7 +4415,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 8064
+    "battles": 9024
   },
   "3764270832": {
     "permoflages": [4182273968, 3763793648, 4182273968],
@@ -4401,7 +4433,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Leone" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 23895
+    "battles": 25144
   },
   "3764270896": {
     "permoflages": [4182273968, 4182273968],
@@ -4421,7 +4453,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 874842
+    "battles": 886132
   },
   "3764270928": {
     "permoflages": [4182273968, 4215828304, 4182273968],
@@ -4439,7 +4471,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_AIGLE_PREM" }]
     ],
-    "battles": 1734963
+    "battles": 1746297
   },
   "3764271056": {
     "permoflages": [4182273968, 3763892176, 4182273968],
@@ -4457,7 +4489,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1076785
+    "battles": 1084775
   },
   "3764271088": {
     "permoflages": [4182273968, 4182273968],
@@ -4482,7 +4514,7 @@
         }
       ]
     ],
-    "battles": 264955
+    "battles": 268476
   },
   "3764303056": {
     "permoflages": [4182273968, 3868650704, 4182273968],
@@ -4503,7 +4535,7 @@
       ],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PanOceania_Gold" }]
     ],
-    "battles": 498103
+    "battles": 503976
   },
   "3764303216": {
     "permoflages": [4182273968, 4182273968],
@@ -4525,23 +4557,24 @@
       ],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PanOceania_Gold" }]
     ],
-    "battles": 654867
+    "battles": 659598
   },
   "3764303280": {
-    "permoflages": [4182273968, 4182273968],
+    "permoflages": [4182273968, 3868749232, 4182273968],
     "ap": {
-      "weight": 116.1,
+      "weight": 85.0,
       "diameter": 0.203,
-      "drag": 0.3037,
+      "drag": 0.25,
       "velocity": 814.0,
-      "krupp": 3000.0
+      "krupp": 3330.0
     },
     "sigma": 2.0,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_CR_6_7_PREM" }]
-    ]
+    ],
+    "battles": 49
   },
   "3764303312": {
     "permoflages": [4182273968, 4182273968],
@@ -4562,7 +4595,7 @@
       ],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 1272180
+    "battles": 1279130
   },
   "3764303600": {
     "permoflages": [4182273968, 4182273968],
@@ -4581,7 +4614,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 854689
+    "battles": 859339
   },
   "3764303664": {
     "permoflages": [
@@ -4605,7 +4638,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 4154818
+    "battles": 4177290
   },
   "3764303696": {
     "permoflages": [4182273968, 4182273968],
@@ -4628,7 +4661,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
     "isPaperShip": true,
-    "battles": 745960
+    "battles": 750568
   },
   "3764336336": {
     "permoflages": [4182273968, 4182273968],
@@ -4646,7 +4679,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 677576
+    "battles": 686052
   },
   "3764336432": {
     "permoflages": [4182273968, 3758649136, 4182273968],
@@ -4664,7 +4697,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1337301
+    "battles": 1345178
   },
   "3764336464": {
     "permoflages": [4182273968, 3973508944, 3952537424, 3972460368, 4182273968],
@@ -4685,7 +4718,7 @@
         { "name": "PCY013_SpotterPremium", "type": "Default" }
       ]
     ],
-    "battles": 2953513
+    "battles": 2978506
   },
   "3764336624": {
     "permoflages": [4182273968, 4182273968],
@@ -4703,18 +4736,18 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 1060471
+    "battles": 1066324
   },
   "3764369200": {
     "permoflages": [4182273968, 4067880752, 4182273968],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 141380
+    "battles": 143934
   },
   "3764369232": {
     "permoflages": [4182273968, 4182273968],
     "consumables": [],
-    "battles": 10965
+    "battles": 14676
   },
   "3765319120": {
     "permoflages": [4186468272, 4186468272],
@@ -4733,7 +4766,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 530353
+    "battles": 535759
   },
   "3765319664": {
     "permoflages": [4186468272, 3764842480, 4186468272],
@@ -4752,7 +4785,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 174005
+    "battles": 178480
   },
   "3765351888": {
     "permoflages": [4186468272, 4186468272],
@@ -4769,7 +4802,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
-    "battles": 163879
+    "battles": 165077
   },
   "3765352144": {
     "permoflages": [4186468272, 3859312336, 4186468272],
@@ -4788,7 +4821,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 144257
+    "battles": 148570
   },
   "3765352176": {
     "permoflages": [4186468272, 4177981168, 4186468272],
@@ -4809,7 +4842,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 296712
+    "battles": 298770
   },
   "3765352400": {
     "permoflages": [4186468272, 4186468272],
@@ -4828,7 +4861,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 419615
+    "battles": 423237
   },
   "3765384656": {
     "permoflages": [4186468272, 3863506384, 4214779344, 4186468272],
@@ -4845,7 +4878,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_RUS_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 2444064
+    "battles": 2464598
   },
   "3765384944": {
     "permoflages": [4186468272, 4186468272],
@@ -4862,7 +4895,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }]
     ],
-    "battles": 1835952
+    "battles": 1848821
   },
   "3765385168": {
     "permoflages": [4186468272, 3974557648, 4186468272],
@@ -4879,7 +4912,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 36722
+    "battles": 45849
   },
   "3765385200": {
     "permoflages": [4186468272, 3974557680, 4186468272],
@@ -4897,7 +4930,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Colorado_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 122029
+    "battles": 125785
   },
   "3766368080": {
     "permoflages": [4186468272, 3933663056, 4186468272],
@@ -4917,7 +4950,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_2_7_PREM" }]
     ],
-    "battles": 88356
+    "battles": 89872
   },
   "3766433072": {
     "permoflages": [4186468272, 4186468272],
@@ -4934,7 +4967,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 185745
+    "battles": 190649
   },
   "3767416176": {
     "permoflages": [4186468272, 4186468272],
@@ -4945,7 +4978,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_3_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 348548
+    "battles": 349596
   },
   "3767416784": {
     "permoflages": [4186468272, 4186468272],
@@ -4963,7 +4996,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_3_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 926804
+    "battles": 930436
   },
   "3767448848": {
     "consumables": [
@@ -4984,7 +5017,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 17074
+    "battles": 17187
   },
   "3767449296": {
     "permoflages": [4186468272, 3955781328, 4186468272],
@@ -5001,7 +5034,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_1" }]
     ],
-    "battles": 114950
+    "battles": 115445
   },
   "3767449584": {
     "permoflages": [4186468272, 3956830192, 4186468272],
@@ -5017,7 +5050,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 706995
+    "battles": 713766
   },
   "3767482160": {
     "permoflages": [4186468272, 3966168880, 4186468272],
@@ -5034,7 +5067,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 255988
+    "battles": 257418
   },
   "3767482320": {
     "permoflages": [4186468272, 3928518608, 4077318096, 4186468272],
@@ -5051,7 +5084,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 104934
+    "battles": 111504
   },
   "3768465392": {
     "permoflages": [4186468272, 4186468272],
@@ -5069,7 +5102,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_2_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 352102
+    "battles": 354256
   },
   "3768497488": {
     "permoflages": [4186468272, 3872943440, 4186468272],
@@ -5085,7 +5118,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 206
+    "battles": 250
   },
   "3768497968": {
     "permoflages": [4186468272, 3971510064, 4186468272],
@@ -5101,7 +5134,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 808240
+    "battles": 813027
   },
   "3768857872": {
     "alphaPiercingHE": 21.0,
@@ -5139,7 +5172,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_7_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 2959054
+    "battles": 2986557
   },
   "3864933840": {
     "permoflages": [4168642480, 4290375600, 4276744112],
@@ -5160,7 +5193,8 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 320
   },
   "3865982416": {
     "permoflages": [4169691056, 4159205296, 4291424176, 4279889840, 4278841264],
@@ -5181,7 +5215,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1282400
+    "battles": 1329187
   },
   "3867587856": {
     "consumables": [
@@ -5209,7 +5243,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1568806
+    "battles": 1634941
   },
   "3969857328": {
     "permoflages": [4168642480, 4290375600, 4276744112],
@@ -5231,7 +5265,8 @@
       ],
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
-    "isPaperShip": true
+    "isPaperShip": true,
+    "battles": 1210
   },
   "3971888592": {
     "permoflages": [
@@ -5255,7 +5290,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 1435745
+    "battles": 1456801
   },
   "3972445456": {
     "consumables": [
@@ -5281,7 +5316,7 @@
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_prem_alt" }]
     ],
     "isPaperShip": true,
-    "battles": 3299123
+    "battles": 3369248
   },
   "4069438928": {
     "permoflages": [3861409232],
@@ -5300,7 +5335,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 374076
+    "battles": 387099
   },
   "4074649040": {
     "permoflages": [4168642480, 3749113296, 4290375600, 4276744112],
@@ -5321,7 +5356,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "SU_DD_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1383919
+    "battles": 1395361
   },
   "4074649296": {
     "permoflages": [4168642480, 3738627792, 4290375600, 4276744112],
@@ -5341,7 +5376,7 @@
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_prem_alt" }]
     ],
     "isPaperShip": true,
-    "battles": 2389221
+    "battles": 2422178
   },
   "4074649392": {
     "permoflages": [4168642480, 4290375600, 4276744112, 3747016496],
@@ -5360,7 +5395,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 190329
+    "battles": 208369
   },
   "4074649424": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -5379,7 +5414,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_8_10_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 650230
+    "battles": 687135
   },
   "4074681808": {
     "permoflages": [4168642480, 4290375600, 4276744112],
@@ -5402,7 +5437,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 757991
+    "battles": 783528
   },
   "4074682320": {
     "permoflages": [4168642480, 4290375600, 3741872080, 4276744112],
@@ -5424,7 +5459,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 510555
+    "battles": 528933
   },
   "4074682352": {
     "permoflages": [
@@ -5450,7 +5485,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 2998962
+    "battles": 3025053
   },
   "4074714928": {
     "permoflages": [4168642480, 4276744112, 4290375600, 3958828848],
@@ -5466,16 +5501,16 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
-      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
+      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 198504
+    "battles": 306087
   },
   "4074747856": {
     "permoflages": [4168642480, 4290375600, 4276744112],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 623141
+    "battles": 630587
   },
   "4075697872": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -5496,7 +5531,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 5706262
+    "battles": 5781359
   },
   "4075697968": {
     "permoflages": [4169691056, 4291424176, 4278841264, 4279889840, 3739676464],
@@ -5515,7 +5550,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 331215
+    "battles": 352860
   },
   "4075730384": {
     "permoflages": [4169691056, 4187614672, 4291424176, 4279889840, 4278841264],
@@ -5542,7 +5577,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1240336
+    "battles": 1282514
   },
   "4075730896": {
     "permoflages": [4169691056, 3745017808, 4291424176, 4279889840, 4278841264],
@@ -5565,7 +5600,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 780236
+    "battles": 801450
   },
   "4075730928": {
     "permoflages": [4169691056, 4290277360, 4291424176, 4279889840, 4278841264],
@@ -5590,7 +5625,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 2257727
+    "battles": 2287637
   },
   "4075763504": {
     "permoflages": [4169691056, 4291424176, 4278841264, 4279889840, 3949391664],
@@ -5606,10 +5641,10 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
-      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
+      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 298383
+    "battles": 422911
   },
   "4076745936": {
     "permoflages": [4182273968, 3756453072, 4292472752, 4287229872, 4182273968],
@@ -5627,7 +5662,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "LoYang" }]
     ],
-    "battles": 53752
+    "battles": 56167
   },
   "4076746192": {
     "permoflages": [4170739632, 3740724688, 4292472752, 4287229872],
@@ -5647,7 +5682,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "D_gold" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "SU_DD_Gold" }]
     ],
-    "battles": 1546600
+    "battles": 1558923
   },
   "4076746448": {
     "permoflages": [4170739632, 3751210704, 4292472752, 4287229872],
@@ -5668,7 +5703,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 6141422
+    "battles": 6214308
   },
   "4076746544": {
     "permoflages": [4170739632, 4292472752, 4287229872, 3740725040],
@@ -5686,7 +5721,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_8_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 286620
+    "battles": 308054
   },
   "4076778960": {
     "permoflages": [4170739632, 4188663248, 4292472752, 4287229872],
@@ -5708,7 +5743,7 @@
       [{ "name": "PCY020_RLSSearchPremium", "type": "USSR_CA_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 1301190
+    "battles": 1340234
   },
   "4076779472": {
     "permoflages": [4170739632, 3746066384, 4292472752, 4287229872],
@@ -5731,7 +5766,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 906010
+    "battles": 925420
   },
   "4076779504": {
     "permoflages": [
@@ -5757,7 +5792,7 @@
       ],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 4755226
+    "battles": 4801522
   },
   "4076812080": {
     "permoflages": [4170739632, 4292472752, 4287229872, 3961024304],
@@ -5773,10 +5808,14 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
-      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
+      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 257069
+    "battles": 366700
+  },
+  "4076845040": {
+    "permoflages": [4170739632, 4292472752, 4287229872],
+    "consumables": []
   },
   "4077303056": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "Sub" }]],
@@ -5798,7 +5837,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_7_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1192401
+    "battles": 1207955
   },
   "4077795024": {
     "permoflages": [4171788208],
@@ -5819,7 +5858,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 3083303
+    "battles": 3115103
   },
   "4077795120": {
     "permoflages": [4171788208, 3741773616],
@@ -5836,7 +5875,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_7_Gold" }]
     ],
-    "battles": 318440
+    "battles": 338634
   },
   "4077828048": {
     "permoflages": [4171788208, 3747114960],
@@ -5859,7 +5898,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 823956
+    "battles": 839695
   },
   "4077828080": {
     "permoflages": [4171788208, 4292374512, 3867602928],
@@ -5878,7 +5917,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
-    "battles": 1560235
+    "battles": 1580518
   },
   "4077860656": {
     "permoflages": [4171788208, 3962072880],
@@ -5894,10 +5933,10 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
-      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_4_7" }]
+      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C" }]
     ],
     "isPaperShip": true,
-    "battles": 348186
+    "battles": 459520
   },
   "4078843344": {
     "permoflages": [4172836784, 3978850224],
@@ -5915,7 +5954,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1163370
+    "battles": 1174381
   },
   "4078843600": {
     "permoflages": [4172836784, 3969413040],
@@ -5933,7 +5972,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 2585841
+    "battles": 2613747
   },
   "4078876624": {
     "permoflages": [4172836784, 3748163536],
@@ -5954,7 +5993,7 @@
         { "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }
       ]
     ],
-    "battles": 937467
+    "battles": 954065
   },
   "4078876656": {
     "permoflages": [4172836784, 4293423088, 3969413040],
@@ -5974,7 +6013,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 1710718
+    "battles": 1731302
   },
   "4078909232": {
     "permoflages": [4172836784],
@@ -5990,10 +6029,10 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
-      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_4_7" }]
+      [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C" }]
     ],
     "isPaperShip": true,
-    "battles": 186358
+    "battles": 247399
   },
   "4079891920": {
     "permoflages": [3978850224],
@@ -6012,7 +6051,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 954376
+    "battles": 964430
   },
   "4079925200": {
     "permoflages": [3749212112, 3873992656],
@@ -6033,7 +6072,7 @@
         { "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }
       ]
     ],
-    "battles": 592654
+    "battles": 603586
   },
   "4079957808": {
     "alphaPiercingHE": 76.0,
@@ -6049,7 +6088,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 83371
+    "battles": 112135
   },
   "4081006384": {
     "alphaPiercingHE": 71.0,
@@ -6065,9 +6104,9 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 33272
+    "battles": 42583
   },
-  "4081039312": { "consumables": [], "battles": 790201 },
+  "4081039312": { "consumables": [], "battles": 798615 },
   "4082054960": {
     "alphaPiercingHE": 71.0,
     "ap": {
@@ -6082,7 +6121,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_DE_LIM" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 17487
+    "battles": 21657
   },
   "4178458064": {
     "permoflages": [4167593904, 4167593904],
@@ -6104,7 +6143,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 89
+    "battles": 3200
   },
   "4178458320": {
     "permoflages": [4167593904, 4167593904],
@@ -6123,7 +6162,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 195
+    "battles": 6785
   },
   "4178491216": {
     "permoflages": [4167593904, 4167593904],
@@ -6147,7 +6186,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_CR_9_10_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 260
+    "battles": 7028
   },
   "4178491376": {
     "permoflages": [4167593904, 4167593904],
@@ -6170,7 +6209,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 126
+    "battles": 7062
   },
   "4178523856": {
     "permoflages": [4167593904, 4167593904],
@@ -6192,7 +6231,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 980
+    "battles": 25181
   },
   "4178523952": {
     "permoflages": [4167593904, 4167593904],
@@ -6215,7 +6254,14 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 200
+    "battles": 4120
+  },
+  "4178556880": { "permoflages": [4167593904, 4167593904], "consumables": [] },
+  "4178556912": {
+    "permoflages": [4167593904, 4167593904],
+    "consumables": [],
+    "isPaperShip": true,
+    "battles": 81
   },
   "4179015120": {
     "consumables": [
@@ -6224,11 +6270,9 @@
     ]
   },
   "4179015472": {
-    "permoflages": [4290375600, 4276744112],
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "Sub" }]]
   },
   "4179015664": {
-    "permoflages": [4290375600, 4276744112],
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "Sub" }]]
   },
   "4179506384": {
@@ -6250,7 +6294,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1475757
+    "battles": 1491782
   },
   "4179506480": {
     "permoflages": [4168642480, 4179225904, 4290375600, 4276744112],
@@ -6269,11 +6313,12 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_High" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
-    "battles": 3133212
+    "battles": 3243278
   },
   "4179506640": {
     "permoflages": [
-      4168642480, 3759599056, 3738627536, 4290375600, 3665227216, 4276744112
+      4168642480, 3759599056, 3738627536, 4290375600, 3665227216, 4276744112,
+      4168642480
     ],
     "alphaPiercingHE": 22.0,
     "ap": {
@@ -6293,7 +6338,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 1767170
+    "battles": 1777929
   },
   "4179506928": {
     "permoflages": [4276744112, 4290375600, 4168642480],
@@ -6327,7 +6372,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 2869096
+    "battles": 2895075
   },
   "4179507024": {
     "permoflages": [4168642480, 3759599440, 3921080144, 4290375600, 4276744112],
@@ -6346,7 +6391,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_8_10_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 673663
+    "battles": 691952
   },
   "4179507152": {
     "permoflages": [4168642480, 4179128272, 3759599568, 4290375600, 4276744112],
@@ -6358,7 +6403,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_DD_gold" }]
     ],
-    "battles": 1359589
+    "battles": 1391113
   },
   "4179539152": {
     "permoflages": [4168642480, 4290375600, 4276744112, 3864456400],
@@ -6379,7 +6424,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 507
+    "battles": 2959
   },
   "4179539408": {
     "permoflages": [4168642480, 3864456656, 4290375600, 4276744112, 4168642480],
@@ -6402,7 +6447,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 4693560
+    "battles": 4739020
   },
   "4179539696": {
     "permoflages": [4168642480, 4179029744, 4290375600, 4276744112, 3665227504],
@@ -6425,7 +6470,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1895241
+    "battles": 1936489
   },
   "4179539728": {
     "permoflages": [4168642480, 4290375600, 4276744112, 3874942736],
@@ -6445,7 +6490,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "Ned_BC_Gascogne" }]
     ],
     "isPaperShip": true,
-    "battles": 120123
+    "battles": 144586
   },
   "4179539760": {
     "permoflages": [4168642480, 3864457008, 4290375600, 3863408432, 4276744112],
@@ -6471,7 +6516,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 9449172
+    "battles": 9548845
   },
   "4179539792": {
     "permoflages": [4168642480, 3853971280, 3843485520, 4290375600, 4276744112],
@@ -6495,7 +6540,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_CR_9_10_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 2533975
+    "battles": 2553752
   },
   "4179539920": {
     "permoflages": [4168642480, 3864457168, 4290375600, 4276744112, 3665227728],
@@ -6517,7 +6562,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 6749030
+    "battles": 6807422
   },
   "4179572176": {
     "permoflages": [4168642480, 4290375600, 4276744112],
@@ -6535,7 +6580,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 2580061
+    "battles": 2624551
   },
   "4179572464": {
     "permoflages": [4290375600, 4168642480, 4276744112, 3969314544],
@@ -6558,11 +6603,12 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 304305
+    "battles": 330324
   },
   "4179572528": {
     "permoflages": [
-      4168642480, 3969314608, 4290375600, 3968266032, 3665227568, 4276744112
+      4168642480, 3969314608, 4290375600, 3968266032, 3665227568, 4276744112,
+      4168642480
     ],
     "alphaPiercingHE": 102.0,
     "ap": {
@@ -6583,7 +6629,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 12064425
+    "battles": 12183232
   },
   "4179572560": {
     "permoflages": [4168642480, 3969314640, 4290375600, 4276744112, 3665227600],
@@ -6602,7 +6648,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_BB_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 4211430
+    "battles": 4257020
   },
   "4179572688": {
     "permoflages": [4168642480, 4290375600, 4276744112],
@@ -6620,7 +6666,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_CL_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 4238051
+    "battles": 4284945
   },
   "4179572720": {
     "permoflages": [4168642480, 4290375600, 3969314800, 4276744112],
@@ -6643,30 +6689,30 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 414062
+    "battles": 433190
   },
   "4179604944": {
     "permoflages": [4168642480, 4276744112, 4290375600, 4179029456],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 61260
+    "battles": 84417
   },
   "4179605200": {
     "permoflages": [4168642480, 4179029712, 4290375600, 4276744112],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 1263000
+    "battles": 1275617
   },
   "4179605296": {
     "permoflages": [4168642480, 4074172208, 4290375600, 4276744112, 3664178992],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 374064
+    "battles": 380505
   },
   "4179605488": {
     "permoflages": [4168642480, 4290375600, 4276744112],
     "consumables": [],
-    "battles": 1910085
+    "battles": 1931302
   },
   "4180554960": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -6687,7 +6733,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1242365
+    "battles": 1260565
   },
   "4180555056": {
     "permoflages": [4169691056, 4180274480, 4291424176, 4279889840, 4278841264],
@@ -6706,7 +6752,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_High" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
-    "battles": 1914316
+    "battles": 1964325
   },
   "4180555216": {
     "permoflages": [4171788208],
@@ -6756,7 +6802,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 2544559
+    "battles": 2573575
   },
   "4180555600": {
     "permoflages": [4169691056, 3934711632, 4291424176, 4279889840, 4278841264],
@@ -6774,7 +6820,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_DD_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_8_10_PREM" }]
     ],
-    "battles": 836310
+    "battles": 855802
   },
   "4180555728": {
     "permoflages": [4169691056, 4180176848, 4291424176, 4279889840, 4278841264],
@@ -6786,7 +6832,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "UK_DD_gold" }]
     ],
-    "battles": 1578081
+    "battles": 1607861
   },
   "4180587728": {
     "permoflages": [4169691056, 4291424176, 4278841264, 4279889840, 3855019216],
@@ -6807,7 +6853,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 2463
+    "battles": 19302
   },
   "4180587984": {
     "permoflages": [4169691056, 4180274640, 4291424176, 4279889840, 4278841264],
@@ -6830,7 +6876,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 4073120
+    "battles": 4101125
   },
   "4180588272": {
     "permoflages": [4169691056, 4180078320, 4291424176, 4279889840, 4278841264],
@@ -6853,7 +6899,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1416669
+    "battles": 1445412
   },
   "4180588304": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264, 3865505552],
@@ -6873,7 +6919,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "Ned_BC_Gascogne" }]
     ],
     "isPaperShip": true,
-    "battles": 262836
+    "battles": 296458
   },
   "4180588336": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -6899,7 +6945,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 5782323
+    "battles": 5842333
   },
   "4180588368": {
     "permoflages": [4169691056, 3855019856, 4291424176, 4279889840, 4278841264],
@@ -6927,7 +6973,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_CR_9_10_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 2092981
+    "battles": 2116846
   },
   "4180588496": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -6949,7 +6995,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 4313990
+    "battles": 4350467
   },
   "4180588528": {
     "permoflages": [4169691056, 3813076976, 4291424176, 4279889840, 4278841264],
@@ -6976,7 +7022,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 2644369
+    "battles": 2683586
   },
   "4180620752": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -6994,7 +7040,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_4" }]
     ],
     "isPaperShip": true,
-    "battles": 2260170
+    "battles": 2303216
   },
   "4180621040": {
     "permoflages": [4291424176, 4279889840, 4169691056, 4278841264, 3970363120],
@@ -7017,7 +7063,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 497674
+    "battles": 526228
   },
   "4180621104": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -7040,7 +7086,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_8_10" }]
     ],
     "isPaperShip": true,
-    "battles": 8784172
+    "battles": 8945901
   },
   "4180621136": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -7060,7 +7106,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_BB_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 4027588
+    "battles": 4076220
   },
   "4180621264": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -7082,7 +7128,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 2580934
+    "battles": 2613348
   },
   "4180621296": {
     "permoflages": [4169691056, 4291424176, 4279889840, 3970363376, 4278841264],
@@ -7105,7 +7151,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 652231
+    "battles": 675369
   },
   "4181112272": {
     "consumables": [
@@ -7114,11 +7160,9 @@
     ]
   },
   "4181112624": {
-    "permoflages": [4292472752, 4287229872],
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "Sub" }]]
   },
   "4181112816": {
-    "permoflages": [4292472752, 4287229872],
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "Sub" }]]
   },
   "4181603536": {
@@ -7140,7 +7184,7 @@
       ],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1154564
+    "battles": 1168100
   },
   "4181603632": {
     "permoflages": [4170739632, 4181323056, 4292472752, 4287229872, 3761696048],
@@ -7159,7 +7203,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_High" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
-    "battles": 1741906
+    "battles": 1782448
   },
   "4181603792": {
     "permoflages": [4170739632, 4160253872],
@@ -7195,7 +7239,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "Jap_DD_prem_alt" }]
     ],
-    "battles": 3671870
+    "battles": 3729518
   },
   "4181604080": {
     "permoflages": [4170739632, 4292472752, 4287229872],
@@ -7229,7 +7273,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 3048018
+    "battles": 3071376
   },
   "4181604176": {
     "permoflages": [4170739632, 3935760208, 4292472752, 4287229872],
@@ -7247,7 +7291,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_DD_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_8_10_PREM" }]
     ],
-    "battles": 762488
+    "battles": 780863
   },
   "4181604304": {
     "permoflages": [4170739632, 4181225424, 4292472752, 4287229872],
@@ -7258,7 +7302,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }]
     ],
-    "battles": 1971167
+    "battles": 1999501
   },
   "4181636304": {
     "permoflages": [4170739632, 4292472752, 4287229872, 3856067792],
@@ -7278,7 +7322,7 @@
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "PAZ_CA" }]
     ],
     "isPaperShip": true,
-    "battles": 101
+    "battles": 1232
   },
   "4181636560": {
     "permoflages": [4170739632, 3866553808, 3856068048, 4292472752, 4287229872],
@@ -7291,7 +7335,7 @@
       ],
       [{ "name": "PCY020_RLSSearchPremium", "type": "USSR_8_PREMIUM" }]
     ],
-    "battles": 4206640
+    "battles": 4230546
   },
   "4181636848": {
     "permoflages": [4170739632, 4181126896, 4292472752, 4287229872],
@@ -7313,7 +7357,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 1530162
+    "battles": 1556707
   },
   "4181636880": {
     "permoflages": [4170739632, 4292472752, 4287229872, 3866554128],
@@ -7333,7 +7377,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "Ned_BC_Gascogne" }]
     ],
     "isPaperShip": true,
-    "battles": 246804
+    "battles": 283721
   },
   "4181636912": {
     "permoflages": [4170739632, 3866554160, 4181323568, 4292472752, 4287229872],
@@ -7354,7 +7398,7 @@
       ],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
-    "battles": 8554461
+    "battles": 8624357
   },
   "4181636944": {
     "permoflages": [
@@ -7380,7 +7424,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_CR_6_7_8_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 3412820
+    "battles": 3443946
   },
   "4181637072": {
     "permoflages": [4170739632, 3866554320, 4292472752, 4287229872],
@@ -7403,7 +7447,7 @@
         { "name": "PCY020_RLSSearchPremium", "type": "US_8_PREMIUM" }
       ]
     ],
-    "battles": 5125785
+    "battles": 5161468
   },
   "4181637104": {
     "permoflages": [
@@ -7429,7 +7473,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 3019384
+    "battles": 3064615
   },
   "4181669328": {
     "permoflages": [4170739632, 3960925648, 4292472752, 4287229872],
@@ -7448,7 +7492,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 2842845
+    "battles": 2888714
   },
   "4181669616": {
     "permoflages": [4170739632, 4292472752, 4287229872, 3960925936],
@@ -7470,7 +7514,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 553726
+    "battles": 586772
   },
   "4181669680": {
     "permoflages": [
@@ -7495,7 +7539,7 @@
       ],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_8_10" }]
     ],
-    "battles": 19148348
+    "battles": 19329500
   },
   "4181669712": {
     "permoflages": [4170739632, 3971411792, 3960926032, 4292472752, 4287229872],
@@ -7517,7 +7561,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 4415008
+    "battles": 4464316
   },
   "4181669840": {
     "permoflages": [4170739632, 3973607344, 4292472752, 4287229872],
@@ -7539,7 +7583,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 3381294
+    "battles": 3416944
   },
   "4181669872": {
     "permoflages": [4170739632, 4292472752, 4287229872, 3929468912, 3956731888],
@@ -7562,36 +7606,36 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 909539
+    "battles": 937757
   },
   "4181702096": {
     "permoflages": [4170739632, 4287229872, 4292472752, 4181126608],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 124334
+    "battles": 158120
   },
   "4181702352": {
     "permoflages": [4170739632, 4181126864, 4292472752, 4287229872],
     "consumables": [],
-    "battles": 1980080
+    "battles": 2007822
   },
   "4181702448": {
     "permoflages": [4170739632, 4076269360, 4292472752, 4287229872, 3965120304],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 664433
+    "battles": 683066
   },
   "4181702608": {
     "permoflages": [
       4170739632, 3751309264, 4181323728, 4292472752, 4287229872, 4214779856
     ],
     "consumables": [],
-    "battles": 1186135
+    "battles": 1201168
   },
   "4181702640": {
     "permoflages": [4170739632, 4181127152, 4160155632, 4292472752, 4287229872],
     "consumables": [],
-    "battles": 2431391
+    "battles": 2465656
   },
   "4182160656": {
     "consumables": [
@@ -7615,7 +7659,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1532649
+    "battles": 1546712
   },
   "4182652208": {
     "permoflages": [4171788208, 4182371632],
@@ -7634,7 +7678,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_Low" }]
     ],
     "isPaperShip": true,
-    "battles": 1551549
+    "battles": 1581215
   },
   "4182652368": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -7655,7 +7699,7 @@
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "SU_DD_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1546174
+    "battles": 1559719
   },
   "4182652624": {
     "permoflages": [4171788208, 3760746192],
@@ -7673,7 +7717,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_7_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 6764269
+    "battles": 6838998
   },
   "4182652656": {
     "permoflages": [4171788208],
@@ -7682,7 +7726,8 @@
     "sigma": 2.0,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
-      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }]
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_DD_5_7" }]
     ]
   },
   "4182652720": {
@@ -7702,7 +7747,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
-    "battles": 3042724
+    "battles": 3061868
   },
   "4182652752": {
     "permoflages": [4171788208, 3936808784],
@@ -7720,7 +7765,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_DD_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_2_7_PREM" }]
     ],
-    "battles": 715830
+    "battles": 729851
   },
   "4182652880": {
     "permoflages": [4171788208],
@@ -7738,7 +7783,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }]
     ],
-    "battles": 1592742
+    "battles": 1609266
   },
   "4182684880": {
     "permoflages": [4171788208, 3857116368],
@@ -7756,7 +7801,8 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_CL" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }],
       [{ "name": "PCY018_TorpedoReloaderPremium", "type": "PAZ_CA_midtier" }]
-    ]
+    ],
+    "battles": 9755
   },
   "4182685136": {
     "permoflages": [4171788208, 3762843088],
@@ -7770,7 +7816,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 5323655
+    "battles": 5367359
   },
   "4182685424": {
     "permoflages": [4171788208, 4182175472, 3971510000],
@@ -7791,7 +7837,7 @@
         { "name": "PCY013_SpotterPremium", "type": "Default" }
       ]
     ],
-    "battles": 1387728
+    "battles": 1409805
   },
   "4182685456": {
     "permoflages": [4171788208, 3867602704],
@@ -7813,7 +7859,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 309401
+    "battles": 339645
   },
   "4182685488": {
     "permoflages": [4171788208, 3756551984],
@@ -7835,7 +7881,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 8835048
+    "battles": 8906891
   },
   "4182685520": {
     "permoflages": [4171788208, 3857117008],
@@ -7858,7 +7904,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_CR_6_7_PREM" }],
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_CR_6_7_8_Gold" }]
     ],
-    "battles": 3305486
+    "battles": 3331188
   },
   "4182685648": {
     "permoflages": [4171788208],
@@ -7880,7 +7926,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 6154951
+    "battles": 6193399
   },
   "4182685680": {
     "permoflages": [4171788208, 3973607344, 3815174128, 4213731312],
@@ -7901,7 +7947,7 @@
       ],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
-    "battles": 2385394
+    "battles": 2416577
   },
   "4182717904": {
     "permoflages": [4171788208],
@@ -7920,7 +7966,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
     "isPaperShip": true,
-    "battles": 2697625
+    "battles": 2740470
   },
   "4182718192": {
     "permoflages": [4171788208, 3972558576],
@@ -7938,7 +7984,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "ITA_BB" }]
     ],
     "isPaperShip": true,
-    "battles": 724877
+    "battles": 758415
   },
   "4182718256": {
     "permoflages": [4171788208],
@@ -7959,7 +8005,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 12846866
+    "battles": 12966113
   },
   "4182718288": {
     "permoflages": [4171788208, 3762843472],
@@ -7977,7 +8023,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }]
     ],
     "isPaperShip": true,
-    "battles": 4604778
+    "battles": 4647495
   },
   "4182718416": {
     "permoflages": [4171788208],
@@ -7998,7 +8044,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 4509792
+    "battles": 4551525
   },
   "4183209424": {
     "consumables": [
@@ -8028,7 +8074,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1280677
+    "battles": 1291102
   },
   "4183700784": {
     "permoflages": [4172836784, 4183420208],
@@ -8047,7 +8093,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_Low" }]
     ],
     "isPaperShip": true,
-    "battles": 1212792
+    "battles": 1233540
   },
   "4183700944": {
     "permoflages": [4172836784],
@@ -8082,7 +8128,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_6_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 5055012
+    "battles": 5117663
   },
   "4183701232": {
     "permoflages": [4172836784],
@@ -8091,7 +8137,8 @@
     "sigma": 2.0,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
-      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }]
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_DD_5_7" }]
     ]
   },
   "4183701296": {
@@ -8112,7 +8159,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 3733919
+    "battles": 3771390
   },
   "4183701328": {
     "permoflages": [4172836784, 3937857360],
@@ -8130,7 +8177,7 @@
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_DD_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_2_7_PREM" }]
     ],
-    "battles": 745506
+    "battles": 758845
   },
   "4183701456": {
     "permoflages": [4172836784, 3969413040],
@@ -8148,7 +8195,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "UKDD_6_10" }]
     ],
-    "battles": 1378557
+    "battles": 1393168
   },
   "4183733456": {
     "permoflages": [4172836784],
@@ -8166,7 +8213,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_CL" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Default_Gold" }]
     ],
-    "battles": 141
+    "battles": 10685
   },
   "4183733712": {
     "permoflages": [3977801648, 3976753072, 4172836784],
@@ -8180,7 +8227,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 5098434
+    "battles": 5131028
   },
   "4183734000": {
     "permoflages": [4172836784, 4183224048],
@@ -8201,7 +8248,7 @@
         { "name": "PCY013_SpotterPremium", "type": "Default" }
       ]
     ],
-    "battles": 1388537
+    "battles": 1408092
   },
   "4183734032": {
     "permoflages": [4172836784, 3868651280],
@@ -8223,7 +8270,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 156139
+    "battles": 178383
   },
   "4183734064": {
     "permoflages": [3978850224, 4172836784, 3969413040],
@@ -8244,7 +8291,7 @@
       ],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 11411099
+    "battles": 11499906
   },
   "4183734096": {
     "permoflages": [4172836784, 3970461616, 3858165584, 3872943952],
@@ -8266,7 +8313,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_CR_6_7_PREM" }],
       [{ "name": "PCY022_ArtilleryBoosterPremium", "type": "FR_CR_6_7_8_Gold" }]
     ],
-    "battles": 3735748
+    "battles": 3761463
   },
   "4183734224": {
     "permoflages": [3977801648, 3976753072, 4172836784, 3750260688],
@@ -8288,7 +8335,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_2" }
       ]
     ],
-    "battles": 5008942
+    "battles": 5038547
   },
   "4183734256": {
     "permoflages": [4172836784, 3816222704],
@@ -8309,7 +8356,7 @@
       ],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 2155201
+    "battles": 2189713
   },
   "4183766480": {
     "permoflages": [4172836784, 3973508560],
@@ -8327,7 +8374,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 2342477
+    "battles": 2382940
   },
   "4183766768": {
     "permoflages": [4172836784, 3973607152],
@@ -8344,7 +8391,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "ITA_BB" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "ITA_BB" }]
     ],
-    "battles": 375915
+    "battles": 403260
   },
   "4183766832": {
     "permoflages": [3977801648, 3976753072, 4172836784],
@@ -8362,7 +8409,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 9995862
+    "battles": 10091077
   },
   "4183766864": {
     "permoflages": [4172836784, 3963023184, 3969413040],
@@ -8380,7 +8427,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }]
     ],
     "isPaperShip": true,
-    "battles": 3008259
+    "battles": 3035912
   },
   "4183766992": {
     "permoflages": [4172836784, 3970461616],
@@ -8398,34 +8445,34 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 3351587
+    "battles": 3382771
   },
   "4183799248": {
     "permoflages": [4172836784, 4183223760],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 166088
+    "battles": 202796
   },
   "4183799504": {
     "permoflages": [4172836784],
     "consumables": [],
-    "battles": 2402822
+    "battles": 2437292
   },
   "4183799600": {
     "permoflages": [4172836784, 4078366512, 4189515568],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 875526
+    "battles": 901189
   },
   "4183799760": {
     "permoflages": [4172836784, 3926421456],
     "consumables": [],
-    "battles": 1485965
+    "battles": 1501508
   },
   "4183799792": {
     "permoflages": [4172836784],
     "consumables": [],
-    "battles": 2460078
+    "battles": 2496904
   },
   "4184749264": {
     "alphaPiercingHE": 20.0,
@@ -8443,7 +8490,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 1090321
+    "battles": 1098900
   },
   "4184749360": {
     "permoflages": [4184468784, 3765988656],
@@ -8461,7 +8508,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "EU_DD_Low" }]
     ],
-    "battles": 966870
+    "battles": 982317
   },
   "4184749520": {
     "permoflages": [3978850224],
@@ -8495,7 +8542,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_5_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 3412043
+    "battles": 3450291
   },
   "4184749808": {
     "permoflages": [4173885360],
@@ -8504,7 +8551,8 @@
     "sigma": 2.0,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
-      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }]
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_5_7" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_DD_5_7" }]
     ]
   },
   "4184749872": {
@@ -8524,7 +8572,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7_Low" }]
     ],
-    "battles": 3578403
+    "battles": 3615185
   },
   "4184749904": {
     "permoflages": [3938905936, 3758550864],
@@ -8541,7 +8589,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_2_7_PREM" }]
     ],
-    "battles": 561288
+    "battles": 574924
   },
   "4184750032": {
     "alphaPiercingHE": 20.0,
@@ -8557,7 +8605,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }]
     ],
-    "battles": 964320
+    "battles": 974848
   },
   "4184782032": {
     "alphaPiercingHE": 25.0,
@@ -8572,7 +8620,8 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_CL" }]
-    ]
+    ],
+    "battles": 11787
   },
   "4184782288": {
     "alphaPiercingHE": 30.0,
@@ -8609,7 +8658,7 @@
         { "name": "PCY013_SpotterPremium", "type": "Default" }
       ]
     ],
-    "battles": 981423
+    "battles": 995506
   },
   "4184782608": {
     "alphaPiercingHE": 25.0,
@@ -8630,7 +8679,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 99630
+    "battles": 111442
   },
   "4184782640": {
     "alphaPiercingHE": 38.0,
@@ -8647,7 +8696,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 10092546
+    "battles": 10176522
   },
   "4184782672": {
     "alphaPiercingHE": 25.0,
@@ -8664,7 +8713,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 3525780
+    "battles": 3548166
   },
   "4184782800": {
     "permoflages": [3974655920],
@@ -8686,7 +8735,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_2" }
       ]
     ],
-    "battles": 3523732
+    "battles": 3544858
   },
   "4184815056": {
     "alphaPiercingHE": 59.0,
@@ -8703,7 +8752,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1626243
+    "battles": 1648378
   },
   "4184815344": {
     "permoflages": [3967217392],
@@ -8720,7 +8769,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "ITA_BB" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "ITA_BB" }]
     ],
-    "battles": 296715
+    "battles": 321007
   },
   "4184815408": {
     "alphaPiercingHE": 76.0,
@@ -8737,7 +8786,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 8976924
+    "battles": 9060894
   },
   "4184815440": {
     "alphaPiercingHE": 57.0,
@@ -8753,7 +8802,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }]
     ],
-    "battles": 1821173
+    "battles": 1839810
   },
   "4184815568": {
     "alphaPiercingHE": 86.0,
@@ -8770,7 +8819,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 3389962
+    "battles": 3417993
   },
   "4185797840": {
     "alphaPiercingHE": 21.0,
@@ -8787,7 +8836,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 819600
+    "battles": 825570
   },
   "4185797936": {
     "alphaPiercingHE": 20.0,
@@ -8803,7 +8852,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 178691
+    "battles": 182677
   },
   "4185798096": {
     "alphaPiercingHE": 17.0,
@@ -8820,7 +8869,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_4_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 2174893
+    "battles": 2188374
   },
   "4185798384": {
     "alphaPiercingHE": 20.0,
@@ -8828,8 +8877,10 @@
     "sigma": 2.0,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
-      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_2_4" }]
-    ]
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_2_4" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_DD_2_4" }]
+    ],
+    "battles": 28
   },
   "4185798448": {
     "alphaPiercingHE": 18.0,
@@ -8847,7 +8898,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 2946753
+    "battles": 2979382
   },
   "4185798480": {
     "alphaPiercingHE": 22.0,
@@ -8863,7 +8914,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_2_7_PREM" }]
     ],
-    "battles": 123804
+    "battles": 125914
   },
   "4185798608": {
     "alphaPiercingHE": 17.0,
@@ -8879,7 +8930,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }]
     ],
-    "battles": 421098
+    "battles": 426817
   },
   "4185830864": {
     "alphaPiercingHE": 22.0,
@@ -8895,7 +8946,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
-    "battles": 2372313
+    "battles": 2386682
   },
   "4185831152": {
     "alphaPiercingCS": 42.3,
@@ -8911,7 +8962,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_1" }]
     ],
-    "battles": 265088
+    "battles": 270914
   },
   "4185831184": {
     "alphaPiercingHE": 25.0,
@@ -8931,7 +8982,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_1" }
       ]
     ],
-    "battles": 66631
+    "battles": 71389
   },
   "4185831216": {
     "alphaPiercingHE": 38.0,
@@ -8947,7 +8998,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "Deutsche_C_4_7" }]
     ],
-    "battles": 4841157
+    "battles": 4879542
   },
   "4185831248": {
     "alphaPiercingHE": 26.0,
@@ -8964,7 +9015,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_1" }]
     ],
-    "battles": 1966199
+    "battles": 1978093
   },
   "4185831376": {
     "ap": {
@@ -8980,7 +9031,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }],
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
-    "battles": 2496062
+    "battles": 2511656
   },
   "4185863632": {
     "alphaPiercingHE": 51.0,
@@ -8996,7 +9047,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_USSR" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 419116
+    "battles": 425302
   },
   "4185863920": {
     "alphaPiercingCS": 79.2,
@@ -9012,7 +9063,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "ITA_BB" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "ITA_BB" }]
     ],
-    "battles": 130970
+    "battles": 136726
   },
   "4185863984": {
     "alphaPiercingHE": 76.0,
@@ -9028,7 +9079,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }]
     ],
-    "battles": 5281056
+    "battles": 5323079
   },
   "4185864016": {
     "alphaPiercingHE": 51.0,
@@ -9044,7 +9095,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Deutsche_gold" }]
     ],
-    "battles": 622067
+    "battles": 627762
   },
   "4185864144": {
     "alphaPiercingHE": 86.0,
@@ -9060,22 +9111,22 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 1939740
+    "battles": 1955939
   },
   "4185896400": {
     "permoflages": [4185320912],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 39663
+    "battles": 50099
   },
-  "4185896656": { "consumables": [], "battles": 1490907 },
+  "4185896656": { "consumables": [], "battles": 1506526 },
   "4185896752": {
     "permoflages": [4080463664],
     "consumables": [],
     "isPaperShip": true,
-    "battles": 567905
+    "battles": 588128
   },
-  "4185896944": { "consumables": [], "battles": 1547487 },
+  "4185896944": { "consumables": [], "battles": 1570153 },
   "4186846416": {
     "alphaPiercingHE": 17.0,
     "ap": {
@@ -9091,7 +9142,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "PAZ_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 285315
+    "battles": 287201
   },
   "4186846480": { "sigma": 2.0, "consumables": [], "isPaperShip": true },
   "4186846512": {
@@ -9108,7 +9159,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 97039
+    "battles": 98884
   },
   "4186846672": {
     "alphaPiercingHE": 17.0,
@@ -9125,7 +9176,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_3_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1433961
+    "battles": 1443519
   },
   "4186846960": {
     "alphaPiercingHE": 20.0,
@@ -9133,7 +9184,8 @@
     "sigma": 2.0,
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
-      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_2_4" }]
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_2_4" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_DD_2_4" }]
     ]
   },
   "4186847024": {
@@ -9151,7 +9203,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "DE_Lvl_3_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1235594
+    "battles": 1246176
   },
   "4186847056": {
     "alphaPiercingHE": 17.0,
@@ -9168,7 +9220,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_2_7_PREM" }]
     ],
     "isPaperShip": true,
-    "battles": 61624
+    "battles": 62798
   },
   "4186847184": {
     "alphaPiercingHE": 17.0,
@@ -9184,7 +9236,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }]
     ],
-    "battles": 137916
+    "battles": 139533
   },
   "4186879440": {
     "alphaPiercingHE": 25.0,
@@ -9199,7 +9251,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 1135379
+    "battles": 1142486
   },
   "4186879728": {
     "alphaPiercingCS": 41.8,
@@ -9214,7 +9266,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 78716
+    "battles": 80090
   },
   "4186879760": {
     "alphaPiercingHE": 25.0,
@@ -9229,7 +9281,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 6686
+    "battles": 7664
   },
   "4186879792": {
     "alphaPiercingHE": 18.0,
@@ -9244,7 +9296,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 2974653
+    "battles": 2997603
   },
   "4186879824": {
     "alphaPiercingHE": 23.0,
@@ -9260,7 +9312,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1069173
+    "battles": 1075856
   },
   "4186879952": {
     "ap": {
@@ -9275,7 +9327,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 1250269
+    "battles": 1257232
   },
   "4186912016": { "sigma": 2.0, "consumables": [], "isPaperShip": true },
   "4186912208": {
@@ -9293,7 +9345,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 166084
+    "battles": 168552
   },
   "4186912560": {
     "permoflages": [3976654640],
@@ -9310,7 +9362,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 2657235
+    "battles": 2678686
   },
   "4186912592": {
     "alphaPiercingHE": 51.0,
@@ -9327,7 +9379,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 308781
+    "battles": 311571
   },
   "4186912720": {
     "alphaPiercingHE": 76.0,
@@ -9343,7 +9395,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_UK_Germany_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 730339
+    "battles": 734984
   },
   "4187894992": {
     "alphaPiercingHE": 18.0,
@@ -9361,7 +9413,7 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 309661
+    "battles": 313038
   },
   "4187895056": { "consumables": [], "isPaperShip": true },
   "4187895088": {
@@ -9378,7 +9430,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 79589
+    "battles": 81400
   },
   "4187895248": {
     "alphaPiercingHE": 17.0,
@@ -9396,13 +9448,17 @@
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 724033
+    "battles": 729090
   },
   "4187895536": {
     "alphaPiercingHE": 17.0,
     "alphaPiercingCS": 29.5,
     "sigma": 2.0,
-    "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
+    "consumables": [
+      [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
+      [{ "name": "PCY014_SmokeGeneratorPremium", "type": "IT_Oil_DD_2_4" }],
+      [{ "name": "PCY015_SpeedBoosterPremium", "type": "IT_DD_2_4" }]
+    ]
   },
   "4187895600": {
     "alphaPiercingHE": 15.0,
@@ -9419,7 +9475,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "DE_Lvl_2_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1244289
+    "battles": 1257802
   },
   "4187895632": {
     "alphaPiercingHE": 17.0,
@@ -9435,7 +9491,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "FR_DD_2_7_PREM" }]
     ],
-    "battles": 42528
+    "battles": 43327
   },
   "4187895760": {
     "alphaPiercingHE": 17.0,
@@ -9451,7 +9507,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }],
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "UK_DD" }]
     ],
-    "battles": 82470
+    "battles": 83686
   },
   "4187927824": { "consumables": [], "isPaperShip": true },
   "4187928016": {
@@ -9467,7 +9523,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 351981
+    "battles": 354672
   },
   "4187928304": {
     "alphaPiercingCS": 34.2,
@@ -9482,7 +9538,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 76653
+    "battles": 78051
   },
   "4187928336": {
     "alphaPiercingHE": 20,
@@ -9497,7 +9553,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 4642
+    "battles": 5480
   },
   "4187928400": {
     "alphaPiercingHE": 28.0,
@@ -9512,7 +9568,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 317680
+    "battles": 319756
   },
   "4187928528": {
     "ap": {
@@ -9527,7 +9583,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Low" }]
     ],
-    "battles": 471564
+    "battles": 474933
   },
   "4188976336": {
     "alphaPiercingHE": 21.0,
@@ -9535,7 +9591,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 129005
+    "battles": 130231
   },
   "4188976400": {
     "ap": {
@@ -9555,7 +9611,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 182687
+    "battles": 187965
   },
   "4188976592": {
     "alphaPiercingHE": 22.0,
@@ -9564,7 +9620,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 753503
+    "battles": 757080
   },
   "4188976880": {
     "alphaPiercingHE": 20.0,
@@ -9572,7 +9628,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 64756
+    "battles": 65907
   },
   "4188976912": {
     "alphaPiercingHE": 20.0,
@@ -9580,7 +9636,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 9620
+    "battles": 11198
   },
   "4188976976": {
     "alphaPiercingHE": 23.0,
@@ -9588,7 +9644,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 208210
+    "battles": 209566
   },
   "4188977104": {
     "alphaPiercingHE": 17.0,
@@ -9596,7 +9652,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 1060079
+    "battles": 1065251
   },
   "4189009168": {
     "alphaPiercingHE": 205.0,
@@ -9626,7 +9682,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 92887
+    "battles": 94584
   },
   "4248057104": {
     "permoflages": [3971510192, 3971510192],
@@ -9650,7 +9706,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 568790
+    "battles": 574526
   },
   "4249105680": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9684,7 +9740,7 @@
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 5738197
+    "battles": 5774235
   },
   "4255397136": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9695,7 +9751,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 583195
+    "battles": 587490
   },
   "4257494288": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9713,7 +9769,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 1216467
+    "battles": 1228408
   },
   "4258542864": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9742,7 +9798,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 7329441
+    "battles": 7385654
   },
   "4259264496": {
     "permoflages": [4172836784, 3970461616],
@@ -9760,7 +9816,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Colorado_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 11164362
+    "battles": 11252415
   },
   "4259591440": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9784,7 +9840,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Gold" }
       ]
     ],
-    "battles": 1435607
+    "battles": 1443259
   },
   "4266538992": {
     "alphaPiercingHE": 17.0,
@@ -9801,7 +9857,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_3_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 2201620
+    "battles": 2217551
   },
   "4266931472": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9822,7 +9878,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_5_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 3457239
+    "battles": 3476496
   },
   "4267620048": {
     "permoflages": [4186468272, 4186468272],
@@ -9841,7 +9897,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 92783
+    "battles": 93238
   },
   "4267980048": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9869,7 +9925,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_5_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 492292
+    "battles": 496670
   },
   "4269028624": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9896,7 +9952,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_3_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 2045613
+    "battles": 2060211
   },
   "4269717488": {
     "alphaPiercingHE": 25.0,
@@ -9913,7 +9969,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }]
     ],
     "isPaperShip": true,
-    "battles": 5373109
+    "battles": 5412631
   },
   "4270077200": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -9940,7 +9996,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Branch" }
       ]
     ],
-    "battles": 5696145
+    "battles": 5746011
   },
   "4272895696": {
     "permoflages": [4169691056, 4291424176, 4279889840, 4278841264],
@@ -9962,7 +10018,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 5744002
+    "battles": 5811549
   },
   "4273878288": { "sigma": 2.0, "consumables": [], "isPaperShip": true },
   "4273911792": {
@@ -9991,7 +10047,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
-    "battles": 7971271
+    "battles": 8045770
   },
   "4274926864": { "consumables": [] },
   "4274927600": {
@@ -10009,7 +10065,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_4_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 4691817
+    "battles": 4730477
   },
   "4274960368": {
     "alphaPiercingHE": 34.0,
@@ -10056,7 +10112,7 @@
       ],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 46097
+    "battles": 50375
   },
   "4276041424": {
     "permoflages": [
@@ -10080,7 +10136,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_4" }
       ]
     ],
-    "battles": 12580740
+    "battles": 12725282
   },
   "4276041712": {
     "permoflages": [4169691056, 4180275184, 4291424176, 4279889840, 4278841264],
@@ -10101,7 +10157,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_4" }
       ]
     ],
-    "battles": 8588174
+    "battles": 8680342
   },
   "4276368656": {
     "consumables": [[{ "name": "PCY009_CrashCrewPremium", "type": "D_Gold" }]]
@@ -10123,7 +10179,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_5_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 612547
+    "battles": 616902
   },
   "4277057520": {
     "permoflages": [4169691056],
@@ -10170,7 +10226,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 9431355
+    "battles": 9538096
   },
   "4277122768": {
     "permoflages": [4168642480, 4179029712],
@@ -10223,7 +10279,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 2832129
+    "battles": 2852552
   },
   "4279186704": {
     "alphaPiercingHE": 201.0,
@@ -10260,7 +10316,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_2_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 141213
+    "battles": 142507
   },
   "4280170480": {
     "alphaPiercingHE": 21.0,
@@ -10281,7 +10337,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 5201577
+    "battles": 5243171
   },
   "4280202960": {
     "permoflages": [4168642480, 4290375600, 4276744112, 4168642480],
@@ -10347,7 +10403,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Branch" }
       ]
     ],
-    "battles": 6664141
+    "battles": 6725490
   },
   "4281251088": {
     "permoflages": [3843484944, 3843484944],
@@ -10378,7 +10434,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_1" }]
     ],
-    "battles": 5297606
+    "battles": 5334591
   },
   "4281284304": {
     "permoflages": [4170739632, 4292472752, 4287229872, 3960925904, 3921080016],
@@ -10400,7 +10456,7 @@
       ]
     ],
     "isPaperShip": true,
-    "battles": 8296414
+    "battles": 8382700
   },
   "4281284592": {
     "permoflages": [4186468272, 4186468272],
@@ -10417,7 +10473,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_USA_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 1243469
+    "battles": 1249612
   },
   "4281317360": {
     "permoflages": [4169691056],
@@ -10448,7 +10504,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_10_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 13831806
+    "battles": 14005393
   },
   "4282299664": {
     "permoflages": [4293521328, 4293521328],
@@ -10488,7 +10544,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "C_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 4566243
+    "battles": 4611514
   },
   "4282300400": {
     "permoflages": [4171788208],
@@ -10531,7 +10587,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 11979297
+    "battles": 12086248
   },
   "4282365648": {
     "permoflages": [4170739632, 4181126864],
@@ -10591,7 +10647,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_Japan_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 224749
+    "battles": 226289
   },
   "4283414224": {
     "permoflages": [4171788208],
@@ -10651,7 +10707,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 41249
+    "battles": 41986
   },
   "4284429584": {
     "permoflages": [4293521328, 4293521328],
@@ -10685,7 +10741,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 8640537
+    "battles": 8716654
   },
   "4284463088": {
     "permoflages": [4171788208],
@@ -10739,7 +10795,7 @@
       ],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
-    "battles": 7233310
+    "battles": 7289908
   },
   "4285478160": {
     "permoflages": [3948342544, 3948342544],
@@ -10790,7 +10846,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Branch" }
       ]
     ],
-    "battles": 5559498
+    "battles": 5598191
   },
   "4286494416": {
     "permoflages": [4171788208],
@@ -10811,7 +10867,7 @@
       ],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_3" }]
     ],
-    "battles": 6960501
+    "battles": 7011226
   },
   "4286526736": {
     "permoflages": [4170739632],
@@ -10842,7 +10898,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1170860
+    "battles": 1178123
   },
   "4286527472": {
     "permoflages": [4171788208, 3961974768],
@@ -10863,7 +10919,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 9806770
+    "battles": 9900622
   },
   "4287509776": {
     "consumables": [
@@ -10920,7 +10976,7 @@
       ],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 6730992
+    "battles": 6778348
   },
   "4287543280": {
     "permoflages": [3978850224, 4172836784],
@@ -10970,7 +11026,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 7765559
+    "battles": 7830768
   },
   "4288558800": {
     "permoflages": [4171788208],
@@ -11011,7 +11067,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Branch" }
       ]
     ],
-    "battles": 5414490
+    "battles": 5451957
   },
   "4288591120": {
     "ap": {
@@ -11047,7 +11103,7 @@
       ],
       [{ "name": "PCY020_RLSSearchPremium", "type": "US_7_ATLANTA_PREMIUM" }]
     ],
-    "battles": 4792226
+    "battles": 4815661
   },
   "4288623888": {
     "alphaPiercingHE": 72.0,
@@ -11078,7 +11134,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 9994953
+    "battles": 10077531
   },
   "4288624624": {
     "permoflages": [4173885360, 3970461680, 3955781616],
@@ -11096,7 +11152,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Colorado_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 9029608
+    "battles": 9109067
   },
   "4288657104": {
     "consumables": [
@@ -11162,7 +11218,7 @@
         { "name": "PCY011_AirDefenseDispPremium", "type": "US_DD_Branch" }
       ]
     ],
-    "battles": 5275161
+    "battles": 5310226
   },
   "4289639696": {
     "alphaPiercingHE": 34.0,
@@ -11193,7 +11249,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 6903158
+    "battles": 6953439
   },
   "4289640432": {
     "permoflages": [3850825712],
@@ -11211,7 +11267,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY012_FighterPremium", "type": "Fighter_2" }]
     ],
-    "battles": 9340734
+    "battles": 9422843
   },
   "4289672464": {
     "alphaPiercingHE": 95.0,
@@ -11255,7 +11311,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_5_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 7407363
+    "battles": 7457024
   },
   "4290688272": {
     "alphaPiercingHE": 34.0,
@@ -11285,7 +11341,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }],
       [{ "name": "PCY011_AirDefenseDispPremium", "type": "Yubari_Gold" }]
     ],
-    "battles": 1082726
+    "battles": 1090569
   },
   "4290689008": {
     "permoflages": [3870748656],
@@ -11301,7 +11357,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 5576640
+    "battles": 5617290
   },
   "4290721040": {
     "alphaPiercingHE": 95.0,
@@ -11334,7 +11390,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Colorado_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 8729895
+    "battles": 8800408
   },
   "4290753808": {
     "consumables": [
@@ -11383,7 +11439,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_4_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 6402656
+    "battles": 6447921
   },
   "4291736848": {
     "sigma": 2.0,
@@ -11409,7 +11465,7 @@
       [{ "name": "PCY016_SonarSearchPremium", "type": "C_4_7" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 2784095
+    "battles": 2795207
   },
   "4291737584": {
     "permoflages": [4186468272, 3663228912, 3957878768, 4186468272],
@@ -11425,7 +11481,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 341038
+    "battles": 343096
   },
   "4291769616": {
     "consumables": [
@@ -11449,7 +11505,7 @@
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
     "isPaperShip": true,
-    "battles": 5519525
+    "battles": 5559766
   },
   "4291802384": {
     "consumables": [
@@ -11485,7 +11541,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_2_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1924122
+    "battles": 1942025
   },
   "4292753392": {
     "alphaPiercingHE": 17.0,
@@ -11502,7 +11558,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "US_Lvl_2_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1047891
+    "battles": 1057076
   },
   "4292785424": {
     "alphaPiercingHE": 34.0,
@@ -11531,7 +11587,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 151975
+    "battles": 152808
   },
   "4292785968": {
     "alphaPiercingHE": 18.0,
@@ -11546,7 +11602,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 1566507
+    "battles": 1581752
   },
   "4292786160": {
     "alphaPiercingHE": 21.0,
@@ -11561,7 +11617,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 1255723
+    "battles": 1267157
   },
   "4292818192": {
     "alphaPiercingHE": 51.0,
@@ -11597,7 +11653,7 @@
         { "name": "PCY012_FighterPremium", "type": "Fighter_3" }
       ]
     ],
-    "battles": 14737902
+    "battles": 14818530
   },
   "4292818896": {
     "permoflages": [4182273968, 3927470032, 3921080272, 4182273968],
@@ -11615,7 +11671,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Warspite_Gold" }],
       [{ "name": "PCY013_SpotterPremium", "type": "Default" }]
     ],
-    "battles": 2635802
+    "battles": 2654020
   },
   "4292850960": {
     "consumables": [
@@ -11674,7 +11730,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_5_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 1022452
+    "battles": 1027298
   },
   "4293801680": {
     "permoflages": [4186468272, 3956829904, 3768086224, 4186468272],
@@ -11692,7 +11748,7 @@
       [{ "name": "PCY014_SmokeGeneratorPremium", "type": "Lvl_2_Gold" }],
       [{ "name": "PCY015_SpeedBoosterPremium", "type": "Default" }]
     ],
-    "battles": 377381
+    "battles": 379964
   },
   "4293834000": {
     "alphaPiercingHE": 100.0,
@@ -11723,7 +11779,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "CV_CA_CL_Gold" }]
     ],
-    "battles": 249883
+    "battles": 251573
   },
   "4293834544": {
     "alphaPiercingHE": 21.0,
@@ -11732,7 +11788,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 1228309
+    "battles": 1242060
   },
   "4293834736": {
     "alphaPiercingHE": 25.0,
@@ -11740,7 +11796,7 @@
     "consumables": [
       [{ "name": "PCY009_CrashCrewPremium", "type": "C_TierOne_Gold" }]
     ],
-    "battles": 921886
+    "battles": 929525
   },
   "4293866768": {
     "alphaPiercingHE": 100.0,
@@ -11773,7 +11829,7 @@
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
     "isPaperShip": true,
-    "battles": 496245
+    "battles": 497942
   },
   "4293867216": {
     "alphaPiercingHE": 51.0,
@@ -11789,7 +11845,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_Japan_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Gold" }]
     ],
-    "battles": 2478027
+    "battles": 2496761
   },
   "4293867504": {
     "alphaPiercingHE": 51.0,
@@ -11805,7 +11861,7 @@
       [{ "name": "PCY009_CrashCrewPremium", "type": "B_USA_Gold" }],
       [{ "name": "PCY010_RegenCrewPremium", "type": "B_Colorado_Gold" }]
     ],
-    "battles": 3738566
+    "battles": 3768844
   },
   "4293899536": {
     "consumables": [

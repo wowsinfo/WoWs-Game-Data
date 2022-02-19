@@ -1,8 +1,8 @@
-# WoWs Game Data (0.10.10.0)
+# WoWs Game Data (0.11.1.0)
 
 Extract some game data from World of Warships. There are also some other data that are collected by me. Most of them are formatted so it is possible to see what has changed. I may add more if WoWs Info needs it.
 
-- GameParams is coming from WoWSFT-Data
+- GameParams is coming from [WoWSFT-Data](https://github.com/EdibleBug/WoWSFT-Kotlin/tree/master/WoWSFT-Data/src/main/resources/json/live)
 - ship_battle_raw is parsed from Wows-Numbers
 
 ## Setup

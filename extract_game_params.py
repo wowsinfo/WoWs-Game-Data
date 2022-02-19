@@ -242,7 +242,8 @@ def writeShipAdditional():
     for ship in battles:
         # id is now a number
         ship_id = ship['ship_id']
-        if ship['battles'] > 0:
+        # ship_id can be missing here somehow
+        if ship_id in additional_ship_info and ship['battles'] > 0:
             additional_ship_info[ship_id]['battles'] = ship['battles']
     writeToJson(additional_ship_info, 'data/ship_additional.json')
 

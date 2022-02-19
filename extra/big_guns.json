@@ -102,6 +102,12 @@
     "diametre": 457.0
   },
   {
+    "name": "PGPA129_420MM_AP_KURFURST",
+    "damage": 13500.0,
+    "speed": 800.0,
+    "diametre": 420.0
+  },
+  {
     "name": "PJPA005_Shell_410mm_AP_APC_Type_91",
     "damage": 12600.0,
     "speed": 806.0,
