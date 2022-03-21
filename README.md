@@ -1,4 +1,4 @@
-# WoWs Game Data (0.11.1.0)
+# WoWs Game Data (0.11.2.0)
 
 Extract some game data from World of Warships. There are also some other data that are collected by me. Most of them are formatted so it is possible to see what has changed. I may add more if WoWs Info needs it.
 

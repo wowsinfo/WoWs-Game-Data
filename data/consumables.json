@@ -120,16 +120,6 @@
         "reloadTime": 40.0,
         "workTime": 5.0
       },
-      "USSR_C_Sevastopol": {
-        "SpecialSoundID": "Default",
-        "consumableType": "crashCrew",
-        "descIDs": "PCY009_CrashCrew_Limited_Premium",
-        "iconIDs": "PCY009_CrashCrew_Limited_Premium",
-        "numConsumables": 3,
-        "reloadTime": 30.0,
-        "titleIDs": "PCY009_CrashCrew_Limited_Premium",
-        "workTime": 10.0
-      },
       "custom": {}
     }
   },
@@ -330,7 +320,7 @@
         "consumableType": "regenCrew",
         "numConsumables": 3,
         "regenerationHPSpeed": 0.005,
-        "reloadTime": 180.0,
+        "reloadTime": 200.0,
         "workTime": 90.0
       },
       "custom": {}
@@ -870,7 +860,7 @@
         "lifeTime": 10.0,
         "numConsumables": 6,
         "radius": 15.0,
-        "reloadTime": 80.0,
+        "reloadTime": 90.0,
         "spawnBackwardShift": 0.3,
         "speedLimit": 100.0,
         "titleIDs": "PCY014_SmokeGeneratorOil_Premium",
@@ -1184,22 +1174,6 @@
         "numConsumables": 5,
         "radius": 20.0,
         "reloadTime": 70.0,
-        "spawnBackwardShift": 0.4,
-        "speedLimit": 12.5,
-        "startDelayTime": 2.0,
-        "titleIDs": "PCY014_SmokeGenerator_Cycle_Premium",
-        "workTime": 15.0
-      },
-      "UK_C_SHORT_DIDO": {
-        "SpecialSoundID": "Default",
-        "consumableType": "smokeGenerator",
-        "descIDs": "PCY014_SmokeGenerator_Cycle_Premium",
-        "height": 5.0,
-        "iconIDs": "PCY014_SmokeGenerator_Cycle_Premium",
-        "lifeTime": 35.0,
-        "numConsumables": 5,
-        "radius": 20.0,
-        "reloadTime": 80.0,
         "spawnBackwardShift": 0.4,
         "speedLimit": 12.5,
         "startDelayTime": 2.0,
@@ -1723,48 +1697,6 @@
         "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
         "workTime": 25.0
       },
-      "IT_DD_2_4": {
-        "SpecialSoundID": "Default",
-        "backwardEngineForsag": 2.5,
-        "backwardEngineForsagMaxSpeed": 10.0,
-        "boostCoeff": 0.25,
-        "consumableType": "speedBoosters",
-        "descIDs": "PCY015_SpeedBooster_Imp_Premium",
-        "forwardEngineForsag": 2.5,
-        "forwardEngineForsagMaxSpeed": 10.0,
-        "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
-        "numConsumables": 3,
-        "reloadTime": 160.0,
-        "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
-        "workTime": 15.0
-      },
-      "IT_DD_5_7": {
-        "SpecialSoundID": "Default",
-        "backwardEngineForsag": 2.5,
-        "backwardEngineForsagMaxSpeed": 10.0,
-        "boostCoeff": 0.25,
-        "consumableType": "speedBoosters",
-        "descIDs": "PCY015_SpeedBooster_Imp_Premium",
-        "forwardEngineForsag": 2.5,
-        "forwardEngineForsagMaxSpeed": 10.0,
-        "iconIDs": "PCY015_SpeedBooster_Imp_Premium",
-        "numConsumables": 4,
-        "reloadTime": 160.0,
-        "titleIDs": "PCY015_SpeedBooster_Imp_Premium",
-        "workTime": 20.0
-      },
-      "IT_DD_FR25": {
-        "SpecialSoundID": "Default",
-        "backwardEngineForsag": 4.0,
-        "backwardEngineForsagMaxSpeed": 12.0,
-        "boostCoeff": 0.2,
-        "consumableType": "speedBoosters",
-        "forwardEngineForsag": 2.5,
-        "forwardEngineForsagMaxSpeed": 10.0,
-        "numConsumables": 3,
-        "reloadTime": 120.0,
-        "workTime": 120.0
-      },
       "IT_Paolo_Emilio": {
         "SpecialSoundID": "Default",
         "backwardEngineForsag": 2.5,
@@ -1782,12 +1714,12 @@
       },
       "Incomparable": {
         "SpecialSoundID": "Default",
-        "backwardEngineForsag": 1.75,
-        "backwardEngineForsagMaxSpeed": 5.0,
+        "backwardEngineForsag": 4.0,
+        "backwardEngineForsagMaxSpeed": 12.0,
         "boostCoeff": 0.08,
         "consumableType": "speedBoosters",
-        "forwardEngineForsag": 1.75,
-        "forwardEngineForsagMaxSpeed": 25.0,
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 10.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 180.0
@@ -1815,18 +1747,6 @@
         "numConsumables": 3,
         "reloadTime": 120.0,
         "workTime": 120.0
-      },
-      "USSR_C_Sevastopol": {
-        "SpecialSoundID": "Default",
-        "backwardEngineForsag": 4.0,
-        "backwardEngineForsagMaxSpeed": 12.0,
-        "boostCoeff": 0.2,
-        "consumableType": "speedBoosters",
-        "forwardEngineForsag": 2.5,
-        "forwardEngineForsagMaxSpeed": 10.0,
-        "numConsumables": 4,
-        "reloadTime": 60.0,
-        "workTime": 45.0
       },
       "custom": {}
     }
@@ -2083,7 +2003,7 @@
         "distShip": 250.0,
         "numConsumables": 3,
         "reloadTime": 120.0,
-        "workTime": 19.0
+        "workTime": 22.0
       },
       "Default": {
         "SpecialSoundID": "Default",
@@ -2385,14 +2305,6 @@
         "workTime": 15.0
       },
       "IJN_BB_HYUGA": {
-        "SpecialSoundID": "Default",
-        "boostCoeff": 0.5,
-        "consumableType": "artilleryBoosters",
-        "numConsumables": 3,
-        "reloadTime": 60.0,
-        "workTime": 15.0
-      },
-      "IJN_CA_MAYA2": {
         "SpecialSoundID": "Default",
         "boostCoeff": 0.5,
         "consumableType": "artilleryBoosters",

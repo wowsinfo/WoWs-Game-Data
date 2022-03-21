@@ -125,8 +125,7 @@
       "PZSC107",
       "PZSC106",
       "PZSC509",
-      "PBSC526",
-      "PJSC517"
+      "PBSC526"
     ],
     "shiptype": ["Destroyer"],
     "excludes": ["PISD506", "PRSD505"]
@@ -203,8 +202,7 @@
       "PZSC109",
       "PZSC110",
       "PZSC509",
-      "PBSC526",
-      "PJSC517"
+      "PBSC526"
     ]
   },
   "4203925424": {
@@ -657,8 +655,7 @@
       "PXSD005",
       "PGSA610",
       "PRSA508",
-      "PFSA506",
-      "PASA538"
+      "PFSA506"
     ]
   },
   "4224896944": {
@@ -795,8 +792,7 @@
       "PXSD005",
       "PGSA610",
       "PRSA508",
-      "PFSA506",
-      "PASA538"
+      "PFSA506"
     ]
   },
   "4229091248": { "slot": 5, "ships": ["PJSA110"] },
@@ -1103,7 +1099,7 @@
       "PSSC506",
       "PRSC710",
       "PASD610",
-      "PJSC517"
+      "PVSB508"
     ],
     "excludes": [
       "PXSA005",
@@ -1289,8 +1285,7 @@
       "PFSC111",
       "PBSC526",
       "PRSC710",
-      "PASD610",
-      "PJSC517"
+      "PASD610"
     ],
     "excludes": [
       "PXSA005",
@@ -1685,8 +1680,7 @@
       "PFSC509",
       "PBSB610",
       "PSSC506",
-      "PFSC111",
-      "PRSC710"
+      "PFSC111"
     ],
     "shiptype": ["Destroyer"],
     "excludes": [
@@ -1724,7 +1718,13 @@
       "PGSD210",
       "PBSD510",
       "PHSD509",
-      "PASD610"
+      "PASD610",
+      "PISD103",
+      "PISD104",
+      "PISD105",
+      "PISD106",
+      "PISD107",
+      "PISD507"
     ]
   },
   "4257402800": {
