@@ -13,6 +13,7 @@
   { "name": "PASD810_TST_GEARING", "tier": 10, "reload": 3.0 },
   { "name": "PASD913_Gearing_1945", "tier": 10, "reload": 3.0 },
   { "name": "PBSC110_Minotaur", "tier": 10, "reload": 3.2 },
+  { "name": "PBSC111_Edgar", "tier": 11, "reload": 3.2 },
   { "name": "PBSC518_Tiger_1959", "tier": 8, "reload": 3.2 },
   { "name": "PBSD110_Daring", "tier": 10, "reload": 2.8 },
   { "name": "PBSD510_Druid", "tier": 10, "reload": 1.9 },

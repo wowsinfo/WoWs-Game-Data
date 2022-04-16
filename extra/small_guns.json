@@ -114,6 +114,18 @@
     "diametre": 105.0
   },
   {
+    "name": "PCPA070_102MM_HE_FOR_TEST",
+    "damage": 1500.0,
+    "speed": 811.0,
+    "diametre": 102.0
+  },
+  {
+    "name": "PCPA072_102MM_HE_FOR_TEST_2",
+    "damage": 1500.0,
+    "speed": 811.0,
+    "diametre": 102.0
+  },
+  {
     "name": "PFPA010_90MM_50_1926_HE",
     "damage": 1300.0,
     "speed": 850.0,
