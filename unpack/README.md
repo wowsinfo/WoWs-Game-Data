@@ -1,0 +1,2 @@
+# unpack
+Unpack World of Warships game data with `wowsunpack.exe` by `AutoSpy`. Check out this [post](https://forum.worldofwarships.ru/topic/123043-all-wows-unpack-tool-%D1%80%D0%B0%D1%81%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%B0-%D0%B8%D0%B3%D1%80%D1%8B/) on the Russian server. The program is closed sourced (if not, please tell me) so it is up to you to decide whether to use it or not. `WoWs-Game-Data` is not responsible for anything. Please use it at your own risk.
