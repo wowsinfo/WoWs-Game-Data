@@ -1,7 +1,10 @@
-import os
-import shutil
-import gnu_mo_files as mo
 import json
+import gnu_mo_files as mo
+import shutil
+import os
+import sys
+from wows_gameparams.WoWsGameParams import WoWsGameParams
+sys.path.append('unpack/wows_gameparams')
 
 
 class WoWsUnpack:
@@ -37,6 +40,10 @@ class WoWsUnpack:
         """
         os.system(self._wowsunpack() + ' -I content/*.data')
         print("done unpacking game params")
+        gp = WoWsGameParams('content/GameParams.data')
+        print("decoding game params")
+        gp.decode()
+        print("done decoding game params")
 
     def decodeLanguages(self):
         """
