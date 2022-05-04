@@ -2,3 +2,4 @@ requests
 autopep8
 matplotlib
 gnu-mo-files
+ipykernel

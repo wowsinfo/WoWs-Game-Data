@@ -45,6 +45,13 @@ class WoWsUnpack:
         gp.decode()
         print("done decoding game params")
 
+    def unpackGameIcons(self):
+        """
+        Unpack game icons from the bin folder
+        """
+        os.system(self._wowsunpack() + ' -I gui/*.png')
+        print("done unpacking game icons")
+
     def decodeLanguages(self):
         """
         Decodes the language from global.mo
@@ -74,8 +81,9 @@ if __name__ == "__main__":
         with open('game.path', 'r') as f:
             path = f.read()
         unpack = WoWsUnpack(path)
-        unpack.unpackGameParams()
-        unpack.decodeLanguages()
+        unpack.unpackGameIcons()
+        # unpack.unpackGameParams()
+        # unpack.decodeLanguages()
     else:
         with open('game.path', 'w') as f:
             print("Created game.path")
