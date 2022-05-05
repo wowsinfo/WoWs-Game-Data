@@ -78,6 +78,7 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
     ship_params['region'] = IDS(item['typeinfo']['nation'].upper())
     ship_params['type'] = IDS(item['typeinfo']['species'].upper())
     ship_params['permoflages'] = item['permoflages']
+    ship_params['group'] = item['group']
     # TODO: debug only, to be removed
     ship_params['codeName'] = item['name']
 
@@ -106,6 +107,35 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                 ship_params['speed'] = module['maxSpeed']
                 # tree(module, depth=2, show_value=True)
 
+            if 'AirSupport' in module_key:
+                air_support = {}
+                air_support['name'] = IDS(module['planeName'])
+                air_support['reload'] = module['reloadTime']
+                air_support['range'] = module['maxDist']
+                ship_params['airSupport'] = air_support
+
+            if 'DepthChargeGuns' in module_key:
+                depth_charge = {}
+                depth_charge['reload'] = module['reloadTime']
+                total_bombs = 0
+                for launcher_key in module:
+                    launcher = module[launcher_key]
+                    if not isinstance(launcher, dict):
+                        continue
+
+                    # TODO: just use the first launcher for now, this may change in the future
+                    if total_bombs == 0:
+                        ammo_key = launcher['ammoList'][0]
+                        ammo = params[ammo_key]
+                        depth_charge['damage'] = ammo['alphaDamage']
+
+                    # get each depth charge launcher
+                    total_bombs += launcher['numBombs']
+                total_bombs *= module['numShots']
+                depth_charge['bombs'] = total_bombs
+                depth_charge['groups'] = module['maxPacks']
+                ship_params['depthCharge'] = depth_charge
+
     return {ship_id: ship_params}
 
 
@@ -116,11 +146,12 @@ for key in params_keys:
     # ships
     if item['typeinfo']['type'] == 'Ship':
         ships.update(unpack_ship_params(item, params, lang))
-        if item['typeinfo']['nation'] != 'Events':
-            # battleship with torpedoes
-            # if 'PGSB210' in key:
-            #     print(unpack_ship_params(item, params, lang))
-            pass
+        # if item['typeinfo']['nation'] != 'Events':
+        #     # battleship with torpedoes
+        #     if 'PBSC110' in key:
+        #         write_json(item, 'PBSC110.json')
+        #         print(unpack_ship_params(item, params, lang))
+        #     pass
 
 # save all ships
 print("There are {} ships in the game".format(len(ships)))
