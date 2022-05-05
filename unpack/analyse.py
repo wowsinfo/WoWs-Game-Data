@@ -75,8 +75,11 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
     ship_params['id'] = ship_id
     ship_params['index'] = ship_index
     ship_params['tier'] = item['level']
-    ship_params['region'] = item['typeinfo']['nation']
-    ship_params['type'] = item['typeinfo']['species']
+    ship_params['region'] = IDS(item['typeinfo']['nation'].upper())
+    ship_params['type'] = IDS(item['typeinfo']['species'].upper())
+    ship_params['permoflages'] = item['permoflages']
+    # TODO: debug only, to be removed
+    ship_params['codeName'] = item['name']
 
     # get ShipUpgradeInfo to know all modules of the ship
     ship_upgrade_info = item['ShipUpgradeInfo']
@@ -107,13 +110,19 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
 
 
 # %%
+ships = {}
 for key in params_keys:
     item = params[key]
     # ships
     if item['typeinfo']['type'] == 'Ship':
+        ships.update(unpack_ship_params(item, params, lang))
         if item['typeinfo']['nation'] != 'Events':
             # battleship with torpedoes
-            if 'PGSB210' in key:
-                print(unpack_ship_params(item, params, lang))
+            # if 'PGSB210' in key:
+            #     print(unpack_ship_params(item, params, lang))
+            pass
 
+# save all ships
+print("There are {} ships in the game".format(len(ships)))
+write_json(ships, 'ships.json')
 # %%
