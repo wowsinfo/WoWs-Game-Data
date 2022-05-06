@@ -66,6 +66,50 @@ Put unpack methods here
 """
 
 
+def unpack_air_defense(aura_key: str, air_defense: dict, module: dict):
+    """
+    Write air defense info to air_defense dict
+    """
+    aura = module[aura_key]
+    if not 'Aura' in aura_key:
+        return
+
+    min_distance = aura['minDistance'] / 1000
+    max_distance = aura['maxDistance'] / 1000
+    gun_range = '{} - {}'.format(min_distance, max_distance)
+    if 'Bubbles' in aura_key:
+        bubbles = {}
+        # handle black cloud (bubbles), this deals massive damage
+        inner_bubble_count = aura['innerBubbleCount']
+        outer_bubble_count = aura['outerBubbleCount']
+        bubble_count = '{} + {}'.format(inner_bubble_count, outer_bubble_count)
+        bubbles['count'] = bubble_count
+        bubbles['rof'] = aura['shotDelay']
+        bubbles['range'] = gun_range
+        bubbles['spawnTime'] = aura['shotTravelTime']
+        # value 7 is from WoWsFT, seems to be a fixed value
+        bubbles['damage'] = aura['bubbleDamage'] * 7
+        air_defense['bubbles'] = bubbles
+
+    rate_of_fire = aura['areaDamagePeriod']
+    damage = aura['areaDamage']
+    dps = roundUp(damage / rate_of_fire)
+
+    air_defense_info = {}
+    air_defense_info['range'] = gun_range
+    air_defense_info['hitChance'] = aura['hitChance']
+    air_defense_info['damage'] = damage
+    air_defense_info['rof'] = roundUp(rate_of_fire, digits=2)
+    air_defense_info['dps'] = dps
+
+    if aura_key == 'AuraFar':
+        air_defense['far'] = air_defense_info
+    if aura_key == 'AuraMedium':
+        air_defense['medium'] = air_defense_info
+    if aura_key == 'AuraNear':
+        air_defense['near'] = air_defense_info
+
+
 def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
     # get the structure overall
     # tree(item, depth=2, show_value=True)
@@ -82,7 +126,8 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
     ship_params['tier'] = item['level']
     ship_params['region'] = IDS(item['typeinfo']['nation'].upper())
     ship_params['type'] = IDS(item['typeinfo']['species'].upper())
-    ship_params['permoflages'] = item['permoflages']
+    if (len(item['permoflages']) > 0):
+        ship_params['permoflages'] = item['permoflages']
     ship_params['group'] = item['group']
     # TODO: debug only, to be removed
     ship_params['codeName'] = item['name']
@@ -121,6 +166,7 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
 
         for module_key in current_component:
             module = item[module_key]
+            # TODO: TODO: the key value is not fixed, need to get from ShipUpgradeInfo manually
             # TODO: break down into separate methods later
             if 'Hull' in module_key:
                 ship_params['health'] = module['health']
@@ -154,18 +200,26 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                 )
                 ship_params['mobility'] = mobility
 
+            if 'Artillery' in module_key:
+                artillery = {}
+                ship_params['artillery'] = artillery
+
+                # check air defense
+                for aura_key in module:
+                    unpack_air_defense(aura_key, air_defense, module)
+
             if 'ATBA' in module_key:
-                # secondaries
-                pass
+                secondaries = {}
+                if len(secondaries) > 0:
+                    ship_params['secondaries'] = secondaries
+
+                # check air defense
+                for aura_key in module:
+                    unpack_air_defense(aura_key, air_defense, module)
 
             if 'AirDefense' in module_key:
                 for aura_key in module:
-                    if aura_key == 'AuraFar':
-                        continue
-                    if aura_key == 'AuraMedium':
-                        continue
-                    if aura_key == 'AuraNear':
-                        continue
+                    unpack_air_defense(aura_key, air_defense, module)
 
             if 'AirSupport' in module_key:
                 air_support = {}
@@ -196,7 +250,8 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                 depth_charge['groups'] = module['maxPacks']
                 ship_params['depthCharge'] = depth_charge
 
-    ship_params['airDefense'] = air_defense
+    if len(air_defense) > 0:
+        ship_params['airDefense'] = air_defense
     return {ship_id: ship_params}
 
 
