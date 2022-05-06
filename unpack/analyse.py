@@ -269,24 +269,48 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
     return {ship_id: ship_params}
 
 
+def unpack_achievements(item: dict, key: str) -> dict:
+    """
+    The app will handle icon, achievement name, and description
+    """
+    achievements = {}
+    achievements['type'] = item['battleTypes']
+    achievements['ui'] = item['uiName']
+    achievements['id'] = item['id']
+    achievements['constants'] = item['constants']
+    return {key: achievements}
+
+
+def unpack_language(item: dict, key: str) -> list:
+    """
+    Get everything we need from the language file, return a list of keys
+    """
+    return []
+
+
 # %%
 ships = {}
+achievements = {}
 for key in params_keys:
     item = params[key]
-    # ships
-    if item['typeinfo']['type'] == 'Ship':
+    item_type = item['typeinfo']['type']
+
+    if item_type == 'Ship':
         # battleship with torpedoes
         # if 'PGSB210' in key:
         #     print(unpack_ship_params(item, params, lang))
         #     break
         ships.update(unpack_ship_params(item, params, lang))
-
+    elif item_type == 'Achievement':
+        achievements.update(unpack_achievements(item, key))
 
 # %%
 
 # %%
-# save all ships
+# save everything
 print("There are {} ships in the game".format(len(ships)))
 write_json(ships, 'ships.json')
+print("There are {} achievements in the game".format(len(achievements)))
+write_json(achievements, 'achievements.json')
 
 # %%
