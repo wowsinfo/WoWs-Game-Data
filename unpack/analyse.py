@@ -21,6 +21,10 @@ def write_json(data: dict, filename: str):
         f.write(json_str)
 
 
+def roundUp(num: float, digits: int = 1) -> float:
+    return round(num, digits)
+
+
 def tree(data: any, depth: int = 2, tab: int = 0, show_value: bool = False):
     """
     Show the structure tree of a dict. This is useful when analysing the data.
@@ -105,7 +109,18 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
             if 'Hull' in module_key:
                 ship_params['health'] = module['health']
                 ship_params['speed'] = module['maxSpeed']
-                # tree(module, depth=2, show_value=True)
+                ship_params['turningRadius'] = module['turningRadius']
+                # got the value from WoWsFT
+                ship_params['rudderTime'] = roundUp(
+                    module['rudderTime'] / 1.305
+                )
+                # floodNode contains flood related info
+                flood_nodes = module['floodNodes']
+                flood_probablity = flood_nodes[0][0]
+                torpedo_protecion = 100 - flood_probablity * 3 * 100
+                # not all ships have a torpedo protection
+                if torpedo_protecion >= 1:
+                    ship_params['protection'] = roundUp(torpedo_protecion)
 
             if 'AirSupport' in module_key:
                 air_support = {}
@@ -129,13 +144,12 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                         ammo = params[ammo_key]
                         depth_charge['damage'] = ammo['alphaDamage']
 
-                    # get each depth charge launcher
+                    # accumulate the total number of bombs
                     total_bombs += launcher['numBombs']
                 total_bombs *= module['numShots']
                 depth_charge['bombs'] = total_bombs
                 depth_charge['groups'] = module['maxPacks']
                 ship_params['depthCharge'] = depth_charge
-
     return {ship_id: ship_params}
 
 
@@ -148,12 +162,16 @@ for key in params_keys:
         ships.update(unpack_ship_params(item, params, lang))
         # if item['typeinfo']['nation'] != 'Events':
         #     # battleship with torpedoes
-        #     if 'PBSC110' in key:
-        #         write_json(item, 'PBSC110.json')
+        #     if 'PGSB210' in key:
         #         print(unpack_ship_params(item, params, lang))
         #     pass
 
+
+# %%
+
+# %%
 # save all ships
 print("There are {} ships in the game".format(len(ships)))
 write_json(ships, 'ships.json')
+
 # %%
