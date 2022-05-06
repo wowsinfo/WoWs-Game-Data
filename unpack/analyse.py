@@ -22,6 +22,7 @@ def write_json(data: dict, filename: str):
 
 
 def roundUp(num: float, digits: int = 1) -> float:
+    # TODO: in the future, we may need to keep more digits in case our calculation in app is not accurate
     return round(num, digits)
 
 
@@ -98,6 +99,20 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
             ship_hull = current_module
             break
 
+    # consumables
+    consumables = []
+    ship_abilities = item['ShipAbilities']
+    for ability_key in ship_abilities:
+        ability_slot = ship_abilities[ability_key]['abils']
+        if len(ability_slot) == 0:
+            continue
+        ability_slot = ability_slot[0]
+        consumables.append({'name': ability_slot[0], 'type': ability_slot[1]})
+    ship_params['consumables'] = consumables
+
+    # air defense can be the main battery, secondaries and dedicated air defense guns
+    air_defense = {}
+
     # get everything from the hull
     for component in ship_hull['components']:
         current_component = ship_hull['components'][component]
@@ -106,14 +121,9 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
 
         for module_key in current_component:
             module = item[module_key]
+            # TODO: break down into separate methods later
             if 'Hull' in module_key:
                 ship_params['health'] = module['health']
-                ship_params['speed'] = module['maxSpeed']
-                ship_params['turningRadius'] = module['turningRadius']
-                # got the value from WoWsFT
-                ship_params['rudderTime'] = roundUp(
-                    module['rudderTime'] / 1.305
-                )
                 # floodNode contains flood related info
                 flood_nodes = module['floodNodes']
                 flood_probablity = flood_nodes[0][0]
@@ -121,6 +131,41 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                 # not all ships have a torpedo protection
                 if torpedo_protecion >= 1:
                     ship_params['protection'] = roundUp(torpedo_protecion)
+
+                concealment = {}
+                concealment['visibility'] = roundUp(module['visibilityFactor'])
+                concealment['visibilityPlane'] = roundUp(
+                    module['visibilityFactorByPlane']
+                )
+                # only need max value here, min is always 0
+                # TODO: this value is always the same as visibilityPlane, can be removed
+                visibility_submarine = module['visibilityFactorsBySubmarine']['PERISCOPE']
+                concealment['visibilitySubmarine'] = roundUp(
+                    visibility_submarine
+                )
+                ship_params['concealment'] = concealment
+
+                mobility = {}
+                mobility['speed'] = module['maxSpeed']
+                mobility['turningRadius'] = module['turningRadius']
+                # got the value from WoWsFT
+                mobility['rudderTime'] = roundUp(
+                    module['rudderTime'] / 1.305
+                )
+                ship_params['mobility'] = mobility
+
+            if 'ATBA' in module_key:
+                # secondaries
+                pass
+
+            if 'AirDefense' in module_key:
+                for aura_key in module:
+                    if aura_key == 'AuraFar':
+                        continue
+                    if aura_key == 'AuraMedium':
+                        continue
+                    if aura_key == 'AuraNear':
+                        continue
 
             if 'AirSupport' in module_key:
                 air_support = {}
@@ -150,6 +195,8 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                 depth_charge['bombs'] = total_bombs
                 depth_charge['groups'] = module['maxPacks']
                 ship_params['depthCharge'] = depth_charge
+
+    ship_params['airDefense'] = air_defense
     return {ship_id: ship_params}
 
 
@@ -159,12 +206,11 @@ for key in params_keys:
     item = params[key]
     # ships
     if item['typeinfo']['type'] == 'Ship':
+        # battleship with torpedoes
+        # if 'PGSB210' in key:
+        #     print(unpack_ship_params(item, params, lang))
+        #     break
         ships.update(unpack_ship_params(item, params, lang))
-        # if item['typeinfo']['nation'] != 'Events':
-        #     # battleship with torpedoes
-        #     if 'PGSB210' in key:
-        #         print(unpack_ship_params(item, params, lang))
-        #     pass
 
 
 # %%
