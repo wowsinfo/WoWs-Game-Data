@@ -80,9 +80,10 @@ def unpack_air_defense(aura_key: str, air_defense: dict, module: dict):
     if 'Bubbles' in aura_key:
         bubbles = {}
         # handle black cloud (bubbles), this deals massive damage
-        inner_bubble_count = aura['innerBubbleCount']
-        outer_bubble_count = aura['outerBubbleCount']
-        bubble_count = '{} + {}'.format(inner_bubble_count, outer_bubble_count)
+        inner_bubble_count = int(aura['innerBubbleCount'])
+        outer_bubble_count = int(aura['outerBubbleCount'])
+        bubble_count = '{} + {}'.format(
+            inner_bubble_count, outer_bubble_count)
         bubbles['count'] = bubble_count
         bubbles['rof'] = aura['shotDelay']
         bubbles['range'] = gun_range
@@ -182,17 +183,27 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                     ship_params['protection'] = roundUp(torpedo_protecion)
 
                 concealment = {}
-                concealment['visibility'] = roundUp(module['visibilityFactor'])
-                concealment['visibilityPlane'] = roundUp(
-                    module['visibilityFactorByPlane']
-                )
+                visibility = module['visibilityFactor']
+                visibility_plane = module['visibilityFactorByPlane']
+                fire_coeff = module['visibilityCoefFire']
+                fire_coeff_plane = module['visibilityCoefFireByPlane']
                 # only need max value here, min is always 0
                 # TODO: this value is always the same as visibilityPlane, can be removed
                 visibility_submarine = module['visibilityFactorsBySubmarine']['PERISCOPE']
-                concealment['visibilitySubmarine'] = roundUp(
+                concealment['sea'] = roundUp(visibility)
+                concealment['plane'] = roundUp(visibility_plane)
+                concealment['seaInSmoke'] = roundUp(
+                    module['visibilityCoefGKInSmoke']
+                )
+                concealment['planeInSmoke'] = roundUp(
+                    module['visibilityCoefGKByPlane']
+                )
+                concealment['submarine'] = roundUp(
                     visibility_submarine
                 )
-                ship_params['concealment'] = concealment
+                concealment['seaFireCoeff'] = fire_coeff
+                concealment['planeFireCoeff'] = fire_coeff_plane
+                ship_params['visibility'] = concealment
 
                 mobility = {}
                 mobility['speed'] = module['maxSpeed']
