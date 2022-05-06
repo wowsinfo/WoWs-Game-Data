@@ -148,11 +148,14 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
     consumables = []
     ship_abilities = item['ShipAbilities']
     for ability_key in ship_abilities:
-        ability_slot = ship_abilities[ability_key]['abils']
-        if len(ability_slot) == 0:
+        ability_slot = ship_abilities[ability_key]
+        abilities = ability_slot['abils']
+        if len(abilities) == 0:
             continue
-        ability_slot = ability_slot[0]
-        consumables.append({'name': ability_slot[0], 'type': ability_slot[1]})
+        ability_list = []
+        for a in abilities:
+            ability_list.append({'name': a[0], 'type': a[1]})
+        consumables.append(ability_list)
     ship_params['consumables'] = consumables
 
     # air defense can be the main battery, secondaries and dedicated air defense guns
@@ -225,7 +228,7 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
                 air_support = {}
                 air_support['name'] = IDS(module['planeName'])
                 air_support['reload'] = module['reloadTime']
-                air_support['range'] = module['maxDist']
+                air_support['range'] = roundUp(module['maxDist'] / 1000)
                 ship_params['airSupport'] = air_support
 
             if 'DepthChargeGuns' in module_key:
