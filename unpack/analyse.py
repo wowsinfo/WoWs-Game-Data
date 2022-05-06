@@ -281,6 +281,32 @@ def unpack_achievements(item: dict, key: str) -> dict:
     return {key: achievements}
 
 
+def unpack_exteriors(item: dict, key: str) -> dict:
+    exterior = {}
+
+    exterior['id'] = item['id']
+    costCR = item['costCR']
+    if (costCR >= 0):
+        exterior['costCR'] = costCR
+    costGold = item['costGold']
+    if (costGold >= 0):
+        exterior['costGold'] = costGold
+    exterior['modifiers'] = item['modifiers']
+    # exterior['name'] = item['name']
+    # exterior['name'] = item['name']
+    # exterior['name'] = item['name']
+    # exterior['name'] = item['name']
+    # exterior['name'] = item['name']
+    return {key: exterior}
+
+
+def unpack_modernization(item: dict, key: str) -> dict:
+    modernization = {}
+    modernization['id'] = item['id']
+    modernization['slot'] = item['slot']
+    return {key: modernization}
+
+
 def unpack_language(item: dict, key: str) -> list:
     """
     Get everything we need from the language file, return a list of keys
@@ -291,9 +317,13 @@ def unpack_language(item: dict, key: str) -> list:
 # %%
 ships = {}
 achievements = {}
+exteriors = {}
+modernizations = {}
 for key in params_keys:
     item = params[key]
     item_type = item['typeinfo']['type']
+    item_nation = item['typeinfo']['nation']
+    item_species = item['typeinfo']['species']
 
     if item_type == 'Ship':
         # battleship with torpedoes
@@ -303,6 +333,11 @@ for key in params_keys:
         ships.update(unpack_ship_params(item, params, lang))
     elif item_type == 'Achievement':
         achievements.update(unpack_achievements(item, key))
+    elif item_type == 'Exterior':
+        tree(item, show_value=True)
+        exteriors.update(unpack_exteriors(item, key))
+    elif item_type == 'Modernization':
+        modernizations.update(unpack_modernization(item, key))
 
 # %%
 
@@ -312,5 +347,10 @@ print("There are {} ships in the game".format(len(ships)))
 write_json(ships, 'ships.json')
 print("There are {} achievements in the game".format(len(achievements)))
 write_json(achievements, 'achievements.json')
+print("There are {} exteriors in the game".format(len(exteriors)))
+write_json(exteriors, 'exteriors.json')
+print("There are {} modernizations in the game".format(len(modernizations)))
+write_json(modernizations, 'modernizations.json')
+
 
 # %%
