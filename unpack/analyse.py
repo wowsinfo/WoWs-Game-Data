@@ -3,6 +3,7 @@
 import required modules and helper methods
 """
 import json
+import os
 
 
 def read_json(filename: str) -> dict:
@@ -19,6 +20,13 @@ def write_json(data: dict, filename: str):
     with open(filename, 'w') as f:
         json_str = json.dumps(data, ensure_ascii=False)
         f.write(json_str)
+
+
+def list_dir(dir: str) -> list:
+    """
+    List all files in a directory
+    """
+    return os.listdir(dir)
 
 
 def roundUp(num: float, digits: int = 1) -> float:
@@ -336,6 +344,23 @@ def unpack_modernization(item: dict, params: dict) -> dict:
     return {key: modernization}
 
 
+def unpack_game_map() -> dict:
+    """
+    Unpack the game map
+    """
+    game_map = {}
+    for f in list_dir('spaces'):
+        if os.path.exists('spaces/{}/minimap_water.png'.format(f)):
+            # valid map
+            curr_map = {}
+            map_name = f.upper()
+            lang_name = 'IDS_SPACES/{}'.format(map_name)
+            curr_map['name'] = lang_name
+            curr_map['description'] = lang_name + '_DESCR'
+            game_map[map_name] = curr_map
+    return game_map
+
+
 def unpack_language(item: dict, key: str) -> list:
     """
     Get everything we need from the language file, return a list of keys
@@ -381,5 +406,9 @@ print("There are {} exteriors in the game".format(len(exteriors)))
 write_json(exteriors, 'exteriors.json')
 print("There are {} modernizations in the game".format(len(modernizations)))
 write_json(modernizations, 'modernizations.json')
+
+game_maps = unpack_game_map()
+print("There are {} game maps in the game".format(len(game_maps)))
+write_json(game_maps, 'game_maps.json')
 
 # %%
