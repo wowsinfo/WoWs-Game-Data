@@ -290,6 +290,9 @@ def unpack_achievements(item: dict, key: str) -> dict:
 
 
 def unpack_exteriors(item: dict, key: str) -> dict:
+    """
+    Unpack flags, camouflage and permoflages
+    """
     exterior = {}
 
     exterior['id'] = item['id']
@@ -311,6 +314,9 @@ def unpack_exteriors(item: dict, key: str) -> dict:
 
 
 def unpack_modernization(item: dict, params: dict) -> dict:
+    """
+    Unpack ship upgrades
+    """
     slot = item['slot']
     if (slot < 0):
         return
@@ -344,6 +350,130 @@ def unpack_modernization(item: dict, params: dict) -> dict:
     if len(excludes_id) > 0:
         modernization['excludes'] = excludes_id
     return {key: modernization}
+
+
+def unpack_weapons(item: dict, key: str) -> dict:
+    """
+    Unpack all weapons (anti-air, main battery, seondaries, torpedoes and more)
+    """
+    weapon = {}
+    weapon_type = item['typeinfo']['species']
+    weapon['type'] = weapon_type
+    if 'ammoList' in item:
+        weapon['ammo'] = item['ammoList']
+
+    if weapon_type == 'DCharge':
+        # depth charge
+        pass
+    elif weapon_type == 'Torpedo':
+        # torpedoes
+        pass
+    elif weapon_type == 'AAircraft':
+        # anti-aircraft
+        pass
+    elif weapon_type == 'Main':
+        # main battery
+        pass
+    elif weapon_type == 'Secondary':
+        # secondaries
+        pass
+    else:
+        # unknown weapon type
+        raise Exception('Unknown weapon type: {}'.format(weapon_type))
+    return {key: weapon}
+
+
+def unpack_projectiles(item: dict, key: str) -> dict:
+    """
+    Unpack all projectiles, like shells, torpedoes, and more. This is launched, fired or emitted? from a weapon.
+    """
+    projectile = {}
+    projectile_type = item['typeinfo']['species']
+    projectile['type'] = projectile_type
+    projectile_nation = item['typeinfo']['nation']
+    projectile['nation'] = projectile_nation
+
+    if projectile_type == 'Torpedo':
+        projectile['speed'] = item['speed']
+        projectile['visibility'] = item['visibilityFactor']
+        # TODO: divide by 33.3333 to become the real value here or in app?
+        projectile['range'] = item['maxDist']
+        projectile['floodChance'] = item['uwCritical'] * 100
+        projectile['alphaDamage'] = item['alphaDamage']
+        projectile['damage'] = item['damage']
+        projectile['deepWater'] = item['isDeepWater']
+        # deep water torpedoes cannot hit certain classes of ships
+        ignore_classes = item['ignoreClasses']
+        if len(ignore_classes) > 0:
+            projectile['ignoreClasses'] = ignore_classes
+    elif projectile_type == 'Artillery':
+        ammo_type = item['ammoType']
+        projectile['ammoType'] = ammo_type
+        projectile['speed'] = item['bulletSpeed']
+
+        # HE & SAP penetration value
+        pen_cs = item['alphaPiercingCS']
+        if pen_cs > 0:
+            projectile['penSAP'] = pen_cs
+        pen_he = item['alphaPiercingHE']
+        if pen_he > 0:
+            projectile['penHE'] = pen_he
+
+        projectile['damage'] = item['alphaDamage']
+        burn_chance = item['burnProb']
+        if burn_chance > 0:
+            # AP and SAP cannot cause fires
+            projectile['burnChance'] = burn_chance
+
+        # ricochet angle
+        ricochet_angle = item['bulletRicochetAt']
+        if ricochet_angle <= 90:
+            projectile['ricochetAngle'] = ricochet_angle
+            projectile['ricochetAlways'] = item['bulletAlwaysRicochetAt']
+
+        diameter = item['bulletDiametr']
+        projectile['diameter'] = diameter
+        if ammo_type == 'AP':
+            ap_info = {}
+            ap_info['diameter'] = diameter
+            # get values needed to calculate the penetration of AP
+            ap_info['weight'] = item['bulletMass']
+            ap_info['drag'] = item['bulletAirDrag']
+            ap_info['velocity'] = item['bulletSpeed']
+            ap_info['krupp'] = item['bulletKrupp']
+            projectile['ap'] = ap_info
+            # caliber is not changing, and overmatch should ignore decimals & no rounding because 8.9 is the same as 8
+            overmatch = int(diameter * 1000 / 14.3)
+            projectile['overmatch'] = overmatch
+            projectile['fuseTime'] = item['bulletDetonator']
+    elif projectile_type == 'Bomb':
+        # bombs
+        pass
+    elif projectile_type == 'SkipBomb':
+        # skip bombs
+        pass
+    elif projectile_type == 'Rocket':
+        # rockets
+        pass
+    elif projectile_type == 'DepthCharge':
+        # depth charges
+        pass
+    elif projectile_type == 'Mine':
+        # mines?
+        pass
+    elif projectile_type == 'Laser':
+        # lasers???
+        pass
+    elif projectile_type == 'PlaneTracer':
+        # plane tracers?
+        pass
+    elif projectile_type == 'Wave':
+        # waves???
+        pass
+    else:
+        # unknown projectile type
+        raise Exception('Unknown projectile type: {}'.format(projectile_type))
+    return {key: projectile}
 
 
 def unpack_game_map() -> dict:
@@ -386,6 +516,8 @@ achievements = {}
 exteriors = {}
 modernizations = {}
 skills = {}
+weapons = {}
+projectiles = {}
 for key in params_keys:
     item = params[key]
     item_type = item['typeinfo']['type']
@@ -410,6 +542,10 @@ for key in params_keys:
         # save all commander skills once
         if skills == {}:
             skills = item['Skills']
+    elif item_type == 'Gun':
+        weapons.update(unpack_weapons(item, key))
+    elif item_type == 'Projectile':
+        projectiles.update(unpack_projectiles(item, key))
 
 # %%
 
@@ -423,6 +559,10 @@ print("There are {} exteriors in the game".format(len(exteriors)))
 write_json(exteriors, 'exteriors.json')
 print("There are {} modernizations in the game".format(len(modernizations)))
 write_json(modernizations, 'modernizations.json')
+print("There are {} weapons in the game".format(len(weapons)))
+write_json(weapons, 'weapons.json')
+print("There are {} projectiles in the game".format(len(projectiles)))
+write_json(projectiles, 'projectiles.json')
 
 game_maps = unpack_game_map()
 print("There are {} game maps in the game".format(len(game_maps)))
