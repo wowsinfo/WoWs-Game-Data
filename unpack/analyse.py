@@ -383,6 +383,53 @@ def unpack_weapons(item: dict, key: str) -> dict:
     return {key: weapon}
 
 
+def unpack_shells(item: dict) -> dict:
+    """
+    Unpack shells, HE & AP shells, HE & AP bombs and more
+    """
+    projectile = {}
+    ammo_type = item['ammoType']
+    projectile['ammoType'] = ammo_type
+    projectile['speed'] = item['bulletSpeed']
+
+    # HE & SAP penetration value
+    pen_cs = item['alphaPiercingCS']
+    if pen_cs > 0:
+        projectile['penSAP'] = pen_cs
+    pen_he = item['alphaPiercingHE']
+    if pen_he > 0:
+        projectile['penHE'] = pen_he
+
+    projectile['damage'] = item['alphaDamage']
+    burn_chance = item['burnProb']
+    if burn_chance > 0:
+        # AP and SAP cannot cause fires
+        projectile['burnChance'] = burn_chance
+
+    # ricochet angle
+    ricochet_angle = item['bulletRicochetAt']
+    if ricochet_angle <= 90:
+        projectile['ricochetAngle'] = ricochet_angle
+        projectile['ricochetAlways'] = item['bulletAlwaysRicochetAt']
+
+    diameter = item['bulletDiametr']
+    projectile['diameter'] = diameter
+    if ammo_type == 'AP':
+        ap_info = {}
+        ap_info['diameter'] = diameter
+        # get values needed to calculate the penetration of AP
+        ap_info['weight'] = item['bulletMass']
+        ap_info['drag'] = item['bulletAirDrag']
+        ap_info['velocity'] = item['bulletSpeed']
+        ap_info['krupp'] = item['bulletKrupp']
+        projectile['ap'] = ap_info
+        # caliber is not changing, and overmatch should ignore decimals & no rounding because 8.9 is the same as 8
+        overmatch = int(diameter * 1000 / 14.3)
+        projectile['overmatch'] = overmatch
+        projectile['fuseTime'] = item['bulletDetonator']
+    return projectile
+
+
 def unpack_projectiles(item: dict, key: str) -> dict:
     """
     Unpack all projectiles, like shells, torpedoes, and more. This is launched, fired or emitted? from a weapon.
@@ -407,68 +454,30 @@ def unpack_projectiles(item: dict, key: str) -> dict:
         if len(ignore_classes) > 0:
             projectile['ignoreClasses'] = ignore_classes
     elif projectile_type == 'Artillery':
-        ammo_type = item['ammoType']
-        projectile['ammoType'] = ammo_type
-        projectile['speed'] = item['bulletSpeed']
-
-        # HE & SAP penetration value
-        pen_cs = item['alphaPiercingCS']
-        if pen_cs > 0:
-            projectile['penSAP'] = pen_cs
-        pen_he = item['alphaPiercingHE']
-        if pen_he > 0:
-            projectile['penHE'] = pen_he
-
-        projectile['damage'] = item['alphaDamage']
-        burn_chance = item['burnProb']
-        if burn_chance > 0:
-            # AP and SAP cannot cause fires
-            projectile['burnChance'] = burn_chance
-
-        # ricochet angle
-        ricochet_angle = item['bulletRicochetAt']
-        if ricochet_angle <= 90:
-            projectile['ricochetAngle'] = ricochet_angle
-            projectile['ricochetAlways'] = item['bulletAlwaysRicochetAt']
-
-        diameter = item['bulletDiametr']
-        projectile['diameter'] = diameter
-        if ammo_type == 'AP':
-            ap_info = {}
-            ap_info['diameter'] = diameter
-            # get values needed to calculate the penetration of AP
-            ap_info['weight'] = item['bulletMass']
-            ap_info['drag'] = item['bulletAirDrag']
-            ap_info['velocity'] = item['bulletSpeed']
-            ap_info['krupp'] = item['bulletKrupp']
-            projectile['ap'] = ap_info
-            # caliber is not changing, and overmatch should ignore decimals & no rounding because 8.9 is the same as 8
-            overmatch = int(diameter * 1000 / 14.3)
-            projectile['overmatch'] = overmatch
-            projectile['fuseTime'] = item['bulletDetonator']
+        projectile.update(unpack_shells(item))
     elif projectile_type == 'Bomb':
-        # bombs
-        pass
+        # TODO: need to consider what we want from bomb
+        projectile.update(unpack_shells(item))
     elif projectile_type == 'SkipBomb':
-        # skip bombs
-        pass
+        # TODO: same as above
+        projectile.update(unpack_shells(item))
     elif projectile_type == 'Rocket':
-        # rockets
-        pass
+        # TODO: same as above
+        projectile.update(unpack_shells(item))
     elif projectile_type == 'DepthCharge':
-        # depth charges
+        # TODO: do this if needed
         pass
     elif projectile_type == 'Mine':
-        # mines?
+        # TODO: we don't do this for now
         pass
     elif projectile_type == 'Laser':
-        # lasers???
+        # TODO: we don't do this for now
         pass
     elif projectile_type == 'PlaneTracer':
-        # plane tracers?
+        # TODO: we don't do this for now
         pass
     elif projectile_type == 'Wave':
-        # waves???
+        # TODO: we don't do this for now
         pass
     else:
         # unknown projectile type
