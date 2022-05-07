@@ -300,10 +300,39 @@ def unpack_exteriors(item: dict, key: str) -> dict:
     return {key: exterior}
 
 
-def unpack_modernization(item: dict, key: str) -> dict:
+def unpack_modernization(item: dict, params: dict) -> dict:
+    slot = item['slot']
+    if (slot < 0):
+        return
+
     modernization = {}
+    modernization['slot'] = slot
     modernization['id'] = item['id']
-    modernization['slot'] = item['slot']
+    if len(item['shiplevel']) > 0:
+        modernization['level'] = item['shiplevel']
+    if len(item['shiptype']) > 0:
+        modernization['type'] = item['shiptype']
+    if len(item['nation']) > 0:
+        modernization['nation'] = item['nation']
+    modernization['modifiers'] = item['modifiers']
+
+    ships = item['ships']
+    ships_id = []
+    for ship in ships:
+        if not ship in params:
+            continue
+        ships_id.append(params[ship]['id'])
+    if len(ships_id) > 0:
+        modernization['ships'] = ships_id
+
+    excludes = item['excludes']
+    excludes_id = []
+    for exclude in excludes:
+        if not exclude in params:
+            continue
+        excludes_id.append(params[exclude]['id'])
+    if len(excludes_id) > 0:
+        modernization['excludes'] = excludes_id
     return {key: modernization}
 
 
@@ -334,10 +363,11 @@ for key in params_keys:
     elif item_type == 'Achievement':
         achievements.update(unpack_achievements(item, key))
     elif item_type == 'Exterior':
-        tree(item, show_value=True)
         exteriors.update(unpack_exteriors(item, key))
     elif item_type == 'Modernization':
-        modernizations.update(unpack_modernization(item, key))
+        modernization = unpack_modernization(item, params)
+        if modernization != None:
+            modernizations.update(modernization)
 
 # %%
 
@@ -351,6 +381,5 @@ print("There are {} exteriors in the game".format(len(exteriors)))
 write_json(exteriors, 'exteriors.json')
 print("There are {} modernizations in the game".format(len(modernizations)))
 write_json(modernizations, 'modernizations.json')
-
 
 # %%
