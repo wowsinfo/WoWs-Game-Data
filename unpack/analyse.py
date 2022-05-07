@@ -119,7 +119,7 @@ def unpack_air_defense(aura_key: str, air_defense: dict, module: dict):
         air_defense['near'] = air_defense_info
 
 
-def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
+def unpack_ship_params(item: dict, params: dict) -> dict:
     # get the structure overall
     # tree(item, depth=2, show_value=True)
     ship_params = {}
@@ -141,13 +141,15 @@ def unpack_ship_params(item: dict, params: dict, lang: dict) -> dict:
     # TODO: debug only, to be removed
     ship_params['codeName'] = item['name']
 
-    # get ShipUpgradeInfo to know all modules of the ship
+    # ShipUpgradeInfo is the key, simply relying on module_key is not reliable
     ship_upgrade_info = item['ShipUpgradeInfo']
     ship_params['costXP'] = ship_upgrade_info['costXP']
     ship_params['costGold'] = ship_upgrade_info['costGold']
     ship_params['costCR'] = ship_upgrade_info['costCR']
     for module in ship_upgrade_info:
         current_module = ship_upgrade_info[module]
+        module_type = current_module['ucType']
+
         # find the _Hull module
         if current_module['ucType'] == '_Hull':
             ship_hull = current_module
@@ -534,11 +536,11 @@ for key in params_keys:
     item_species = item['typeinfo']['species']
 
     if item_type == 'Ship':
-        # battleship with torpedoes
-        # if 'PGSB210' in key:
-        #     print(unpack_ship_params(item, params, lang))
+        # if 'PJSD012' in key:
+        #     write_json(item, 'shimakaze.json')
+        #     # print(unpack_ship_params(item, params))
         #     break
-        ships.update(unpack_ship_params(item, params, lang))
+        ships.update(unpack_ship_params(item, params))
     elif item_type == 'Achievement':
         achievements.update(unpack_achievements(item, key))
     elif item_type == 'Exterior':
