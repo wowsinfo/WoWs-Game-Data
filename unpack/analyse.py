@@ -148,12 +148,41 @@ def unpack_ship_params(item: dict, params: dict) -> dict:
     ship_params['costCR'] = ship_upgrade_info['costCR']
     for module in ship_upgrade_info:
         current_module = ship_upgrade_info[module]
-        module_type = current_module['ucType']
+        if not isinstance(current_module, dict):
+            continue
 
-        # find the _Hull module
-        if current_module['ucType'] == '_Hull':
+        module_type = current_module['ucType']
+        if module_type == '_Hull':
             ship_hull = current_module
-            break
+        elif module_type == '_Artillery':
+            pass
+        elif module_type == '_Engine':
+            pass
+        elif module_type == '_Suo':
+            pass
+        elif module_type == '_Torpedoes':
+            pass
+        elif module_type == '_TorpedoBomber':
+            pass
+        elif module_type == '_DiveBomber':
+            pass
+        elif module_type == '_FlightControl':
+            pass
+        elif module_type == '_Fighter':
+            pass
+        elif module_type == '_SkipBomber':
+            pass
+        elif module_type == '_Sonar':
+            pass
+        elif module_type == '_Abilities':
+            # this is events only I think
+            pass
+        elif module_type == '_PrimaryWeapons':
+            pass
+        elif module_type == '_SecondaryWeapons':
+            pass
+        else:
+            raise Exception('Unknown module type: {}'.format(module_type))
 
     # consumables
     consumables = []
@@ -358,6 +387,7 @@ def unpack_weapons(item: dict, key: str) -> dict:
     """
     Unpack all weapons (anti-air, main battery, seondaries, torpedoes and more)
     """
+    # TODO: to be removed because this is included in the ship, not sure if this is needed at all.
     weapon = {}
     weapon_type = item['typeinfo']['species']
     weapon['type'] = weapon_type
@@ -522,6 +552,7 @@ def unpack_language(item: dict, key: str) -> list:
 
 
 # %%
+# TODO: make this a function when everything is done
 ships = {}
 achievements = {}
 exteriors = {}
@@ -584,3 +615,8 @@ print("There are {} commander skills in the game".format(len(commander_skills)))
 write_json(commander_skills, 'commander_skills.json')
 
 # %%
+
+# %%
+if __name__ == '__main__':
+    # TODO: add function call here
+    pass
