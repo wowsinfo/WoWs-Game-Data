@@ -363,6 +363,16 @@ def unpack_game_map() -> dict:
     return game_map
 
 
+def unpack_commander_skills(item: dict) -> dict:
+    """
+    Unpack the commander skills
+    """
+    skills = {}
+    for key in item:
+        skills[key] = item[key]
+    return skills
+
+
 def unpack_language(item: dict, key: str) -> list:
     """
     Get everything we need from the language file, return a list of keys
@@ -375,6 +385,7 @@ ships = {}
 achievements = {}
 exteriors = {}
 modernizations = {}
+skills = {}
 for key in params_keys:
     item = params[key]
     item_type = item['typeinfo']['type']
@@ -395,6 +406,10 @@ for key in params_keys:
         modernization = unpack_modernization(item, params)
         if modernization != None:
             modernizations.update(modernization)
+    elif item_type == 'Crew':
+        # save all commander skills once
+        if skills == {}:
+            skills = item['Skills']
 
 # %%
 
@@ -412,5 +427,9 @@ write_json(modernizations, 'modernizations.json')
 game_maps = unpack_game_map()
 print("There are {} game maps in the game".format(len(game_maps)))
 write_json(game_maps, 'game_maps.json')
+
+commander_skills = unpack_commander_skills(skills)
+print("There are {} commander skills in the game".format(len(commander_skills)))
+write_json(commander_skills, 'commander_skills.json')
 
 # %%
