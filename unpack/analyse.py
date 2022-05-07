@@ -299,7 +299,9 @@ def unpack_exteriors(item: dict, key: str) -> dict:
     costGold = item['costGold']
     if (costGold >= 0):
         exterior['costGold'] = costGold
-    exterior['modifiers'] = item['modifiers']
+    if len(item['modifiers']) > 0:
+        exterior['modifiers'] = item['modifiers']
+    exterior['type'] = item['typeinfo']['species']
     # exterior['name'] = item['name']
     # exterior['name'] = item['name']
     # exterior['name'] = item['name']
