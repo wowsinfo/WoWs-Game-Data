@@ -293,7 +293,14 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
         pinger = {}
         pinger['reload'] = module['waveReloadTime']
         pinger['range'] = module['waveDistance']
-        pinger['lifeTime'] = module['waveHitLifeTime']
+        sectors = module['sectorParams']
+        if len(sectors) != 2:
+            raise ValueError('pinger has more than 2 sectors')
+
+        pinger['lifeTime1'] = sectors[0]['lifetime']
+        pinger['lifeTime2'] = sectors[1]['lifetime']
+        # TODO: taking the first value for now, this is metre per second
+        pinger['speed'] = module['waveParams'][0]['waveSpeed'][0]
         ship_components.update(pinger)
     elif 'engine' in module_type:
         # TODO: not sure what this does
@@ -721,8 +728,8 @@ for key in params_keys:
     item_species = item['typeinfo']['species']
 
     if item_type == 'Ship':
-        # if 'PJSD012' in key:
-        #     write_json(item, 'shimakaze.json')
+        # if 'PGSS108' in key:
+        #     write_json(item, 'u190.json')
         #     # print(unpack_ship_params(item, params))
         #     break
         ships.update(unpack_ship_params(item, params))
