@@ -172,27 +172,71 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
         ship_components['mobility'] = mobility
     elif 'artillery' in module_type:
         artillery = {}
-        ship_components['artillery'] = artillery
+        artillery['range'] = module['maxDist']
+        artillery['sigma'] = module['sigmaCount']
+
+        guns = []
+        for gun_key in module:
+            if not 'HP' in gun_key:
+                continue
+
+            # check each gun
+            gun_module = module[gun_key]
+            if not isinstance(gun_module, dict):
+                raise Exception('gun_module is not a dict')
+
+            # can share with torpedoes
+            current_gun = {}
+            current_gun['reload'] = gun_module['shotDelay']
+            current_gun['rotation'] = gun_module['rotationSpeed'][0]
+            # TODO: count should be int, share with torpedoes
+            current_gun['count'] = gun_module['numBarrels']
+            current_gun['ammo'] = gun_module['ammoList']
+            guns.append(current_gun)
+        artillery['guns'] = guns
+        ship_components.update(artillery)
 
         # check air defense
         for aura_key in module:
             unpack_air_defense(aura_key, air_defense, module)
     elif 'atba' in module_type:
         secondaries = {}
-        if len(secondaries) > 0:
-            ship_components['secondaries'] = secondaries
+        secondaries['range'] = module['maxDist']
+        secondaries['sigma'] = module['sigmaCount']
+
+        guns = []
+        for gun_key in module:
+            if not 'HP' in gun_key:
+                continue
+
+            # check each gun
+            gun_module = module[gun_key]
+            if not isinstance(gun_module, dict):
+                raise Exception('gun_module is not a dict')
+
+            # can share with torpedoes
+            current_gun = {}
+            current_gun['reload'] = gun_module['shotDelay']
+            current_gun['rotation'] = gun_module['rotationSpeed'][0]
+            # TODO: count should be int, share with torpedoes
+            current_gun['count'] = gun_module['numBarrels']
+            current_gun['ammo'] = gun_module['ammoList']
+            guns.append(current_gun)
+        secondaries['guns'] = guns
+        ship_components.update(secondaries)
 
         # check air defense
         for aura_key in module:
             unpack_air_defense(aura_key, air_defense, module)
     elif 'airDefense' in module_type:
-        # TODO: air defense is never changes, but we shouldn't assume that this won't change
+        # TODO: air defense can change, need to consider this
         for aura_key in module:
             unpack_air_defense(aura_key, air_defense, module)
     elif 'airSupport' in module_type:
         air_support = {}
         air_support['name'] = IDS(module['planeName'])
         air_support['reload'] = module['reloadTime']
+        air_support['bombs'] = module['chargesNum']
         air_support['range'] = roundUp(
             module['maxDist'] / 1000)
         ship_components['airSupport'] = air_support
@@ -219,6 +263,7 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
     elif 'airArmament' in module_type:
         pass
     elif 'radars' in module_type:
+        # TODO: this might be the radar on the ship, not the radar consumable
         pass
     elif 'torpedoes' in module_type:
         torpedo = {}
