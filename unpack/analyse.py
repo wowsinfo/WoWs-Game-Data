@@ -707,8 +707,49 @@ def unpack_aircrafts(item: dict, key: str) -> dict:
     aircraft = {}
     aircraft_type = item['typeinfo']['species']
     aircraft['type'] = aircraft_type
-    aircraft_nation = item['typeinfo']['nation']
-    aircraft['nation'] = aircraft_nation
+    aircraft['nation'] = item['typeinfo']['nation']
+
+    if aircraft_type == 'Fighter':
+        hangarSettings = item['hangarSettings']
+        max_aircraft = hangarSettings['maxValue']
+        aircraft['health'] = item['maxHealth']
+        aircraft['totalPlanes'] = item['numPlanesInSquadron']
+        aircraft['visibility'] = item['visibilityFactor']
+        aircraft['speed'] = item['speedMoveWithBomb']
+        if max_aircraft > 0:
+            rocket = {}
+            # this is actually rockets
+            rocket['restoreTime'] = hangarSettings['timeToRestore']
+            rocket['maxAircraft'] = max_aircraft
+
+            rocket['attacker'] = item['attackerSize']
+            rocket['rocketCount'] = item['attackCount']
+            rocket['cooldown'] = item['attackCooldown']
+            rocket['minSpeed'] = item['speedMin']
+            rocket['maxSpeed'] = item['speedMax']
+
+            # reference from WoWsFT
+            boost_time = item['maxForsageAmount']
+            rocket['boostTime'] = boost_time
+            rocket['boostReload'] = boost_time / item['forsageRegeneration']
+            rocket['bombName'] = item['bombName']
+            aircraft['rocket'] = rocket
+    elif aircraft_type == 'Bomber':
+        pass
+    elif aircraft_type == 'Skip':
+        pass
+    elif aircraft_type == 'Scout':
+        pass
+    elif aircraft_type == 'Dive':
+        pass
+    elif aircraft_type == 'Airship':
+        # TODO: do this if needed
+        pass
+    elif aircraft_type == 'Auxiliary':
+        # TODO: not doing this for now
+        pass
+    else:
+        raise Exception('Unknown aircraft type: {}'.format(aircraft_type))
     return {key: aircraft}
 
 
@@ -762,8 +803,8 @@ for key in params_keys:
     item_nation = item['typeinfo']['nation']
     item_species = item['typeinfo']['species']
 
-    # if 'PBAF110_Audacious_stock' in key:
-    #     write_json(item, 'PBAF110_Audacious_stock.json')
+    # if 'PBAF108_Implacable_stock' in key:
+    #     write_json(item, 'PBAF108_Implacable_stock.json')
     #     # print(unpack_ship_params(item, params))
     #     break
 
