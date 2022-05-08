@@ -208,8 +208,7 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
             # TODO: just use the first launcher for now, this may change in the future
             if total_bombs == 0:
                 ammo_key = launcher['ammoList'][0]
-                ammo = params[ammo_key]
-                depth_charge['damage'] = ammo['alphaDamage']
+                depth_charge['ammo'] = ammo_key
 
             # accumulate the total number of bombs
             total_bombs += launcher['numBombs']
@@ -595,7 +594,9 @@ def unpack_projectiles(item: dict, key: str) -> dict:
         # TODO: same as above
         projectile.update(unpack_shells(item))
     elif projectile_type == 'DepthCharge':
-        # TODO: do this if needed
+        projectile['damage'] = item['alphaDamage']
+        projectile['burnChance'] = item['burnProb']
+        projectile['floodChance'] = item['uwCritical'] * 100
         pass
     elif projectile_type == 'Mine':
         # TODO: we don't do this for now
