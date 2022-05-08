@@ -85,17 +85,15 @@ def unpack_air_defense(aura_key: str, air_defense: dict, module: dict):
 
     min_distance = aura['minDistance'] / 1000
     max_distance = aura['maxDistance'] / 1000
-    gun_range = '{} - {}'.format(min_distance, max_distance)
+
     if 'Bubbles' in aura_key:
         bubbles = {}
         # handle black cloud (bubbles), this deals massive damage
-        inner_bubble_count = int(aura['innerBubbleCount'])
-        outer_bubble_count = int(aura['outerBubbleCount'])
-        bubble_count = '{} + {}'.format(
-            inner_bubble_count, outer_bubble_count)
-        bubbles['count'] = bubble_count
+        bubbles['inner'] = int(aura['innerBubbleCount'])
+        bubbles['outer'] = int(aura['outerBubbleCount'])
         bubbles['rof'] = aura['shotDelay']
-        bubbles['range'] = gun_range
+        bubbles['minRange'] = min_distance
+        bubbles['maxRange'] = max_distance
         bubbles['spawnTime'] = aura['shotTravelTime']
         # value 7 is from WoWsFT, seems to be a fixed value
         bubbles['damage'] = aura['bubbleDamage'] * 7
@@ -106,7 +104,8 @@ def unpack_air_defense(aura_key: str, air_defense: dict, module: dict):
     dps = roundUp(damage / rate_of_fire)
 
     air_defense_info = {}
-    air_defense_info['range'] = gun_range
+    air_defense_info['minRange'] = min_distance
+    air_defense_info['maxRange'] = max_distance
     air_defense_info['hitChance'] = aura['hitChance']
     air_defense_info['damage'] = damage
     air_defense_info['rof'] = roundUp(rate_of_fire, digits=2)
@@ -120,114 +119,149 @@ def unpack_air_defense(aura_key: str, air_defense: dict, module: dict):
         air_defense['near'] = air_defense_info
 
 
-def unpack_ship_components(item: dict, module_type: str, ship: dict, air_defense: dict) -> dict:
+def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_defense: dict) -> dict:
     # TODO: how to air defense here??
     """
     Unpack the ship components
     """
     ship_components = {}
-    component_list = item[module_type]
-    if len(component_list) == 0:
-        return
 
-    for module_name in component_list:
-        module = ship[module_name]
+    module = ship[module_name]
+    # TODO: break down into separate methods later
+    if 'hull' in module_type:
+        ship_components['health'] = module['health']
+        # floodNode contains flood related info
+        flood_nodes = module['floodNodes']
+        flood_probablity = flood_nodes[0][0]
+        torpedo_protecion = 100 - flood_probablity * 3 * 100
+        # not all ships have a torpedo protection
+        if torpedo_protecion >= 1:
+            ship_components['protection'] = roundUp(
+                torpedo_protecion)
 
-        # TODO: break down into separate methods later
-        if 'hull' in module_type:
-            ship_components['health'] = module['health']
-            # floodNode contains flood related info
-            flood_nodes = module['floodNodes']
-            flood_probablity = flood_nodes[0][0]
-            torpedo_protecion = 100 - flood_probablity * 3 * 100
-            # not all ships have a torpedo protection
-            if torpedo_protecion >= 1:
-                ship_components['protection'] = roundUp(
-                    torpedo_protecion)
+        concealment = {}
+        visibility = module['visibilityFactor']
+        visibility_plane = module['visibilityFactorByPlane']
+        fire_coeff = module['visibilityCoefFire']
+        fire_coeff_plane = module['visibilityCoefFireByPlane']
+        # only need max value here, min is always 0
+        # TODO: this value is always the same as visibilityPlane, can be removed
+        visibility_submarine = module['visibilityFactorsBySubmarine']['PERISCOPE']
+        concealment['sea'] = roundUp(visibility)
+        concealment['plane'] = roundUp(visibility_plane)
+        concealment['seaInSmoke'] = roundUp(
+            module['visibilityCoefGKInSmoke']
+        )
+        concealment['planeInSmoke'] = roundUp(
+            module['visibilityCoefGKByPlane']
+        )
+        concealment['submarine'] = roundUp(
+            visibility_submarine
+        )
+        concealment['seaFireCoeff'] = fire_coeff
+        concealment['planeFireCoeff'] = fire_coeff_plane
+        ship_components['visibility'] = concealment
 
-            concealment = {}
-            visibility = module['visibilityFactor']
-            visibility_plane = module['visibilityFactorByPlane']
-            fire_coeff = module['visibilityCoefFire']
-            fire_coeff_plane = module['visibilityCoefFireByPlane']
-            # only need max value here, min is always 0
-            # TODO: this value is always the same as visibilityPlane, can be removed
-            visibility_submarine = module['visibilityFactorsBySubmarine']['PERISCOPE']
-            concealment['sea'] = roundUp(visibility)
-            concealment['plane'] = roundUp(visibility_plane)
-            concealment['seaInSmoke'] = roundUp(
-                module['visibilityCoefGKInSmoke']
-            )
-            concealment['planeInSmoke'] = roundUp(
-                module['visibilityCoefGKByPlane']
-            )
-            concealment['submarine'] = roundUp(
-                visibility_submarine
-            )
-            concealment['seaFireCoeff'] = fire_coeff
-            concealment['planeFireCoeff'] = fire_coeff_plane
-            ship_components['visibility'] = concealment
+        mobility = {}
+        mobility['speed'] = module['maxSpeed']
+        mobility['turningRadius'] = module['turningRadius']
+        # got the value from WoWsFT
+        mobility['rudderTime'] = roundUp(
+            module['rudderTime'] / 1.305
+        )
+        ship_components['mobility'] = mobility
+    elif 'artillery' in module_type:
+        artillery = {}
+        ship_components['artillery'] = artillery
 
-            mobility = {}
-            mobility['speed'] = module['maxSpeed']
-            mobility['turningRadius'] = module['turningRadius']
-            # got the value from WoWsFT
-            mobility['rudderTime'] = roundUp(
-                module['rudderTime'] / 1.305
-            )
-            ship_components['mobility'] = mobility
+        # check air defense
+        for aura_key in module:
+            unpack_air_defense(aura_key, air_defense, module)
+    elif 'atba' in module_type:
+        secondaries = {}
+        if len(secondaries) > 0:
+            ship_components['secondaries'] = secondaries
 
-        if 'artillery' in module_type:
-            artillery = {}
-            ship_components['artillery'] = artillery
+        # check air defense
+        for aura_key in module:
+            unpack_air_defense(aura_key, air_defense, module)
+    elif 'airDefense' in module_type:
+        # TODO: air defense is never changes, but we shouldn't assume that this won't change
+        for aura_key in module:
+            unpack_air_defense(aura_key, air_defense, module)
+    elif 'airSupport' in module_type:
+        air_support = {}
+        air_support['name'] = IDS(module['planeName'])
+        air_support['reload'] = module['reloadTime']
+        air_support['range'] = roundUp(
+            module['maxDist'] / 1000)
+        ship_components['airSupport'] = air_support
+    elif 'depthCharges' in module_type:
+        depth_charge = {}
+        depth_charge['reload'] = module['reloadTime']
+        total_bombs = 0
+        for launcher_key in module:
+            launcher = module[launcher_key]
+            if not isinstance(launcher, dict):
+                continue
 
-            # check air defense
-            for aura_key in module:
-                unpack_air_defense(aura_key, air_defense, module)
+            # TODO: just use the first launcher for now, this may change in the future
+            if total_bombs == 0:
+                ammo_key = launcher['ammoList'][0]
+                ammo = params[ammo_key]
+                depth_charge['damage'] = ammo['alphaDamage']
 
-        if 'atba' in module_type:
-            secondaries = {}
-            if len(secondaries) > 0:
-                ship_components['secondaries'] = secondaries
+            # accumulate the total number of bombs
+            total_bombs += launcher['numBombs']
+        total_bombs *= module['numShots']
+        depth_charge['bombs'] = total_bombs
+        depth_charge['groups'] = module['maxPacks']
+        ship_components['depthCharge'] = depth_charge
+    elif 'airArmament' in module_type:
+        pass
+    elif 'radars' in module_type:
+        pass
+    elif 'torpedoes' in module_type:
+        torpedo = {}
+        torpedo['singleShot'] = module['useOneShot']
 
-            # check air defense
-            for aura_key in module:
-                unpack_air_defense(aura_key, air_defense, module)
+        # need to make sure if all launchers are the same
+        launchers = []
+        for torpedo_key in module:
+            if not 'HP' in torpedo_key:
+                continue
 
-        if 'airDefense' in module_type:
-            # TODO: air defense is never changes, but we shouldn't assume that this won't change
-            for aura_key in module:
-                unpack_air_defense(aura_key, air_defense, module)
+            # check each torpedo launcher
+            torpedo_launcher = module[torpedo_key]
+            if not isinstance(torpedo_launcher, dict):
+                raise Exception('torpedo_launcher is not a dict')
 
-        if 'airSupport' in module_type:
-            air_support = {}
-            air_support['name'] = IDS(module['planeName'])
-            air_support['reload'] = module['reloadTime']
-            air_support['range'] = roundUp(
-                module['maxDist'] / 1000)
-            ship_components['airSupport'] = air_support
+            current_launcher = {}
+            current_launcher['reload'] = torpedo_launcher['shotDelay']
+            current_launcher['rotation'] = torpedo_launcher['rotationSpeed'][0]
+            current_launcher['count'] = torpedo_launcher['numBarrels']
+            current_launcher['ammo'] = torpedo_launcher['ammoList']
+            launchers.append(current_launcher)
+        torpedo['launchers'] = launchers
+        ship_components.update(torpedo)
+    elif 'engine' in module_type:
+        pass
+    elif 'pinger' in module_type:
+        pass
+    elif 'specials' in module_type:
+        pass
+    elif 'abilities' in module_type:
+        pass
+    elif 'directors' in module_type:
+        # ??
+        pass
+    elif 'finders' in module_type:
+        pass
+    elif 'wcs' in module_type:
+        pass
+    else:
+        raise Exception('Unknown module type: {}'.format(module_type))
 
-        if 'depthCharges' in module_type:
-            depth_charge = {}
-            depth_charge['reload'] = module['reloadTime']
-            total_bombs = 0
-            for launcher_key in module:
-                launcher = module[launcher_key]
-                if not isinstance(launcher, dict):
-                    continue
-
-                # TODO: just use the first launcher for now, this may change in the future
-                if total_bombs == 0:
-                    ammo_key = launcher['ammoList'][0]
-                    ammo = params[ammo_key]
-                    depth_charge['damage'] = ammo['alphaDamage']
-
-                # accumulate the total number of bombs
-                total_bombs += launcher['numBombs']
-            total_bombs *= module['numShots']
-            depth_charge['bombs'] = total_bombs
-            depth_charge['groups'] = module['maxPacks']
-            ship_components['depthCharge'] = depth_charge
     return {module_name: ship_components}
 
 
@@ -318,10 +352,15 @@ def unpack_ship_params(item: dict, params: dict) -> dict:
             module_info['components'] = components
 
             for component_key in components:
-                component = unpack_ship_components(
-                    components, component_key, item, air_defense
-                )
-                if component != None:
+                # ignore empty components
+                component_list = components[component_key]
+                if len(component_list) == 0:
+                    continue
+
+                for component_name in component_list:
+                    component = unpack_ship_components(
+                        component_name, component_key, item, air_defense
+                    )
                     component_tree.update(component)
 
         # elif module_type == '_Artillery':
