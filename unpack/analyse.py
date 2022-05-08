@@ -452,6 +452,11 @@ def unpack_ship_params(item: dict, params: dict) -> dict:
                 component = unpack_ship_components(
                     component_name, component_key, item, air_defense
                 )
+
+                first_value = next(iter(component.values()))
+                # remove empty values
+                if len(first_value) == 0:
+                    continue
                 component_tree.update(component)
 
         # elif module_type == '_Artillery':
