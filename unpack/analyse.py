@@ -344,6 +344,24 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
     return {module_name: ship_components}
 
 
+def unpack_consumables(abilities_dict: dict) -> list:
+    """
+    Unpack consumables
+    """
+    consumables = []
+    for ability_key in abilities_dict:
+        ability_slot = abilities_dict[ability_key]
+        abilities = ability_slot['abils']
+        if len(abilities) == 0:
+            continue
+
+        ability_list = []
+        for a in abilities:
+            ability_list.append({'name': a[0], 'type': a[1]})
+        consumables.append(ability_list)
+    return consumables
+
+
 def unpack_ship_params(item: dict, params: dict) -> dict:
     # get the structure overall
     # tree(item, depth=2, show_value=True)
@@ -367,17 +385,7 @@ def unpack_ship_params(item: dict, params: dict) -> dict:
     ship_params['codeName'] = item['name']
 
     # consumables
-    consumables = []
-    ship_abilities = item['ShipAbilities']
-    for ability_key in ship_abilities:
-        ability_slot = ship_abilities[ability_key]
-        abilities = ability_slot['abils']
-        if len(abilities) == 0:
-            continue
-        ability_list = []
-        for a in abilities:
-            ability_list.append({'name': a[0], 'type': a[1]})
-        consumables.append(ability_list)
+    consumables = unpack_consumables(item['ShipAbilities'])
     ship_params['consumables'] = consumables
 
     # air defense can be the main battery, secondaries and dedicated air defense guns
@@ -709,7 +717,7 @@ def unpack_aircrafts(item: dict, key: str) -> dict:
     aircraft['type'] = aircraft_type
     aircraft['nation'] = item['typeinfo']['nation']
 
-    if aircraft_type == 'Fighter':
+    if aircraft_type in ['Fighter', 'Bomber', 'Skip', 'Scout', 'Dive']:
         hangarSettings = item['hangarSettings']
         max_aircraft = hangarSettings['maxValue']
         aircraft['health'] = item['maxHealth']
@@ -717,31 +725,31 @@ def unpack_aircrafts(item: dict, key: str) -> dict:
         aircraft['visibility'] = item['visibilityFactor']
         aircraft['speed'] = item['speedMoveWithBomb']
         if max_aircraft > 0:
-            rocket = {}
-            # this is actually rockets
-            rocket['restoreTime'] = hangarSettings['timeToRestore']
-            rocket['maxAircraft'] = max_aircraft
+            # get information for the CV rework
+            aircraft_rework = {}
+            aircraft_rework['restoreTime'] = hangarSettings['timeToRestore']
+            aircraft_rework['maxAircraft'] = max_aircraft
 
-            rocket['attacker'] = item['attackerSize']
-            rocket['rocketCount'] = item['attackCount']
-            rocket['cooldown'] = item['attackCooldown']
-            rocket['minSpeed'] = item['speedMin']
-            rocket['maxSpeed'] = item['speedMax']
+            aircraft_rework['attacker'] = item['attackerSize']
+            aircraft_rework['attackCount'] = item['attackCount']
+            aircraft_rework['cooldown'] = item['attackCooldown']
+            aircraft_rework['minSpeed'] = item['speedMin']
+            aircraft_rework['maxSpeed'] = item['speedMax']
 
             # reference from WoWsFT
             boost_time = item['maxForsageAmount']
-            rocket['boostTime'] = boost_time
-            rocket['boostReload'] = boost_time / item['forsageRegeneration']
-            rocket['bombName'] = item['bombName']
-            aircraft['rocket'] = rocket
-    elif aircraft_type == 'Bomber':
-        pass
-    elif aircraft_type == 'Skip':
-        pass
-    elif aircraft_type == 'Scout':
-        pass
-    elif aircraft_type == 'Dive':
-        pass
+            aircraft_rework['boostTime'] = boost_time
+            boost_regen = item['forsageRegeneration']
+            # For super carriers, regeneration is 0
+            if boost_regen != 0:
+                aircraft_rework['boostReload'] = boost_time / boost_regen
+            aircraft_rework['bombName'] = item['bombName']
+
+            # get consumables
+            consumables = unpack_consumables(item['PlaneAbilities'])
+            if len(consumables) > 0:
+                aircraft_rework['consumables'] = consumables
+            aircraft['aircraft'] = aircraft_rework
     elif aircraft_type == 'Airship':
         # TODO: do this if needed
         pass
@@ -751,6 +759,39 @@ def unpack_aircrafts(item: dict, key: str) -> dict:
     else:
         raise Exception('Unknown aircraft type: {}'.format(aircraft_type))
     return {key: aircraft}
+
+
+def unpack_abilities(item: dict, key: str) -> dict:
+    """
+    Unpack abilities / consumables, like smoke screen, sonar, radar and more.
+    """
+    abilities = {}
+    abilities['nation'] = item['typeinfo']['nation']
+    # I think they are all free now, TODO: can be removed
+    costCR = item['costCR']
+    if costCR > 0:
+        abilities['costCR'] = costCR
+    costGold = item['costGold']
+    if costGold > 0:
+        abilities['costGold'] = costGold
+
+    ability_dict = {}
+    for item_key in item:
+        ability = item[item_key]
+        if not isinstance(ability, dict):
+            continue
+
+        current_ability = {}
+        # remove empty values
+        for ability_key in ability:
+            value = ability[ability_key]
+            if value is None or value == '':
+                continue
+            current_ability[ability_key] = value
+        ability_dict[item_key] = current_ability
+
+    abilities['abilities'] = ability_dict
+    return {key: abilities}
 
 
 def unpack_game_map() -> dict:
@@ -797,6 +838,7 @@ skills = {}
 weapons = {}
 projectiles = {}
 aircrafts = {}
+abilitites = {}
 for key in params_keys:
     item = params[key]
     item_type = item['typeinfo']['type']
@@ -828,6 +870,8 @@ for key in params_keys:
         projectiles.update(unpack_projectiles(item, key))
     elif item_type == 'Aircraft':
         aircrafts.update(unpack_aircrafts(item, key))
+    elif item_type == 'Ability':
+        abilitites.update(unpack_abilities(item, key))
 
 # %%
 
@@ -847,6 +891,8 @@ print("There are {} projectiles in the game".format(len(projectiles)))
 write_json(projectiles, 'projectiles.json')
 print("There are {} aircrafts in the game".format(len(aircrafts)))
 write_json(aircrafts, 'aircrafts.json')
+print("There are {} abilities in the game".format(len(abilitites)))
+write_json(abilitites, 'abilities.json')
 
 game_maps = unpack_game_map()
 print("There are {} game maps in the game".format(len(game_maps)))
