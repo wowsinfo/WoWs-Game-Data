@@ -288,20 +288,30 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
             launchers.append(current_launcher)
         torpedo['launchers'] = launchers
         ship_components.update(torpedo)
-    elif 'engine' in module_type:
-        pass
     elif 'pinger' in module_type:
+        # this seems to be the submarine pinger
+        pinger = {}
+        pinger['reload'] = module['waveReloadTime']
+        pinger['range'] = module['waveDistance']
+        pinger['lifeTime'] = module['waveHitLifeTime']
+        ship_components.update(pinger)
+    elif 'engine' in module_type:
+        # TODO: not sure what this does
         pass
     elif 'specials' in module_type:
+        # TODO: add this if needed
         pass
     elif 'abilities' in module_type:
+        # TODO: not sure what this does
         pass
     elif 'directors' in module_type:
-        # ??
+        # TODO: not sure what this does
         pass
     elif 'finders' in module_type:
+        # TODO: not sure what this does
         pass
     elif 'wcs' in module_type:
+        # TODO: not sure what this does
         pass
     else:
         raise Exception('Unknown module type: {}'.format(module_type))
