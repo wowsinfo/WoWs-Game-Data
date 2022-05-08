@@ -286,16 +286,11 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
     elif 'fireControl' in module_type:
         # this may increase the range and also sigma
         ship_components = module
-    elif 'torpedoBomber' in module_type:
-        pass
-    elif 'diveBomber' in module_type:
-        pass
     elif 'flightControl' in module_type:
         pass
-    elif 'fighter' in module_type:
-        pass
-    elif 'skipBomber' in module_type:
-        pass
+    elif module_type in ['torpedoBomber', 'diveBomber', 'fighter', 'skipBomber']:
+        # just add planes in
+        ship_components = module['planes']
     elif 'pinger' in module_type:
         # this seems to be the submarine pinger
         pinger = {}
@@ -705,6 +700,18 @@ def unpack_projectiles(item: dict, key: str) -> dict:
     return {key: projectile}
 
 
+def unpack_aircrafts(item: dict, key: str) -> dict:
+    """
+    Unpack aircraft, like fighter, bomber, and more.
+    """
+    aircraft = {}
+    aircraft_type = item['typeinfo']['species']
+    aircraft['type'] = aircraft_type
+    aircraft_nation = item['typeinfo']['nation']
+    aircraft['nation'] = aircraft_nation
+    return {key: aircraft}
+
+
 def unpack_game_map() -> dict:
     """
     Unpack the game map
@@ -748,17 +755,19 @@ modernizations = {}
 skills = {}
 weapons = {}
 projectiles = {}
+aircrafts = {}
 for key in params_keys:
     item = params[key]
     item_type = item['typeinfo']['type']
     item_nation = item['typeinfo']['nation']
     item_species = item['typeinfo']['species']
 
+    # if 'PBAF110_Audacious_stock' in key:
+    #     write_json(item, 'PBAF110_Audacious_stock.json')
+    #     # print(unpack_ship_params(item, params))
+    #     break
+
     if item_type == 'Ship':
-        # if 'PGSS108' in key:
-        #     write_json(item, 'u190.json')
-        #     # print(unpack_ship_params(item, params))
-        #     break
         ships.update(unpack_ship_params(item, params))
     elif item_type == 'Achievement':
         achievements.update(unpack_achievements(item, key))
@@ -776,6 +785,8 @@ for key in params_keys:
         weapons.update(unpack_weapons(item, key))
     elif item_type == 'Projectile':
         projectiles.update(unpack_projectiles(item, key))
+    elif item_type == 'Aircraft':
+        aircrafts.update(unpack_aircrafts(item, key))
 
 # %%
 
@@ -793,6 +804,8 @@ print("There are {} weapons in the game".format(len(weapons)))
 write_json(weapons, 'weapons.json')
 print("There are {} projectiles in the game".format(len(projectiles)))
 write_json(projectiles, 'projectiles.json')
+print("There are {} aircrafts in the game".format(len(aircrafts)))
+write_json(aircrafts, 'aircrafts.json')
 
 game_maps = unpack_game_map()
 print("There are {} game maps in the game".format(len(game_maps)))
