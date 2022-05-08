@@ -855,9 +855,13 @@ for key in params_keys:
         if modernization != None:
             modernizations.update(modernization)
     elif item_type == 'Crew':
-        # save all commander skills once
-        if skills == {}:
-            skills = item['Skills']
+        if len(skills) == 0:
+            # save the shared one
+            skills[key] = item
+            continue
+
+        if item['CrewPersonality']['isUnique']:
+            skills[key] = item
     elif item_type == 'Gun':
         weapons.update(unpack_weapons(item, key))
     elif item_type == 'Projectile':
