@@ -260,11 +260,6 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
         depth_charge['bombs'] = total_bombs
         depth_charge['groups'] = module['maxPacks']
         ship_components['depthCharge'] = depth_charge
-    elif 'airArmament' in module_type:
-        pass
-    elif 'radars' in module_type:
-        # TODO: this might be the radar on the ship, not the radar consumable
-        pass
     elif 'torpedoes' in module_type:
         torpedo = {}
         torpedo['singleShot'] = module['useOneShot']
@@ -288,6 +283,19 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
             launchers.append(current_launcher)
         torpedo['launchers'] = launchers
         ship_components.update(torpedo)
+    elif 'fireControl' in module_type:
+        # this may increase the range and also sigma
+        ship_components = module
+    elif 'torpedoBomber' in module_type:
+        pass
+    elif 'diveBomber' in module_type:
+        pass
+    elif 'flightControl' in module_type:
+        pass
+    elif 'fighter' in module_type:
+        pass
+    elif 'skipBomber' in module_type:
+        pass
     elif 'pinger' in module_type:
         # this seems to be the submarine pinger
         pinger = {}
@@ -302,7 +310,22 @@ def unpack_ship_components(module_name: str, module_type: str, ship: dict, air_d
         # TODO: taking the first value for now, this is metre per second
         pinger['speed'] = module['waveParams'][0]['waveSpeed'][0]
         ship_components.update(pinger)
+    elif 'airArmament' in module_type:
+        # TODO: this could be the fighter, scoupter
+        pass
+    elif 'radars' in module_type:
+        # TODO: this might be the radar on the ship, not the radar consumable
+        pass
     elif 'engine' in module_type:
+        # TODO: not sure what this does
+        pass
+    elif 'chargeLasers' in module_type:
+        # TODO: not sure what this does
+        pass
+    elif 'waves' in module_type:
+        # TODO: not sure what this does
+        pass
+    elif 'axisLaser' in module_type:
         # TODO: not sure what this does
         pass
     elif 'specials' in module_type:
@@ -408,21 +431,25 @@ def unpack_ship_params(item: dict, params: dict) -> dict:
             # there can be multiple next ships, write this to the root
             if len(next_ship) > 0:
                 ship_params['nextShip'] = next_ship
-            # simply save it to the module tree
-            components = current_module['components']
-            module_info['components'] = components
 
-            for component_key in components:
-                # ignore empty components
-                component_list = components[component_key]
-                if len(component_list) == 0:
+        # simply save it to the module tree
+        components = current_module['components']
+        module_info['components'] = components
+
+        for component_key in components:
+            # ignore empty components
+            component_list = components[component_key]
+            if len(component_list) == 0:
+                continue
+
+            for component_name in component_list:
+                # there can be duplicates
+                if component_name in component_tree:
                     continue
-
-                for component_name in component_list:
-                    component = unpack_ship_components(
-                        component_name, component_key, item, air_defense
-                    )
-                    component_tree.update(component)
+                component = unpack_ship_components(
+                    component_name, component_key, item, air_defense
+                )
+                component_tree.update(component)
 
         # elif module_type == '_Artillery':
         #     pass
