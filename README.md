@@ -5,6 +5,8 @@ Extract some game data from World of Warships. There are also some other data th
 - GameParams is coming from [WoWSFT-Data](https://github.com/EdibleBug/WoWSFT-Kotlin/tree/master/WoWSFT-Data/src/main/resources/json/live)
 - ship_battle_raw is parsed from Wows-Numbers
 
+WoWs Game Data is licensed under AGPLv3. The submodule, wows_gameparams, is under MIT license.
+
 ## Setup
 
 You need to install python3, jyputer notebook and matplotlib (optional)
