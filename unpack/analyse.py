@@ -769,10 +769,17 @@ def unpack_abilities(item: dict, key: str) -> dict:
     if costGold > 0:
         abilities['costGold'] = costGold
 
+    upper_key = key.upper()
+    abilities['name'] = 'IDS_DOCK_CONSUME_TITLE_' + upper_key
+    abilities['description'] = 'IDS_DOCK_CONSUME_DESCRIPTION_' + upper_key
+
     ability_dict = {}
     for item_key in item:
         ability = item[item_key]
         if not isinstance(ability, dict):
+            continue
+        # typeinfo is not needed
+        if item_key == 'typeinfo':
             continue
 
         current_ability = {}
@@ -781,8 +788,23 @@ def unpack_abilities(item: dict, key: str) -> dict:
             value = ability[ability_key]
             if value is None or value == '':
                 continue
+            if ability_key in ['SpecialSoundID', 'group'] or 'Effect' in ability_key:
+                continue
+
+            # write consumable type only once
+            if ability_key == 'consumableType':
+                if not 'type' in abilities:
+                    ability_type = value.upper()
+                    abilities['filter'] = ability_type
+                    abilities['type'] = 'IDS_BATTLEHINT_TYPE_CONSUMABLE_' + \
+                        ability_type
+                continue
+
             current_ability[ability_key] = value
-        ability_dict[item_key] = current_ability
+
+        # ignore empty abilities
+        if len(current_ability) > 0:
+            ability_dict[item_key] = current_ability
 
     abilities['abilities'] = ability_dict
     return {key: abilities}
@@ -819,6 +841,8 @@ def unpack_language(item: dict, key: str) -> list:
     """
     Get everything we need from the language file, return a list of keys
     """
+    # abilities, IDS_PARAMS_MODIFIER_ + key
+
     return []
 
 
