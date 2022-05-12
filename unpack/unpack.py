@@ -40,10 +40,19 @@ class WoWsUnpack:
         """
         os.system(self._wowsunpack() + ' -I content/*.data')
         print("done unpacking game params")
-        gp = WoWsGameParams('content/GameParams.data')
-        print("decoding game params")
-        gp.decode()
-        print("done decoding game params")
+
+    def decodeGameParams(self):
+        """
+        Decodes GameParams.data from content folder
+        """
+        data_path = 'content/GameParams.data'
+        if os.path.exists(data_path):
+            gp = WoWsGameParams(data_path)
+            print("decoding game params")
+            gp.decode()
+            print("done decoding game params")
+        else:
+            raise FileNotFoundError("GameParams.data not found")
 
     def unpackGameIcons(self):
         """
@@ -89,8 +98,9 @@ if __name__ == "__main__":
             path = f.read()
         unpack = WoWsUnpack(path)
         # unpack.unpackGameIcons()
-        unpack.unpackGameMaps()
+        # unpack.unpackGameMaps()
         # unpack.unpackGameParams()
+        unpack.decodeGameParams()
         # unpack.decodeLanguages()
     else:
         with open('game.path', 'w') as f:
