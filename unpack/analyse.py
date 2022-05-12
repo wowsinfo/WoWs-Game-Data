@@ -2,6 +2,7 @@
 """
 import required modules and helper methods
 """
+import glob
 import json
 import os
 
@@ -21,6 +22,11 @@ def write_json(data: dict, filename: str):
         json_str = json.dumps(data, ensure_ascii=False)
         f.write(json_str)
 
+def sizeof_json(filename: str) -> float:
+    """
+    Get the size of a json file
+    """
+    return os.path.getsize(filename) / 1024 / 1024
 
 def list_dir(dir: str) -> list:
     """
@@ -66,7 +72,7 @@ def IDS(key: str) -> str:
 # experiment here
 params = read_gameparams()
 params_keys = list(params.keys())
-lang = read_json('en_lang.json')
+# lang = read_json('en_lang.json')
 
 # %%
 """
@@ -899,6 +905,10 @@ for key in params_keys:
 
 # %%
 # save everything
+
+if len(ships) == 0:
+    raise Exception('No ships found. Data is not valid')
+
 print("There are {} ships in the game".format(len(ships)))
 write_json(ships, 'ships.json')
 print("There are {} achievements in the game".format(len(achievements)))
@@ -916,13 +926,22 @@ write_json(aircrafts, 'aircrafts.json')
 print("There are {} abilities in the game".format(len(abilitites)))
 write_json(abilitites, 'abilities.json')
 
-game_maps = unpack_game_map()
-print("There are {} game maps in the game".format(len(game_maps)))
-write_json(game_maps, 'game_maps.json')
+# game_maps = unpack_game_map()
+# print("There are {} game maps in the game".format(len(game_maps)))
+# write_json(game_maps, 'game_maps.json')
 
 commander_skills = unpack_commander_skills(skills)
 print("There are {} commander skills in the game".format(len(commander_skills)))
 write_json(commander_skills, 'commander_skills.json')
+
+total_size = 0
+for json_name in glob.glob('*.json'):
+    if  'GameParams' in json_name:
+        continue
+    total_size += sizeof_json(json_name)
+# total size in MB
+print("Total size: {:.2f} Mb".format(total_size))
+
 
 # %%
 
