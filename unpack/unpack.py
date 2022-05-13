@@ -189,6 +189,21 @@ class WoWsUnpack:
                 output_path + '/skills/' + formatted_name,
             )
 
+        # CONSUMABLES
+        self._resetDir(output_path + '/consumables')
+        for consumable in os.listdir(gui_path + '/consumables'):
+            if not consumable.startswith('consumable_'):
+                continue
+
+            if '_empty.png' in consumable or 'undefined.png' in consumable:
+                continue
+
+            formatted_name = consumable.replace('consumable_', '')
+            shutil.copy(
+                gui_path + '/consumables/' + consumable,
+                output_path + '/consumables/' + formatted_name,
+            )
+
         # count the overall size of assets
         root_directory = pathlib.Path(output_path)
         assets_size = sum(
