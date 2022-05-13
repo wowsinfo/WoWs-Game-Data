@@ -18,15 +18,17 @@ def read_gameparams() -> dict:
 
 
 def write_json(data: dict, filename: str):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         json_str = json.dumps(data, ensure_ascii=False)
         f.write(json_str)
+
 
 def sizeof_json(filename: str) -> float:
     """
     Get the size of a json file
     """
     return os.path.getsize(filename) / 1024 / 1024
+
 
 def list_dir(dir: str) -> list:
     """
@@ -70,9 +72,9 @@ def IDS(key: str) -> str:
 
 # %%
 # experiment here
-params = read_gameparams()
-params_keys = list(params.keys())
-# lang = read_json('en_lang.json')
+_params = read_gameparams()
+_params_keys = list(_params.keys())
+_lang = read_json('ja_lang.json')
 
 # %%
 """
@@ -843,6 +845,16 @@ def unpack_commander_skills(item: dict) -> dict:
     return skills
 
 
+def unpack_japanese_alias(item: dict, lang: dict) -> dict:
+    """
+    Unpack the japanese ship alias
+    """
+    ship_alias = {}
+    ship_id = item['id']
+    ship_index = item['index']
+    return {ship_id: {'alias': lang[IDS(ship_index)]}}
+
+
 def unpack_language(item: dict, key: str) -> list:
     """
     Get everything we need from the language file, return a list of keys
@@ -863,8 +875,9 @@ weapons = {}
 projectiles = {}
 aircrafts = {}
 abilitites = {}
-for key in params_keys:
-    item = params[key]
+jp_alias = {}
+for key in _params_keys:
+    item = _params[key]
     item_type = item['typeinfo']['type']
     item_nation = item['typeinfo']['nation']
     item_species = item['typeinfo']['species']
@@ -875,13 +888,16 @@ for key in params_keys:
     #     break
 
     if item_type == 'Ship':
-        ships.update(unpack_ship_params(item, params))
+        ships.update(unpack_ship_params(item, _params))
+        # get Japanese ship names
+        if item['typeinfo']['nation'] == 'Japan':
+            jp_alias.update(unpack_japanese_alias(item, _lang))
     elif item_type == 'Achievement':
         achievements.update(unpack_achievements(item, key))
     elif item_type == 'Exterior':
         exteriors.update(unpack_exteriors(item, key))
     elif item_type == 'Modernization':
-        modernization = unpack_modernization(item, params)
+        modernization = unpack_modernization(item, _params)
         if modernization != None:
             modernizations.update(modernization)
     elif item_type == 'Crew':
@@ -925,6 +941,8 @@ print("There are {} aircrafts in the game".format(len(aircrafts)))
 write_json(aircrafts, 'aircrafts.json')
 print("There are {} abilities in the game".format(len(abilitites)))
 write_json(abilitites, 'abilities.json')
+print("There are {} Japanese alias in the game".format(len(jp_alias)))
+write_json(jp_alias, 'alias.json')
 
 # game_maps = unpack_game_map()
 # print("There are {} game maps in the game".format(len(game_maps)))
@@ -936,7 +954,7 @@ write_json(commander_skills, 'commander_skills.json')
 
 total_size = 0
 for json_name in glob.glob('*.json'):
-    if  'GameParams' in json_name:
+    if 'GameParams' in json_name:
         continue
     total_size += sizeof_json(json_name)
 # total size in MB

@@ -79,13 +79,13 @@ class WoWsUnpack:
 
         # only decode en, zh and jp
         for folder in os.listdir(language_folder):
-            if folder in ['en', 'zh', 'ja']:
-                decoded_dict = mo.read_mo_file(
-                    language_folder + '\\' + folder + '\\LC_MESSAGES\\global.mo')
-                del decoded_dict['']
-                with open('{}_lang.json'.format(folder), 'w', encoding="utf-8") as outfile:
-                    json_str = json.dumps(decoded_dict, ensure_ascii=False)
-                    outfile.write(json_str)
+            # if folder in ['en', 'zh', 'ja']:
+            decoded_dict = mo.read_mo_file(
+                language_folder + '\\' + folder + '\\LC_MESSAGES\\global.mo')
+            del decoded_dict['']
+            with open('{}_lang.json'.format(folder), 'w', encoding="utf-8") as outfile:
+                json_str = json.dumps(decoded_dict, ensure_ascii=False)
+                outfile.write(json_str)
 
         print("done decoding languages")
 
@@ -224,10 +224,10 @@ if __name__ == "__main__":
         # unpack.decodeGameParams()
 
         # unpack.unpackGameMaps()
-        # unpack.decodeLanguages()
+        unpack.decodeLanguages()
 
         # unpack.unpackGameIcons()
-        unpack.packAppAssets()
+        # unpack.packAppAssets()
     else:
         with open('game.path', 'w') as f:
             print("Created game.path")
