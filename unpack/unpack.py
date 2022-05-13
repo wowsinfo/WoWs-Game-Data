@@ -103,7 +103,7 @@ class WoWsUnpack:
         """
         gui_path = 'gui'
         # TODO: to be updated when finalised
-        output_path = 'assets'
+        output_path = '../app/assets'
         self._resetDir(output_path)
         if not os.path.exists(gui_path):
             raise FileNotFoundError("gui folder not found")
