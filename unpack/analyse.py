@@ -74,7 +74,11 @@ def IDS(key: str) -> str:
 # experiment here
 _params = read_gameparams()
 _params_keys = list(_params.keys())
-_lang = read_json('ja_lang.json')
+
+# %%
+_lang = read_json('en_lang.json')
+_lang_ja = read_json('ja_lang.json')
+_lang_sg = read_json('zh_sg_lang.json')
 
 # %%
 """
@@ -875,7 +879,7 @@ weapons = {}
 projectiles = {}
 aircrafts = {}
 abilitites = {}
-jp_alias = {}
+alias = {}
 for key in _params_keys:
     item = _params[key]
     item_type = item['typeinfo']['type']
@@ -891,7 +895,7 @@ for key in _params_keys:
         ships.update(unpack_ship_params(item, _params))
         # get Japanese ship names
         if item['typeinfo']['nation'] == 'Japan':
-            jp_alias.update(unpack_japanese_alias(item, _lang))
+            alias.update(unpack_japanese_alias(item, _lang_sg))
     elif item_type == 'Achievement':
         achievements.update(unpack_achievements(item, key))
     elif item_type == 'Exterior':
@@ -941,8 +945,8 @@ print("There are {} aircrafts in the game".format(len(aircrafts)))
 write_json(aircrafts, 'aircrafts.json')
 print("There are {} abilities in the game".format(len(abilitites)))
 write_json(abilitites, 'abilities.json')
-print("There are {} Japanese alias in the game".format(len(jp_alias)))
-write_json(jp_alias, 'alias.json')
+print("There are {} Japanese alias in the game".format(len(alias)))
+write_json(alias, 'alias.json')
 
 # game_maps = unpack_game_map()
 # print("There are {} game maps in the game".format(len(game_maps)))
