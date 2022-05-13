@@ -108,6 +108,7 @@ class WoWsUnpack:
         if not os.path.exists(gui_path):
             raise FileNotFoundError("gui folder not found")
 
+        # TODO: code duplication, should be refactored
         # ACHIEVEMENTS
         self._resetDir(output_path + '/achievements')
         for achievement in os.listdir(gui_path + '/achievements/icons'):
@@ -175,8 +176,17 @@ class WoWsUnpack:
             if '_des.png' in permoflage:
                 continue
             shutil.copy(
-                gui_path + '/\permoflages/' + permoflage,
-                output_path + '/\permoflages/' + permoflage,
+                gui_path + '/permoflages/' + permoflage,
+                output_path + '/permoflages/' + permoflage,
+            )
+
+        # COMMANDER SKILLS
+        self._resetDir(output_path + '/skills')
+        for skill in os.listdir(gui_path + '/crew_commander/skills'):
+            formatted_name = ''.join([x.title() for x in skill.split('_')])
+            shutil.copy(
+                gui_path + '/crew_commander/skills/' + skill,
+                output_path + '/skills/' + formatted_name,
             )
 
         # count the overall size of assets
