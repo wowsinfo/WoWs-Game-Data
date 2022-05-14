@@ -5,9 +5,13 @@ import required modules and helper methods
 import glob
 import json
 import os
+from typing import List
 
 
 class WoWsGenerate:
+
+    # store all language keys we use
+    _lang_keys: List[str] = []
 
     def __init__(self):
         pass
@@ -85,7 +89,7 @@ class WoWsGenerate:
             _tree(data[level], depth - 1, tab + 1, show_value=show_value)
 
     def _IDS(self, key: str) -> str:
-        return 'IDS_' + key
+        return 'IDS_' + key.upper()
 
     """
     Unpack helper functions
@@ -262,7 +266,10 @@ class WoWsGenerate:
                 self._unpack_air_defense(aura_key, air_defense, module)
         elif 'airSupport' in module_type:
             air_support = {}
-            air_support['name'] = self._IDS(module['planeName'])
+            plane_name = self._IDS(module['planeName'])
+            air_support['name'] = plane_name
+            self._lang_keys.append(plane_name)
+
             air_support['reload'] = module['reloadTime']
             air_support['bombs'] = module['chargesNum']
             air_support['range'] = self._roundUp(
@@ -375,6 +382,10 @@ class WoWsGenerate:
         ship_params['name'] = lang_key
         ship_params['description'] = lang_key + '_DESCR'
         ship_params['year'] = lang_key + '_YEAR'
+        self._lang_keys.append(lang_key)
+        self._lang_keys.append(lang_key + '_DESCR')
+        self._lang_keys.append(lang_key + '_YEAR')
+
         ship_params['paperShip'] = item['isPaperShip']
         ship_params['id'] = ship_id
         ship_params['index'] = ship_index
@@ -385,7 +396,7 @@ class WoWsGenerate:
             ship_params['permoflages'] = item['permoflages']
         ship_params['group'] = item['group']
         # TODO: debug only, to be removed
-        ship_params['codeName'] = item['name']
+        # ship_params['codeName'] = item['name']
 
         # consumables
         consumables = self._unpack_consumables(item['ShipAbilities'])
@@ -436,7 +447,12 @@ class WoWsGenerate:
                 next_ship = current_module['nextShips']
                 # there can be multiple next ships, write this to the root
                 if len(next_ship) > 0:
-                    ship_params['nextShip'] = next_ship
+                    ship_params['nextShips'] = []
+                    # convert to ship id here
+                    for s in next_ship:
+                        # key PRSD309_Pr_48 is deleted, so for deleted ships, we need to allow invalid key
+                        if s in params:
+                            ship_params['nextShips'].append(params[s]['id'])
 
             # simply save it to the module tree
             components = current_module['components']
@@ -509,8 +525,16 @@ class WoWsGenerate:
         The app will handle icon, achievement name, and description
         """
         achievements = {}
+        name = item['uiName'].upper()
+        lang_name = 'IDS_ACHIEVEMENT_' + name
+        description = 'IDS_ACHIEVEMENT_DESCRIPTION_' + name
+        achievements['icon'] = name
+        achievements['name'] = lang_name
+        achievements['description'] = description
+        self._lang_keys.append(lang_name)
+        self._lang_keys.append(description)
+
         achievements['type'] = item['battleTypes']
-        achievements['ui'] = item['uiName']
         achievements['id'] = item['id']
         achievements['constants'] = item['constants']
         return {key: achievements}
@@ -522,6 +546,10 @@ class WoWsGenerate:
         exterior = {}
 
         exterior['id'] = item['id']
+        name = self._IDS(key)
+        exterior['name'] = name
+        self._lang_keys.append(name)
+
         costCR = item['costCR']
         if (costCR >= 0):
             exterior['costCR'] = costCR
@@ -530,7 +558,14 @@ class WoWsGenerate:
             exterior['costGold'] = costGold
         if len(item['modifiers']) > 0:
             exterior['modifiers'] = item['modifiers']
-        exterior['type'] = item['typeinfo']['species']
+
+        exterior_type = item['typeinfo']['species']
+        exterior['type'] = exterior_type
+        if exterior_type == 'Flags':
+            # add the description
+            description = name + '_DESCRIPTION'
+            exterior['description'] = description
+            self._lang_keys.append(description)
         # exterior['name'] = item['name']
         # exterior['name'] = item['name']
         # exterior['name'] = item['name']
@@ -547,9 +582,16 @@ class WoWsGenerate:
             return
 
         name = item['name']
+        lang_name = 'IDS_TITLE_' + name.upper()
+        description = 'IDS_DESC_' + name.upper()
+        self._lang_keys.append(lang_name)
+        self._lang_keys.append(description)
+
         modernization = {}
         modernization['slot'] = slot
         modernization['id'] = item['id']
+        modernization['name'] = lang_name
+        modernization['description'] = description
         if len(item['shiplevel']) > 0:
             modernization['level'] = item['shiplevel']
         if len(item['shiptype']) > 0:
@@ -665,6 +707,10 @@ class WoWsGenerate:
         projectile_nation = item['typeinfo']['nation']
         projectile['nation'] = projectile_nation
 
+        name = self._IDS(key)
+        self._lang_keys.append(name)
+        projectile['name'] = name
+
         if projectile_type == 'Torpedo':
             projectile['speed'] = item['speed']
             projectile['visibility'] = item['visibilityFactor']
@@ -720,6 +766,9 @@ class WoWsGenerate:
         aircraft_type = item['typeinfo']['species']
         aircraft['type'] = aircraft_type
         aircraft['nation'] = item['typeinfo']['nation']
+        name = self._IDS(key)
+        self._lang_keys.append(name)
+        aircraft['name'] = name
 
         if aircraft_type in ['Fighter', 'Bomber', 'Skip', 'Scout', 'Dive']:
             hangarSettings = item['hangarSettings']
@@ -778,9 +827,13 @@ class WoWsGenerate:
         if costGold > 0:
             abilities['costGold'] = costGold
 
-        upper_key = key.upper()
-        abilities['name'] = 'IDS_DOCK_CONSUME_TITLE_' + upper_key
-        abilities['description'] = 'IDS_DOCK_CONSUME_DESCRIPTION_' + upper_key
+        lang_key = key.upper()
+        name = 'IDS_DOCK_CONSUME_TITLE_' + lang_key
+        description = 'IDS_DOCK_CONSUME_DESCRIPTION_' + lang_key
+        abilities['name'] = name
+        abilities['description'] = description
+        self._lang_keys.append(name)
+        self._lang_keys.append(description)
 
         ability_dict = {}
         for item_key in item:
@@ -805,8 +858,9 @@ class WoWsGenerate:
                     if not 'type' in abilities:
                         ability_type = value.upper()
                         abilities['filter'] = ability_type
-                        abilities['type'] = 'IDS_BATTLEHINT_TYPE_CONSUMABLE_' + \
-                            ability_type
+                        type_lang = 'IDS_BATTLEHINT_TYPE_CONSUMABLE_' + ability_type
+                        abilities['type'] = type_lang
+                        self._lang_keys.append(type_lang)
                     continue
 
                 if ability_key == 'fightersName':
@@ -948,6 +1002,14 @@ class WoWsGenerate:
         self._write_json(abilitites, 'abilities.json')
         print("There are {} Japanese alias in the game".format(len(alias)))
         self._write_json(alias, 'alias.json')
+        print("We need {} language keys".format(len(self._lang_keys)))
+        lang_file = {}
+        for key in self._lang_keys:
+            try:
+                lang_file[key] = self._lang[key]
+            except KeyError:
+                print('Missing {}'.format(key))
+        self._write_json(lang_file, 'lang.json')
 
         # game_maps = self._unpack_game_map()
         # print("There are {} game maps in the game".format(len(game_maps)))
@@ -960,7 +1022,7 @@ class WoWsGenerate:
 
         total_size = 0
         for json_name in glob.glob('*.json'):
-            if 'GameParams' in json_name:
+            if 'GameParams' in json_name or 'wowsinfo' in json_name:
                 continue
             total_size += self._sizeof_json(json_name)
         # total size in MB
