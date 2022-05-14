@@ -915,7 +915,7 @@ class WoWsGenerate:
                     skills[key] = item
                     continue
 
-                if item['CrewPersonality']['isUnique']:
+                if item['CrewPersonality']['isUnique'] == True:
                     skills[key] = item
             elif item_type == 'Gun':
                 weapons.update(self._unpack_weapons(item, key))
@@ -964,7 +964,25 @@ class WoWsGenerate:
                 continue
             total_size += self._sizeof_json(json_name)
         # total size in MB
-        print("Total size: {:.2f} Mb".format(total_size))
+        print("Total size: {:.2f} MB".format(total_size))
+
+        # merge everything into one file
+        wowsinfo = {}
+        wowsinfo['ships'] = ships
+        wowsinfo['achievements'] = achievements
+        wowsinfo['exteriors'] = exteriors
+        wowsinfo['modernizations'] = modernizations
+        wowsinfo['weapons'] = weapons
+        wowsinfo['projectiles'] = projectiles
+        wowsinfo['aircrafts'] = aircrafts
+        wowsinfo['abilities'] = abilitites
+        wowsinfo['alias'] = alias
+        wowsinfo['commander_skills'] = commander_skills
+        # wowsinfo['game_maps'] = game_maps
+
+        # TODO: to be added to app/data/
+        self._write_json(wowsinfo, 'wowsinfo.json')
+        print("Done")
 
 
 # %%
