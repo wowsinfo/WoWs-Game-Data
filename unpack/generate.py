@@ -86,7 +86,7 @@ class WoWsGenerate:
 
         for level in data:
             print('\t' * tab + '- ' + level)
-            _tree(data[level], depth - 1, tab + 1, show_value=show_value)
+            self._tree(data[level], depth - 1, tab + 1, show_value=show_value)
 
     def _IDS(self, key: str) -> str:
         return 'IDS_' + key.upper()
@@ -237,7 +237,7 @@ class WoWsGenerate:
             ship_components['mobility'] = mobility
         elif 'artillery' in module_type:
             artillery = {}
-            artillery['range'] = module['maxDist']
+            artillery['range'] = module['maxDist'un]
             artillery['sigma'] = module['sigmaCount']
             artillery['guns'] = self._unpack_guns_torpedoes(module)
             ship_components.update(artillery)
@@ -972,7 +972,8 @@ class WoWsGenerate:
                 if item['CrewPersonality']['isUnique'] == True:
                     skills[key] = item
             elif item_type == 'Gun':
-                weapons.update(self._unpack_weapons(item, key))
+                # weapons.update(self._unpack_weapons(item, key))
+                continue
             elif item_type == 'Projectile':
                 projectiles.update(self._unpack_projectiles(item, key))
             elif item_type == 'Aircraft':
