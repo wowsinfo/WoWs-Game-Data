@@ -237,7 +237,7 @@ class WoWsGenerate:
             ship_components['mobility'] = mobility
         elif 'artillery' in module_type:
             artillery = {}
-            artillery['range'] = module['maxDist'un]
+            artillery['range'] = module['maxDist']
             artillery['sigma'] = module['sigmaCount']
             artillery['guns'] = self._unpack_guns_torpedoes(module)
             ship_components.update(artillery)
