@@ -7,31 +7,17 @@ import json
 
 
 class WoWsAnalyse:
-    def read_json(self, filename: str) -> dict:
+    """
+    Helper functions
+    """
+
+    def _read_json(self, filename: str) -> dict:
         with open(filename, 'r', encoding='utf8') as f:
             json_dict = json.load(f)
         return json_dict
 
-
-if __name__ == "__main__":
-    analyse = WoWsAnalyse()
-    json_dict = analyse.read_json('abilities.json')
-
-    abilities_keys = {}
-    for key in json_dict:
-        abilities = json_dict[key]['abilities']
-        for ability_key in abilities:
-            current_ability = abilities[ability_key]
-            for variable in current_ability:
-                abilities_keys[variable] = type(
-                    current_ability[variable],
-                ).__name__
-
-    abilities_fields = ''
-    abilities_fromJson = ''
-    abilities_init = ''
-    for key in abilities_keys:
-        dart_type = abilities_keys[key]
+    def _convert_to_dart_type(self, python_type: str) -> str:
+        dart_type = python_type
         if dart_type == 'float':
             dart_type = 'double'
         elif dart_type == 'str':
@@ -40,10 +26,73 @@ if __name__ == "__main__":
             dart_type = 'List<String>'
         elif dart_type == 'dict':
             dart_type = 'Map<String, double>'
-        abilities_fields += '{}? {};\n'.format(dart_type, key)
-        abilities_init += 'this.{},\n'.format(key)
-        abilities_fromJson += "{}: json['{}'],\n".format(key, key)
+        return dart_type
 
-    print(abilities_init)
-    print(abilities_fields)
-    print(abilities_fromJson)
+    def _lower_two_letter(self, string: str) -> str:
+        return string[:2].lower() + string[2:]
+
+    def ability_info(self):
+        json_dict = self._read_json('abilities.json')
+        abilities_keys = {}
+        abilities_filters: list[str] = []
+        for key in json_dict:
+            abilities = json_dict[key]
+            filter_name = abilities['filter']
+            abilities_filters.append(filter_name)
+            for ability_key in abilities['abilities']:
+                current_ability = abilities['abilities'][ability_key]
+                for variable in current_ability:
+                    abilities_keys[variable] = type(
+                        current_ability[variable],
+                    ).__name__
+
+        abilities_fields = ''
+        abilities_fromJson = ''
+        abilities_init = ''
+        for key in abilities_keys:
+            dart_type = self._convert_to_dart_type(abilities_keys[key])
+            abilities_fields += 'final {}? {};\n'.format(dart_type, key)
+            abilities_init += 'this.{},\n'.format(key)
+            abilities_fromJson += "{}: json['{}'],\n".format(key, key)
+
+        # print(abilities_init)
+        # print(abilities_fields)
+        # print(abilities_fromJson)
+        print(list(set(abilities_filters)))
+
+    def exterior_info(self):
+        json_dict = self._read_json('exteriors.json')
+        exterior_keys = {}
+        exterior_types: list[str] = []
+        for key in json_dict:
+            modifiers = json_dict[key]
+            exterior_types.append(modifiers['type'])
+            if not 'modifiers' in modifiers:
+                continue
+
+            modifiers = modifiers['modifiers']
+            for variable in modifiers:
+                exterior_keys[variable] = type(
+                    modifiers[variable],
+                ).__name__
+
+        exterior_fields = ''
+        exterior_fromJson = ''
+        exterior_init = ''
+        for key in exterior_keys:
+            dart_type = self._convert_to_dart_type(exterior_keys[key])
+            formatted = self._lower_two_letter(key)
+            exterior_fields += 'final {}? {};\n'.format(dart_type, formatted)
+            exterior_init += 'this.{},\n'.format(formatted)
+            exterior_fromJson += "{}: json['{}'],\n".format(formatted, key)
+
+        # print(exterior_init)
+        # print(exterior_fields)
+        print(exterior_fromJson)
+        # print(list(set(exterior_types)))
+
+
+if __name__ == "__main__":
+    analyse = WoWsAnalyse()
+    # analyse.ability_info()
+    analyse.exterior_info()
