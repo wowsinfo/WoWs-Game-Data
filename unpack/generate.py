@@ -160,6 +160,9 @@ class WoWsGenerate:
             current_weapon['rotation'] = weapon_module['rotationSpeed'][0]
             current_weapon['each'] = int(weapon_module['numBarrels'])
             current_weapon['ammo'] = weapon_module['ammoList']
+            # this is used for ap penetration
+            if 'vertSector' in weapon_module:
+                current_weapon['vertSector'] = weapon_module['vertSector'][1]
             weapons.append(current_weapon)
 
         # join same weapons together into one dict
