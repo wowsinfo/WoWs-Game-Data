@@ -6,7 +6,7 @@ converted to python using http://www.ompclib.appspot.com/m2py,
 used https://github.com/EdibleBug/WoWSFT-Kotlin/blob/5d4ce2d4ffb722c010b265ce3c39417eddd009c7/WoWSFT-Data/src/main/kotlin/WoWSFT/utils/PenetrationUtils.kt as a reference,
 modified by me.
 '''
-
+# %%
 from math import *
 import matplotlib.pyplot as plt
 
@@ -105,7 +105,12 @@ def get_ap_penetration(ap, output=False):
     plt.show()
 
 
-# testing only
+# %%
 if __name__ == '__main__':
     get_ap_penetration({'weight': 55, 'drag': 0.321,
                        'velocity': 950, 'diameter': 0.152, 'krupp': 2216})
+    # yukon
+    get_ap_penetration({'weight': 879, 'drag': 0.3379,
+                        'velocity': 836, 'diameter': 0.381, 'krupp': 2250})
+
+# %%

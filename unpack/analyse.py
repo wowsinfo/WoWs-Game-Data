@@ -91,8 +91,68 @@ class WoWsAnalyse:
         print(exterior_fromJson)
         # print(list(set(exterior_types)))
 
+    def modernization_info(self):
+        json_dict = self._read_json('modernizations.json')
+        modernization_keys = {}
+        for key in json_dict:
+            modernization = json_dict[key]
+            if not 'modifiers' in modernization:
+                continue
+
+            modifiers = modernization['modifiers']
+            for variable in modifiers:
+                modernization_keys[variable] = type(
+                    modifiers[variable],
+                ).__name__
+
+        modernization_fields = ''
+        modernization_fromJson = ''
+        modernization_init = ''
+        for key in modernization_keys:
+            dart_type = self._convert_to_dart_type(modernization_keys[key])
+            formatted = self._lower_two_letter(key)
+            modernization_fields += 'final {}? {};\n'.format(
+                dart_type, formatted)
+            modernization_init += 'this.{},\n'.format(formatted)
+            modernization_fromJson += "{}: json['{}'],\n".format(
+                formatted, key)
+
+        print(modernization_init)
+        print(modernization_fields)
+        print(modernization_fromJson)
+
+    def projectile_info(self):
+        json_dict = self._read_json('projectiles.json')
+        projectile_keys = {}
+        projectile_types: list[str] = []
+        for key in json_dict:
+            projectile = json_dict[key]
+            projectile_types.append(projectile['type'])
+            for variable in projectile:
+                projectile_keys[variable] = type(
+                    projectile[variable],
+                ).__name__
+
+        projectile_fields = ''
+        projectile_fromJson = ''
+        projectile_init = ''
+        for key in projectile_keys:
+            dart_type = self._convert_to_dart_type(projectile_keys[key])
+            formatted = self._lower_two_letter(key)
+            projectile_fields += 'final {}? {};\n'.format(dart_type, formatted)
+            projectile_init += 'this.{},\n'.format(formatted)
+            projectile_fromJson += "{}: json['{}'],\n".format(formatted, key)
+
+        # print(projectile_init)
+        # print(projectile_fields)
+        # print(projectile_fromJson)
+        print(list(set(projectile_types)))
+        print(len(projectile_keys))
+
 
 if __name__ == "__main__":
     analyse = WoWsAnalyse()
     # analyse.ability_info()
-    analyse.exterior_info()
+    # analyse.exterior_info()
+    # analyse.modernization_info()
+    analyse.projectile_info()
