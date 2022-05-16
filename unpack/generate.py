@@ -1015,7 +1015,7 @@ class WoWsGenerate:
                 # TODO: there are too many missing keys, there are seems to be lots of missing data
                 # TODO: maybe, we need to validate language key everytime we generate it, we should allow missing data
                 print('Missing {}'.format(key))
-        self._write_json(lang_file, 'lang.json')
+        self._write_json({'en': lang_file}, 'lang.json')
 
         # game_maps = self._unpack_game_map()
         # print("There are {} game maps in the game".format(len(game_maps)))
