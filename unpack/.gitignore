@@ -8,4 +8,4 @@ content/
 gui/
 spaces/
 assets/
-langs/
+langs/*.json
