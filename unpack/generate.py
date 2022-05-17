@@ -552,6 +552,7 @@ class WoWsGenerate:
         name = self._IDS(key)
         exterior['name'] = name
         self._lang_keys.append(name)
+        exterior['icon'] = key
 
         costCR = item['costCR']
         if (costCR >= 0):
@@ -594,6 +595,7 @@ class WoWsGenerate:
         modernization['slot'] = slot
         modernization['id'] = item['id']
         modernization['name'] = lang_name
+        modernization['icon'] = key
         modernization['description'] = description
         if len(item['shiplevel']) > 0:
             modernization['level'] = item['shiplevel']
@@ -834,7 +836,9 @@ class WoWsGenerate:
         name = 'IDS_DOCK_CONSUME_TITLE_' + lang_key
         description = 'IDS_DOCK_CONSUME_DESCRIPTION_' + lang_key
         abilities['name'] = name
+        abilities['id'] = item['id']
         abilities['description'] = description
+        abilities['icon'] = key
         self._lang_keys.append(name)
         self._lang_keys.append(description)
 
