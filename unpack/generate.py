@@ -595,7 +595,7 @@ class WoWsGenerate:
         modernization['slot'] = slot
         modernization['id'] = item['id']
         modernization['name'] = lang_name
-        modernization['icon'] = key
+        modernization['icon'] = name
         modernization['description'] = description
         if len(item['shiplevel']) > 0:
             modernization['level'] = item['shiplevel']
