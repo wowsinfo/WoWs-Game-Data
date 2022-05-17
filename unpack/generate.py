@@ -1011,6 +1011,12 @@ class WoWsGenerate:
         print("There are {} Japanese alias in the game".format(len(alias)))
         self._write_json(alias, 'alias.json')
         print("We need {} language keys".format(len(self._lang_keys)))
+
+        for key in self._lang.keys():
+            # get all modifiers
+            if key.startswith('IDS_PARAMS_MODIFIER_'):
+                self._lang_keys.append(key)
+
         lang_file = {}
         for key in self._lang_keys:
             try:
