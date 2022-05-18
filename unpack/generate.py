@@ -12,6 +12,7 @@ class WoWsGenerate:
 
     # store all language keys we use
     _lang_keys: List[str] = []
+    _modifiers: dict = {}
 
     def __init__(self):
         pass
@@ -562,6 +563,9 @@ class WoWsGenerate:
             exterior['costGold'] = costGold
         if len(item['modifiers']) > 0:
             exterior['modifiers'] = item['modifiers']
+            # save all the modifiers
+            for key in exterior['modifiers']:
+                self._modifiers[key] = exterior['modifiers'][key]
 
         exterior_type = item['typeinfo']['species']
         exterior['type'] = exterior_type
@@ -603,7 +607,12 @@ class WoWsGenerate:
             modernization['type'] = item['shiptype']
         if len(item['nation']) > 0:
             modernization['nation'] = item['nation']
-        modernization['modifiers'] = item['modifiers']
+        
+        modifiers = item['modifiers']
+        modernization['modifiers'] = modifiers
+        # save all the modifiers
+        for key in modifiers:
+            self._modifiers[key] = modifiers[key]
 
         ships = item['ships']
         ships_id = []
@@ -860,6 +869,9 @@ class WoWsGenerate:
                 if ability_key in ['SpecialSoundID', 'group'] or 'Effect' in ability_key:
                     continue
 
+                # save all the modifiers
+                self._modifiers[ability_key] = value
+
                 # write consumable type only once
                 if ability_key == 'consumableType':
                     if not 'type' in abilities:
@@ -912,7 +924,6 @@ class WoWsGenerate:
         """
         Unpack the japanese ship alias
         """
-        ship_alias = {}
         ship_id = item['id']
         ship_index = item['index']
         return {ship_id: {'alias': lang[self._IDS(ship_index)]}}
@@ -975,9 +986,15 @@ class WoWsGenerate:
                     # save the shared one
                     skills[key] = item
                     continue
-
+                
+                # TODO: move to unpack_crews
                 if item['CrewPersonality']['isUnique'] == True:
                     skills[key] = item
+                
+                for s in item['Skills']:
+                    modifiers = item['Skills'][s]['modifiers']
+                    for m in modifiers:
+                        self._modifiers[m] = modifiers[m]
             elif item_type == 'Gun':
                 # weapons.update(self._unpack_weapons(item, key))
                 continue
@@ -1011,6 +1028,9 @@ class WoWsGenerate:
         print("There are {} Japanese alias in the game".format(len(alias)))
         self._write_json(alias, 'alias.json')
         print("We need {} language keys".format(len(self._lang_keys)))
+        print("There are {} modifieris in the game".format(len(self._modifiers)))
+        sorted_modifiers = dict(sorted(self._modifiers.items()))
+        self._write_json(sorted_modifiers, 'modifiers.json')
 
         for key in self._lang.keys():
             # get all modifiers
