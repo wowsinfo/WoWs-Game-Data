@@ -600,6 +600,8 @@ class WoWsGenerate:
         modernization['id'] = item['id']
         modernization['name'] = lang_name
         modernization['icon'] = name
+        modernization['description'] = description
+        modernization['costCR'] = item['costCR']
 
         tag = item['tags']
         if len(tag) > 0:
