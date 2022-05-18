@@ -600,14 +600,22 @@ class WoWsGenerate:
         modernization['id'] = item['id']
         modernization['name'] = lang_name
         modernization['icon'] = name
-        modernization['description'] = description
+
+        tag = item['tags']
+        if len(tag) > 0:
+            tag = tag[0]
+            if tag == 'unique':
+                modernization['unique'] = True
+            elif tag == 'special':
+                modernization['special'] = True
+        modernization['costCR'] = item['costCR']
         if len(item['shiplevel']) > 0:
             modernization['level'] = item['shiplevel']
         if len(item['shiptype']) > 0:
             modernization['type'] = item['shiptype']
         if len(item['nation']) > 0:
             modernization['nation'] = item['nation']
-        
+
         modifiers = item['modifiers']
         modernization['modifiers'] = modifiers
         # save all the modifiers
@@ -986,11 +994,11 @@ class WoWsGenerate:
                     # save the shared one
                     skills[key] = item
                     continue
-                
+
                 # TODO: move to unpack_crews
                 if item['CrewPersonality']['isUnique'] == True:
                     skills[key] = item
-                
+
                 for s in item['Skills']:
                     modifiers = item['Skills'][s]['modifiers']
                     for m in modifiers:
