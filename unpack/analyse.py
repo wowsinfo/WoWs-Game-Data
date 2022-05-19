@@ -149,10 +149,30 @@ class WoWsAnalyse:
         print(list(set(projectile_types)))
         print(len(projectile_keys))
 
+    def ship_info(self):
+        json_dict = self._read_json('ships.json')
+        ship_groups = {}
+        for key in json_dict:
+            ship = json_dict[key]
+            ship_groups[ship['group']] = True
+
+        # ship_fields = ''
+        # ship_fromJson = ''
+        # ship_init = ''
+        # for key in ship_keys:
+        #     dart_type = self._convert_to_dart_type(ship_keys[key])
+        #     formatted = self._lower_two_letter(key)
+        #     ship_fields += 'final {}? {};\n'.format(dart_type, formatted)
+        #     ship_init += 'this.{},\n'.format(formatted)
+        #     ship_fromJson += "{}: json['{}'],\n".format(formatted, key)
+
+        print(list(ship_groups.keys()))
+
 
 if __name__ == "__main__":
     analyse = WoWsAnalyse()
     # analyse.ability_info()
     # analyse.exterior_info()
     # analyse.modernization_info()
-    analyse.projectile_info()
+    # analyse.projectile_info()
+    analyse.ship_info()
