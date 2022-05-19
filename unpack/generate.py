@@ -13,9 +13,12 @@ class WoWsGenerate:
     # store all language keys we use
     _lang_keys: List[str] = []
     _modifiers: dict = {}
+    # store all regions, ship types and all other data we need
+    _game_info: dict = {}
 
     def __init__(self):
-        pass
+        self._game_info['regions'] = {}
+        self._game_info['types'] = {}
 
     def read(self):
         """
@@ -394,8 +397,21 @@ class WoWsGenerate:
         ship_params['id'] = ship_id
         ship_params['index'] = ship_index
         ship_params['tier'] = item['level']
-        ship_params['region'] = self._IDS(item['typeinfo']['nation'].upper())
-        ship_params['type'] = self._IDS(item['typeinfo']['species'].upper())
+
+        # region and type + their lang key
+        nation = item['typeinfo']['nation']
+        species = item['typeinfo']['species']
+        self._game_info['regions'][nation] = True
+        self._game_info['types'][species] = True
+        ship_params['region'] = nation
+        ship_params['type'] = species
+        nation_lang = self._IDS(nation.upper())
+        species_lang = self._IDS(species.upper())
+        ship_params['regionID'] = nation_lang
+        ship_params['typeID'] = species_lang
+        self._lang_keys.append(nation_lang)
+        self._lang_keys.append(species_lang)
+
         if (len(item['permoflages']) > 0):
             ship_params['permoflages'] = item['permoflages']
         ship_params['group'] = item['group']
@@ -949,6 +965,16 @@ class WoWsGenerate:
 
         return []
 
+    def _convert_game_info(self):
+        """
+        Convert game_info from dicts to lists
+        """
+        regions = self._game_info['regions']
+        types = self._game_info['types']
+
+        self._game_info['regions'] = list(regions.keys())
+        self._game_info['types'] = list(types.keys())
+
     # %%
 
     def generate(self):
@@ -1041,10 +1067,13 @@ class WoWsGenerate:
         print("There are {} modifieris in the game".format(len(self._modifiers)))
         sorted_modifiers = dict(sorted(self._modifiers.items()))
         self._write_json(sorted_modifiers, 'modifiers.json')
+        print("Save game info")
+        self._convert_game_info()
+        self._write_json(self._game_info, 'game_info.json')
 
         for key in self._lang.keys():
             # get all modifiers
-            if key.startswith('IDS_PARAMS_MODIFIER_'):
+            if key.startswith('IDS_PARAMS_MODIFIER_') or key.startswith('IDS_MODULE_TYPE_'):
                 self._lang_keys.append(key)
 
         lang_file = {}
@@ -1086,6 +1115,7 @@ class WoWsGenerate:
         wowsinfo['abilities'] = abilitites
         wowsinfo['alias'] = alias
         wowsinfo['commander_skills'] = commander_skills
+        wowsinfo['game'] = self._game_info
         # wowsinfo['game_maps'] = game_maps
 
         # TODO: to be added to app/data/
