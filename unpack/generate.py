@@ -5,7 +5,7 @@ import required modules and helper methods
 import glob
 import json
 import os
-from typing import List
+from typing import List, Callable
 
 
 class WoWsGenerate:
@@ -68,6 +68,15 @@ class WoWsGenerate:
     def _roundUp(self, num: float, digits: int = 1) -> float:
         # TODO: in the future, we may need to keep more digits in case our calculation in app is not accurate
         return round(num, digits)
+
+    def _match(self, text: str, patterns: List[str], method: Callable[[str, str], bool]) -> bool:
+        """
+        Match text with patterns
+        """
+        for pattern in patterns:
+            if method(text, pattern):
+                return True
+        return False
 
     def _tree(self, data: any, depth: int = 2, tab: int = 0, show_value: bool = False):
         """
@@ -1073,7 +1082,7 @@ class WoWsGenerate:
 
         for key in self._lang.keys():
             # get all modifiers
-            if key.startswith('IDS_PARAMS_MODIFIER_') or key.startswith('IDS_MODULE_TYPE_'):
+            if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_'], lambda x, y: x.startswith(y)):
                 self._lang_keys.append(key)
 
         lang_file = {}
