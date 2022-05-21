@@ -538,10 +538,11 @@ class WoWsGenerate:
             #     raise Exception('Unknown module type: {}'.format(module_type))
 
             # there can be multiple modules of the same type
+            module_info['name'] = self._IDS(module_key)
             if module_type in module_tree:
-                module_tree[module_type].update({module_key: module_info})
+                module_tree[module_type].append(module_info)
             else:
-                module_tree[module_type] = {module_key: module_info}
+                module_tree[module_type] = [module_info]
         ship_params['modules'] = module_tree
         ship_params['components'] = component_tree
 
@@ -1082,7 +1083,7 @@ class WoWsGenerate:
 
         for key in self._lang.keys():
             # get all modifiers
-            if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_'], lambda x, y: x.startswith(y)):
+            if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_', 'IDS_SHIP_PARAM_'], lambda x, y: x.startswith(y)):
                 self._lang_keys.append(key)
 
         lang_file = {}

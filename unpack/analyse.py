@@ -152,9 +152,12 @@ class WoWsAnalyse:
     def ship_info(self):
         json_dict = self._read_json('ships.json')
         ship_groups = {}
+        module_types = {}
         for key in json_dict:
             ship = json_dict[key]
             ship_groups[ship['group']] = True
+            for module in ship['modules']:
+                module_types[module] = True
 
         # ship_fields = ''
         # ship_fromJson = ''
@@ -166,7 +169,8 @@ class WoWsAnalyse:
         #     ship_init += 'this.{},\n'.format(formatted)
         #     ship_fromJson += "{}: json['{}'],\n".format(formatted, key)
 
-        print(list(ship_groups.keys()))
+        # print(list(ship_groups.keys()))
+        print(list(module_types.keys()))
 
 
 if __name__ == "__main__":
