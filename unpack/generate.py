@@ -108,50 +108,51 @@ class WoWsGenerate:
     Unpack helper functions
     """
 
-    def _unpack_air_defense(self, aura_key: str, air_defense: dict, module: dict):
+    def _unpack_air_defense(self, module: dict):
         """
-        Unpack air defense info to air_defense dict
+        Unpack air defense info from module and return air_defense dict
         """
-        # TODO: should return a dict instead here, don't modify the original dict from this function
-        # TODO: air defense info can change so this should be updated
-        aura = module[aura_key]
-        if not 'Aura' in aura_key:
-            return
+        air_defense = {}
+        for aura_key in module:
+            aura = module[aura_key]
+            if not 'Aura' in aura_key:
+                continue
 
-        min_distance = aura['minDistance'] / 1000
-        max_distance = aura['maxDistance'] / 1000
+            min_distance = aura['minDistance'] / 1000
+            max_distance = aura['maxDistance'] / 1000
 
-        if 'Bubbles' in aura_key:
-            bubbles = {}
-            # handle black cloud (bubbles), this deals massive damage
-            bubbles['inner'] = int(aura['innerBubbleCount'])
-            bubbles['outer'] = int(aura['outerBubbleCount'])
-            bubbles['rof'] = aura['shotDelay']
-            bubbles['minRange'] = min_distance
-            bubbles['maxRange'] = max_distance
-            bubbles['spawnTime'] = aura['shotTravelTime']
-            # value 7 is from WoWsFT, seems to be a fixed value
-            bubbles['damage'] = aura['bubbleDamage'] * 7
-            air_defense['bubbles'] = bubbles
+            if 'Bubbles' in aura_key:
+                bubbles = {}
+                # handle black cloud (bubbles), this deals massive damage
+                bubbles['inner'] = int(aura['innerBubbleCount'])
+                bubbles['outer'] = int(aura['outerBubbleCount'])
+                bubbles['rof'] = aura['shotDelay']
+                bubbles['minRange'] = min_distance
+                bubbles['maxRange'] = max_distance
+                bubbles['spawnTime'] = aura['shotTravelTime']
+                # value 7 is from WoWsFT, seems to be a fixed value
+                bubbles['damage'] = aura['bubbleDamage'] * 7
+                air_defense['bubbles'] = bubbles
 
-        rate_of_fire = aura['areaDamagePeriod']
-        damage = aura['areaDamage']
-        dps = self._roundUp(damage / rate_of_fire)
+            rate_of_fire = aura['areaDamagePeriod']
+            damage = aura['areaDamage']
+            dps = self._roundUp(damage / rate_of_fire)
 
-        air_defense_info = {}
-        air_defense_info['minRange'] = min_distance
-        air_defense_info['maxRange'] = max_distance
-        air_defense_info['hitChance'] = aura['hitChance']
-        air_defense_info['damage'] = damage
-        air_defense_info['rof'] = self._roundUp(rate_of_fire, digits=2)
-        air_defense_info['dps'] = dps
+            air_defense_info = {}
+            air_defense_info['minRange'] = min_distance
+            air_defense_info['maxRange'] = max_distance
+            air_defense_info['hitChance'] = aura['hitChance']
+            air_defense_info['damage'] = damage
+            air_defense_info['rof'] = self._roundUp(rate_of_fire, digits=2)
+            air_defense_info['dps'] = dps
 
-        if aura_key == 'AuraFar':
-            air_defense['far'] = air_defense_info
-        if aura_key == 'AuraMedium':
-            air_defense['medium'] = air_defense_info
-        if aura_key == 'AuraNear':
-            air_defense['near'] = air_defense_info
+            if aura_key == 'AuraFar':
+                air_defense['far'] = air_defense_info
+            if aura_key == 'AuraMedium':
+                air_defense['medium'] = air_defense_info
+            if aura_key == 'AuraNear':
+                air_defense['near'] = air_defense_info
+        return air_defense
 
     def _unpack_guns_torpedoes(self, module: dict) -> dict:
         """
@@ -259,8 +260,8 @@ class WoWsGenerate:
             ship_components.update(artillery)
 
             # check air defense
-            for aura_key in module:
-                self._unpack_air_defense(aura_key, air_defense, module)
+            air_defense = self._unpack_air_defense(module)
+            ship_components.update(air_defense)
         elif 'atba' in module_type:
             secondaries = {}
             secondaries['range'] = module['maxDist']
@@ -269,17 +270,16 @@ class WoWsGenerate:
             ship_components.update(secondaries)
 
             # check air defense
-            for aura_key in module:
-                self._unpack_air_defense(aura_key, air_defense, module)
+            air_defense = self._unpack_air_defense(module)
+            ship_components.update(air_defense)
         elif 'torpedoes' in module_type:
             torpedo = {}
             torpedo['singleShot'] = module['useOneShot']
             torpedo['launchers'] = self._unpack_guns_torpedoes(module)
             ship_components.update(torpedo)
         elif 'airDefense' in module_type:
-            # TODO: air defense can change, need to consider this
-            for aura_key in module:
-                self._unpack_air_defense(aura_key, air_defense, module)
+            air_defense = self._unpack_air_defense(module)
+            ship_components.update(air_defense)
         elif 'airSupport' in module_type:
             air_support = {}
             plane_name = self._IDS(module['planeName'])
@@ -290,7 +290,7 @@ class WoWsGenerate:
             air_support['bombs'] = module['chargesNum']
             air_support['range'] = self._roundUp(
                 module['maxDist'] / 1000)
-            ship_components['airSupport'] = air_support
+            ship_components.update(air_support)
         elif 'depthCharges' in module_type:
             depth_charge = {}
             depth_charge['reload'] = module['reloadTime']
@@ -310,7 +310,7 @@ class WoWsGenerate:
             total_bombs *= module['numShots']
             depth_charge['bombs'] = total_bombs
             depth_charge['groups'] = module['maxPacks']
-            ship_components['depthCharge'] = depth_charge
+            ship_components.update(depth_charge)
         elif 'fireControl' in module_type:
             # this may increase the range and also sigma
             ship_components = module
@@ -1010,10 +1010,11 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # if 'PBAF108_Implacable_stock' in key:
-            #     self._write_json(item, 'PBAF108_Implacable_stock.json')
+            # key_name = 'PBSB104'
+            # if key_name in key:
+            #     self._write_json(item, '{}.json'.format(key_name))
             #     # print(self._unpack_ship_params(item, params))
-            #     break
+            #     exit(1)
 
             if item_type == 'Ship':
                 ships.update(self._unpack_ship_params(item, self._params))
