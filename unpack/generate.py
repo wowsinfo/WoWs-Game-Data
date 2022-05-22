@@ -538,7 +538,9 @@ class WoWsGenerate:
             #     raise Exception('Unknown module type: {}'.format(module_type))
 
             # there can be multiple modules of the same type
-            module_info['name'] = self._IDS(module_key)
+            moduleName = self._IDS(module_key)
+            module_info['name'] = moduleName
+            self._lang_keys.append(moduleName)
             if module_type in module_tree:
                 module_tree[module_type].append(module_info)
             else:
