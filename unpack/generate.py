@@ -484,10 +484,6 @@ class WoWsGenerate:
                         if s in params:
                             ship_params['nextShips'].append(params[s]['id'])
 
-            # they are included in the hull
-            if module_type in ['_Artillery', '_Torpedoes']:
-                continue
-
             # simply save it to the module tree
             components = current_module['components']
             module_info['components'] = components
