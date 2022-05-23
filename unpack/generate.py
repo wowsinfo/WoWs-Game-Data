@@ -333,14 +333,15 @@ class WoWsGenerate:
             # TODO: taking the first value for now, this is metre per second
             pinger['speed'] = module['waveParams'][0]['waveSpeed'][0]
             ship_components.update(pinger)
+        elif 'engine' in module_type:
+            speedCoef = module['speedCoef']
+            if speedCoef != 0:
+                ship_components['speedCoef'] = speedCoef
         elif 'airArmament' in module_type:
             # TODO: this could be the fighter, scoupter
             pass
         elif 'radars' in module_type:
             # TODO: this might be the radar on the ship, not the radar consumable
-            pass
-        elif 'engine' in module_type:
-            # TODO: not sure what this does
             pass
         elif 'chargeLasers' in module_type:
             # TODO: not sure what this does
@@ -483,6 +484,10 @@ class WoWsGenerate:
                         if s in params:
                             ship_params['nextShips'].append(params[s]['id'])
 
+            # they are included in the hull
+            if module_type in ['_Artillery', '_Torpedoes']:
+                continue
+
             # simply save it to the module tree
             components = current_module['components']
             module_info['components'] = components
@@ -506,36 +511,6 @@ class WoWsGenerate:
                     if len(first_value) == 0:
                         continue
                     component_tree.update(component)
-
-            # elif module_type == '_Artillery':
-            #     pass
-            # elif module_type == '_Engine':
-            #     pass
-            # elif module_type == '_Suo':
-            #     pass
-            # elif module_type == '_Torpedoes':
-            #     pass
-            # elif module_type == '_TorpedoBomber':
-            #     pass
-            # elif module_type == '_DiveBomber':
-            #     pass
-            # elif module_type == '_FlightControl':
-            #     pass
-            # elif module_type == '_Fighter':
-            #     pass
-            # elif module_type == '_SkipBomber':
-            #     pass
-            # elif module_type == '_Sonar':
-            #     pass
-            # elif module_type == '_Abilities':
-            #     # this is events only I think
-            #     pass
-            # elif module_type == '_PrimaryWeapons':
-            #     pass
-            # elif module_type == '_SecondaryWeapons':
-            #     pass
-            # else:
-            #     raise Exception('Unknown module type: {}'.format(module_type))
 
             # there can be multiple modules of the same type
             moduleName = self._IDS(module_key)
