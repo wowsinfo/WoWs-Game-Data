@@ -29,7 +29,7 @@ class WoWsGenerate:
         print('Loaded game params!')
         self._params_keys = list(self._params.keys())
         self._lang = self._read_lang('en')
-        self._lang_ja = self._read_lang('ja')
+        # get all Japanese ship names
         self._lang_sg = self._read_lang('zh_sg')
         return self
 
@@ -39,6 +39,22 @@ class WoWsGenerate:
 
     def _read_lang(self, language: str) -> dict:
         return self._read_json('langs/{}_lang.json'.format(language))
+
+    def _read_supported_langs(self) -> dict:
+        """
+        Read all language files and return a dict
+        """
+        lang_dict = {}
+        for lang in self._list_dir('langs'):
+            if '.git' in lang:
+                continue
+
+            lang = lang.replace('_lang.json', '')
+            if not lang in ['en', 'ja', 'zh', 'zh_sg', 'zh_tw']:
+                continue
+            print('Reading language {}...'.format(lang))
+            lang_dict[lang] = self._read_lang(lang)
+        return lang_dict
 
     def _read_json(self, filename: str) -> dict:
         with open(filename, 'r', encoding='utf8') as f:
@@ -1061,14 +1077,21 @@ class WoWsGenerate:
                 self._lang_keys.append(key)
 
         lang_file = {}
+        # prepare for all languages
+        all_langs = self._read_supported_langs()
+        all_langs_keys = list(all_langs.keys())
+        for key in all_langs_keys:
+            lang_file[key] = {}
+
         for key in self._lang_keys:
             try:
-                lang_file[key] = self._lang[key]
+                for lang in all_langs_keys:
+                    lang_file[lang][key] = all_langs[lang][key]
             except KeyError:
                 # TODO: there are too many missing keys, there are seems to be lots of missing data
                 # TODO: maybe, we need to validate language key everytime we generate it, we should allow missing data
                 print('Missing {}'.format(key))
-        self._write_json({'en': lang_file}, 'lang.json')
+        self._write_json(lang_file, 'lang.json')
 
         # game_maps = self._unpack_game_map()
         # print("There are {} game maps in the game".format(len(game_maps)))
