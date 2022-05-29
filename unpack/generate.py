@@ -579,16 +579,19 @@ class WoWsGenerate:
         if len(item['modifiers']) > 0:
             exterior['modifiers'] = item['modifiers']
             # save all the modifiers
-            for key in exterior['modifiers']:
-                self._modifiers[key] = exterior['modifiers'][key]
+            for modifierKey in exterior['modifiers']:
+                self._modifiers[modifierKey] = exterior['modifiers'][modifierKey]
 
         exterior_type = item['typeinfo']['species']
         exterior['type'] = exterior_type
+        if exterior_type == 'Ensign':
+            return {}
         if exterior_type == 'Flags':
             # add the description
             description = name + '_DESCRIPTION'
             exterior['description'] = description
             self._lang_keys.append(description)
+
         # exterior['name'] = item['name']
         # exterior['name'] = item['name']
         # exterior['name'] = item['name']
@@ -1116,7 +1119,7 @@ class WoWsGenerate:
         wowsinfo['achievements'] = achievements
         wowsinfo['exteriors'] = exteriors
         wowsinfo['modernizations'] = modernizations
-        wowsinfo['weapons'] = weapons
+        # wowsinfo['weapons'] = weapons
         wowsinfo['projectiles'] = projectiles
         wowsinfo['aircrafts'] = aircrafts
         wowsinfo['abilities'] = abilitites
