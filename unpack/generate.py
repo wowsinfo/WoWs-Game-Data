@@ -141,7 +141,9 @@ class WoWsGenerate:
             min_distance = aura['minDistance'] / 1000
             max_distance = aura['maxDistance'] / 1000
 
-            if 'Bubbles' in aura_key:
+            damage = aura['areaDamage']
+            # treat this as the bubble
+            if damage == 0:
                 bubbles = {}
                 # handle black cloud (bubbles), this deals massive damage
                 bubbles['inner'] = int(aura['innerBubbleCount'])
@@ -153,9 +155,14 @@ class WoWsGenerate:
                 # value 7 is from WoWsFT, seems to be a fixed value
                 bubbles['damage'] = aura['bubbleDamage'] * 7
                 air_defense['bubbles'] = bubbles
+                continue
 
+            # not a bubble, treat this as a normal aa gun
             rate_of_fire = aura['areaDamagePeriod']
-            damage = aura['areaDamage']
+            if damage == 0:
+                print(aura)
+                raise ValueError(
+                    'Damage should not be 0 if it is not a bubble!')
             dps = self._roundUp(damage / rate_of_fire)
 
             air_defense_info = {}
