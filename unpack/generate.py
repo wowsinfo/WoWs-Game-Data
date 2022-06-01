@@ -131,7 +131,11 @@ class WoWsGenerate:
         air_defense = {}
         for aura_key in module:
             aura = module[aura_key]
-            if not 'Aura' in aura_key:
+            if not isinstance(aura, dict):
+                continue
+            if not 'type' in aura:
+                continue
+            if not aura['type'] in ['far', 'medium', 'near']:
                 continue
 
             min_distance = aura['minDistance'] / 1000
@@ -162,11 +166,11 @@ class WoWsGenerate:
             air_defense_info['rof'] = self._roundUp(rate_of_fire, digits=2)
             air_defense_info['dps'] = dps
 
-            if aura_key == 'AuraFar':
+            if 'Far' in aura_key:
                 air_defense['far'] = air_defense_info
-            if aura_key == 'AuraMedium':
+            if 'Medium' in aura_key:
                 air_defense['medium'] = air_defense_info
-            if aura_key == 'AuraNear':
+            if 'Near' in aura_key:
                 air_defense['near'] = air_defense_info
         return air_defense
 
@@ -217,7 +221,7 @@ class WoWsGenerate:
             m['count'] = counter[merged.index(m)]
         return merged
 
-    def _unpack_ship_components(self, module_name: str, module_type: str, ship: dict, air_defense: dict) -> dict:
+    def _unpack_ship_components(self, module_name: str, module_type: str, ship: dict) -> dict:
         # TODO: how to air defense here??
         """
         Unpack the ship components
@@ -515,7 +519,7 @@ class WoWsGenerate:
                     if component_name in component_tree:
                         continue
                     component = self._unpack_ship_components(
-                        component_name, component_key, item, air_defense
+                        component_name, component_key, item
                     )
 
                     first_value = next(iter(component.values()))
@@ -701,6 +705,7 @@ class WoWsGenerate:
         ammo_type = item['ammoType']
         projectile['ammoType'] = ammo_type
         projectile['speed'] = item['bulletSpeed']
+        projectile['weight'] = item['bulletMass']
 
         # HE & SAP penetration value
         pen_cs = item['alphaPiercingCS']
@@ -1000,7 +1005,9 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # key_name = 'PBSB104'
+            # key_name = 'PZSB519'
+            # if not key_name in key:
+            #     continue
             # if key_name in key:
             #     self._write_json(item, '{}.json'.format(key_name))
             #     # print(self._unpack_ship_params(item, params))
