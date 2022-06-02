@@ -50,7 +50,7 @@ class WoWsGenerate:
                 continue
 
             lang = lang.replace('_lang.json', '')
-            if not lang in ['en', 'ja', 'zh', 'zh_sg', 'zh_tw']:
+            if not lang in ['en', 'ja', 'zh_sg', 'zh_tw']:
                 continue
             print('Reading language {}...'.format(lang))
             lang_dict[lang] = self._read_lang(lang)
@@ -973,7 +973,9 @@ class WoWsGenerate:
         """
         Get extra strings we need for the app
         """
-        return ['IDS_SPECTATE_SWITCH_SHIP', 'IDS_MODERNIZATIONS', 'IDS_MODULE_TYPE_ABILITIES']
+        return ['IDS_SPECTATE_SWITCH_SHIP', 'IDS_MODERNIZATIONS', 'IDS_MODULE_TYPE_ABILITIES',
+                # units
+                'IDS_SECOND', 'IDS_KILOMETER', 'IDS_KILOGRAMM', 'IDS_KNOT', 'IDS_METER_SECOND']
 
     def _convert_game_info(self):
         """
