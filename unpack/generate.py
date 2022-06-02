@@ -975,7 +975,7 @@ class WoWsGenerate:
         """
         return ['IDS_SPECTATE_SWITCH_SHIP', 'IDS_MODERNIZATIONS', 'IDS_MODULE_TYPE_ABILITIES',
                 # units
-                'IDS_SECOND', 'IDS_KILOMETER', 'IDS_KILOGRAMM', 'IDS_KNOT', 'IDS_METER_SECOND']
+                'IDS_SECOND', 'IDS_KILOMETER', 'IDS_KILOGRAMM', 'IDS_KNOT', 'IDS_METER_SECOND', 'IDS_MILLIMETER', 'IDS_METER']
 
     def _convert_game_info(self):
         """
