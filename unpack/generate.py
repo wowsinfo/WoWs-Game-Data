@@ -574,6 +574,11 @@ class WoWsGenerate:
         Unpack flags, camouflage and permoflages
         """
         exterior = {}
+        exterior_type = item['typeinfo']['species']
+        exterior['type'] = exterior_type
+        # NOTE: ENSIGN should never be included in the app due to lots of issues
+        if exterior_type == 'Ensign':
+            return {}
 
         exterior['id'] = item['id']
         name = self._IDS(key)
@@ -593,10 +598,6 @@ class WoWsGenerate:
             for modifierKey in exterior['modifiers']:
                 self._modifiers[modifierKey] = exterior['modifiers'][modifierKey]
 
-        exterior_type = item['typeinfo']['species']
-        exterior['type'] = exterior_type
-        if exterior_type == 'Ensign':
-            return {}
         if exterior_type == 'Flags':
             # add the description
             description = name + '_DESCRIPTION'
@@ -968,16 +969,11 @@ class WoWsGenerate:
         ship_index = item['index']
         return {ship_id: {'alias': lang[self._IDS(ship_index)]}}
 
-    def _unpack_language(self, item: dict, key: str) -> list:
+    def _unpack_language(self) -> list:
         """
-        Get everything we need from the language file, return a list of keys
+        Get extra strings we need for the app
         """
-        # abilities
-        abilities: list[str] = []
-        ability_keys: list[str] = ['IDS_PARAMS_MODIFIER_' + x.upper()
-                                   for x in abilities]
-
-        return []
+        return ['IDS_SPECTATE_SWITCH_SHIP', 'IDS_MODERNIZATIONS', 'IDS_MODULE_TYPE_ABILITIES']
 
     def _convert_game_info(self):
         """
@@ -1092,6 +1088,7 @@ class WoWsGenerate:
             # get all modifiers
             if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_', 'IDS_SHIP_PARAM_'], lambda x, y: x.startswith(y)):
                 self._lang_keys.append(key)
+            self._lang_keys += self._unpack_language()
 
         lang_file = {}
         # prepare for all languages
