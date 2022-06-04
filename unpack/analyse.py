@@ -155,7 +155,7 @@ class WoWsAnalyse:
         module_types = {}
         for key in json_dict:
             ship = json_dict[key]
-            ship_groups[ship['group']] = True
+            ship_groups[ship['group']] = ship['name']
             for module in ship['modules']:
                 module_types[module] = True
 
@@ -169,7 +169,9 @@ class WoWsAnalyse:
         #     ship_init += 'this.{},\n'.format(formatted)
         #     ship_fromJson += "{}: json['{}'],\n".format(formatted, key)
 
-        # print(list(ship_groups.keys()))
+        print(list(ship_groups.keys()))
+        print(ship_groups)
+        print(len(ship_groups))
         print(list(module_types.keys()))
 
 

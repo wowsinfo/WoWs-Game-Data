@@ -499,12 +499,13 @@ class WoWsGenerate:
                 module_index += 1
             module_info['index'] = module_index
 
-            # now, we need to read the info about it from hull
-            if module_type == '_Hull':
+            # NOTE: all modules can have information about next ship, don't only check HULL
+            if 'nextShips' in current_module:
                 next_ship = current_module['nextShips']
                 # there can be multiple next ships, write this to the root
                 if len(next_ship) > 0:
-                    ship_params['nextShips'] = []
+                    if 'nextShips' not in ship_params:
+                        ship_params['nextShips'] = []
                     # convert to ship id here
                     for s in next_ship:
                         # key PRSD309_Pr_48 is deleted, so for deleted ships, we need to allow invalid key
@@ -975,7 +976,9 @@ class WoWsGenerate:
         """
         return ['IDS_SPECTATE_SWITCH_SHIP', 'IDS_MODERNIZATIONS', 'IDS_MODULE_TYPE_ABILITIES',
                 # units
-                'IDS_SECOND', 'IDS_KILOMETER', 'IDS_KILOGRAMM', 'IDS_KNOT', 'IDS_METER_SECOND', 'IDS_MILLIMETER', 'IDS_METER']
+                'IDS_SECOND', 'IDS_KILOMETER', 'IDS_KILOGRAMM', 'IDS_KNOT', 'IDS_METER_SECOND', 'IDS_MILLIMETER', 'IDS_METER',
+                #
+                'IDS_SHIPS']
 
     def _convert_game_info(self):
         """
@@ -1010,7 +1013,7 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # key_name = 'PZSB519'
+            # key_name = 'PJSD003'
             # if not key_name in key:
             #     continue
             # if key_name in key:
