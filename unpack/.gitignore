@@ -9,3 +9,4 @@ gui/
 spaces/
 assets/
 langs/*.json
+lang.js

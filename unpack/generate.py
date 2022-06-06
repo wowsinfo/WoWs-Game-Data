@@ -6,6 +6,7 @@ import glob
 import json
 import os
 from typing import List, Callable
+from additional import merge_additional
 
 
 class WoWsGenerate:
@@ -977,8 +978,8 @@ class WoWsGenerate:
         return ['IDS_SPECTATE_SWITCH_SHIP', 'IDS_MODERNIZATIONS', 'IDS_MODULE_TYPE_ABILITIES',
                 # units
                 'IDS_SECOND', 'IDS_KILOMETER', 'IDS_KILOGRAMM', 'IDS_KNOT', 'IDS_METER_SECOND', 'IDS_MILLIMETER', 'IDS_METER',
-                #
-                'IDS_SHIPS']
+                # generic strings
+                'IDS_SHIPS', 'IDS_BATTLES']
 
     def _convert_game_info(self):
         """
@@ -1146,6 +1147,7 @@ class WoWsGenerate:
 
         # TODO: to be added to app/data/
         self._write_json(wowsinfo, 'wowsinfo.json')
+        merge_additional()
         print("Done")
 
 
