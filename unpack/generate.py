@@ -1084,6 +1084,18 @@ class WoWsGenerate:
         self._write_json(alias, 'alias.json')
         print("We need {} language keys".format(len(self._lang_keys)))
         print("There are {} modifieris in the game".format(len(self._modifiers)))
+        # get all modifier names
+        modifiers_copy = self._modifiers.copy()
+        for m in modifiers_copy:
+            modifier_name = 'IDS_PARAMS_MODIFIER_' + m.upper()
+            if not modifier_name in self._lang_sg:
+                modifier_name = modifier_name + '_DESTROYER'
+            if not modifier_name in self._lang_sg:
+                modifier_name = 'IDS_' + m.upper()
+            if not modifier_name in self._lang_sg:
+                self._modifiers[m + '_name'] = 'UNKNOWN!!!'
+                continue
+            self._modifiers[m + '_name'] = self._lang[modifier_name]
         sorted_modifiers = dict(sorted(self._modifiers.items()))
         self._write_json(sorted_modifiers, 'modifiers.json')
         print("Save game info")
