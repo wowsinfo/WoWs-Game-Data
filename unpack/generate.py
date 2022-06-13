@@ -5,6 +5,7 @@ import required modules and helper methods
 import glob
 import json
 import os
+import re
 from typing import List, Callable
 from additional import merge_additional
 
@@ -1104,7 +1105,7 @@ class WoWsGenerate:
 
         for key in self._lang.keys():
             # get all modifiers
-            if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_', 'IDS_SHIP_PARAM_'], lambda x, y: x.startswith(y)):
+            if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_', 'IDS_SHIP_PARAM_', 'IDS_SKILL_'], lambda x, y: x.startswith(y)):
                 self._lang_keys.append(key)
             self._lang_keys += self._unpack_language()
 
@@ -1133,6 +1134,14 @@ class WoWsGenerate:
         print("There are {} commander skills in the game".format(
             len(commander_skills)))
         self._write_json(commander_skills, 'commander_skills.json')
+        skills = commander_skills['PAW001_DefaultCrew']['Skills']
+        for skill in skills:
+            # split when there is a capital letter with regex
+            name = re.split(r'(?=[A-Z])', skill)[1:]
+            name = '_'.join(name).upper()
+            skills[skill]['name'] = 'IDS_SKILL_' + name
+        print("There are {} skills in the game".format(len(skills)))
+        self._write_json(skills, 'skills.json')
 
         total_size = 0
         for json_name in glob.glob('*.json'):
@@ -1153,7 +1162,8 @@ class WoWsGenerate:
         wowsinfo['aircrafts'] = aircrafts
         wowsinfo['abilities'] = abilitites
         wowsinfo['alias'] = alias
-        wowsinfo['commander_skills'] = commander_skills
+        # wowsinfo['commander_skills'] = commander_skills
+        wowsinfo['skills'] = skills
         wowsinfo['game'] = self._game_info
         # wowsinfo['game_maps'] = game_maps
 
