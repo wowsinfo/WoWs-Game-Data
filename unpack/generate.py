@@ -913,6 +913,9 @@ class WoWsGenerate:
                 if ability_key in ['SpecialSoundID', 'group'] or 'Effect' in ability_key:
                     continue
 
+                if ability_key == 'preparationTime':
+                    continue
+
                 # save all the modifiers
                 self._modifiers[ability_key] = value
 
