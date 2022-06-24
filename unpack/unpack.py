@@ -1,5 +1,5 @@
 import os
-from wows_gameparams import WoWsUnpack
+from wows_unpack import WoWsUnpack
 
 
 if __name__ == "__main__":
