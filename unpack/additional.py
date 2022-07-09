@@ -5,6 +5,7 @@ import re
 import requests
 import json
 import time
+import sys
 
 
 def get_ship_battles_raw():
@@ -106,9 +107,16 @@ def merge_additional():
 
     print('Done.')
 
-
-if __name__ == '__main__':
-    # get_ship_battles_raw()
-    # get_personal_rating()
+def runAll():
+    get_ship_battles_raw()
+    get_personal_rating()
     make_additional()
     merge_additional()
+
+if __name__ == '__main__':
+    # check if --all is passed in 
+    if len(sys.argv) > 1 and sys.argv[1] == '--all':
+        runAll()
+    else:
+        make_additional()
+        merge_additional()

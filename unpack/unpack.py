@@ -1,6 +1,10 @@
 import os
+import sys
+# add the parent directory to the path
+sys.path.insert(0, os.path.abspath('..'))
+print(sys.path)
+# import the unpack module
 from wows_unpack import WoWsUnpack
-
 
 if __name__ == "__main__":
     print("Make sure the game path is valid!")
@@ -17,7 +21,7 @@ if __name__ == "__main__":
         unpack.decodeLanguages()
 
         unpack.unpackGameIcons()
-        # unpack.packAppAssets()
+        unpack.packAppAssets()
     else:
         with open('game.path', 'w') as f:
             print("Created game.path")
