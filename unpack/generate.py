@@ -595,11 +595,12 @@ class WoWsGenerate:
         costGold = item['costGold']
         if (costGold >= 0):
             exterior['costGold'] = costGold
-        if len(item['modifiers']) > 0:
-            exterior['modifiers'] = item['modifiers']
-            # save all the modifiers
-            for modifierKey in exterior['modifiers']:
-                self._modifiers[modifierKey] = exterior['modifiers'][modifierKey]
+        # NOTE: this is gone after 0.11.6 update
+        # if len(item['modifiers']) > 0:
+        #     exterior['modifiers'] = item['modifiers']
+        #     # save all the modifiers
+        #     for modifierKey in exterior['modifiers']:
+        #         self._modifiers[modifierKey] = exterior['modifiers'][modifierKey]
 
         if exterior_type == 'Flags':
             # add the description
