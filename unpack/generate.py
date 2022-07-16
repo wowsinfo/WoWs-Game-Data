@@ -286,6 +286,9 @@ class WoWsGenerate:
             artillery['range'] = module['maxDist']
             artillery['sigma'] = module['sigmaCount']
             artillery['guns'] = self._unpack_guns_torpedoes(module)
+            if 'BurstArtilleryModule' in module:
+                # this is now available only for a few ships
+                artillery['burst'] = module['BurstArtilleryModule']
             ship_components.update(artillery)
 
             # check air defense
@@ -1039,7 +1042,7 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # key_name = 'PJSD003'
+            # key_name = 'PJSD111'
             # if not key_name in key:
             #     continue
             # if key_name in key:
