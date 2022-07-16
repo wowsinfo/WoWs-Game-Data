@@ -893,6 +893,8 @@ class WoWsGenerate:
         abilities['id'] = item['id']
         abilities['description'] = description
         abilities['icon'] = key
+        # prepare for any potential alternative name & description
+        abilities['alter'] = {}
         self._lang_keys.append(name)
         self._lang_keys.append(description)
 
@@ -917,6 +919,20 @@ class WoWsGenerate:
                 if ability_key == 'preparationTime':
                     continue
 
+                # https://github.com/WoWs-Info/WoWs-Game-Data/issues/17
+                if ability_key in ['descIDs', 'titleIDs']:
+                    continue
+                if ability_key == 'iconIDs':
+                    # save this to alter
+                    icon_name = 'IDS_DOCK_CONSUME_TITLE_' + value.upper()
+                    icon_description = 'IDS_DOCK_CONSUME_DESCRIPTION_' + value.upper()
+                    abilities['alter'][value] = {
+                        'name': icon_name,
+                        'description': icon_description
+                    }
+                    self._lang_keys.append(icon_name)
+                    self._lang_keys.append(icon_description)
+
                 # save all the modifiers
                 self._modifiers[ability_key] = value
 
@@ -939,6 +955,10 @@ class WoWsGenerate:
             # ignore empty abilities
             if len(current_ability) > 0:
                 ability_dict[item_key] = current_ability
+
+        # remove alter if it is empty
+        if len(abilities['alter']) == 0:
+            del abilities['alter']
 
         abilities['abilities'] = ability_dict
         return {key: abilities}
