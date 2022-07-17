@@ -292,6 +292,13 @@ class WoWsGenerate:
                 module['rudderTime'] / 1.305
             )
             ship_components['mobility'] = mobility
+
+            # submarine battery, like capacity and regen rate
+            if 'SubmarineBattery' in module:
+                submarine_battery = {}
+                submarine_battery['capacity'] = module['SubmarineBattery']['capacity']
+                submarine_battery['regen'] = module['SubmarineBattery']['regenRate']
+                ship_components['submarineBattery'] = submarine_battery
         elif 'artillery' in module_type:
             artillery = {}
             artillery['range'] = module['maxDist']
