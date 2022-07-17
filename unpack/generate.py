@@ -271,10 +271,21 @@ class WoWsGenerate:
             )
             concealment['seaFireCoeff'] = fire_coeff
             concealment['planeFireCoeff'] = fire_coeff_plane
+            # only for submodule, when it is under water
+            if 'SubmarineBattery' in module:
+                concealment['coeffSeaUnderwaterDepths'] = module['visibilityCoeffUnderwaterDepths']
+                concealment['coeffPlanUnderwaterDepths'] = module['visibilityCoeffUnderwaterDepths']
             ship_components['visibility'] = concealment
 
             mobility = {}
             mobility['speed'] = module['maxSpeed']
+            # speed underwater only for submarine
+            if 'SubmarineBattery' in module:
+                buoyancy_states = module['buoyancyStates']
+                if 'DEEP_WATER_INVUL' in buoyancy_states:
+                    speed_offset = buoyancy_states['DEEP_WATER_INVUL'][1]
+                    mobility['speedUnderwater'] = self._roundUp(
+                        mobility['speed'] * speed_offset)
             mobility['turningRadius'] = module['turningRadius']
             # got the value from WoWsFT
             mobility['rudderTime'] = self._roundUp(
