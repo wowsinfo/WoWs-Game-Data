@@ -200,7 +200,7 @@ class WoWsGenerate:
 
             current_weapon = {}
             current_weapon['reload'] = weapon_module['shotDelay']
-            current_weapon['rotation'] = weapon_module['rotationSpeed'][0]
+            current_weapon['rotation'] = float(180.0 / weapon_module['rotationSpeed'][0])
             current_weapon['each'] = int(weapon_module['numBarrels'])
             current_weapon['ammo'] = weapon_module['ammoList']
             # this is used for ap penetration
@@ -1060,7 +1060,7 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # key_name = 'PJSD111'
+            # key_name = 'PFSC111'
             # if not key_name in key:
             #     continue
             # if key_name in key:
