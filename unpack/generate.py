@@ -971,6 +971,10 @@ class WoWsGenerate:
                     current_ability[ability_key] = self._IDS(value)
                     continue
 
+                # fix the name for the main battery reload boost, it is using `boostCoeff` but it should be `gmShotDelay`
+                if '_ArtilleryBooster' in key and ability_key == 'boostCoeff':
+                    ability_key = 'gmShotDelay'
+
                 current_ability[ability_key] = value
 
             # ignore empty abilities
