@@ -387,6 +387,10 @@ class WoWsGenerate:
             speedCoef = module['speedCoef']
             if speedCoef != 0:
                 ship_components['speedCoef'] = speedCoef
+        elif 'specials' in module_type:
+            # For tier 11s, battleships have a special module. Also, for event ships
+            if 'RageMode' in module:
+                ship_components['rageMode'] = module['RageMode']
         elif 'airArmament' in module_type:
             # TODO: this could be the fighter, scoupter
             pass
@@ -401,9 +405,6 @@ class WoWsGenerate:
             pass
         elif 'axisLaser' in module_type:
             # TODO: not sure what this does
-            pass
-        elif 'specials' in module_type:
-            # TODO: add this if needed
             pass
         elif 'abilities' in module_type:
             # TODO: not sure what this does
@@ -1064,7 +1065,7 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # key_name = 'PFSC111'
+            # key_name = 'PJSB111'
             # if not key_name in key:
             #     continue
             # if key_name in key:
@@ -1154,7 +1155,7 @@ class WoWsGenerate:
 
         for key in self._lang.keys():
             # get all modifiers
-            if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_', 'IDS_SHIP_PARAM_', 'IDS_SKILL_'], lambda x, y: x.startswith(y)):
+            if self._match(key, ['IDS_PARAMS_MODIFIER_', 'IDS_MODULE_TYPE_', 'IDS_CAROUSEL_APPLIED_', 'IDS_SHIP_PARAM_', 'IDS_SKILL_', 'IDS_DOCK_RAGE_MODE_'], lambda x, y: x.startswith(y)):
                 self._lang_keys.append(key)
             self._lang_keys += self._unpack_language()
 
@@ -1189,6 +1190,7 @@ class WoWsGenerate:
             name = re.split(r'(?=[A-Z])', skill)[1:]
             name = '_'.join(name).upper()
             skills[skill]['name'] = 'IDS_SKILL_' + name
+            skills[skill]['description'] = 'IDS_SKILL_DESC_' + name
         print("There are {} skills in the game".format(len(skills)))
         self._write_json(skills, 'skills.json')
 
