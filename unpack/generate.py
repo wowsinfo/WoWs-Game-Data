@@ -332,14 +332,16 @@ class WoWsGenerate:
             ship_components.update(air_defense)
         elif 'airSupport' in module_type:
             air_support = {}
-            plane_name = self._IDS(module['planeName'])
-            air_support['name'] = plane_name
-            self._lang_keys.append(plane_name)
+            plane_name = module['planeName']
+            air_support['plane'] = plane_name
+            plane_name_title = self._IDS(plane_name)
+            air_support['name'] = plane_name_title
+            self._lang_keys.append(plane_name_title)
 
             air_support['reload'] = module['reloadTime']
-            air_support['bombs'] = module['chargesNum']
             air_support['range'] = self._roundUp(
                 module['maxDist'] / 1000)
+            air_support['chargesNum'] = module['chargesNum']
             ship_components.update(air_support)
         elif 'depthCharges' in module_type:
             depth_charge = {}
@@ -1065,7 +1067,7 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # key_name = 'PJSB111'
+            # key_name = 'PBSB110'
             # if not key_name in key:
             #     continue
             # if key_name in key:
