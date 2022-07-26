@@ -1031,6 +1031,7 @@ class WoWsGenerate:
         return ['IDS_SPECTATE_SWITCH_SHIP', 'IDS_MODERNIZATIONS', 'IDS_MODULE_TYPE_ABILITIES',
                 # units
                 'IDS_SECOND', 'IDS_KILOMETER', 'IDS_KILOGRAMM', 'IDS_KNOT', 'IDS_METER_SECOND', 'IDS_MILLIMETER', 'IDS_METER',
+                'IDS_UNITS', 'IDS_UNITS_SECOND',
                 # generic strings
                 'IDS_SHIPS', 'IDS_BATTLES']
 
