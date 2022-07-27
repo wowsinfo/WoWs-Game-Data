@@ -119,6 +119,29 @@ class WoWsGenerate:
             print('\t' * tab + '- ' + level)
             self._tree(data[level], depth - 1, tab + 1, show_value=show_value)
 
+    def _merge(self, weapons: dict) -> dict:
+        # join same weapons together into one dict
+        merged = []
+        counter = []
+        for w in weapons:
+            if len(merged) == 0:
+                merged.append(w)
+                counter.append(1)
+                continue
+
+            found = False
+            for m in merged:
+                if w == m:
+                    counter[merged.index(m)] += 1
+                    found = True
+                    break
+            if not found:
+                merged.append(w)
+                counter.append(1)
+        for m in merged:
+            m['count'] = counter[merged.index(m)]
+        return merged
+
     def _IDS(self, key: str) -> str:
         return 'IDS_' + key.upper()
 
@@ -126,11 +149,14 @@ class WoWsGenerate:
     Unpack helper functions
     """
 
-    def _unpack_air_defense(self, module: dict):
+    def _unpack_air_defense(self, module: dict, params: dict):
         """
         Unpack air defense info from module and return air_defense dict
         """
         air_defense = {}
+        near = []
+        medium = []
+        far = []
         for aura_key in module:
             aura = module[aura_key]
             if not isinstance(aura, dict):
@@ -167,6 +193,20 @@ class WoWsGenerate:
                     'Damage should not be 0 if it is not a bubble!')
             dps = self._roundUp(damage / rate_of_fire)
 
+            # get all AA guns
+            aa_guns = aura['guns']
+            aa_guns_info = []
+            for aa_gun in aa_guns:
+                gun_dict = {}
+                gun = module[aa_gun]
+                gun_dict['ammo'] = gun['name']
+                gun_dict['each'] = int(gun['numBarrels'])
+                gun_dict['reload'] = float(gun['shotDelay'])
+                # don't forget about the lang key
+                gun_dict['name'] = self._IDS(gun['name'])
+                self._lang_keys.append(gun_dict['name'])
+                aa_guns_info.append(gun_dict)
+
             air_defense_info = {}
             air_defense_info['minRange'] = min_distance
             air_defense_info['maxRange'] = max_distance
@@ -174,13 +214,23 @@ class WoWsGenerate:
             air_defense_info['damage'] = damage
             air_defense_info['rof'] = self._roundUp(rate_of_fire, digits=2)
             air_defense_info['dps'] = dps
+            air_defense_info['guns'] = self._merge(aa_guns_info)
 
             if 'Far' in aura_key:
-                air_defense['far'] = air_defense_info
-            if 'Medium' in aura_key:
-                air_defense['medium'] = air_defense_info
-            if 'Near' in aura_key:
-                air_defense['near'] = air_defense_info
+                far.append(air_defense_info)
+            elif 'Med' in aura_key:
+                medium.append(air_defense_info)
+            elif 'Near' in aura_key:
+                near.append(air_defense_info)
+            else:
+                raise ValueError('Unknown air defense type: {}'.format(aura_key))
+
+        if len(far) > 0:
+            air_defense['far'] = far
+        if len(medium) > 0:
+            air_defense['medium'] = medium
+        if len(near) > 0:
+            air_defense['near'] = near
         return air_defense
 
     def _unpack_guns_torpedoes(self, module: dict) -> dict:
@@ -209,28 +259,9 @@ class WoWsGenerate:
             weapons.append(current_weapon)
 
         # join same weapons together into one dict
-        merged = []
-        counter = []
-        for w in weapons:
-            if len(merged) == 0:
-                merged.append(w)
-                counter.append(1)
-                continue
+        return self._merge(weapons)
 
-            found = False
-            for m in merged:
-                if w == m:
-                    counter[merged.index(m)] += 1
-                    found = True
-                    break
-            if not found:
-                merged.append(w)
-                counter.append(1)
-        for m in merged:
-            m['count'] = counter[merged.index(m)]
-        return merged
-
-    def _unpack_ship_components(self, module_name: str, module_type: str, ship: dict) -> dict:
+    def _unpack_ship_components(self, module_name: str, module_type: str, ship: dict, params: dict) -> dict:
         # TODO: how to air defense here??
         """
         Unpack the ship components
@@ -310,7 +341,7 @@ class WoWsGenerate:
             ship_components.update(artillery)
 
             # check air defense
-            air_defense = self._unpack_air_defense(module)
+            air_defense = self._unpack_air_defense(module, params)
             ship_components.update(air_defense)
         elif 'atba' in module_type:
             secondaries = {}
@@ -320,7 +351,7 @@ class WoWsGenerate:
             ship_components.update(secondaries)
 
             # check air defense
-            air_defense = self._unpack_air_defense(module)
+            air_defense = self._unpack_air_defense(module, params)
             ship_components.update(air_defense)
         elif 'torpedoes' in module_type:
             torpedo = {}
@@ -328,7 +359,7 @@ class WoWsGenerate:
             torpedo['launchers'] = self._unpack_guns_torpedoes(module)
             ship_components.update(torpedo)
         elif 'airDefense' in module_type:
-            air_defense = self._unpack_air_defense(module)
+            air_defense = self._unpack_air_defense(module, params)
             ship_components.update(air_defense)
         elif 'airSupport' in module_type:
             air_support = {}
@@ -553,7 +584,7 @@ class WoWsGenerate:
                     if component_name in component_tree:
                         continue
                     component = self._unpack_ship_components(
-                        component_name, component_key, item
+                        component_name, component_key, item, params
                     )
 
                     first_value = next(iter(component.values()))
@@ -1068,7 +1099,7 @@ class WoWsGenerate:
             item_nation = item['typeinfo']['nation']
             item_species = item['typeinfo']['species']
 
-            # key_name = 'PBSB110'
+            # key_name = 'PJSB018'
             # if not key_name in key:
             #     continue
             # if key_name in key:
