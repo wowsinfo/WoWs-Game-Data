@@ -179,6 +179,7 @@ class WoWsGenerate:
                 bubbles['rof'] = aura['shotDelay']
                 bubbles['minRange'] = min_distance
                 bubbles['maxRange'] = max_distance
+                bubbles['hitChance'] = aura['hitChance']
                 bubbles['spawnTime'] = aura['shotTravelTime']
                 # value 7 is from WoWsFT, seems to be a fixed value
                 bubbles['damage'] = aura['bubbleDamage'] * 7
