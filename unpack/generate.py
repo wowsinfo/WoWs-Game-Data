@@ -1123,7 +1123,7 @@ class WoWsGenerate:
                 if modernization != None:
                     modernizations.update(modernization)
             elif item_type == 'Crew':
-                if len(skills) == 0:
+                if key == 'PAW001_DefaultCrew':
                     # save the shared one
                     skills[key] = item
                     continue
