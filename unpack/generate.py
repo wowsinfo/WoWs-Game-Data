@@ -1094,6 +1094,7 @@ class WoWsGenerate:
         aircrafts = {}
         abilitites = {}
         alias = {}
+        ship_index = {}
         for key in self._params_keys:
             item = self._params[key]
             item_type = item['typeinfo']['type']
@@ -1110,6 +1111,11 @@ class WoWsGenerate:
 
             if item_type == 'Ship':
                 ships.update(self._unpack_ship_params(item, self._params))
+                ship_index[item['id']] = {
+                    'name': item['name'],
+                    'index': item['index'],
+                    'tier': item['tier']
+                }
                 # get Japanese ship names
                 if item['typeinfo']['nation'] == 'Japan':
                     alias.update(self._unpack_japanese_alias(
@@ -1168,6 +1174,8 @@ class WoWsGenerate:
         self._write_json(abilitites, 'abilities.json')
         print("There are {} Japanese alias in the game".format(len(alias)))
         self._write_json(alias, 'alias.json')
+        print("There are {} ship index in the game".format(len(ship_index)))
+        self._write_json(ship_index, 'ship_index.json')
         print("We need {} language keys".format(len(self._lang_keys)))
         print("There are {} modifieris in the game".format(len(self._modifiers)))
         # get all modifier names
