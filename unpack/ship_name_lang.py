@@ -14,7 +14,6 @@ def generate_ship_names():
 
     ship_names = {}
     for lang in ['zh_sg', 'en']:
-        ship_names[lang] = {}
         with open('langs/{}_lang.json'.format(lang), 'r', encoding='utf8') as f:
             raw_lang = json.load(f)
 
@@ -25,8 +24,9 @@ def generate_ship_names():
             # the raw id is like IDS_PHSC109
             ids = 'IDS_' + curr_index
             curr_lang[ship] = raw_lang[ids]
-
-        ship_names[lang] = curr_lang
+        
+        simple_lang = lang.split('_')[0]
+        ship_names[simple_lang] = curr_lang
     return ship_names
 
 

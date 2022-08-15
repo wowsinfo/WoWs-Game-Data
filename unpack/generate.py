@@ -1112,11 +1112,10 @@ class WoWsGenerate:
             if item_type == 'Ship':
                 ships.update(self._unpack_ship_params(item, self._params))
                 ship_index[item['id']] = {
-                    'name': item['name'],
                     'index': item['index'],
                     'tier': item['level']
                 }
-                
+
                 # get Japanese ship names
                 if item['typeinfo']['nation'] == 'Japan':
                     alias.update(self._unpack_japanese_alias(
