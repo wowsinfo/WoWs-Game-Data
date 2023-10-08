@@ -1,3 +1,3 @@
-[submodule "unpack/wows_gameparams"]
-	path = unpack/wows_gameparams
-	url = https://github.com/WoWs-Info/wows_gameparams
+[submodule "wows_unpack"]
+	path = wows_unpack
+	url = https://github.com/WoWs-Info/wows_unpack

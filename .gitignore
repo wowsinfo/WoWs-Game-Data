@@ -1,6 +1,7 @@
 # json and all temp files
 **/.ipynb_checkpoints
 *.json
+*.bak
 **/__pycache__/
 .DS_Store
 ._*

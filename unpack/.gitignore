@@ -5,3 +5,9 @@ contents.txt
 
 # unpacked data
 content/
+gui/
+spaces/
+assets/
+langs/*.json
+lang.js
+wowsunpack.exe
